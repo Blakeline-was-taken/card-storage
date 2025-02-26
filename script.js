@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let rounds = 1;
 
     // Charger et traiter le CSV
-    fetch("data/cards.csv")
+    fetch("cards.csv")
         .then(response => response.text())
         .then(parseCSV)
         .then(initSelectionScreen)
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
         cardsContainer.innerHTML = "";
         cardNames.forEach(name => {
             let img = document.createElement("img");
-            img.src = `exports/cards/${selectedTemple}/${selectedRarity}/${name}.png`; // Assumes images are named after Card Name
+            img.src = `cards/${selectedTemple}/${selectedRarity}/${name}.png`; // Assumes images are named after Card Name
             img.classList.add("card");
             img.addEventListener("click", () => selectCard(name));
             cardsContainer.appendChild(img);
@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const imageCell = document.createElement("td");
             const img = document.createElement("img");
-            img.src = `exports/cards/${selectedTemple}/${selectedRarity}/${card}.png`; // Image de la carte
+            img.src = `cards/${selectedTemple}/${selectedRarity}/${card}.png`; // Image de la carte
             img.width = 50;
             imageCell.appendChild(img);
             const nameCell = document.createElement("td");
