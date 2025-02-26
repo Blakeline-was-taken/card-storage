@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let allCards = [];
     let filteredCards = [];
+    let remainingCards = [];
     let seenCards = new Set();
     let ignoredCards = {};
     let currentCards = [];
@@ -86,6 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         filteredCards = allCards
             .filter(c => c.Temple === selectedTemple && c.Tier === selectedRarity)
             .map(c => c["Card Name"]);
+        remainingCards = filteredCards;
 
         seenCards.clear();
         ignoredCards = {};
@@ -99,9 +101,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function showNextCards() {
-        if (filteredCards.length - seenCards.size < 2) {
+        if (remainingCards.length - seenCards.size < 2) {
             let unchosen = [];
-            for (let c of filteredCards){
+            for (let c of remainingCards){
                 if (c in ignoredCards && ignoredCards[c] === rounds){
                     unchosen.push(c);
                 }
@@ -117,10 +119,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
             seenCards.clear();
-            filteredCards = unchosen;
+            remainingCards = unchosen;
         }
 
-        let availableCards = filteredCards.filter(c => !seenCards.has(c));
+        let availableCards = remainingCards.filter(c => !seenCards.has(c));
         currentCards = [];
         while (currentCards.length < 3 && availableCards.length > 0) {
             let index = Math.floor(Math.random() * availableCards.length);
