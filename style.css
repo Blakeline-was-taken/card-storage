@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url("background_site_images/Default.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+#cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    width: 250px;
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.card:hover {
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+/* Style du formulaire de sélection */
+#selection-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background-color: #dcdce5;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 50px auto 0;
+}
+
+#selection-screen h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#selection-screen label {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#selection-screen select {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#selection-screen select:focus {
+    border-color: #4CAF50;
+}
+
+#selection-screen button {
+    width: 80%;
+    padding: 12px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#selection-screen button:hover {
+    background-color: #45a049;
+}
+
+#selection-screen button:active {
+    background-color: #388e3c;
+}
+
+#ranking-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid gray;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#ranking-table th,
+#ranking-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+#ranking-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#ranking-table td {
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+#ranking-table tr:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#ranking-table img {
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+#ranking-table img:hover {
+    transform: scale(6);
+}
+
+#ranking-table-body {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
+
+#ranking-screen h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Style pour le bouton "Retour" */
+#ranking-screen button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 12px;
+    width: 80%;
+    font-size: 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#ranking-screen button:hover {
+    background-color: #45a049;
+}
+
+#ranking-screen button:active {
+    background-color: #388e3c;
+}
+
