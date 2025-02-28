@@ -727,6 +727,7 @@ Carnivorous Polyp,Alchemy,Common,1 elexir + 2 flesh,2,2,,,,Polyp,A bizarre hosti
 Cerebral Swarm,Alchemy,Common,1 elexir + 2 flesh,1,3,Psionic Guidance,,,Ceremorph Vermin,Abominations against nature.,Desaft,T,,,,,,
 Chimney Shambler,Alchemy,Common,2 metal + 1 flesh,0,2,"Noxious Trail, Stinky",,,Mutant Cyborg,An amalgamation of exhaust pipes.,Carpengizmat,T,,,"Scroll Shambler, Sewer Shambler",,,
 Copper-Whale,Alchemy,Common,3 metal,0,3,"Bastion, Aquanaut",,Sumberger Trait,Fish Machine,In the orange submarine.,News,T,,,,,,
+Elektrobeest,Alchemy,Common,3 elexir,1,3,"Sprinter, Shock",,,Mutant Experiment,A distant cousin of spite.,Nobody,T,T,,,,,
 Freak,Alchemy,Common,1 aether + 1 elexir + 1 flesh,2,1,"Addict, Chemical Stimulant",Mutant,Freak Trait,Experiment,Slowly withered by the withdrawals.,Desaft,T,,Mutant,,,T,
 Golem,Alchemy,Common,1 elexir + 2 metal,1,2,"Ironclad, Bloodless",,,Construct,A fearsome titan made of living metal.,Carpengizmat,T,,Colossus,Arquebus,,,
 Greater Homunculus,Alchemy,Common,3 flesh,2,2,Split Strike,,,Mutant,Twisted and mutated beyond recognition.,Carpengizmat,T,,Supreme Homunculus,,,,
