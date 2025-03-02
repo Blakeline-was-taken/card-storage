@@ -731,7 +731,7 @@ Freak,Alchemy,Common,1 aether + 1 elexir + 1 flesh,2,1,"Addict, Chemical Stimula
 Golem,Alchemy,Common,1 elexir + 2 metal,1,2,"Ironclad, Bloodless",,,Construct,A fearsome titan made of living metal.,Carpengizmat,T,,Colossus,Arquebus,,,
 Greater Homunculus,Alchemy,Common,3 flesh,2,2,Split Strike,,,Mutant,Twisted and mutated beyond recognition.,Carpengizmat,T,,Supreme Homunculus,,,,
 Mutant Shell,Alchemy,Common,3 flesh,1,2,"Regenerative Shell, Eldritch Extraction",,,Mutant,It can make a shell out of anything.,Mark,T,,,,,,
-Radborg,Alchemy,Common,2 metal + 2 flesh,2,2,Touch of Death,,,Cyborg,Imbued with the power of nuclear waste.,Nobody,T,,Cyborg Prime,,,,
+Radborg,Alchemy,Common,2 metal + 2 flesh,1,2,"Touch of Death, Poisonous",,,Cyborg,Imbued with the power of nuclear waste.,Nobody,T,,Cyborg Prime,,,,
 Scrapyard,Alchemy,Common,3 metal,0,2,"Cybernetics, Bloodless",,,Conduit Machine,Often visited for spare parts.,Nobody,T,,,,,,
 Scroll Shambler,Alchemy,Common,1 elexir + 1 metal + 1 flesh,0,3,"Paper Trail, Bastion",,,Mutant Machine,Drags along endless towers of sheets.,Carpengizmat,T,,,"Chimney Shambler, Sewer Shambler",,,
 Scuttleshocker,Alchemy,Common,1 elexir + 1 metal + 1 flesh,0,3,"Conduit Relay, Sharp Quills",,,Conduit Bot,Hard-wired to protect its master.,Carpengizmat,T,,,"Scuttleblaster, Scuttledrill",,,
