@@ -3,6 +3,6 @@
     "title": "Card Classifier",
     "description": "Choose the cards you'd pick at a card draw and see which ones you picked the least.",
     "image": "site_images/card_classifier.jpg",
-    "link": "experiences/card-classifier/index.html"
+    "link": "experiences/card-classifier/classifier_index.html"
   }
 ]
