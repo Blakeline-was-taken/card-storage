@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let rounds = 1;
 
     // Charger et traiter le CSV
-    fetch("cards.csv")
+    fetch("../../cards.csv")
         .then(response => response.text())
         .then(parseCSV)
         .then(initSelectionScreen)
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
         seenCards.clear();
         ignoredCards = {};
 
-        // document.body.style.backgroundImage = `url('background_site_images/${selectedTemple}.jpg')`;
+        // document.body.style.backgroundImage = `url('site_images/${selectedTemple}.jpg')`;
 
         selectionScreen.style.display = "none";
         gameScreen.style.display = "block";
@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
         cardsContainer.innerHTML = "";
         cardNames.forEach(name => {
             let img = document.createElement("img");
-            img.src = `cards/${selectedTemple}/${selectedRarity}/${name}.png`; // Assumes images are named after Card Name
+            img.src = `../../cards/${selectedTemple}/${selectedRarity}/${name}.png`; // Assumes images are named after Card Name
             img.classList.add("card");
             img.addEventListener("click", () => selectCard(name));
             cardsContainer.appendChild(img);
@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const imageCell = document.createElement("td");
             const img = document.createElement("img");
-            img.src = `cards/${selectedTemple}/${selectedRarity}/${card}.png`; // Image de la carte
+            img.src = `../../cards/${selectedTemple}/${selectedRarity}/${card}.png`; // Image de la carte
             img.width = 50;
             imageCell.appendChild(img);
             const nameCell = document.createElement("td");

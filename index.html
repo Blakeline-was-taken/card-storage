@@ -3,49 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Classifier</title>
+    <title>Galerie d'Expériences</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="selection-screen">
-    <h1>Choose a temple and a tier</h1>
-    <label for="temple">Temple :</label>
-    <select id="temple"></select>
+    <h1>Expériences sur les cartes</h1>
+    <div id="gallery" class="gallery-container"></div>
 
-    <label for="rarity">Tier :</label>
-    <select id="rarity"></select>
-
-    <button id="start">Start</button>
-</div>
-
-<!--
-<div id="availableCardsDebug"></div>
-<div id="seenCardsDebug"></div>
-<div id="ignoredCardsDebug"></div>
--->
-
-<div id="ranking-screen" style="display: none;">
-    <h2>Final Ranking</h2>
-    <table id="ranking-table">
-        <thead>
-        <tr>
-            <th>Image</th>
-            <th>Name</th>
-            <th>Times not picked</th>
-        </tr>
-        </thead>
-        <tbody id="ranking-table-body">
-        <!-- Les résultats seront ajoutés ici -->
-        </tbody>
-    </table>
-    <button onclick="restart()">Start again</button>
-</div>
-
-<div id="game-screen" style="display: none;">
-    <h1 id="roundNumber">Round : 1</h1>
-    <h1>Choose a card</h1>
-    <div id="cards-container"></div>
-</div>
-<script src="script.js"></script>
+    <script src="gallery.js"></script>
 </body>
 </html>
