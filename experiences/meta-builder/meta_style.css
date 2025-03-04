@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#card-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card-image {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
