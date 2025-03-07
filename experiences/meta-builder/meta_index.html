@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Categorization</title>
+    <title>Meta Builder</title>
     <link rel="stylesheet" href="meta_style.css">
 </head>
 <body>
-<div id="game-container">
-    <div id="card-display">
-        <img id="card-image" src="" alt="Carte en cours">
-        <p id="cards-remaining">Cards Remaining : <span id="remaining-count">0</span></p>
+    <section id="card-section">
+        <h2>Carte à classer</h2>
+        <div id="card-container">
+            <img id="card-to-sort" class="draggable-card" src="../../cards/CardBack.png" alt="">
+        </div>
+        <div id="remaining-counter">
+            <!-- Le nombre de cartes restantes sera affiché ici -->
+        </div>
+    </section>
+    <div id="box-management">
+        <h2>Gestion des boîtes</h2>
+        <div id="box-list"></div>
     </div>
-</div>
 
 <script src="meta_script.js"></script>
 </body>

@@ -1,24 +1,108 @@
-body {
-    font-family: Arial, sans-serif;
+#box-management {
+    margin: 20px;
+}
+
+#box-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.box-buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:first-child {
+    background-color: lightblue;
+}
+
+button:last-child {
+    background-color: lightcoral;
+}
+
+.add-box {
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.add-box:hover {
+    opacity: 0.8;
+}
+
+.add-box span {
     text-align: center;
 }
 
-#game-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#card-section {
+    padding: 20px;
     margin-top: 20px;
-}
-
-#card-display {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#card-image {
-    width: 300px;
+#card-container img {
+    width: 200px;
     height: auto;
-    border: 2px solid black;
     margin-bottom: 10px;
+}
+
+#remaining-counter {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.draggable-card {
+    cursor: grab;
+    width: 100px;
+    height: auto;
+    border: 2px solid #ccc;
+    margin: 10px;
 }

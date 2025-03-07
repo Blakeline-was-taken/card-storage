@@ -1,8 +1,11 @@
-[
-  {
-    "title": "Card Classifier",
-    "description": "Choose the cards you'd pick at a card draw and see which ones you picked the least.",
-    "image": "site_images/card_classifier.jpg",
-    "link": "experiences/card-classifier/classifier_index.html"
-  }
-]
+[{
+  "title": "Card Classifier",
+  "description": "Choose the cards you'd pick at a card draw and see which ones you picked the least.",
+  "image": "site_images/card_classifier.jpg",
+  "link": "experiences/card-classifier/classifier_index.html"
+},{
+  "title": "Meta Builder",
+  "description": "Sort evert card into a gameplay role that you define yourself, to build a meta.",
+  "image": "site_images/categorisation.jpg",
+  "link": "experiences/meta-builder/meta_index.html"
+}]
