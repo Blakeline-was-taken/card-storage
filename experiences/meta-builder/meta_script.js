@@ -67,7 +67,7 @@ function displayRandomCard() {
         cardImage.addEventListener("dragstart", currentCardEventListener);
 
         remainingCards--;
-        remainingCounter.textContent = "Cartes restantes : " + remainingCards;
+        remainingCounter.textContent = "Remaining cards : " + remainingCards;
     } else {
         cardContainer.innerHTML = "<p>Toutes les cartes ont été classées !</p>";
     }
@@ -84,7 +84,7 @@ function displayBoxes() {
 
         const icon = document.createElement("img");
         icon.src = "../../site_images/box-icon.png"; // Chemin de l'icône
-        icon.alt = "Icône de boîte";
+        icon.alt = "Box icon";
         icon.classList.add("box-icon");
         boxElement.appendChild(icon);
 
@@ -184,7 +184,7 @@ function displayBoxes() {
     addBoxElement.appendChild(addIcon);
 
     addBoxElement.onclick = () => {
-        const boxName = prompt("Entrez le nom de la nouvelle boîte");
+        const boxName = prompt("Enter the name of the new Box");
         if (boxName) {
             boxes.push({ name: boxName, cards: [] });
             displayBoxes();
@@ -199,7 +199,7 @@ function displayBoxCards(index) {
     boxCardsContainer.innerHTML = ''; // Vider le conteneur avant de l'afficher
 
     const boxTitle = document.createElement("h3");
-    boxTitle.textContent = `Cartes dans la boîte: ${box.name}`;
+    boxTitle.textContent = `Cards in the ${box.name} Box`;
     boxTitle.style.textAlign = "center";
     boxCardsContainer.appendChild(boxTitle);
 
@@ -255,12 +255,12 @@ function displayBoxCards(index) {
         });
 
     } else {
-        boxCardsContainer.innerHTML += "<p>Aucune carte dans cette boîte.</p>";
+        boxCardsContainer.innerHTML += "<p>No card is in that box.</p>";
     }
 }
 
 function renameBox(index) {
-    const newName = prompt("Renommer la boîte", boxes[index].name);
+    const newName = prompt("Rename the box", boxes[index].name);
     if (newName) {
         boxes[index].name = newName;
         displayBoxes();
@@ -268,7 +268,10 @@ function renameBox(index) {
 }
 
 function deleteBox(index) {
-    if (confirm("Voulez-vous vraiment supprimer cette boîte ?")) {
+    if (confirm("Do you really want to delete this box?")) {
+        const boxToDelete = boxes[index];
+        remainingCards += boxToDelete.cards.length;
+        allCards = allCards.concat(boxToDelete.cards);
         boxes.splice(index, 1);
         displayBoxes();
     }
@@ -308,7 +311,7 @@ function importData(event) {
             displayBoxes();
             displayRandomCard();
         } catch (error) {
-            alert("Erreur lors de l'importation du fichier.");
+            alert("There was an error when trying to import the file.");
             console.error("Erreur d'importation :", error);
         }
     };
