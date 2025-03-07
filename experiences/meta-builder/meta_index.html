@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="meta_style.css">
 </head>
 <body>
+    <div id="export-import-buttons">
+        <button id="export-button">Exporter</button>
+        <input type="file" id="import-input" style="display: none;">
+        <button id="import-button">Importer</button>
+    </div>
     <section id="card-section">
         <h2>Carte à classer</h2>
         <div id="card-container">
             <img id="card-to-sort" class="draggable-card" src="../../cards/CardBack.png" alt="">
         </div>
-        <div id="remaining-counter">
-            <!-- Le nombre de cartes restantes sera affiché ici -->
-        </div>
+        <p id="remaining-counter"></p>
     </section>
     <div id="box-management">
         <h2>Gestion des boîtes</h2>
         <div id="box-list"></div>
     </div>
+    <div id="box-cards-container" class="box-cards-container"></div>
 
-<script src="meta_script.js"></script>
+    <script src="meta_script.js"></script>
 </body>
 </html>

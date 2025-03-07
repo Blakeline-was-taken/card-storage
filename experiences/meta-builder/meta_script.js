@@ -1,16 +1,14 @@
-let boxes = []; // Tableau pour stocker les boîtes
-let allCards = []; // Tableau pour stocker toutes les cartes filtrées
-let remainingCards = 0; // Nombre de cartes restantes à classer
-let currentCardEventListener = null // Event Listener actuel utilisé sur la carte à classer
+let boxes = [];
+let allCards = [];
+let remainingCards = 0;
+let currentCardEventListener = null
 
-// Charger et traiter le CSV
 fetch("../../cards.csv")
     .then(response => response.text())
     .then(parseCSV)
     .then(displayRandomCard)
     .catch(error => console.error("Erreur lors du chargement du CSV :", error));
 
-// Fonction pour analyser le CSV
 function parseCSV(csvText) {
     const lines = csvText.split("\n").map(line => line.trim()).filter(line => line);
     const headers = lines[0].split(",").map(header => header.trim());
@@ -34,34 +32,40 @@ function parseCSV(csvText) {
     });
 
     allCards = rows.filter(row => row.Draftable === "T");
-    remainingCards = allCards.length; // Initialiser le nombre de cartes restantes
+    remainingCards = allCards.length;
 }
 
-// Fonction pour afficher une carte aléatoire et le nombre de cartes restantes
 function displayRandomCard() {
     const cardContainer = document.getElementById("card-container");
     const remainingCounter = document.getElementById("remaining-counter");
 
     if (remainingCards > 0) {
-        // Tirer une carte aléatoire
-        const randomIndex = Math.floor(Math.random() * allCards.length);
-        const randomCard = allCards[randomIndex];
+        let randomCard;
+        let attempts = 0;
+        do {
+            const randomIndex = Math.floor(Math.random() * allCards.length);
+            randomCard = allCards[randomIndex];
+            attempts++;
+            // Sécurité anti-boucle infinie (si toutes les cartes sont classées, on arrête)
+            if (attempts > allCards.length) {
+                cardContainer.innerHTML = "<p>Toutes les cartes ont été classées !</p>";
+                return;
+            }
+        } while (boxes.some(box => box.cards.some(c => c["Card Name"] === randomCard["Card Name"])));
 
-        // Créer l'élément pour afficher la carte
         const cardImage = document.getElementById("card-to-sort");
         cardImage.src = "../../cards/" + randomCard.Temple + "/" + randomCard.Tier + "/" + randomCard["Card Name"] + ".png";
         cardImage.alt = randomCard["Card Name"];
-        cardImage.classList.add("draggable-card"); // Ajout d'une classe pour la carte
-        cardImage.draggable = true; // Rendre l'image déplaçable
+        cardImage.classList.add("draggable-card");
+        cardImage.draggable = true;
 
-        // Ajouter l'événement dragstart
         cardImage.removeEventListener("dragstart", currentCardEventListener);
         currentCardEventListener = (e) => {
-            e.dataTransfer.setData("cardName", randomCard["Card Name"]); // On stocke le nom de la carte
+            e.dataTransfer.setData("cardName", randomCard["Card Name"]);
+            e.dataTransfer.setData("fromBoxIndex", "Random Card");
         };
         cardImage.addEventListener("dragstart", currentCardEventListener);
 
-        // Mettre à jour le nombre de cartes restantes
         remainingCards--;
         remainingCounter.textContent = "Cartes restantes : " + remainingCards;
     } else {
@@ -69,77 +73,112 @@ function displayRandomCard() {
     }
 }
 
-// Fonction pour afficher les boîtes avec icône et bouton ➕
+
 function displayBoxes() {
     const boxList = document.getElementById("box-list");
-    boxList.innerHTML = ''; // Efface le contenu actuel
+    boxList.innerHTML = '';
 
-    // Afficher toutes les boîtes existantes
     boxes.forEach((box, index) => {
         const boxElement = document.createElement("div");
         boxElement.classList.add("box");
 
-        // Icône de la boîte
         const icon = document.createElement("img");
         icon.src = "../../site_images/box-icon.png"; // Chemin de l'icône
         icon.alt = "Icône de boîte";
         icon.classList.add("box-icon");
         boxElement.appendChild(icon);
 
-        // Nom de la boîte
         const boxName = document.createElement("span");
         boxName.textContent = box.name;
         boxElement.appendChild(boxName);
 
-        // Conteneur pour les boutons (renommer et supprimer)
         const buttonContainer = document.createElement("div");
         buttonContainer.classList.add("box-buttons");
 
-        // Bouton pour renommer la boîte
+        const colorPickerButton = document.createElement("div");
+        colorPickerButton.classList.add("color-picker-button");
+        colorPickerButton.style.backgroundColor = boxElement.style.backgroundColor;
+
+        colorPickerButton.onclick = () => {
+            const colorPickerContainer = boxElement.querySelector(".color-picker-container");
+            colorPickerContainer.style.display = colorPickerContainer.style.display === "none" ? "flex" : "none";
+        };
+
+        buttonContainer.appendChild(colorPickerButton);
+
+        const colorPickerContainer = document.createElement("div");
+        colorPickerContainer.classList.add("color-picker-container");
+        boxElement.appendChild(colorPickerContainer);
+
+        const colorOptions = [
+            "#E8E8E8", // Blanc
+            "#C0C0C0", // Gris
+            "#FF7F7F", // Rouge
+            "#FFB67E", // Orange
+            "#FFEB7F", // Jaune
+            "#7CFC7C", // Vert
+            "#40E0D0", // Turquoise
+            "#7EC8FF", // Bleu
+            "#D18CE1", // Violet
+            "#FF99CC"  // Rose
+        ];
+        colorOptions.forEach(color => {
+            const colorCircle = document.createElement("div");
+            colorCircle.classList.add("color-circle");
+            colorCircle.style.backgroundColor = color;
+
+            // Lorsqu'un rond de couleur est cliqué, change la couleur de fond de la boîte
+            colorCircle.onclick = () => {
+                boxElement.style.backgroundColor = color;
+                colorPickerContainer.style.display = "none";  // Cache la palette après sélection
+            };
+
+            colorPickerContainer.appendChild(colorCircle);
+        });
+
         const renameButton = document.createElement("button");
-        renameButton.textContent = "📝"; // Emoji 📝 pour renommer
+        renameButton.textContent = "📝";
         renameButton.onclick = () => renameBox(index);
         buttonContainer.appendChild(renameButton);
 
-        // Bouton pour supprimer la boîte
         const deleteButton = document.createElement("button");
-        deleteButton.textContent = "❌"; // Emoji ❌ pour supprimer
+        deleteButton.textContent = "❌";
         deleteButton.onclick = () => deleteBox(index);
         buttonContainer.appendChild(deleteButton);
 
-        // Ajouter les boutons sous la boîte
         boxElement.appendChild(buttonContainer);
-
-        // Ajouter l'événement dragover pour chaque boîte
         boxElement.addEventListener("dragover", (e) => {
-            e.preventDefault(); // Important pour permettre le drop
+            e.preventDefault();
         });
-
-        // Ajouter l'événement drop pour chaque boîte
         boxElement.addEventListener("drop", (e) => {
-            e.preventDefault(); // Empêcher le comportement par défaut du drop
+            e.preventDefault();
 
-            // Récupérer le nom de la carte
             const cardName = e.dataTransfer.getData("cardName");
-
-            // Ajouter la carte à la boîte correspondante
-            const box = boxes[index];
             const card = allCards.find(card => card["Card Name"] === cardName);
-            if (card && !box.cards.includes(card)) {
-                box.cards.push(card); // Ajouter la carte à la boîte
-                displayBoxes(); // Mettre à jour l'affichage des boîtes
-                displayRandomCard(); // Afficher une nouvelle carte aléatoire
+
+            if (card) {
+                const box = boxes[index];
+                if (e.dataTransfer.getData("fromBoxIndex") !== "Random Card"){
+                    const originBoxIndex = e.dataTransfer.getData("fromBoxIndex");
+                    const originBox = boxes[originBoxIndex];
+                    originBox.cards.splice(originBox.cards.findIndex(c => c["Card Name"] === cardName), 1);
+                    displayBoxCards(originBoxIndex);
+                }
+                if (!box.cards.includes(card)) {
+                    box.cards.push(card);
+                    displayBoxes();
+                    displayRandomCard();
+                    displayBoxCards(index);
+                }
             }
         });
 
-        // Ajouter la boîte à la liste
+        boxElement.addEventListener("click", () => displayBoxCards(index));
         boxList.appendChild(boxElement);
     });
 
-    // Ajouter la boîte verte ➕ pour créer une nouvelle boîte à la fin
     const addBoxElement = document.createElement("div");
     addBoxElement.classList.add("box", "add-box");
-
     const addIcon = document.createElement("span");
     addIcon.textContent = "➕";
     addBoxElement.appendChild(addIcon);
@@ -147,31 +186,135 @@ function displayBoxes() {
     addBoxElement.onclick = () => {
         const boxName = prompt("Entrez le nom de la nouvelle boîte");
         if (boxName) {
-            boxes.push({ name: boxName, cards: [] }); // Ajouter la nouvelle boîte
-            displayBoxes(); // Mettre à jour l'affichage des boîtes
+            boxes.push({ name: boxName, cards: [] });
+            displayBoxes();
         }
     };
-
-    // Ajouter la boîte verte à la fin de la liste
     boxList.appendChild(addBoxElement);
 }
 
-// Fonction pour renommer une boîte
+function displayBoxCards(index) {
+    const box = boxes[index];
+    const boxCardsContainer = document.getElementById("box-cards-container");
+    boxCardsContainer.innerHTML = ''; // Vider le conteneur avant de l'afficher
+
+    const boxTitle = document.createElement("h3");
+    boxTitle.textContent = `Cartes dans la boîte: ${box.name}`;
+    boxTitle.style.textAlign = "center";
+    boxCardsContainer.appendChild(boxTitle);
+
+    if (box.cards.length > 0) {
+        // Grouper les cartes par Temple
+        const cardsByTemple = {};
+        box.cards.forEach(card => {
+            if (!cardsByTemple[card.Temple]) {
+                cardsByTemple[card.Temple] = [];
+            }
+            cardsByTemple[card.Temple].push(card);
+        });
+
+        // Trier les temples par ordre d'apparition dans le CSV
+        const sortedTemples = Object.keys(cardsByTemple).sort((a, b) => {
+            return allCards.findIndex(card => card.Temple === a) -
+                allCards.findIndex(card => card.Temple === b);
+        });
+
+        sortedTemples.forEach(temple => {
+            // Ajouter un titre pour chaque temple
+            const templeTitle = document.createElement("h4");
+            templeTitle.textContent = temple;
+            templeTitle.classList.add("temple-title");
+            boxCardsContainer.appendChild(templeTitle);
+
+            // Trier les cartes de ce temple selon l'ordre du CSV
+            cardsByTemple[temple].sort((a, b) => {
+                return allCards.findIndex(card => card["Card Name"] === a["Card Name"]) -
+                    allCards.findIndex(card => card["Card Name"] === b["Card Name"]);
+            });
+
+            // Afficher les cartes du temple
+            const galleryContainer = document.createElement("div");
+            galleryContainer.classList.add("card-gallery");
+
+            cardsByTemple[temple].forEach(card => {
+                const cardElement = document.createElement("img");
+                cardElement.src = "../../cards/" + card.Temple + "/" + card.Tier + "/" + card["Card Name"] + ".png";
+                cardElement.alt = card["Card Name"];
+                cardElement.classList.add("card-in-box");
+                cardElement.draggable = true;
+
+                cardElement.addEventListener("dragstart", (e) => {
+                    e.dataTransfer.setData("cardName", card["Card Name"]);
+                    e.dataTransfer.setData("fromBoxIndex", index);
+                });
+
+                galleryContainer.appendChild(cardElement);
+            });
+
+            boxCardsContainer.appendChild(galleryContainer);
+        });
+
+    } else {
+        boxCardsContainer.innerHTML += "<p>Aucune carte dans cette boîte.</p>";
+    }
+}
+
 function renameBox(index) {
     const newName = prompt("Renommer la boîte", boxes[index].name);
     if (newName) {
-        boxes[index].name = newName; // Mettre à jour le nom de la boîte
-        displayBoxes(); // Mettre à jour l'affichage
+        boxes[index].name = newName;
+        displayBoxes();
     }
 }
 
-// Fonction pour supprimer une boîte
 function deleteBox(index) {
     if (confirm("Voulez-vous vraiment supprimer cette boîte ?")) {
-        boxes.splice(index, 1); // Supprimer la boîte
-        displayBoxes(); // Mettre à jour l'affichage
+        boxes.splice(index, 1);
+        displayBoxes();
     }
 }
 
-// Initialiser l'affichage des boîtes
 displayBoxes();
+
+// Fonction d'exportation
+function exportData() {
+    const data = {
+        boxes: boxes,
+        remainingCards: remainingCards,
+        allCards: allCards
+    };
+
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data, null, 2));
+    const downloadAnchor = document.createElement("a");
+    downloadAnchor.setAttribute("href", dataStr);
+    downloadAnchor.setAttribute("download", "meta_builder_save.json");
+    document.body.appendChild(downloadAnchor);
+    downloadAnchor.click();
+    document.body.removeChild(downloadAnchor);
+}
+
+function importData(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+        try {
+            const importedData = JSON.parse(e.target.result);
+            boxes = importedData.boxes || [];
+            remainingCards = importedData.remainingCards || 0;
+            allCards = importedData.allCards || [];
+
+            displayBoxes();
+            displayRandomCard();
+        } catch (error) {
+            alert("Erreur lors de l'importation du fichier.");
+            console.error("Erreur d'importation :", error);
+        }
+    };
+    reader.readAsText(file);
+}
+
+document.getElementById("export-button").addEventListener("click", exportData);
+document.getElementById("import-button").addEventListener("click", () => document.getElementById("import-input").click());
+document.getElementById("import-input").addEventListener("change", importData);

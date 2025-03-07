@@ -1,26 +1,80 @@
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("../../site_images/Default.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Global Styles */
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+h2, h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#card-section p, p {
+    color: #fff;
+}
+
+#card-container img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Box Management */
 #box-management {
-    margin: 20px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 #box-list {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
 }
 
+/* Box */
 .box {
     width: 150px;
     height: 150px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
+    background-color: #f0f0f0;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 10px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
+    border: 3px solid #ccc;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
 }
 
 .box-icon {
@@ -34,75 +88,209 @@
     margin-top: 10px;
 }
 
-button {
-    padding: 5px 10px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 3px;
+.box:hover {
+    transform: scale(1.05);
+    border-color: #4CAF50;
 }
 
-button:hover {
-    opacity: 0.8;
-}
-
-button:first-child {
-    background-color: lightblue;
-}
-
-button:last-child {
-    background-color: lightcoral;
-}
-
+/* Add box */
 .add-box {
+    width: 150px;
+    height: 150px;
     background-color: #4CAF50;
+    color: #fff;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
-    border: 1px solid #ccc;
-    color: white;
-    font-size: 40px;
+    border-radius: 12px;
     cursor: pointer;
-    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .add-box:hover {
-    opacity: 0.8;
+    transform: scale(1.1);
 }
 
 .add-box span {
     text-align: center;
 }
 
-#card-section {
-    padding: 20px;
-    margin-top: 20px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
+/* Buttons */
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    background-color: #388e3c;
+}
+
+button:first-child {
+    background-color: lightskyblue;
+}
+
+button:last-child {
+    background-color: lightcoral;
+}
+
+.color-picker-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: inherit;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: transform 0.3s ease;
+}
+
+.color-picker-button:hover {
+    transform: scale(1.1);
+}
+
+/* Barre de défilement avec les ronds de couleurs */
+.color-picker-container {
+    display: none;
+    position: absolute;
+    overflow-x: auto;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #333;
+}
+
+.color-picker-container .color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.color-picker-container .color-circle:hover {
+    transform: scale(1.2);
+}
+
+/* Export/Import Buttons */
+#export-import-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#export-button, #import-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#export-button:hover, #import-button:hover {
+    opacity: 1;
+    background-color: #45a049;
+}
+
+/* Box Cards Container */
+.box-cards-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Gallery of Cards */
+.card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Cards in Box */
+.card-in-box {
+    width: 100px;
+    height: 140px;
+    cursor: grab;
+    transition: transform 0.3s ease;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.card-in-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Temple Titles */
+.temple-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ddd;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Card Section */
+#card-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#card-section h2 {
+    font-size: 2rem;
+    color: #4CAF50;
 }
 
 #card-container img {
-    width: 200px;
+    width: 250px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
+/* Remaining Counter */
 #remaining-counter {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: #333;
+    margin-top: 10px;
 }
 
+/* Hover effects */
 .draggable-card {
     cursor: grab;
     width: 100px;
     height: auto;
     border: 2px solid #ccc;
     margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Card Hover Effect */
+.draggable-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
 }
