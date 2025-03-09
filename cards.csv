@@ -227,7 +227,7 @@ Nosferatu_t,Undead,Common,5 bones,1,4,"Transformer, Airborne",,,,A bloodsucking 
 Old Sparky,Undead,Common,4 bones,0,3,"Shock, Rooted",,,Conduit Machine,"Not quite a ""Lightbulb"" moment.",News,T,,,,,T,
 One Armed Bandit,Undead,Common,4 bones,X,1,Dice Power,,,Outlaw,They are feeling lucky.,News,T,T,,,,,
 Pondead,Undead,Common,4 bones,1,1,"Split Strike, Regurgitate",,,Chess Mage Skeleton,"Weak alone, but strong in numbers.",Murigen,T,T,,,,,
-Prisoner of Time,Undead,Common,4 bones,0,4,"Reaction Replica, Ticking",,,Skeleton Spectre,Nothing you do shall go unpunished.,Murigen,T,T,,,,,
+Prisoner of Time,Undead,Common,4 bones,0,5,"Reaction Replica, Ticking",,,Skeleton Spectre,Nothing you do shall go unpunished.,Murigen,T,T,,,,,
 Restless Soul,Undead,Common,4 bones,2,3,Fading,,,Spectre,Fleeting and soon to be layed to rest.,NEWS,T,T,,,,,
 Sarcophagus,Undead,Common,4 bones,0,2,"Fledgling, Bloodless",Mummy Lord,Sarcophagus Trait,Ancient Grave,Traps an evil on the verge of escape.,Pixel Profligate,T,T,Mummy Lord,,,,
 Mummy Lord_t,Undead,Common,8 bones,3,3,,,,Noble Ancient Zombie,"A monster in life, a monster in death.","Pixel Profligate, Blakeline",,,Great Pharaoh,,,,
