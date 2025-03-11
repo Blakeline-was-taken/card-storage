@@ -545,7 +545,7 @@ Flawless Clockwork,Magick,Rare,3 prisms,0,6,"Bell Ringer, Bastion, Bloodless",,G
 Brush Mage,Magick,Talking,1 prism,1,1,"Magickal Bleach",,,Mage,"""Lemme give that a new coat of paint!""",Pixel Profligate,,,,,,,
 Fabergé Frog,Magick,Common,1 emerald,1,3,"Mighty Leap, Familiar",,,Mox Amphibian Mage,A small agent of small magicks.,Pixel Profligate,T,T,,,,,
 Gloom Virtuoso,Magick,Common,1 sapphire,1,1,Glooming Dust,,,Polyp Wizard,"Saddening, artistic talent put to war.",Murigen,T,,,,,,
-Drowsy Mage,Magick,Common,1 shattered emerald,1,1,,,,Mage,Gems help it stay awake.,"Annie, Mark",T,T,,,T,,
+Drowsy Mage,Magick,Common,1 shattered prism,1,1,,,,Mage,Gems help it stay awake.,"Annie, Mark",T,T,,,T,,
 Evergreen Mox,Magick,Common,1 shattered emerald,0,1,"Green Gem, Convalesce, Bloodless",,,Mox,Takes a lot to stunt its growth.,NEWS,T,T,,,,,
 Gourmage,Magick,Common,1 emerald,0,2,"Enlarge, Rotting",,,Zombie Mage,"Engorged, driven by only hunger.",Pixel Profligate,T,,,,,,
 Green Mage,Magick,Common,1 emerald,X,2,Gem Powered,,,Mage,They are powered directly by gems.,Pixel Profligate,T,T,,"Orange Mage, Blue Mage",,,
@@ -678,7 +678,6 @@ Altar of Azurite,Magick,Common,1 blood,0,3,Blue Gem,,,Mox Altar,Perfected with t
 Garden of Soul,Magick,Common,2 shattered sapphires,0,3,"Orange Gem, Unholy Will, Bloodless",,,Ancient Mox Altar,What is drive without rest?,Murigen,T,T,,"Library of Mind, Monolith of Form",,,
 Library of Mind,Magick,Common,2 shattered emeralds,0,3,"Blue Gem, Infinite Knowledge, Bloodless",,,Ancient Mox Altar,What is wisdom without discovery?,Murigen,T,T,,"Garden of Soul, Monolith of Form",,,
 Monolith of Form,Magick,Common,2 shattered rubies,0,3,"Green Gem, Eternal Life, Bloodless",,,Ancient Mox Altar,What is perfection without refinement?,Murigen,T,T,,"Garden of Soul, Library of Mind",,,
-Crystal Snapper,Magick,Common,2 blood,1,4,"Familiar, Prism Gem",,,Mox Reptile,"A walking geode, hard as a boulder.",News,T,T,,,,,NULL
 Mad Cultist,Magick,Common,2 blood,X,3,"Gem Power, Clinger",,,Cultist,Led astray by falsities and sacrifices.,Pixel Profligate,T,T,,"Mad Prophet, Mad Ritualist, Mad Conspirator",,,
 Mad Prophet,Magick,Common,2 blood,2,2,"Snag, Divination",,,Cultist,Power comes from the name you chose.,Pixel Profligate,T,T,,"Mad Cultist, Mad Ritualist, Mad Conspirator",,,
 Mad Conspirator,Magick,Common,2 blood,1,2,"Hoarder, Mental Gemnastics",,,Cultist,"Twelve sets in the morning, two at eve.",Desaft,T,T,,"Mad Cultist, Mad Prophet, Mad Conspirator",,,
