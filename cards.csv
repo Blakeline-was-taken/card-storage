@@ -84,7 +84,7 @@ Wolf,Beast,Common,2 blood,3,2,,,,Canine,A proud and ferocious contender.,Pixel P
 Woodpecker,Beast,Common,2 blood,1,2,"Airborne, Double Strike",,,Avian,"A feathered percussionist, a loud pest.",Pixel Profligate,T,T,,,,,
 Blue Whale,Beast,Common,3 blood,1,5,"Regurgitate, Aquanaut",,,Fish,A massive stomach for a big appetite.,"Nevernamed, Murigen",T,T,White Whale,,,,
 Dire Wolf,Beast,Common,3 blood,2,3,"Double Strike, Bone Digger",,,Canine,"Truly unrelenting, this terrifying canine.",Pixel Profligate,T,T,,"Wolf, K-9, Wolf Remains",,,
-Giraffe,Beast,Common,3 blood,2,6,"Mighty Leap, Sprinter, Airborne",,,Hooved,Barely feels real as an animal.,News,T,T,,,,,NULL
+Giraffe,Beast,Common,3 blood,2,7,"Mighty Leap, Sprinter, Airborne",,,Hooved,Barely feels real as an animal.,News,T,T,,,,,NULL
 Gorilla,Beast,Common,3 blood,3,4,"Tackle, Rampager",,,,The king of the jungle.,"Faycel, Mark",T,T,,,,,
 Great White,Beast,Common,3 blood,4,3,"Ravenous, Waterborne",,,Fish,Go fish.,Pixel Profligate,T,T,,,,,
 Grizzly,Beast,Common,3 blood,4,5,Aquanaut,,,,Its form speaks enough of its efficacy.,Pixel Profligate,T,T,Urayuli,,,,
@@ -217,7 +217,7 @@ Curse Bearer,Undead,Common,5 bones,1,2,"Curse, TRIBAL, Stinky",,,Ancient Insect 
 Blazing Jack,Undead,Common,4 bones,0,2,"Raging Flames, Haunter",,,Possessed,Their candle was too hot to bear.,Degi,T,T,Pumpkin King,,,,
 Frank&Stein,Undead,Common,5 bones,2,2,,,,Zombie Conduit Construct,"Sewn together, friends forever.",Pixel Profligate,T,T,Abomination,Fr4nk3n-trons,,,
 Ghost Ship,Undead,Common,4 bones,0,1,"Waterborne, Skeleton Crew",,,Pirate Spectre,Fully staffed and ready to plunder.,Pixel Profligate,T,T,,,,,
-Gloom Dash,Undead,Common,4 bones,2,1,"Rampager, Haunter",,,Demon Spectre,Your two legs can't compare to this.,NESS,T,T,,,,,
+Gloom Dash,Undead,Common,4 bones,2,1,"Rampager, Haunter",,,Demon Spectre,Your two legs can't compare to this.,NEWS,T,T,,,,,
 Grave Riser,Undead,Common,4 bones,1,2,Lingering,,Boneless,Grave Zombie,He forgot his bones in the grave.,News,T,T,,,,,
 Gruesome Ogre,Undead,Common,9 bones,4,4,"Scrounger, Osteophage",,,,An irrational hunger for calcium.,Murigen,T,,,,,,
 Hanged Man,Undead,Common,4 bones,3,1,"Airborne, Brittle",,,Skeleton,His broken body sways in the breeze.,Pixel Profligate,T,T,,,,,
