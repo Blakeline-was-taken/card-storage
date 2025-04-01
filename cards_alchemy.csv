@@ -4,7 +4,7 @@ Leech Cuck,Beast,Common,1 blood,1,1,"Aquanaut, LATCHER_Bleeding",,,Insect,"The v
 Ringworm,Beast,Common,1 flesh,0,1,Death Veil,,,Insect,"Resoundingly pointless, with little use.",Pixel Profligate,T,T,,,,,
 Jackrabbit,Beast,Talking,1 blood,0,3,"Eldritch Rift, Battery Bearer, Bone Digger",,Warren Trait,Vermin,"""Ah, young one! A pleasure to see you!""",Murigen,,,,,,,Prism
 Old Sparky,Undead,Common,4 bones,0,3,"Shock, Rooted",,,Conduit Machine,"Not quite a ""Lightbulb"" moment.",News,T,,,,,T,
-Iron Maiden,Undead,Common,2 metal,0,2,"Deathtrap, Bloodless",,,Construct,The price of insubordinance is pain.,Pixel Profligate,T,T,,,,,
+Iron Maiden,Undead,Common,2 metal,0,1,"Deathtrap, Frozen Away, Bloodless",Mummy,,Ancient Construct,The price of insubordinance is pain.,Pixel Profligate,T,T,,,,,
 Mound of Flesh,Undead,Common,2 blood,0,4,"Bleeding, Convalesce",,,,Forever regrowing its own tissue.,Pixel Profligate,T,,,,,,
 Hemoflayer,Alchemy,Common,2 elexir,2,2,"Corpse Eater, Flesh Hunger",,,Ceremorph Zombie,"Repugnant, abysmal, and ferocious.",Desaft,T,,,,,,
 Nucl34pbot,Tech,Common,5 energy,0,4,"Ticking, Generator",,,Leep Machine,It cannot handle its own energy.,"Murigen, Nevernamed",T,,,,,T,
