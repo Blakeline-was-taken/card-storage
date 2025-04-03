@@ -685,7 +685,7 @@ Mad Cultist,Magick,Common,2 blood,X,3,"Gem Power, Clinger",,,Cultist,Led astray 
 Mad Prophet,Magick,Common,2 blood,2,2,"Snag, Divination",,,Cultist,Power comes from the name you chose.,Pixel Profligate,T,,,,
 Mad Conspirator,Magick,Common,2 blood,1,2,"Hoarder, Mental Gemnastics",,,Cultist,"Twelve sets in the morning, two at eve.",Desaft,T,,,,
 Mad Martyr,Magick,Common,2 blood,0,4,"Life Donor, Hemanation, Gem Animator",,,Cultist,Always jubilating at the sacrifice.,Pixel Profligate,T,,,,
-Mad Martyr_t,Magick,Common,2 blood,X,4,"Life Donor, Hemanation, Gem Powered",,,Cultist,Always jubilating at the sacrifice.,Pixel Profligate,,,,,
+Mad Martyr_t,Magick,Common,2 blood,X,4,"Life Donor, Hemanation, Gem Powered",,,Cultist,Always jubilating at the sacrifice.,"Pixel Profligate, Blakeline",,,,,
 Null Mage,Magick,Common,6 energy,0,3,"Pure Conduit, Gem Cable",,,Android Conduit Mage,Even mages see the value of energy.,Pixel Profligate,T,,,,
 Alarm Siren,Terrain,Common,free,0,3,"Annoying, Leader, Bloodless",,"Sturdy, Boneless",Pylon,You can only hope it shuts off soon.,News,,,,,
 Barrel,Terrain,Common,free,0,2,Bloodless,,"Sturdy, Boneless",,It's full of oranges.,News,,,,,
