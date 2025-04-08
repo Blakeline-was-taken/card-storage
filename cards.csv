@@ -432,7 +432,7 @@ Nanoarmor Conduit,Tech,Common,6 energy,0,3,Armor Conduit,,,Conduit,Even works ag
 SEG-Fault,Tech,Common,6 energy,4,2,"Brittle, Defiler",,,Skeleton Android,The bane of any Archivist.,Desaft,T,,,,
 Strong Phone,Tech,Common,6 energy,1,4,"Hefty, Fuse Cover",,,Worker,They were bought in bulk.,"Bluemem, Yoyo",T,,,,
 Switch Latcher,Tech,Common,5 energy,2,1,LATCHER_Swapper,,Swap Latch Trait,Latcher,Has a strong will to change things.,News,T,,,,
-Bolthound,Tech,Common,8 energy,2,3,"Guardian, Sentry",,,Canine Mechabeast Hound,A vicious and protective bucket of bolts.,Pixel Profligate,T,,,,
+Bolthound,Tech,Common,8 energy,2,3,"Guardian, Bastion",,,Canine Mechabeast Hound,A vicious and protective bucket of bolts.,Pixel Profligate,T,,,,
 C-Diver,Tech,Common,6 energy,1,3,"Aquanaut, Armored",,,Worker Android,"Works deep, even deeper than the Dredger.",Pixel Profligate,T,,,,
 Gamblobot,Tech,Uncommon,6 energy,X,1,Power Dice,,,Machine,Push your luck. What could go wrong?,Pixel Profligate,T,,,,
 Gembound Ripper_t,Tech,Common,7 energy,3,1,Gem Dependent,,,Mage Bot,Relies solely on its power source.,NEWS,T,,T,,
