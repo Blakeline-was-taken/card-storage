@@ -55,7 +55,7 @@ Beaver,Beast,Common,2 blood,1,4,"Summon, Aquanaut",Dam,,Vermin,An industrious cr
 Bell Tentacle,Beast,Common,2 blood,0,2,Bell Ringer,,,Tentacle,Interesting...,Pixel Profligate,T,,,,
 Bloodhound,Beast,Common,2 blood,2,3,"Guardian, Gift Bearer",,,Canine Hound,A fiercely loyal companion.,Pixel Profligate,T,,,,
 Bone Tentacle,Beast,Common,2 blood,X,1,Scattered Bones,,,Tentacle,Confounding...,Desaft,T,,,,
-Bullet Ant,Beast,Common,2 blood,X,1,Sadism,,,Ant Insect,A horrifyingly efficient pest.,Murigen,T,Ant Queen,,,
+Bullet Ant,Beast,Common,2 blood,X,2,"Sadism, Colony",,,Ant Insect,A horrifyingly efficient pest.,Murigen,T,Ant Queen,,,
 Cellar Spider,Beast,Common,2 blood,1,4,"Clinger, Petrifying Gaze",,,Insect,Some people call it daddy.,Mark,T,,,,
 Crocodile,Beast,Common,2 blood,2,2,"Aquanaut, Bloodlust",,,Reptile,The force of its bite is inescapable.,Ixams,T,,,,
 Dire Wolf Pup,Beast,Common,2 blood,1,2,"Fledgling, Bone Digger",Dire Wolf,,Canine,Sharpens its' teeth on scounged bones.,Pixel Profligate,T,Dire Wolf,,,
