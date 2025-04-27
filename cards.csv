@@ -393,7 +393,7 @@ Blood Conduit,Tech,Common,4 energy,0,2,Blood Conduit,,,Conduit,Even blood contai
 Botty Boltlegs,Tech,Common,2 max + 2 energy,1,3,"Death Surge, Clinger",,,Bot,An efficient use of energy while running.,NEWS,T,,,,
 Conduit Spooler,Tech,Common,3 energy,0,2,Wire Weaver,,,Bot,Tends to unravel a bit more than needed.,Murigen,T,,,,
 Exeskeleton,Tech,Common,3 energy,2,2,Brittle,,,Skeleton Android,A frail and spooky mass of scrap metal.,Desaft,T,SEG-Fault,,,
-Tough Cell,Tech,Common,4 energy,1,2,Circuit Buff,,,Cell,Now you're playing with power.,Pixel Profligate,T,,,,
+Tough Cell,Tech,Common,3 energy,1,1,Circuit Buff,,,Cell,Now you're playing with power.,Pixel Profligate,T,,,,
 Explode Bot,Tech,Common,4 energy,1,1,Detonator,,,Bot,A bump could set it off.,Pixel Profligate,T,Mrs. Bomb,,,
 Factory Conduit,Tech,Common,4 energy,0,3,Spawn Conduit,,,Conduit,"Even in battle, the line does not stop.",Pixel Profligate,T,,,,
 Guardian Cell,Tech,Common,3 energy,0,4,CELL_Fuse Cover,,,Cell,Protective of what fuels them.,"Murigen, Desaft",T,,,,
