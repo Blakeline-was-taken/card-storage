@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Viewer</title>
+  <link rel="stylesheet" href="visualiser_style.css">
+</head>
+<body>
+  <h1>Card Viewer</h1>
+
+  <form id="filters">
+    <div class="filter-grid">
+      <!-- Bloc Name -->
+      <div class="filter-block">
+        <label for="name-filter">
+          Card Name:<br />
+          <input type="text" id="name-filter" placeholder="Search by name..." />
+        </label>
+      </div>
+
+      <!-- Bloc Temple & Tier -->
+      <div class="filter-block">
+        <label>
+          Temple:<br />
+          <select id="temple-filter">
+            <option value="">All</option>
+          </select>
+        </label>
+        <label>
+          Tier:<br />
+          <select id="tier-filter">
+            <option value="">All</option>
+          </select>
+        </label>
+      </div>
+
+      <!-- Bloc Cost -->
+      <div class="filter-block">
+        <label>Cost:</label>
+        <label><input type="checkbox" class="cost-checkbox" value="blood" /> Blood</label>
+        <label><input type="checkbox" class="cost-checkbox" value="bone" /> Bones</label>
+        <label><input type="checkbox" class="cost-checkbox" value="energy" /> Energy</label>
+        <label><input type="checkbox" class="cost-checkbox" value="emerald" /> Emerald</label>
+        <label><input type="checkbox" class="cost-checkbox" value="ruby" /> Ruby</label>
+        <label><input type="checkbox" class="cost-checkbox" value="sapphire" /> Sapphire</label>
+        <label><input type="checkbox" id="exclusive-cost-checkbox" /> Require all selected costs</label>
+      </div>
+  
+      <!-- Bloc Power & Health -->
+      <div class="filter-block">
+        <label>
+          Power:<br />
+          <select id="power-operator">
+            <option value="">(any)</option>
+            <option value="=">=</option>
+            <option value="<"><</option>
+            <option value=">">></option>
+            <option value="<="><=</option>
+            <option value=">=">>=</option>
+            <option value="!=">!=</option>
+          </select>
+          <input type="number" id="power-value" />
+        </label>
+  
+        <label>
+          Health:<br />
+          <select id="health-operator">
+            <option value="">(any)</option>
+            <option value="=">=</option>
+            <option value="<"><</option>
+            <option value=">">></option>
+            <option value="<="><=</option>
+            <option value=">=">>=</option>
+            <option value="!=">!=</option>
+          </select>
+          <input type="number" id="health-value" />
+        </label>
+      </div>
+  
+      <!-- Bloc Sigils -->
+      <div class="filter-block">
+        <label>Sigils:</label>
+        <input type="text" id="sigil-search" placeholder="Search sigils..." />
+        <div id="sigil-suggestions" class="suggestions"></div>
+        <div id="selected-sigils"></div>
+        <label>
+          <input type="checkbox" id="exclusive-sigils-checkbox" />
+          Require all selected sigils
+        </label>
+      </div>
+  
+      <!-- Bloc Traits -->
+      <div class="filter-block">
+        <label>Traits:</label>
+        <input type="text" id="trait-search" placeholder="Search traits..." />
+        <div id="trait-suggestions" class="suggestions"></div>
+        <div id="selected-traits"></div>
+        <label>
+          <input type="checkbox" id="exclusive-traits-checkbox" />
+          Require all selected traits
+        </label>
+      </div>
+  
+      <!-- Bloc Tribes -->
+      <div class="filter-block">
+        <label>Tribes:</label>
+        <input type="text" id="tribe-search" placeholder="Search tribe..." />
+        <div id="tribe-suggestions" class="suggestions"></div>
+        <div id="selected-tribes"></div>
+        <label>
+          <input type="checkbox" id="exclusive-tribes-checkbox" />
+          Require all selected tribes
+        </label>
+      </div>
+
+      <!-- Bloc Artists -->
+      <div class="filter-block">
+        <label>Artists:</label>
+        <input type="text" id="artist-search" placeholder="Search artist..." />
+        <div id="artist-suggestions"></div>
+        <div id="selected-artists"></div>
+        <label>
+          <input type="checkbox" id="exclusive-artists-checkbox" />
+          Require all selected artists
+        </label>
+      </div>
+  
+      <!-- Bloc Autres -->
+      <div class="filter-block">
+        <label>
+          <input type="checkbox" id="draftable-filter" checked />
+          Show not draftables
+        </label>
+        <label>
+          <input type="checkbox" id="evolved-filter" />
+          Only show cards with evolutions
+        </label>
+        <label>
+          <input type="checkbox" id="gemified-filter" />
+          Only show gemified cards
+        </label>
+        <button id="reset-filters" type="button">Reset Filters</button>
+      </div>
+    </div>
+  </form>
+  
+
+  <div id="card-count"></div>
+
+  <div id="card-container"></div>
+
+  <div id="card-popup-overlay" class="hidden">
+    <div id="card-popup">
+      <span id="popup-close">&times;</span>
+      <div id="popup-content" class="popup-content">
+        <div class="popup-images">
+          <img id="popup-card-image" src="" alt="Card">
+        </div>        
+        <div class="popup-details">
+          <h2 id="popup-card-name"></h1>
+          <h3 id="popup-card-subtitle"></h2>
+          <blockquote id="popup-card-flavor"></blockquote>
+          <p id="popup-card-draftable"></p>
+          <p id="popup-card-evolution"></p>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <script src="visualiser_script.js"></script>
+</body>
+</html>

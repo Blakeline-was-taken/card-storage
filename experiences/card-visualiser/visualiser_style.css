@@ -1,0 +1,252 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../../site_images/Default.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 1rem;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px black;
+}
+
+#filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.filter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  background: rgba(199, 199, 199, 0.5);
+  border: 4px solid #000;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.filter-block {
+  flex: 1 1 300px;
+  background: #000000b3;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  color: #bfbfbf;
+}
+
+.filter-block label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.filter-block input[type="text"],
+.filter-block select,
+.filter-block input[type="number"] {
+  width: 90%;
+  padding: 8px;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.filter-block input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+button#reset-filters {
+  margin-top: 1rem;
+  padding: 10px;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#reset-filters:hover {
+  background-color: #45a049;
+}
+
+#card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background: #2d2d2db3;
+  border: 4px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  overflow: hidden;
+  text-align: center;
+  padding: 0.5rem;
+  transition: border 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  border: 4px solid red;
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.card .info {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+#card-count {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 3px black;
+}
+
+.suggestions {
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 180px;
+  overflow-y: auto;
+  margin-top: 0.25rem;
+  color: black;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+.suggestion {
+  padding: 0.25rem;
+}
+
+.suggestion:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+#sigil-suggestions,
+#tribe-suggestions,
+#trait-suggestions,
+#artist-suggestions {
+  position: absolute;
+  z-index: 100;
+}
+
+.tribe-tag {
+  display: inline-block;
+  background: #666;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin: 2px;
+}
+
+.remove-tribe {
+  cursor: pointer;
+  margin-left: 4px;
+  color: red;
+}
+
+#card-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#card-popup {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 2rem;
+  max-width: 900px;
+  width: 90%;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-content {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.popup-images {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-images img {
+  max-width: 200px;
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+.popup-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#popup-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#card-popup-overlay.hidden {
+  display: none;
+}
+
+#popup-card-subtitle {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+#popup-card-flavor {
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+#popup-card-stats {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}

@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
         cardsContainer.innerHTML = "";
         cardNames.forEach(name => {
             let img = document.createElement("img");
-            img.src = `../../cards/${selectedTemple}/${selectedRarity}/${name}.png`; // Assumes images are named after Card Name
+            img.src = `../../cards/${selectedTemple}/${selectedRarity}/${name}.png`;
             img.classList.add("card");
             img.addEventListener("click", () => selectCard(name));
             cardsContainer.appendChild(img);
