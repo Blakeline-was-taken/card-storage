@@ -1,0 +1,584 @@
+Name,Description,Can_be_colored,Is_attack_sigil,Upgraded_sigil
+Distresser,"During your end step, this card stresses. Nothing happens.",,,
+Heat Drop,"When played, this card cools the air. Nothing happens.",,,
+Blood Pact,"When sacrificed, this card provides 1 more blood.",,,Worthy Sacrifice
+Worthy Sacrifice,"When sacrificed, this card provides 3 blood.",,,Blood Fountain
+Hearty Offering,"When sacrificed, this card provides any amount of blood up to its health.",,,Generous Donation
+Generous Donation,"When sacrificed, this card provides any amount of blood up to its stats.",,,
+Blood Fountain,"When sacrificed, this card provides as much blood as needed.",,,
+Life Donor,"When sacrificed, this card loses 1 health per blood it provides instead of perishing.",,,Many Lives
+Many Lives,This card does not perish when sacrificed.,T,,Two Many Lives
+Two Many Lives,"This card does not perish when sacrificed, and can be sacrificed twice for a single cost.",T,,
+Lifeblood,All your other cards can be sacrificed.,,,Convergence
+Convergence,All your other cards can be sacrificed and shattered for a shattered gem of any color.,,,
+Blood Battery,"When playing cards, you may pay 4 energy instead of paying 1 blood.",,,
+Prized Sacrifice,You cannot sacrifice other cards alongside this one.,,,
+Unburial,"When played, gain 1 bone.",,,Unboxing
+Unboxing,"When played, gain 2 bones.",,,
+Bone Digger,"During your end step, gain 1 bone.",T,,Tomb Digger
+Tomb Digger,"During your end step, gain 2 bones.",T,,Mass Grave
+Mass Grave,"During your end step, gain 3 bones.",T,,Digger King
+Digger King,"During your end step, gain 4 bones.",,,
+Excavator,"When you gain energy cells, gain 1 bone.",,,Drill
+Drill,"When you gain energy cells, gain 2 bones.",,,
+Necromancy,"During your end step, gain 1 bone per Mox card you control.",,,Skullmancy
+Skullmancy,"During your end step, gain 2 bones per Mox card you control.",,,
+Scrounger,"When this card kills another, gain 1 bone.",T,,Spiteful
+Spiteful,"When this card kills another, gain 2 bones.",T,,Skull Taker
+Skull Taker,"When this card kills another, gain 3 bones.",T,,Spine Ripper
+Spine Ripper,"When this card kills another, gain 4 bones.",T,,
+Scavenger,"When an opposing card dies in combat, gain 1 bone.",T,,Carrion
+Carrion,"When an opposing card dies in combat, gain 2 bones.",T,,
+Harvester,"Gain 2 bones for each direct damage this card deals.",T,,
+Fracture,"When killed in combat, gain bones equal to the full damage dealt.",T,,Munchmeyer
+Munchmeyer,"When damaged, gain bones equal to the full damage dealt.",T,,
+Bone King,"When this card perishes, gain 4 bones instead of 1.",,,Pile of Bones
+Pile of Bones,"When this card perishes, gain 8 bones instead of 1.",,,
+Memoriam,"When your other cards perish, gain 1 more bone.",T,,Commute
+Commute,"When your other cards perish, gain 2 more bones.",T,,
+Loose Bones,"During your end step, this card moves to an adjacent space, giving 1 bone.",,,Spine Walker
+Spine Walker,"During your end step, this card moves to an adjacent space, giving 2 bones.",T,,Spine Lord
+Spine Lord,"During your end step, this card moves to an adjacent space, giving 3 bones.",T,,
+Bonehorn,"Pay 1 energy to gain 1 bone.",T,,
+Battery Bearer,"When played, gain an energy cell.",,,Bank Bearer
+Bank Bearer,"When played, gain 2 energy cells.",,,
+Generator,"During your end step, gain an energy cell.",,,Reactor
+Reactor,"During your end step, gain 2 energy cells.",,,
+Death Surge,"When this card perishes, gain 2 energy cells.",,,Death Surcharge
+Death Surcharge,"When this card perishes, gain 4 energy cells.",,,
+Discharge,"When this card kills another, gain an energy cell.",,,Surging Purge
+Surging Purge,"When an opposing card dies in combat, gain 1 energy cell.",T,,
+Soul Stealer,"When this card kills another, gain an energy cell.",,,Soul Mangler
+Soul Mangler,"When this card kills another, gain 2 energy cells.",,,
+Shock,"When struck, gain an energy cell.",,,Static
+Static,"When struck, gain 2 energy cells.",,,
+Dust Charge,"When your Mox cards die, gain an energy cell.",,,Skull Charge
+Skull Charge,"When your other cards cards die, gain an energy cell.",,,
+Fossil Fuel,"Pay 1 bone to refill an energy cell.",T,,
+Spare Supply,"When played, your depleted energy cells are refilled.",T,,No Power Loss
+No Max Reduction,"Your energy cells cannot be destroyed.",,,No Power Loss
+No Power Loss,"Your depleted energy cells instantly refill.",,,
+Gem Linked,This card counts as a Mox card.,,,
+Green Extract,This card has a Green Essence.,,,Green Gem
+Green Gem,This card provides a Green gem.,,,Malachite Gem
+Malachite Gem,This card provides 2 Green gems.,,,
+Orange Extract,This card has an Orange Essence.,,,Orange Gem
+Orange Gem,This card provides an Orange gem.,,,Citrine Gem
+Citrine Gem,This card provides 2 Orange gems.,,,
+Blue Extract,This card has a Blue Essence.,,,Blue Gem
+Blue Gem,This card provides a Blue gem.,,,Azurite Gem
+Azurite Gem,This card provides 2 Blue gems.,,,
+Prism Gem,This card provides a gem of any color.,,,Light Gem
+Prism Essence,This card provides a gem of any color.,,,
+Light Gem,This card provides 2 gems of any color.,,,Moxum Opus
+Magnificent Gem,"This card provides one Green, one Orange and one Blue gem.",,,Moxum Opus
+Moxum Opus,"This card provides three gems of any color.",,,
+Overcoat,Any gems provided on your side become gems of any color.,,,Paintjob
+Paintjob,Your Mox cards also provide a gem of any color.,,,
+Gemorphosis,"While this card is on the field, your other cards have the Mox tribe.",,,
+Destiny,"This card provides a gem of a random color. Pay 2 energy to roll the color.",,,
+Fragment Hoard,"This card can be shattered to provide 2 shattered gems of any color.",,,Fragment Mass
+Fragment Mass,"This card can be shattered to provide 3 shattered gems of any color.",,,
+Body of Dust,"When you shatter a card, it provides double the amount of shattered gems.",,,Made of Dust
+Made of Dust,"When you shatter a card, it provides triple the amount of shattered gems.",,,
+Dust Gatherer,"When you shatter a card, it does not perish.",,,Gem Transmuter
+Gem Transmuter,"Your mox cards can be sacrificed, and don't perish when shattered or sacrificed.",,,
+Lapis Holder,"After this card dies, the next card to enter its space will gain the [sigil:BlueGem] Blue Gem sigil.",,,Azur Lapis
+Azur Lapis,"After this card dies, the next card to enter its space will gain the [sigil:AzuriteGem] Azurite Gem sigil.",,,
+Magical Scraps,"Pay 3 bones to add a Side Deck Mox card of your choice to your hand.",,,
+Rust Polish,"Pay 2 Metal to add a Side Deck Mox card of your choice to your hand.",,,
+Eldritch Power,"During your end step, gain 1 chemical.",T,,Eldritch Convergence
+Eldritch Convergence,"During your end step, gain 2 chemicals.",T,,Eldritch Portal
+Eldritch Portal,"During your end step, gain 4 chemicals.",T,,
+Eldritch Rift,"When struck, gain 1 chemical.",T,,Eldritch Fissure
+Eldritch Fissure,"When struck, gain 2 chemicals.",T,,
+Eldritch Extraction,"When this card kills another, gain a chemical.",T,,
+Grim Experiments,"When an opposing card dies in combat, gain 1 chemical.",T,,
+Supercharged Pylons,"When a Pylon card is played, gain 1 chemical.",T,,Hypercharged Pylons
+Hypercharged Pylons,"When a Pylon card is played, gain 1 chemical per Pylon card on the field.",T,,
+Predicted Pylons,"Choose the value of any chemical gained by a Pylon card.",T,,
+Incinerator Pit,"When your other cards perish, gain 1 metal.",T,,Overcook
+Overcook,"When your other cards perish, gain 2 metal.",T,,
+Eldritch Death,"Any bone gained from this card turns into a chemical instead.",T,,
+Chemical Stimulant,"You must always roll your chemicals when able to.",T,,
+Arcane Conjuration,"When played, gain a chemical, and choose its value.",T,,
+Transmutation,"Pay 1 energy cell to set a chemical's value.",T,,
+Arcane Refinement,"You may shatter a card to gain 2 chemicals.",T,,
+Ad Infinitum,"While this card is on the field, chemicals are not lost when spent.",T,,
+Fate Decided,"While this card is on the field, you may choose the outcome of any dice rolls you make.",T,,
+Bleeding,"During your end step, this card takes 1 damage, giving 1 flesh.",,,
+Elixir Leaker,"During your end step, this card moves to an adjacent space, giving 1 elixir.",,,
+Bloodless,This card cannot be sacrificed.,,,
+Boneless,This card does not drop a bone when dying.,,,
+Gem Dependent,"If you control no other Mox cards, this card perishes.",,,Material Dependent
+Gem Binding,"This card redirects any damage that would kill it to a Mox card you control, if possible.",,,
+Flesh Hunger,"If you don't own at least 2 Flesh chemicals, this card perishes.",,,
+Metal Deprived,"If you don't own at least 2 Metal chemicals, this card perishes.",,,
+Elixir Thirst,"If you don't own at least 2 Elixir chemicals, this card perishes.",,,
+Arcane Dependence,"If you don't own one of each chemical, this card perishes.",T,,
+Circuit Dependent,"If this card is not between two Conduit cards, it perishes.",T,,
+Familiar,"If you control no sacrificeable cards without this sigil, this card perishes.",T,,Material Dependent
+Material Dependent,"If you control no other cards, this card perishes.",
+Annoying,The opposing card has 1 more power.,T,,Infuriating
+Infuriating,"If this card is opposed, both cards have 1 more power.",T,,
+Fading,"During your end step, this card is discarded if it is in your hand.",T,,
+Brittle,"After this card attacks, it will perish during your end step.",T,,Frail
+Frail,"After this card attacks, it will perish during your draw step.",T,,
+Clock Out,"During your draw step, this card returns to your hand.",,,On the Clock
+On the Clock,"During your draw step, you may return this card to your hand.",,,
+Ticking,"During your end step, this card loses 1 health.",T,,Raging Flames
+Rotting,"During your end step, this card loses 1 health and power.",T,,Ticking
+Ravenous,"During your end step, this card loses 1 health unless you sacrifice a card.",,,
+Osteophage,"During your end step, this card loses 1 health unless you soend 2 bones.",,,
+Addict,"During your end step, this card loses 1 health unless you spend 3 energy.",,,
+Dust Eater,"During your end step, this card loses 1 health unless you shatter a card.",,,
+Desecration,"When played, search a card from your deck and discard it.",T,,
+Power Leak,"When this card perishes, lose an energy cell.",,,Blackout
+Blackout,"When this card perishes, lose 2 energy.",,,
+Delete,"When this card dies, shuffle the cards in your hand back to their decks.",T,,Defiler
+Defiler,"When this card dies, discard the top card of your deck.",T,,Desecration
+Dead Byte,"When killed, search and discard a card from your deck, then deal its health worth of damage directly.",T,,
+Death Sentence,"When this card dies, its owner takes 5 direct damage.",T,,Overclocked
+Overclocked,"This card has 1 more power, but you take 2 damage when it perishes.",T,,Xtreme Overclock
+Xtreme Overclock,"This card has 2 more power, but you take 2 damage when it perishes.",T,,
+Target Required,"This card cannot strike empty spaces.",T,,Target Spotted
+Target Spotted,"This card can only strike empty spaces if their back lane has a card.",T,,
+Airborne,This card's strikes only hit the space they target directly.,T,,Aerobatics
+Aerobatics,"When this card strikes another, you may target its space directly instead.",T,,
+Falconry,"When they strike, your Avian cards may choose to deal direct or normal damage to the spaces they strike.",T,,
+Aquanaut,"This card ignores any changes to the target of its strikes.",T,,Subnautics
+Subnautics,"When the target of this card's strikes is changed, it will also hit its original target.",,,
+Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
+Strong Venom,"When this card damages another, that card is discarded.",T,,
+Bifurcated Strike,"When attacking, this card strikes both spaces adjacent to the opposing space.",T,,Trifurcated Strike
+Trifurcated Strike,"When attacking, this card strikes the opposing space and the spaces adjacent to it.",T,,Omnistrike
+Omnistrike,"When attacking, if there are opposing cards, this card strikes all of them.",T,,Wiping Strike
+Wiping Strike,"When attacking, this card strikes all opposing spaces.",,,
+Split Strike,"When attacking, this card strikes a space adjacent to the opposing space.",T,,Confused Strike
+Confused Strike,"When attacking, this card strikes either the opposing space, or a space adjacent to it.",T,,Sniper
+Sniper,"When it strikes, this card may target any space on the opposite side.",T,,Split Shot
+Split Shot,"This card's strikes target any 2 spaces on the opposite side.",T,,
+Rattle 'Em!,"While this card is on the field, your [mark:Brittle] Brittle cards have [sigil:Sniper] Sniper.",,,
+Guidance,"While this card is on the field, your cards attack two lanes of your choice.",T,,
+Double Strike,"During your attack step, this card attacks twice.",T,,Triple Strike
+Triple Strike,"During your attack step, this card attacks three times.",T,,
+Inverted Strike,"When attacking, this card hits the space reached by following an L-shape from its position.",T,,Cavalry
+Cavalry,"This card also hits the space reached by following an L-shape from its position when it strikes.",T,,
+On Cue,"This card only attacks when adjacent cards strike.",T,,Clockwork
+Clockwork,"This card also attacks when adjacent cards strike.",T,,
+Sadism,"When this card kills another, it strikes that card's space again.",T,,Cruelty
+Cruelty,"When this card kills another, it then strikes its adjacent spaces.",T,,
+Piercing,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded down.",T,,Empaling
+Empaling,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded up.",T,,
+Aggressive,"When placed, the opposing card is struck for 1 damage.",T,,Opportunist
+Opportunist,"When placed, this card immediately strikes the opposing space.",T,,Strategic
+Strategic,"When placed, this card immediately strikes any opposing space.",T,,
+Sentry,"When a card enters the opposing space, it is dealt 1 damage.",T,,Armed Sentry
+Armed Sentry,"When a card enters the opposing space, it is dealt 1 damage twice.",T,,
+Petrifying Gaze,"When a card enters the opposing space, it won't be able to attack, move, or be sacrificed until your end step.",T,,Turned To Stone
+Turned To Stone,"The opposing card cannot attack, move, or be sacrificed.",T,,
+Poisonous,"During the opponent's end step, the opposing card takes 1 damage.",T,,Black Hole
+Black Hole,"During the opponent's end step, the opposing card perishes.",T,,Singularity
+Singularity,"During the opponent's end step, the opposing card perishes and this card gains its remaining health.",T,,
+Death Veil,"When damaged, if this card stays alive, the card that damaged it perishes.",T,,Caustic
+Sharp Quills,"When a card damages this card, it is dealt 1 damage in return.",T,,Sharper Quills
+Sharper Quills,"When a card damages this card, it is dealt 1 damage in return, twice.",T,,Caustic
+Gem Instability,"When a card damages your Mox cards, it is dealt 1 damage in return.",,,Gem Turbulence
+Gem Turbulence,"When a card damages your Mox cards, it is dealt 1 damage in return, twice.",,,
+Counter Strike,"When struck, this card strikes the card that struck it.",T,,Caustic
+Caustic,"When struck, the card that struck this card perishes.",T,,
+Incense,"When struck, cards that summoned this card strike the card that struck it.",T,,
+Deathtrap,"When killed in combat, the opposing card perishes.",T,,Caustic
+Croaking Trap,"When your Amphibian cards are killed in combat, their opposing card dies.",T,,
+Bomber,"When played, all other cards on the board are dealt 5 damage.",T,,
+Burning,"During your end step, this card takes 1 damage. A card striking or damaged by this card gains [sigil:Burning] Burning.",T,,Pyromania
+Firestarter,"This card gives [sigil:Burning] Burning to the cards it damages. It cannot gain [sigil:Burning] Burning.",T,,Pyromania
+Pyromania,"A card striking or damaged by this card gains [sigil:Burning] Burning but this card cannot gain [sigil:Burning] Burning.",,,
+Detonator,"When this card dies, it deals 10 damage to the cards around it.",T,,Deathtrap
+Tactical Nuke,"You may shatter a card to deal 10 damage to the cards around it.",T,,
+Gem Detonator,"When your Mox cards perish, they deal 10 damage to the cards around them.",,,Gem Trap
+Gem Trap,"When your Mox cards perish, their opposing card perishes.",,,
+Exploding Pylons,"When your Pylon cards perish, they deal 10 damage to the cards around them.",T,,Trapped Pylons
+Trapped Pylons,"When your Pylon cards perish, their opposing card perishes.",T,,
+Snake Eyes,"When this card dies, roll a d6. Cards around it are dealt that amount of damage.",T,,All In
+All In,"When this card dies, roll a d6. The opposing card perishes, and a corresponding amount of direct damage is dealt.",T,,
+Fire Blast,"When this card dies, cards around it gain [sigil:Burning] Burning.",T,,
+Head Shot,"Pay 2 energy to deal 1 damage to the opposing card.",T,,
+Neck Snapper,"Pay 3 energy cells to deal 10 damage to any card. This card takes 1 damage.",T,,
+Dive Bomb,"You may sacrifice this card to damage equal to its health to any card.",,,
+Kamikaze,"During your draw step, this card moves to the opposing space where it perishes.",T,,
+Mighty Leap,"Damage dealt directly to its space is dealt to this card instead.",T,,Air Barrage
+Air Barrage,"This card's space cannot be dealt direct damage.",T,,
+Scalebound,"Any direct damage you recieve is dealt to this card instead.",T,,
+High Up,"Damage dealt directly to this card's space is dealt to this card instead, and vice versa.",T,,
+Waterborne,Strikes targeting this card hit its space directly instead.,T,,Deep Dive
+Deep Dive,"You may make strikes targeting this card only target its space directly this turn.",T,,
+Lurking,"Cards striking this card hit its space directly instead, and are then struck by this card.",T,,
+Go Fish,"You may make strikes targeting your Fish cards only hit their space directly.",T,,
+Resilient,"When this card would perish for the first time, reset its health back to its base value instead.",T,,
+Armored,"This card has an [mark:armor] Armor mark.",T,,Protector
+Protector,"When played, one of your cards gains an [mark:armor] Armor mark.",T,,
+Dust Barrier,"When your Mox cards die, this card gains an [mark:armor] Armor mark.",,,Shield of Dust
+Shield of Dust,"When your Mox cards die, a card of your choice gains an [mark:armor] Armor mark.",,,
+Regenerative Shell,"This card has an [mark:armor] Armor mark. Pay 3 chemicals to regenerate it if lost.",T,,
+Gem Guardian,"When played, your Mox cards gain an [mark:armor] Armor mark.",,,Gem Protector
+Gem Protector,"Your Mox cards cannot be struck.",,,
+Hoarfrost,"When played, a [mark:freeze] Freeze mark is placed on any other card.",T,,Sheer Cold
+Sheer Cold,"When played, place [mark:freeze] Freeze marks on any other cards.",T,,
+Frigid Winds,"You may shatter a card to give any other card a [mark:freeze] Freeze mark.",T,,
+Bastion,"When damaged, this card only takes half the damage, rounded up.",T,,Shielded
+Ironclad,"When struck, this card takes 1 less damage.",T,,Shielded
+Shielded,"When damaged, this card only takes half the damage, rounded down.",T,,
+Tough Armor,"When damaged, this card only takes half the damage, rounded down.",T,,
+Protected Pylons,"When struck, your Pylon cards take 1 less damage.",T,,
+Vigilant,"Negate any damage that did not occur during the opponent's attack step.",T ,,
+Repulsive,This card cannot be struck.,T,,Immortal
+Immortal,"This card cannot perish, and cannot go below 1 health.",T,,
+Made of Stone,"This card's power cannot be lowered and it ignores [sigil:Burning] and instakill sigils.",T,,Hard as Stone
+Hard as Stone,"This card's power cannot be lowered and it cannot be damaged or killed by sigils.",T,,
+Burrower,"Before an empty space is struck, this card moves to it.",T,,Scalebound
+Gem Intercept,"Before your Mox cards get struck, this card swaps its place with them.",,,Intercept
+Intercept,"Before your cards get struck, this card swaps its place with them.",T,,
+Taunt,This card has a [mark:target] Target mark.,T,,Redirect
+Redirect,"When played, place a [mark:target] Target mark on a space you control. It will disappear when this card dies.",T,,
+Iron Wall,"This card can only be damaged by the opposing card.",T,,Ironsides
+Ironsides,"This card can only be damaged by cards in spaces adjacent to the opposing space.",T,,
+Loose Tail,"Before being struck for the first time, this card moves to an adjacent space and leaves ""TOKEN"" behind.",T,,Loose Limb
+Evasion,"Before being struck, this card moves to an adjacent space.",T,,Loose Limb
+Loose Limb,"Before being struck, this card moves to an adjacent space and leaves ""TOKEN"" behind.",T,,
+Lingering,"When this card dies, if you still have cards in your main deck, it is shuffled inside it instead of perishing.",T,,Unkillable
+Unkillable,"When this card dies, it returns to your hand instead of perishing.",T,,Immortal
+Unending,"When this card dies, it gains 1 base power and health, up to 5. When the battle ends, it loses 1 base power and health, down to 1.",T,,
+Backup,"When this card dies, a copy is added to your hand.",T,,
+Brood Parasite,"When played, a ""Broken Egg"" is placed in the opposing space.",T,,Brooding
+Brooding,"When played, a ""Broken Egg"" is placed in the opposing space or a ""Raven Egg"" is added to your hand.",T,,
+Sprinter,"During your end step, this card moves to an adjacent space.",T,,Hefty
+Clinger,"When you place a card, this card goes to the closest space between them.",T,,Switch In
+Switch In,"When you place a card, this card swaps positions with it.",T,,
+Hefty,"During your end step, this card moves to an adjacent space, pushing other cards in its way.",T,,Rampager
+Bulldoze,"Pay 2 energy to move this card to an adjacent space, pushing other cards in its way.",T,,
+Rampager,"During your end step, this card swaps places with an adjacent space.",T,,Hopper
+Hopper,"During your end step, this card moves to an empty space.",T,,Warper
+Warper,"During your end step, this card swaps places with another space.",T,,Teleport
+Wary,"When a card is played opposing this one, this card swaps places with any space on your side of the field.",T,,
+Snag,"When played, a card is moved to an empty space on its own side.",T,,Moving Strike
+Moving Strike,"When this card strikes, it moves any other card to an empty space on its own side before striking.",T,,Superposition
+Restructure,"When played, rearrange the positions of your cards.",T,,Superposition
+Superposition,"When played, rearrange the positions of all cards on the board. They must always stay on their own side.",T,,
+Guardian,"Before an opposing card is placed, this card moves in front of it.",T,,Loyal
+Loyal,"When an opposing card is placed, it swaps positions with the space in front of this card.",T,,
+Flee,"Once per turn, you may move this card to an adjacent space.",T,,
+Teleport,"Once per turn, swap this card's place with any other space on your side.",T,,
+Telekinesis,"Pay 1 chemical to move one of your cards to an empty space.",,,
+Hotswap,"Pay 2 energy to swap this card's place with any other space on your side.",T,,
+Rooted,This card cannot be moved or removed from its space until it perishes.,T,,Unphased
+Unphased,This card cannot be moved or removed from its space until it perishes. It is unaffected by opposing sigils.,T,,
+Mother's Heart,"When played, add a ""Chick"" to your hand.",T,,Mother's Love
+Mother's Love,"When played, add 2 ""Chick""s to your hand.",T,,
+Fledgling,"During your draw step, this card turns into ""TOKEN"".",T,,Embryon
+Embryon,"During your end step, this card turns into ""TOKEN"".",T,,
+Tentacleful,"During your draw step, this card turns into a random Tentacle card.",T,,
+Labile Evolution,"During your draw step, this card turns into its Flesh, Metal or Elixir form depending on the most abundant chemical type you own.",T,,
+Wild Reshape,"During your draw step, this card turns into your deck's top card.",T,,Darwin Theory
+Darwin Theory,"During your end step, this card turns into your deck's top card.",T,,
+Infection,"During your draw step, this card turns into a random Polyp card.",T,,Infestation
+Infestation,"During your end step, this card turns into a common Polyp card.",T,,
+Finical Hatchling,"If your deck contains 5 different values for both health and power, and 5 different tribes, this card turns into a ""Hydra"".",T,,
+Transformer,"During your draw step, this card changes form.",T,,
+Hemanation,"When sacrificed, this card changes form.",T,,
+Ritual,"You may sacrifice another card to change this card's form.",T,,
+B34st Tamer,"You may trigger the [sigil:Transformer] Transformer sigils of your cards at will.",T,,
+Frozen Away,"When damaged, if this card perishes, a ""TOKEN"" is placed in its space.",T,,Ambush
+Ambush,"When this card dies, a ""TOKEN"" is placed on your side.",T,,
+Ruby Heart,"When this card dies, a ""Ruby Mox"" is placed in its place.",,,Soul Driven
+Soul Driven,"When this card dies, an ""Altar of Citrine"" is placed in its place.",,,
+Gestation Tank,"When this card dies, a ""Vat Creature"" is placed in its place. Its form depends on the number of turns this card was on the field.",T,,
+Imprison,"When played, choose another card you control and discard it. When this card dies, place it in its space.",T,,Resurrect
+Resurrect,"When this card dies, search a card from your discard and place it in this space.",T,,
+Corpse Eater,"When a card you control perishes, if this card is in your hand, it is placed it in its space.",T,,Parasite
+Parasite,"When a card you control perishes, if this card is in your hand, you may place it in its space.",T,,
+Pelt Pest,"When you play a Pelt card, if this card is in your hand or deck, that Pelt card is destroyed, this card is placed in its space and it permanently gains 1 power and health.",T,,
+Post Mortem,"When this card dies, it changes form and regains its health.",T,,
+Legion,"When played, search a common card from your discard and place it on your side for free.",T,,Army
+Army,"When played, search a card from your discard and place it on your side.",T,,
+Summon,"When played, up to 2 ""TOKEN"" cards are placed in adjacent spaces.",T,,Invoke
+Invoke,"When played, ""TOKEN"" cards are placed in all your empty spaces.",T,,
+Regurgitate,"When played, a card from your side deck is placed in adjacent spaces.",T,,Vomiting
+Vomiting,"When played, a card from your side deck is placed in all your empty spaces.",T,,
+Swarm,"When played, up to 2 copies of this card are placed in adjacent spaces.",T,,Invasion
+Invasion,"When played, copies of this card are placed in all your empty spaces.",T,,
+Bomb Spewer,"When played, an ""Explode Bot"" is placed into every single empty space.",T,,
+Squirrel Shedder,"During your end step, this card moves to an adjacent space and leaves a ""Squirrel"" behind.",T,,Squirrel Trail
+Squirrel Trail,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Squirrel"" behind.",T,,
+Production Line,"During your end step, this card moves to an adjacent space and leaves a ""Homunculus"" behind.",T,,Factory Line
+Factory Line,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Homunculus"" behind.",T,,
+Noxious Trail,"During your end step, this card moves to an adjacent space and leaves ""Toxic Fumes"" behind if you pay its cost.",T,,Noxious Dropper
+Noxious Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves ""Toxic Fumes"" behind if you pay its cost.",,,
+Paper Trail,"During your end step, this card moves to an adjacent space and leaves a ""Paper Pile"" behind.",T,,Paper Dropper
+Paper Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Paper Pile"" behind.",,,
+Caustic Trail,"During your end step, this card moves to an adjacent space and leaves ""Toxic Sludge"" behind if you pay its cost.",T,,Caustic Dropper
+Caustic Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves ""Toxic Sludge"" behind if you pay its cost.",,,
+Skeleton Crew,"During your end step, this card moves to an adjacent space and leaves a random Pirate Skeleton behind.",T,,Skeleton Legion
+Skeleton Legion,"During your end step, this card moves to an adjacent space, pushing other cards in its way, then leaves a random Pirate Skeleton behind.",T,,
+Spirit Spread,"During your end step, this card moves to an adjacent space and leaves a random Spectre behind.",,,Spirit Weaver
+Spirit Weaver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, then leaves a random Spectre behind.",,,
+Pylon Carver,"During your end step, this card moves to an adjacent space and leaves a ""Pylon"" behind.",T,,Pylon Weaver
+Pylon Weaver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Pylon"" behind.",T,,
+Leep Legion,"During your end step, this card moves to an adjacent space and leaves a random Leep card behind.",T,,Leep Friend
+Leep Friend,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a random Leep card behind.",T,,
+Mox Dropper,"During your end step, this card moves to an adjacent space and leaves a random Side deck Mox card behind.",,,Mox Shedder
+Mox Shedder,"During your end step, this card moves to an adjacent space, pushing other cards in its way and leaves a random Side deck Mox card behind.",,,
+Frog Friend,"During your end step, this card moves to an adjacent space and leaves a random Frog card behind.",T,,Frog Crew
+Frog Crew,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a random Frog card behind.",T,,
+Wire Weaver,"During your end step, this card moves to an adjacent space and leaves a ""Null Conduit"" behind.",T,,Wire Carver
+Wire Carver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Null Conduit"" behind.",T,,
+Transmogutate,"Once per turn, you may sacrifice a card to place a Side Deck Mox card of your choice in its place.",,,
+Gift Bearer,"When this card dies, draw a card from your deck.",T,,Generosity Bearer
+Generosity Bearer,"When this card dies, draw two cards from your deck.",T,,Loaded
+Gem Bearer,"When this card dies, add a random Side deck Mox card to your hand.",,,Gem Generosity
+Gem Generosity,"When this card dies, add two random Side deck Mox cards to your hand.",,,
+Gem Greed,"When your Mox cards perish, draw a card from your deck.",,,Gem Greedier
+Gem Greedier,"When your Mox cards perish, draw 2 cards from your deck.",,,
+Polyp Harvest,"When your Polyp cards perish, draw a card from your deck.",T,,
+Go Fetch,"When your Canine cards perish, draw a card from your deck.",T,,Search Dogs
+Search Dogs,"When your Canine cards perish, draw 2 cards from your deck.",T,,
+Fish Bearer,"When this card perishes, a random Fish card is added to your hand.",T,,
+Infinite Knowledge,"When your other cards are killed in combat, draw a card from your deck.",T,,
+Loaded,"When this card dies, draw a total of 4 cards from both decks.",T,,Stuffed
+Stuffed,"When this card dies, draw a total of 6 cards from both decks.",T,,
+Mental Gemnastics,"When played, draw a card from your deck for each Mox card you control.",,,Mental Acrobatics
+Mental Acrobatics,"When played, for each mox card you control, draw 2 cards from your deck and return 1.",,,
+Unearthed Pack,"When played, shuffle your discard and look at the top 5 cards. Add 2 of them to your hand.",T,,
+Handy,"When played, discard your hand, and draw the same number of cards from both decks, plus 2.",T,,
+Looter,"Draw a card from your deck for each direct damage this card deals.",T,,Pillager
+Pillager,"Draw 2 cards from your deck for each direct damage this card deals.",T,,
+Side Hustle,"Draw a card from your side deck for each direct damage this card deals.",T,,Predator
+Predator,"Draw 2 cards from your side deck for each direct damage this card deals.",T,,
+Firey Rummage,"You may discard a card from your hand to draw from your deck.",T,,
+True Scholar,"Once per turn, you may shatter a card to draw 2 cards from your deck.",T,,
+Bees Within,"When damaged, a ""Bee"" is added to your hand.",T,,Full of Bees
+Full of Bees,"When damaged, two ""Bee"" cards are added to your hand.",T,,
+Termites Within,"When damaged, a ""Termite"" is added to your hand.",T,,Full of Termites
+Full of Termites,"When damaged, two ""Termite"" cards are added to your hand.",T,,
+Ants Within,"When damaged, a random Ant card is added to your hand.",T,,Full of Ants
+Full of Ants,"When damaged, 2 random Ant cards are added to your hand.",T,,
+Vessel Printer,"When damaged, draw a card from your side deck.",T,,Vessel Factory
+Vessel Factory,"When damaged, draw 2 cards from your side deck.",T,,
+Skull Summoner,"When damaged, a ""Skeleton"" is added to your hand.",T,,Skull Maker
+Skull Maker,"When damaged, 2 ""Skeletons"" are added to your hand.",T,,
+Rabbit Hole,"When played, a ""TOKEN"" is added to your hand.",T,,Rabbit Chasm
+Rabbit Chasm,"When played, two ""TOKEN"" cards are added to your hand.",T,,
+Ash Tray,"When played, ""The Smoke"" is added to your hand.",T,,
+Puppeteer,"When played, an ""Umbral Servant"" is added to your hand. It may be placed next to this card for free.",T,,
+Ant Spawner,"When played, a common Ant card is added to your hand.",T,,Ant Swarm
+Ant Swarm,"When played, two common Ant cards are added to your hand.",T,,
+Fecundity,"When played, a copy of this card is added to your hand.",T,,Cloning
+Cloning,"When played, two copies of this card are added to your hand.",T,,
+Imitation Art,"When played, a copy of another card you control is added to your hand.",T,,Sludge Art
+Sludge Art,"When played, a copy of another card you control and of an opposing card is added to your hand.",T,,
+Chew Toy,"When played, a Hound card is added to your hand. While this card is the field, the cost of Hound cards is halved.",T,,
+Mech Builder,"When played, add a Mechabeast card of your choice to your hand.",T,,
+Psychic Link,"When played, search a common Ceremorph card. If you don't have any, add a ""Squidling"" to your hand.",T,,
+Fragile Construct,"When played, search a [mark:brittle] Brittle card from your deck or discard, or add a ""Skeleton"" to your hand.",T,,
+Re-Index,"When played, search a common card from your deck costing up to 6 energy and another from your discard.",,,Restore
+Restore,"When played, search an energy-costing common card from your deck and another from your discard.",,,
+Hoarder,"When played, search a common card from your deck.",T,,Collector
+Collector,"When played, search a card from your deck.",T,,
+Horde,"When this card kills another, add a ""TOKEN"" to your hand.",T,,
+Hotfix,"When your side deck cards die, they return to your hand instead.",T,,
+Disentomb,"Pay 2 bones to search a [mark:brittle] Brittle card from any of your decks.",T,,
+Cybernetics,"Pay 4 energy to create and place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
+Print Process,"Pay 2 energy cells to draw a card from your deck.",T,,
+Printing Press,"Pay 2 metal to draw a card from your deck.",T,,
+Reanimate,"Once per turn, pay for and play a common card from your discard.",T,,
+Equivalent Exchange,"Once per turn, exchange a card from your hand with one it shares a tribe with from your discard pile.",T,,
+Colony,This card's power is the number of Ant cards you control.,T,T,
+Pylon Powered,This card's power is the number of Pylon cards you control.,T,T,
+Burden Power,"This card's power is the number of Pelt cards you control, including itself.",T,T,
+Strong Hand,"This card's power is the size of your hand, up to 5.",T,T,
+Spilt Blood,"This card's power is the amount of blood you made this turn, up to 5.",T,T,
+Scattered Bones,"This card's power is half the number of unspent bones you own, rounded down and up to 5.",T,T,
+Catacomb,"This card's power is the number of unspent bones you own, up to 5.",T,T,
+Grim Power,"When another card perishes, this card gains 1 power, up to 5.",T,,
+Surge,"This card's power is the amount of energy cells you lost this turn, plus one.",T,T,
+Overclock,"This card's power is half your amount of unspent energy, rounded down.",T,T,
+Gem Powered,This card's power is the number of Mox cards you control.,T,T,
+Gem Power,This card's power is the number of gems being provided on your field.,T,T,
+Flesh Power,"This card's power is the number of Flesh chemicals you own, up to 5.",T,T,
+Dice Power,"When played, roll a d6. This card's power is the result.",T,T,
+Facsimile,This card's power is the opposing card's power.,T,T,
+traeH Power,This card's power is the opposing card's health.,T,T,
+Health Power,This card's power is this card's health.,T,T,
+Scale Power,This card's power is dependent on how tipped in your favour the scales are.,T,T,
+Overcharge,"For every energy cell you would gain when already at 12, this card gains 1 power, up to 7.",,,
+Raging Flames,"During your end step, this card loses 1 health and gains 1 power.",T,,Whimsical Leader
+Bell Ringer,"This card's power is the number of times the bell was rung since it was played, up to 5.",T,T,
+Bloodlust,"When this card kills another, it gains 1 power, up to 5.",T,,Bloodshed
+Bloodshed,"When this card damages another, it gains 1 power, up to 5.",T,,
+Resentful,"When damaged, this card gains 1 power, up to 5.",T,,Sensitive
+Sensitive,"When damaged or when its space is struck directly, this card gains 1 power, up to 5.",T,,
+Dust Power,"When your Mox cards die, this card gains 1 power, up to 5.",,,Dust Fueled
+Dooming Dust,"Once per turn, you may shatter a card to make another card have 2 more power until your end step.",,,
+Stimulate,"Once per turn, pay 3 energy to make this card gain 1 power, up to 5.",T,,
+Power Dice,"Pay 3 energy to roll a D6. This card's base power becomes the result until your end step.",T,,
+Infinifold,"Once per turn, you may shatter a card to double this card's power.",T,,
+Expertise,Any stat change applied to this card apart from damage is doubled.,T,,Mastery
+Mastery,Any stat change applied to this card apart from damage is tripled.,T,,
+Leader,Adjacent cards have 1 more power.,T,,Commander
+Commander,Adjacent cards have 2 more power.,T,,
+Sea Shanty,"Your [mark:brittle] Brittle cards have 1 more power.",T,,Treasure Hunt
+Treasure Hunt,"Your [mark:brittle] Brittle cards have 2 more power.",T,,
+Haunted Stonework,"During your end step, a [sigil:MadeofStone] terrain card is added to your hand. Your [sigil:MadeofStone] cards have 1 more power.",T,,Stone Spirit
+Stone Spirit,"During your end step, a [sigil:MadeofStone] terrain card is added to your hand. Your [sigil:MadeofStone] cards have 2 more power.",,,
+Truest Patron,"Your other [sigil:Familiar] cards have 1 more power.",T,,Best Friends Forever
+Best Friends Forever,"Your other [sigil:Familiar] cards have 2 more power.",T,,
+Witching Hour,Your other Spectre cards have 1 more power.,T,,Blood Moon
+Blood Moon,Your other Spectre cards have 2 more power.,,,
+Leep Leader,Your other Leep cards have 1 more power.,T,,Leep Commander
+Leep Commander,Your other Leep cards have 2 more power.,T,,
+Gem Animator,Your other Mox cards have 1 more power.,,,Gem Empowerer
+Gem Empowerer,Your other Mox cards have 2 more power.,,,
+Enhanced Pylons,Your pylon cards have 1 more power.,T,,Empowered Pylons
+Empowered Pylons,Your pylon cards have 2 more power.,T,,
+Psychic Spores,Your other Polyp cards have 1 more power.,T,,Mental Spores
+Mental Spores,Your other Polyp cards have 2 more power.,T,,
+Psionic Guidance,Your other Ceremorph cards have 1 more power.,T,,Psionic Control
+Psionic Control,Your other Ceremorph cards have 2 more power.,,,
+Curse,Your other Ancient cards have 1 more power.,T,,Malediction
+Malediction,Your other Ancient cards have 2 more power.,T,,
+Offense Upgrade,Your cards with 1 base power have 1 more power.,T,,Extreme Offense
+Extreme Offense,Your cards with 0 to 1 base power have 1 more power.,T,,
+Cheerful,Your Side deck cards have 1 more power.,T,,Ecstatic
+Ecstatic,Your Side deck cards have 2 more power.,T,,
+Numerology,Your Cards with a number in their name have 1 more power.,T,,
+Unholy Will,Your other cards have 1 more power.,T,,August Aura
+August Aura,Your other cards have 2 more power.,T,,Regal Presence
+Regal Presence,Your other cards have 4 more power.,T,,
+Whimsical Leader,"During your end step, a card of your choice gains 1 power, up to 5.",T,,Empower
+Empower,"During your end step, a card of your choice gains 1 power.",T,,
+Soul Strike,"When this card dies, a Mox card you control gains 1 power and strikes its opposing space.",,,Soul Assault
+Soul Assault,"When this card dies, a Mox card you control gains 1 power and strikes an opposing space of your choice.",,,
+Sparkling Dust,"You may shatter a card to make this card gain 1 power, up to 5.",,,
+Arcane Blessing,"Once per turn, you may discard a card from your hand to make a card gain 1 power.",,,
+Turbocharge,"Pay 3 energy to add [sigil:Overclocked] Overclock to a card you control that doesn't have it.",T,,
+Convalesce,"During your end step, this card gains 1 health, up to 5.",T,,Whimsical Healer
+Reinforce,"During your end step, one of your other cards gains 1 health, up to its base health.",T,,Healthcare
+Healthcare,"During your end step, heal one of your other cards up to its base health.",T,,
+Whimsical Healer,"During your end step, a card of your choice gains 1 health, up to 5.",,,Health Boost
+Health Boost,"During your end step, a card of your choice gains health equal to this card's health, up to 5.",,,
+Eternal Life,"During your end step, your other cards gain 1 health, up to 5.",T,,
+Bloodsucker,"When this card damages another, it gains 1 health, up to 5.",T,,Bloodguzzler
+Bloodguzzler,"When this card damages another, it gains health equal to the damage taken, up to 5.",T,,
+Heart of Dust,"When your Mox cards die, this card gains 1 health, up to 5.",,,Dust Fueled
+Assimilator,"During your end step, adjacent cards perish. Add their health to this card.",T,,
+Assembly,"During your end step, adjacent cards perish. Their sigils replace this card's other sigils.",,,
+Enlarge,"Pay 2 bones to increase this card's power and health by 1, up to 5.",T,,
+Invigorate,"You may sacrifice a card, which perishes, and increases both stats of any card you control by 1, up to 5.",T,,
+Absorption,"You may sacrifice a card to make this card gain 2 health up to 5.",T,,
+Swapper,"When damaged, swap this card's health and power.",T,,Swap
+Swap,"You may swap this card's health and power.",T,,
+Morsel,"When sacrificed, this card's stats are added to the card it was sacrificed to.",T,,Delightful
+Delightful,"When sacrificed, this card's stats are added to the card it was sacrificed to, which also gains 1 power and health.",T,,
+Biotic Needles,"Pay 2 elixir to make another card gain 1 power, up to 5, or pay 2 flesh to make it gain 2 health, up to 5.",T,,
+Medicine,"Pay 2 elixir to make adjacent cards have 1 more power, or 2 flesh to make them have 2 more health.",T,,
+Dust Fueled,"When your Mox cards die, this card gains 1 power and health, up to 5.",,,
+Recall the Broken,"When your cards perish due to [mark:brittle] Brittle, they return to your hand.",T,,
+Recycled Pylons,"When your Pylon cards perish, they are returned to your hand.",T,,
+Haunter,"After this card dies, the next card to enter its space gains its other sigils.",T,,Possesser
+Possesser,"After this card dies, the next card to enter its space gains its other sigils, as well as [sigil:Haunter] Haunter.",T,,
+Spiritual Persistance,"When played, another card gains [sigil:Haunter] Haunter.",,,Haunting Presence
+Haunting Presence,"When played, all your other cards gain [sigil:Haunter] Haunter.",,,
+Inscrybe,"When you sacrifice other cards, add their sigils to the card you are playing.",T,,
+Terrain,"A card may enter this card's space. It gains all its other sigils, and this card is discarded.",T,,
+Blank Copy,"When played, this card copies a sigil from a card you control.",T,,Download
+Download,"When played, this card copies a sigil from any card on the board.",T,,
+Splash of Color,"When played, choose 2 cards. They gain each other's sigils.",T,,
+Stinky,The opposing card has 1 less power.,T,,Stench
+Stench,The opposing card has 2 less power.,T,,
+Glooming Dust,"Once per turn, you may shatter a card to make another card lose 1 power.",,,
+Gooey,"When struck, the card that struck this one loses 1 power.",T,,Slimy
+Slimy,"When struck, the card that struck this one loses 2 power.",T,,
+Web Shooter,"When killed, the card that killed this card cannot attack next turn.",T,,Cobwebs
+Cobwebs,"Any card that kills your cards won't be able to attack next turn.",T,,
+Wrangler,"When this card damages another, that card cannot attack next turn.",T,,
+Purist,The opposing card is treated as having no sigils or marks.,T,,Paralyzing
+Paralyzing,"The opposing card is treated as having no sigils or marks, and has 0 power.",T,,
+Ancient Presence,"All non-side deck opposing cards are treated as having no sigils or marks.",T,,
+Spotlight,"The opposing space has a [mark:target] Target mark.",T,,Surveillance Network
+Surveillance Network,"Once per turn, you may place a [mark:target] Target mark on any opposite space until your draw step.",T,,
+Null Conduit,"This card counts as a Conduit card.",T,,
+Pure Conduit,"Cards between this and another Conduit card nullify the sigils of their opposing card.",T,,
+Attack Conduit,Cards between this and another Conduit card have 1 more power.,T,,Power Conduit
+Power Conduit,Cards between this and another Conduit card have 2 more power.,T,,
+Overclock Conduit,"Cards between this and another Conduit card have 2 more power, but you take 2 damage when they perish.",T,,
+Turret Conduit,"When a card enters the opposing space of your Conduit cards or of cards between them, it is dealt 1 damage.",T,,
+Heal Conduit,"During your end step, cards between this and another Conduit card gain 1 health, up to 5.",T,,Soul Conduit
+Soul Conduit,"During your end step, your Conduit cards and cards between them gain 1 health, up to 5.",T,,
+Armor Conduit,"During your end step, cards between this and another Conduit card gain an [mark:armor] Armor mark.",T,,Nano Conduit
+Nano Conduit,"During your end step, your Conduit cards and cards between them gain an [mark:armor] Armor mark.",T,,
+Spawn Conduit,"During your end step, a card costing from 0 to 3 energy is searched and placed between this and another Conduit card.",T,,Production Conduit
+Production Conduit,"During your end step, search cards costing up to 3 energy and place them in every empty space between this and another Conduit card.",T,,
+Blood Conduit,"Cards between this and another Conduit card provide 1 more blood when sacrificed.",T,,Bloodier Conduit
+Bloodier Conduit,"Cards between this and another Conduit card provide 3 blood when sacrificed.",T,,
+Energy Conduit,"While you control another Conduit card, your energy cells refill.",,,No Power Loss
+Gem Conduit,"Cards between this and another Conduit card are gemified.",,,
+Eldritch Conduit,"During your draw step, you may set one chemical's value per card between this and another Conduit card.",T,,
+Activation Conduit,"Cards played between this and another Conduit card trigger their activated ability once for free.",,,Spam Conduit
+Spam Conduit,"Cards played between this and another Conduit card trigger their activated ability twice for free.",,,
+Conduit Relay,"If you control another Conduit card, all your other cards are considered to be between them.",T,,Energizer
+Powered,"This card always counts as being between two Conduit cards.",T,,Capacitor
+Capacitor,"Adjacent cards count as being between two Conduit cards.",T,,Energizer
+Gem Cable,"While this card is on the field, your Mox cards count as Conduit cards.",,,Energizer
+Energizer,"All your cards count as being between two Conduit cards.",T,,
+Circuit Buff,"If this card is between two Conduit cards, it has 2 more power.",T,,Circuit Rage
+Circuit Rage,"If this card is between two Conduit cards, it has 4 more power.",T,,
+Fuse Cover,"Strikes targeting Conduit cards you control are redirected to this card.",T,,Breaker
+Breaker,"Your conduit cards cannot be struck.",T,,
+Enhanced Arcane,"If you provide 2 unique mox colors, this card has 1 more power.",,,Empowered Arcane
+Empowered Arcane,"If you provide 2 unique mox colors, this card has 2 more power.",,,
+Tribal Chant,"If this card shares a tribe with another card you control, it has 1 more power.",T,,
+Night of the Living Dead,Your cards cost 2 fewer bones and energy to play.,T,,Full Moon Night
+Full Moon Night,Your cards cost half their normal amount of bones and energy to play.,T,,
+Unseelie Authority,"When a non-Spectre card you control perishes, a 0-power Spectre card is placed in its place.",T,,
+Puppet Master,"Your [mark:brittle] cards ignore its effect, but perish when this card dies.",T,,Illusionist
+Illusionist,"Your cards ignore [mark:brittle] Brittle.",T,,
+Mental Fortitude,"Your cards ignore [sigil:GemDependent] and [sigil:Familiar] if there are at least 2 cards in your hand.",T,,Mental Mastery
+Mental Mastery,"Your cards ignore [sigil:GemDependent] and [sigil:Familiar] if your hand is not empty.",T,,
+Trinket Bearer,"When played, gain a random item.",T,,Trinket Gift
+Trinket Gift,"When played, gain a random item and draw from both decks.",T,,
+All-Sight,"During your draw step, look at the top card of one of your decks.",T,,Foresight
+Foresight,"During your draw step, look at the top card of one of your decks. You may then shuffle that deck.",T,,
+Cull Out,"When played, draw a card from your deck, then shuffle another card from your hand into your deck.",T,,Handy
+Grim Call,"When played, draw a card from your deck. Unless you play it, it will be discarded when you ring the bell.",T,,Grim Gift
+Grim Gift,"When played, draw 2 cards from your deck. Unless you play them, they will be discarded when you ring the bell.",T,,
+Divination,"When played, look at and rearrange the top 3 cards on your deck.",T,,Occult
+Occult,"When played, look at and rearrange the cards in your deck. Your deck is shuffled when this card dies.",T,,Prophecy
+Prophecy,"When you would draw an unspecified card from your deck, search a card from your deck instead.",T,,
+Event Horizon,"When played, swap another card on your field with one from your hand.",T,,
+Tackle,"When played, the opposing card is sent to the backlane, if possible.",T,,Fling
+Fling,"When played, the opposing card is sent to any space in the backlane.",T,,
+Amorphous,This card is treated as having the opposing card's sigils.,T,,Mimic
+Mimic,"When played, this card copies the sigils of any opposing card.",T,,
+Undefined,"You may choose an opposing card to mimic the sigils of.",,,
+Vicious Mockery,"If this card is played opposing a card, it mimics its stats and sigils.",T,,
+Sigil Eater,"When this card kills another, that card's sigils replaces all sigils on this card, except for this one.",T,,Sigil Devourer
+Sigil Devourer,"When this card kills another, it gains that card's sigils.",T,,
+Transformation,"This card gains a maximum of 3 sigils from the cards sacrificed to play it.",T,,
+Reaction Replica,"When you play a card, it gets played a second time.",T,,Reaction Duplicata
+Reaction Duplicata,"When you play a card, it gets played two more times.",T,,
+Double Death,"When your cards die, they perish 1 more time.",T,,Triple Death
+Triple Death,"When your cards die, they perish 2 more times.",T,,
+Arcane Echo,"Whenever you use an activated ability, trigger its effect a second time.",T,,Arcane Recursion
+Arcane Recursion,"Whenever you use an activated ability, trigger its effect three times.",T,,
+Time Loop,"While this card is on the field, your end step triggers twice.",T,,
+Illusion Dust,"During your end step, this card makes your other cards believe it is a Mox card being shattered.",,,
+Pay Tribute,"You may sacrifice a card to gain bones equal to its base health. It then perishes, and this card gains 1 power.",T,,
+Wood Sculpting,"When played, you may switch your totem for another one.",T,,
+Burden,"This card can only be removed from your deck by exchanging it.",T,,
+Snapshot,"When played, a card on the field is discarded.",,,
+Grim Epitaph,"When played, search a card from your discard and place it on your field.",,,
+Particle Scan,"When played, a copy of an opposing card is placed on your field.",,,
+Magickal Bleach,"When played, choose any card on the field. It will lose its sigils.",,,
+Imposture,"This card is set aside from your main deck. It will reveal itself in battles.",T,,
+The Golden Ram,"When killed in combat, a Golden Pelt is permanently added to your deck.",T,,
+I Doth Decree,"Your cards have no maximum power or health.",T,,

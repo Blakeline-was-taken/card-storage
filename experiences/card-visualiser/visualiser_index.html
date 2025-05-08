@@ -26,6 +26,7 @@
             <option value="">All</option>
           </select>
         </label>
+        <hr>
         <label>
           Tier:<br />
           <select id="tier-filter">
@@ -37,12 +38,19 @@
       <!-- Bloc Cost -->
       <div class="filter-block">
         <label>Cost:</label>
-        <label><input type="checkbox" class="cost-checkbox" value="blood" /> Blood</label>
-        <label><input type="checkbox" class="cost-checkbox" value="bone" /> Bones</label>
-        <label><input type="checkbox" class="cost-checkbox" value="energy" /> Energy</label>
-        <label><input type="checkbox" class="cost-checkbox" value="emerald" /> Emerald</label>
-        <label><input type="checkbox" class="cost-checkbox" value="ruby" /> Ruby</label>
-        <label><input type="checkbox" class="cost-checkbox" value="sapphire" /> Sapphire</label>
+        <div class="cost-grid">
+          <label><input type="checkbox" class="cost-checkbox" value="blood" /> Blood</label>
+          <label><input type="checkbox" class="cost-checkbox" value="bone" /> Bones</label>
+          <label><input type="checkbox" class="cost-checkbox" value="energy" /> Energy</label>
+          <label><input type="checkbox" class="cost-checkbox" value="max" /> Overcharge</label>
+          <label><input type="checkbox" class="cost-checkbox" value="prism" /> Prism</label>
+          <label><input type="checkbox" class="cost-checkbox" value="emerald" /> Emerald</label>
+          <label><input type="checkbox" class="cost-checkbox" value="ruby" /> Ruby</label>
+          <label><input type="checkbox" class="cost-checkbox" value="sapphire" /> Sapphire</label>
+          <label><input type="checkbox" class="cost-checkbox" value="shattered" /> Shatters</label>
+          <label><input type="checkbox" class="cost-checkbox" value="free" /> Free</label>
+        </div>
+        <hr>
         <label><input type="checkbox" id="exclusive-cost-checkbox" /> Require all selected costs</label>
       </div>
   
@@ -61,7 +69,7 @@
           </select>
           <input type="number" id="power-value" />
         </label>
-  
+        <hr>
         <label>
           Health:<br />
           <select id="health-operator">
@@ -83,6 +91,12 @@
         <input type="text" id="sigil-search" placeholder="Search sigils..." />
         <div id="sigil-suggestions" class="suggestions"></div>
         <div id="selected-sigils"></div>
+        <hr>
+        <label><input type="checkbox" id="latcher-sigil-checkbox" /> Latcher sigils</label>
+        <label><input type="checkbox" id="cell-sigil-checkbox" /> Cell sigils</label>
+        <label><input type="checkbox" id="rainbow-sigil-checkbox" /> Arcane sigils</label>
+        <label><input type="checkbox" id="tribal-sigil-checkbox" /> Tribal sigils</label>
+        <hr>
         <label>
           <input type="checkbox" id="exclusive-sigils-checkbox" />
           Require all selected sigils
@@ -113,11 +127,23 @@
         </label>
       </div>
 
+      <!-- Bloc Roles -->
+      <div class="filter-block">
+        <label>Roles:</label>
+        <input type="text" id="role-search" placeholder="Search role..." />
+        <div id="role-suggestions" class="suggestions"></div>
+        <div id="selected-roles"></div>
+        <label>
+          <input type="checkbox" id="exclusive-roles-checkbox" />
+          Require all selected roles
+        </label>
+      </div>
+
       <!-- Bloc Artists -->
       <div class="filter-block">
         <label>Artists:</label>
         <input type="text" id="artist-search" placeholder="Search artist..." />
-        <div id="artist-suggestions"></div>
+        <div id="artist-suggestions" class="suggestions"></div>
         <div id="selected-artists"></div>
         <label>
           <input type="checkbox" id="exclusive-artists-checkbox" />
@@ -125,11 +151,11 @@
         </label>
       </div>
   
-      <!-- Bloc Autres -->
+      <!-- Bloc Others -->
       <div class="filter-block">
         <label>
-          <input type="checkbox" id="draftable-filter" checked />
-          Show not draftables
+          <input type="checkbox" id="draftable-filter" />
+          Only show draftable cards
         </label>
         <label>
           <input type="checkbox" id="evolved-filter" />
@@ -152,20 +178,10 @@
   <div id="card-popup-overlay" class="hidden">
     <div id="card-popup">
       <span id="popup-close">&times;</span>
-      <div id="popup-content" class="popup-content">
-        <div class="popup-images">
-          <img id="popup-card-image" src="" alt="Card">
-        </div>        
-        <div class="popup-details">
-          <h2 id="popup-card-name"></h1>
-          <h3 id="popup-card-subtitle"></h2>
-          <blockquote id="popup-card-flavor"></blockquote>
-          <p id="popup-card-draftable"></p>
-          <p id="popup-card-evolution"></p>
-        </div>
-      </div>
+      <div id="popup-content" class="popup-content"><!-- Will be completed in javascript --></div>
     </div>
   </div>  
+  <div id="custom-tooltip" class="hidden"></div>
 
   <script src="visualiser_script.js"></script>
 </body>
