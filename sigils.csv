@@ -484,8 +484,8 @@ Medicine,"Pay 2 elixir to make adjacent cards have 1 more power, or 2 flesh to m
 Dust Fueled,"When your Mox cards die, this card gains 1 power and health, up to 5.",,,
 Recall the Broken,"When your cards perish due to [mark:brittle] Brittle, they return to your hand.",T,,
 Recycled Pylons,"When your Pylon cards perish, they are returned to your hand.",T,,
-Haunter,"After this card dies, the next card to enter its space gains its other sigils.",T,,Possesser
-Possesser,"After this card dies, the next card to enter its space gains its other sigils, as well as [sigil:Haunter] Haunter.",T,,
+Haunter,"After this card dies, the next card to enter its space gains its other sigils.",T,,Possessor
+Possessor,"After this card dies, the next card to enter its space gains its other sigils, as well as [sigil:Haunter] Haunter.",T,,
 Spiritual Persistance,"When played, another card gains [sigil:Haunter] Haunter.",,,Haunting Presence
 Haunting Presence,"When played, all your other cards gain [sigil:Haunter] Haunter.",,,
 Inscrybe,"When you sacrifice other cards, add their sigils to the card you are playing.",T,,
