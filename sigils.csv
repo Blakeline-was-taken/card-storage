@@ -319,8 +319,8 @@ Paper Trail,"During your end step, this card moves to an adjacent space and leav
 Paper Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Paper Pile"" behind.",,,
 Caustic Trail,"During your end step, this card moves to an adjacent space and leaves ""Toxic Sludge"" behind if you pay its cost.",T,,Caustic Dropper
 Caustic Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves ""Toxic Sludge"" behind if you pay its cost.",,,
-Skeleton Crew,"During your end step, this card moves to an adjacent space and leaves a random Pirate Skeleton behind.",T,,Skeleton Legion
-Skeleton Legion,"During your end step, this card moves to an adjacent space, pushing other cards in its way, then leaves a random Pirate Skeleton behind.",T,,
+Skeleton Crew,"During your end step, this card moves to an adjacent space and leaves a ""Skeleton"" behind.",T,,Skeleton Legion
+Skeleton Legion,"During your end step, this card moves to an adjacent space, pushing other cards in its way, then leaves a ""Skeleton"" behind.",T,,
 Spirit Spread,"During your end step, this card moves to an adjacent space and leaves a random Spectre behind.",,,Spirit Weaver
 Spirit Weaver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, then leaves a random Spectre behind.",,,
 Pylon Carver,"During your end step, this card moves to an adjacent space and leaves a ""Pylon"" behind.",T,,Pylon Weaver
@@ -583,3 +583,5 @@ Magickal Bleach,"When played, choose any card on the field. It will lose its sig
 Imposture,"This card is set aside from your main deck. It will reveal itself in battles.",T,,
 The Golden Ram,"When killed in combat, a Golden Pelt is permanently added to your deck.",T,,
 I Doth Decree,"Your cards have no maximum power or health.",T,,
+Swift Play,"This card can only be played during any step of your opponent's turn.",T,,Omniplay
+Omniplay,"This card can be played at any step during either turn.",T,,
