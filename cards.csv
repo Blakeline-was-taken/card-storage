@@ -566,7 +566,7 @@ Crystal Carrier,Magick,Common,1 prism + 2 emeralds,X,3,"Fragment Hoard, Gem Powe
 Apoethis' Gale,Magick,Common,1 prism + 2 shattered emeralds,2,4,"Rampager, Opportunist",,,Avian Reptile Aberration,One of many forms to bring havoc.,NEWS,T,Offense,,,,
 Ambush Mage,Magick,Common,1 ruby,1,1,Opportunist,,,Outlaw,This attack could have been predicted.,Murigen,T,Offense,,,,
 Dragoon Mage,Magick,Common,1 ruby,1,2,"Swift Play, Sprinter",,,Mage Knight,"The cavalry is here!",NEWS,T,Reliable,,,,
-Gem Detonator,Magick,Common,1 ruby,1,1,Gem Detonator,,,Mage Outlaw,A rebel among the ranks.,Murigen,T,Removal,,,,
+Detonator Mage,Magick,Common,1 ruby,1,1,Gem Detonator,,,Mage Outlaw,A rebel among the ranks.,Murigen,T,Removal,,,,
 Gem Doctor,Magick,Common,1 ruby,0,3,Reinforce,,,Sage,Still practices with healing crystals.,Murigen,T,Support,,,,
 Guardian Mage,Magick,Common,1 ruby,1,1,Gem Guardian,,,Mage,Protective of what fuels their magic.,Pixel Profligate,T,"Support, Defense",,,,
 Lil' Frog_t,Magick,Common,1 ruby,0,2,"Gem Intercept, Mighty Leap",,,Amphibian Mage,An even smaller agent of magicks.,Pixel Profligate,,Defense,,,,
