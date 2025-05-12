@@ -547,6 +547,7 @@ Mental Fortitude,"Your cards ignore [sigil:GemDependent] and [sigil:Familiar] if
 Mental Mastery,"Your cards ignore [sigil:GemDependent] and [sigil:Familiar] if your hand is not empty.",T,,
 Trinket Bearer,"When played, gain a random item.",T,,Trinket Gift
 Trinket Gift,"When played, gain a random item and draw from both decks.",T,,
+Lunar Dealer,"When played, gain a random boon.",T,,
 All-Sight,"During your draw step, look at the top card of one of your decks.",T,,Foresight
 Foresight,"During your draw step, look at the top card of one of your decks. You may then shuffle that deck.",T,,
 Cull Out,"When played, draw a card from your deck, then shuffle another card from your hand into your deck.",T,,Handy
