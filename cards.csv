@@ -409,7 +409,7 @@ C-Diver,Tech,Common,5 energy,1,4,"CELL_Waterborne, Aquanaut",,,Worker Android,"W
 Firebot,Tech,Common,5 energy,1,3,Firestarter,,,Android Outlaw,Toasty!,"Max the Odd, Blakeline",T,Removal,,,,
 Fr4nk3n-trons,Tech,Common,5 max,2,2,Attack Conduit,,,Android Conduit Construct,"Twice the heads, double the power.",Makako,T,"Reliable, Conduit, Support",,,,
 Gas Cell,Tech,Common,5 energy,0,4,"CELL_Touch of Death, Poisonous",,,Cell,Hold your breath.,"Max the Odd, Blakeline",T,"Removal, Defense",,,,
-Gem Detonator_t,Tech,Common,5 energy,1,2,Gem Detonator,,,Mage Android,Weaponizes its power source.,NEWS,T,Removal,,T,,
+Gem Detonator,Tech,Common,5 energy,1,2,Gem Detonator,,,Mage Android,Weaponizes its power source.,NEWS,T,Removal,,T,,
 Gem Guardian,Tech,Common,5 energy,1,2,Gem Guardian,,,Mage Android,Protects its power source.,NEWS,T,Defense,,T,,
 Gunbot,Tech,Common,5 energy,4,1,"Warper, Target Required",,,Bot,Built for one singular function.,Pixel Profligate,T,Removal,,,,
 K-9,Tech,Common,5 energy,1,2,Transformer,K-9_t,,Mechabeast Canine,A vicious and twisted metal construct.,NEWS,T,Offense,,,,
