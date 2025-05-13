@@ -482,7 +482,7 @@ Split Cell,Tech,Uncommon,8 energy,0,3,"Circuit Buff, CELL_Bifurcated Strike",,,C
 Over-Technician,Tech,Uncommon,9 energy,1,4,"Attack Conduit, Turbocharge",,,Conduit Skeleton Android,"High voltage, high efficiency, high risk.",NEWS,T,Conduit,,,,
 Gems Conduit,Tech,Uncommon,10 energy,0,5,"Gem Conduit, Prism Gem",,,Mox Conduit,A device that turns electricity into magic.,Mark,T,"Mox, Conduit",,,,
 Gr1zz,Tech,Uncommon,10 energy,0,5,Transformer,Gr1zz_t,Gr1zz trait,Mechabeast,"A true beast, replicated by machinery.",Pixel Profligate,T,Offense,,,,
-Gr1zz_t,Tech,Uncommon,10 energy,4,5,Transformer,Gr1zz,,Mechabeast,"A true beast, replicated by machinery.",NEWS,,Offense,,,,
+Gr1zz_t,Tech,Uncommon,10 energy,4,5,"Transformer, Aquanaut",Gr1zz,,Mechabeast,"A true beast, replicated by machinery.",NEWS,,Offense,,,,
 Very Big L33pbot,Tech,Uncommon,2 max + 10 energy,2,5,"Mighty Leap, Sentry, Poisonous",,,Leep Machine,"Clunky, inefficient, and reeks of fumes.",Murigen,T,Defense,,,,
 Bleene's Vessel,Tech,Rare,2 max,0,1,"Blue Gem, Green Gem",,,Mox Machine,Focus the mind.,Desaft,T,Mox,,T,,
 Orlu's Vessel,Tech,Rare,2 max,0,1,"Orange Gem, Blue Gem",,,Mox Machine,Cage the beast.,Desaft,T,Mox,,T,,
