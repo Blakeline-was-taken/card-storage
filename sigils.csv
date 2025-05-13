@@ -545,9 +545,9 @@ Puppet Master,"Your [mark:brittle] cards ignore its effect, but perish when this
 Illusionist,"Your cards ignore [mark:brittle] Brittle.",T,,
 Mental Fortitude,"Your cards ignore [sigil:GemDependent] and [sigil:Familiar] if there are at least 2 cards in your hand.",T,,Mental Mastery
 Mental Mastery,"Your cards ignore [sigil:GemDependent] and [sigil:Familiar] if your hand is not empty.",T,,
-Trinket Bearer,"When played, gain a random item.",T,,Trinket Gift
-Trinket Gift,"When played, gain a random item and draw from both decks.",T,,
-Aligning Stars,"When played, gain a random boon.",T,,
+Trinket Bearer,"When played, gain a random item.",T,,Lunar Dealer
+Aligning Stars,"When played, gain a random boon.",T,,Lunar Dealer
+Lunar Dealer,"When played, gain a random item and a random boon.",T,,
 All-Sight,"During your draw step, look at the top card of one of your decks.",T,,Foresight
 Foresight,"During your draw step, look at the top card of one of your decks. You may then shuffle that deck.",T,,
 Cull Out,"When played, draw a card from your deck, then shuffle another card from your hand into your deck.",T,,Handy
