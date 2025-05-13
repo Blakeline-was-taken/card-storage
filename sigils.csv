@@ -401,7 +401,6 @@ Spilt Blood,"This card's power is the amount of blood you made this turn, up to 
 Scattered Bones,"This card's power is half the number of unspent bones you own, rounded down and up to 5.",T,T,
 Catacomb,"This card's power is the number of unspent bones you own, up to 5.",T,T,
 Grim Power,"When another card perishes, this card gains 1 power, up to 5.",T,,
-Surge,"This card's power is the amount of energy cells you lost this turn, plus one.",T,T,
 Overclock,"This card's power is half your amount of unspent energy, rounded down.",T,T,
 Gem Powered,This card's power is the number of Mox cards you control.,T,T,
 Gem Power,This card's power is the number of gems being provided on your field.,T,T,
@@ -411,6 +410,7 @@ Facsimile,This card's power is the opposing card's power.,T,T,
 traeH Power,This card's power is the opposing card's health.,T,T,
 Health Power,This card's power is this card's health.,T,T,
 Scale Power,This card's power is dependent on how tipped in your favour the scales are.,T,T,
+Item Power,This card's power is twice the number of items you own.,T,T,
 Overcharge,"For every energy cell you would gain when already at 12, this card gains 1 power, up to 7.",,,
 Raging Flames,"During your end step, this card loses 1 health and gains 1 power.",T,,Whimsical Leader
 Bell Ringer,"This card's power is the number of times the bell was rung since it was played, up to 5.",T,T,
@@ -547,7 +547,7 @@ Mental Fortitude,"Your cards ignore [sigil:GemDependent] and [sigil:Familiar] if
 Mental Mastery,"Your cards ignore [sigil:GemDependent] and [sigil:Familiar] if your hand is not empty.",T,,
 Trinket Bearer,"When played, gain a random item.",T,,Trinket Gift
 Trinket Gift,"When played, gain a random item and draw from both decks.",T,,
-Lunar Dealer,"When played, gain a random boon.",T,,
+Aligning Stars,"When played, gain a random boon.",T,,
 All-Sight,"During your draw step, look at the top card of one of your decks.",T,,Foresight
 Foresight,"During your draw step, look at the top card of one of your decks. You may then shuffle that deck.",T,,
 Cull Out,"When played, draw a card from your deck, then shuffle another card from your hand into your deck.",T,,Handy
