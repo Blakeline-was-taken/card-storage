@@ -431,8 +431,7 @@ Sea Shanty,"Your [mark:brittle] Brittle cards have 1 more power.",T,,Treasure Hu
 Treasure Hunt,"Your [mark:brittle] Brittle cards have 2 more power.",T,,
 Haunted Stonework,"During your end step, a [sigil:MadeofStone] terrain card is added to your hand. Your [sigil:MadeofStone] cards have 1 more power.",T,,Stone Spirit
 Stone Spirit,"During your end step, a [sigil:MadeofStone] terrain card is added to your hand. Your [sigil:MadeofStone] cards have 2 more power.",,,
-Truest Patron,"Your other [sigil:Familiar] cards have 1 more power.",T,,Best Friends Forever
-Best Friends Forever,"Your other [sigil:Familiar] cards have 2 more power.",T,,
+Truest Patron,"Cards you control with a negative sigil have 1 more power.",T,,
 Witching Hour,Your other Spectre cards have 1 more power.,T,,Blood Moon
 Blood Moon,Your other Spectre cards have 2 more power.,,,
 Leep Leader,Your other Leep cards have 1 more power.,T,,Leep Commander
