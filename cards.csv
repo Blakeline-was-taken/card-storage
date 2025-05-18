@@ -707,7 +707,7 @@ Pebble,Terrain,Common,free,0,1,"Made of Stone, Bloodless",,"Sturdy, Boneless",,I
 Rabbit Pelt,Terrain,Common,free,0,1,"Burden, Bloodless",,Boneless,Vermin Pelt,Perhaps she will trade scraps for this.,Pixel Profligate,,Basic,Pelt Lice,,,
 Sinkhole,Terrain,Common,free,0,2,"Black Hole, Bloodless",,"Sturdy, Boneless",,Woe unto the beasts living there.,Pixel Profligate,,Removal,,,,
 Skybound Sapphire,Terrain,Common,free,0,1,"Blue Gem, High Up, Bloodless",,"Sturdy, Boneless",Mox,The sky is not the limit.,NEWS,,Mox,,,,
-Starvation,Terrain,Common,free,1,1,"Repulsive, Bloodless",,,,It is eternal. Everpresent. Unyeilding.,Pixel Profligate,,Reliable,,,,
+Starvation,Terrain,Common,free,1,1,Repulsive,,,,It is eternal. Everpresent. Unyeilding.,Pixel Profligate,,Reliable,,,,
 Stump,Terrain,Common,free,0,3,"Rooted, Bloodless",,"Sturdy, Boneless",,The remains of mother nature.,Pixel Profligate,,Defense,,,,
 Thorn Bush,Terrain,Common,free,0,2,"Sharp Quills, Bloodless",,"Sturdy, Boneless",,Not all thorns come with a rose.,NEWS,,Defense,,,,
 Torchsight Mox,Terrain,Common,free,0,5,"Orange Gem, Burning, Bloodless",,"Sturdy, Boneless",Pylon Mox,Mead for a vision of what's ahead.,NEWS,,Mox,,,,
