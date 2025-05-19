@@ -292,6 +292,7 @@ Ritual,"You may sacrifice another card to change this card's form.",T,,
 B34st Tamer,"You may trigger the [sigil:Transformer] Transformer sigils of your cards at will.",T,,
 Frozen Away,"When damaged, if this card perishes, a ""TOKEN"" is placed in its space.",T,,Ambush
 Ambush,"When this card dies, a ""TOKEN"" is placed on your side.",T,,
+Exploding Corpse,"When damaged, if this card perishes, ""TOKEN"" are placed in all empty spaces on your side.",T,,
 Ruby Heart,"When this card dies, a ""Ruby Mox"" is placed in its place.",,,Soul Driven
 Soul Driven,"When this card dies, an ""Altar of Citrine"" is placed in its place.",,,
 Gestation Tank,"When this card dies, a ""Vat Creature"" is placed in its place. Its form depends on the number of turns this card was on the field.",T,,
