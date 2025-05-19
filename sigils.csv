@@ -29,7 +29,7 @@ Skull Taker,"When this card kills another, gain 3 bones.",T,,Spine Ripper
 Spine Ripper,"When this card kills another, gain 4 bones.",T,,
 Scavenger,"When an opposing card dies in combat, gain 1 bone.",T,,Carrion
 Carrion,"When an opposing card dies in combat, gain 2 bones.",T,,
-Harvester,"Gain 2 bones for each direct damage this card deals.",T,,
+Harvester,"Gain a bone for each direct damage this card deals.",T,,
 Fracture,"When killed in combat, gain bones equal to the full damage dealt.",T,,Munchmeyer
 Munchmeyer,"When damaged, gain bones equal to the full damage dealt.",T,,
 Bone King,"When this card perishes, gain 4 bones instead of 1.",,,Pile of Bones
@@ -214,6 +214,7 @@ Scalebound,"Any direct damage you recieve is dealt to this card instead.",T,,
 High Up,"Damage dealt directly to this card's space is dealt to this card instead, and vice versa.",T,,
 Waterborne,Strikes targeting this card hit its space directly instead.,T,,Deep Dive
 Deep Dive,"You may make strikes targeting this card only target its space directly this turn.",T,,
+Incorporeal,"Strikes targeting this card hit its space directly instead, and the damage they deal is halved, rounded down.",
 Lurking,"Cards striking this card hit its space directly instead, and are then struck by this card.",T,,
 Go Fish,"You may make strikes targeting your Fish cards only hit their space directly.",T,,
 Resilient,"When this card would perish for the first time, reset its health back to its base value instead.",T,,
@@ -257,7 +258,6 @@ Sprinter,"During your end step, this card moves to an adjacent space.",T,,Hefty
 Clinger,"When you place a card, this card goes to the closest space between them.",T,,Switch In
 Switch In,"When you place a card, this card swaps positions with it.",T,,
 Hefty,"During your end step, this card moves to an adjacent space, pushing other cards in its way.",T,,Rampager
-Bulldoze,"Pay 2 energy to move this card to an adjacent space, pushing other cards in its way.",T,,
 Rampager,"During your end step, this card swaps places with an adjacent space.",T,,Hopper
 Hopper,"During your end step, this card moves to an empty space.",T,,Warper
 Warper,"During your end step, this card swaps places with another space.",T,,Teleport
@@ -269,6 +269,7 @@ Superposition,"When played, rearrange the positions of all cards on the board. T
 Guardian,"Before an opposing card is placed, this card moves in front of it.",T,,Loyal
 Loyal,"When an opposing card is placed, it swaps positions with the space in front of this card.",T,,
 Flee,"Once per turn, you may move this card to an adjacent space.",T,,
+Bulldoze,"You may move this card to adjacent spaces, pushing other cards in its way.",T,,
 Teleport,"Once per turn, swap this card's place with any other space on your side.",T,,
 Telekinesis,"Pay 1 chemical to move one of your cards to an empty space.",,,
 Hotswap,"Pay 2 energy to swap this card's place with any other space on your side.",T,,
