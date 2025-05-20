@@ -461,7 +461,7 @@ Empower,"During your end step, a card of your choice gains 1 power.",T,,
 Soul Strike,"When this card dies, a Mox card you control gains 1 power and strikes its opposing space.",,,Soul Assault
 Soul Assault,"When this card dies, a Mox card you control gains 1 power and strikes an opposing space of your choice.",,,
 Sparkling Dust,"You may shatter a card to make this card gain 1 power, up to 5.",,,
-Arcane Blessing,"Once per turn, you may discard a card from your hand to make a card gain 1 power.",,,
+Arcane Blessing,"Once per turn, you may discard a card in your hand or field to make a card gain 1 power.",T,,
 Turbocharge,"Pay 3 energy to add [sigil:Overclocked] Overclock to a card you control that doesn't have it.",T,,
 Convalesce,"During your end step, this card gains 1 health, up to 5.",T,,Whimsical Healer
 Reinforce,"During your end step, one of your other cards gains 1 health, up to its base health.",T,,Healthcare
