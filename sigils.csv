@@ -155,14 +155,14 @@ Bifurcated Strike,"When attacking, this card strikes both spaces adjacent to the
 Trifurcated Strike,"When attacking, this card strikes the opposing space and the spaces adjacent to it.",T,,Omnistrike
 Omnistrike,"When attacking, if there are opposing cards, this card strikes all of them.",T,,Wiping Strike
 Wiping Strike,"When attacking, this card strikes all opposing spaces.",,,
+Double Strike,"When attacking, this card strikes the opposing space an additional time.",T,,Triple Strike
+Triple Strike,"When attacking, this card strikes the opposing space two additional times.",T,,
 Split Strike,"When attacking, this card strikes a space adjacent to the opposing space.",T,,Confused Strike
 Confused Strike,"When attacking, this card strikes either the opposing space, or a space adjacent to it.",T,,Sniper
 Sniper,"When it strikes, this card may target any space on the opposite side.",T,,Split Shot
 Split Shot,"This card's strikes target any 2 spaces on the opposite side.",T,,
 Rattle 'Em!,"While this card is on the field, your [mark:Brittle] Brittle cards have [sigil:Sniper] Sniper.",,,
 Guidance,"While this card is on the field, your cards attack two lanes of your choice.",T,,
-Double Strike,"During your attack step, this card attacks twice.",T,,Triple Strike
-Triple Strike,"During your attack step, this card attacks three times.",T,,
 Inverted Strike,"When attacking, this card hits the space reached by following an L-shape from its position.",T,,Cavalry
 Cavalry,"This card also hits the space reached by following an L-shape from its position when it strikes.",T,,
 On Cue,"This card only attacks when adjacent cards strike.",T,,Clockwork
