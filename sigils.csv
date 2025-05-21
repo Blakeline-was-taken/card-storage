@@ -29,7 +29,8 @@ Skull Taker,"When this card kills another, gain 3 bones.",T,,Spine Ripper
 Spine Ripper,"When this card kills another, gain 4 bones.",T,,
 Scavenger,"When an opposing card dies in combat, gain 1 bone.",T,,Carrion
 Carrion,"When an opposing card dies in combat, gain 2 bones.",T,,
-Harvester,"Gain a bone for each direct damage this card deals.",T,,
+Harvester,"Gain a bone for each direct damage this card deals.",T,,Reaper
+Reaper,"Gain 2 bones for each direct damage this card deals.",T,,
 Fracture,"When killed in combat, gain bones equal to the full damage dealt.",T,,Munchmeyer
 Munchmeyer,"When damaged, gain bones equal to the full damage dealt.",T,,
 Bone King,"When this card perishes, gain 4 bones instead of 1.",,,Pile of Bones
