@@ -347,12 +347,12 @@ Go Fetch,"When your Canine cards perish, draw a card from your deck.",T,,Search 
 Search Dogs,"When your Canine cards perish, draw 2 cards from your deck.",T,,
 Fish Bearer,"When this card perishes, a random Fish card is added to your hand.",T,,
 Infinite Knowledge,"When your other cards are killed in combat, draw a card from your deck.",T,,
-Loaded,"When this card dies, draw a total of 4 cards from both decks.",T,,Stuffed
-Stuffed,"When this card dies, draw a total of 6 cards from both decks.",T,,
+Loaded,"When this card dies, draw 4 cards from your deck and/or side deck.",T,,Stuffed
+Stuffed,"When this card dies, draw 6 cards from your deck and/or side deck.",T,,
 Mental Gemnastics,"When played, draw a card from your deck for each Mox card you control.",,,Mental Acrobatics
 Mental Acrobatics,"When played, for each mox card you control, draw 2 cards from your deck and return 1.",,,
 Unearthed Pack,"When played, shuffle your discard and look at the top 5 cards. Add 2 of them to your hand.",T,,
-Handy,"When played, discard your hand, and draw the same number of cards from both decks, plus 2.",T,,
+Handy,"When played, discard your hand and draw the same amount of cards, plus 2, from your deck and/or side deck.",T,,
 Looter,"Draw a card from your deck for each direct damage this card deals.",T,,Pillager
 Pillager,"Draw 2 cards from your deck for each direct damage this card deals.",T,,
 Side Hustle,"Draw a card from your side deck for each direct damage this card deals.",T,,Predator
