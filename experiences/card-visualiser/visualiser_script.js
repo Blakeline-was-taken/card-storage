@@ -215,7 +215,7 @@ const FilterLogic = {
           : selectedTribes.some(t => tribes.includes(t))
       );
 
-      const roles = (card.Role || "").split(",");
+      const roles = (card.Role || "").split(",").map(r => r.trim());
       const rolesOk = selectedRoles.length === 0 || (
         values.exclusiveRoles
           ? selectedRoles.every(r => roles.includes(r))
