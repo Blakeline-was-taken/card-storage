@@ -79,6 +79,7 @@ Overcoat,Any gems provided on your side become gems of any color.,,,Paintjob
 Paintjob,Your Mox cards also provide a gem of any color.,,,
 Gemorphosis,"While this card is on the field, your other cards have the Mox tribe.",,,
 Destiny,"This card provides a gem of a random color. Pay 2 energy to roll the color.",,,
+Fragment Shard,"This card can be shattered to provide a shattered gem of any color.",,,Fragment Shard
 Fragment Hoard,"This card can be shattered to provide 2 shattered gems of any color.",,,Fragment Mass
 Fragment Mass,"This card can be shattered to provide 3 shattered gems of any color.",,,
 Body of Dust,"When you shatter a card, it provides double the amount of shattered gems.",,,Made of Dust
@@ -192,6 +193,8 @@ Caustic,"When struck, the card that struck this card perishes.",T,,
 Incense,"When struck, cards that summoned this card strike the card that struck it.",T,,
 Deathtrap,"When killed in combat, the opposing card perishes.",T,,Caustic
 Croaking Trap,"When your Amphibian cards are killed in combat, their opposing card dies.",T,,
+Vengeance,"When your cards perish, this card deals 1 damage to any other card.",T,,Avenger
+Avenger,"When your cards perish, this card strikes any other card.",T,,
 Bomber,"When played, all other cards on the board are dealt 5 damage.",T,,
 Burning,"During your end step, this card takes 1 damage. A card striking or damaged by this card gains [sigil:Burning] Burning.",T,,Pyromania
 Firestarter,"This card gives [sigil:Burning] Burning to the cards it damages. It cannot gain [sigil:Burning] Burning.",T,,Pyromania
@@ -364,12 +367,14 @@ Bees Within,"When damaged, a ""Bee"" is added to your hand.",T,,Full of Bees
 Full of Bees,"When damaged, two ""Bee"" cards are added to your hand.",T,,
 Termites Within,"When damaged, a ""Termite"" is added to your hand.",T,,Full of Termites
 Full of Termites,"When damaged, two ""Termite"" cards are added to your hand.",T,,
-Ants Within,"When damaged, a random Ant card is added to your hand.",T,,Full of Ants
-Full of Ants,"When damaged, 2 random Ant cards are added to your hand.",T,,
-Vessel Printer,"When damaged, draw a card from your side deck.",T,,Vessel Factory
-Vessel Factory,"When damaged, draw 2 cards from your side deck.",T,,
 Skull Summoner,"When damaged, a ""Skeleton"" is added to your hand.",T,,Skull Maker
 Skull Maker,"When damaged, 2 ""Skeletons"" are added to your hand.",T,,
+Ants Within,"When damaged, a random Ant card is added to your hand.",T,,Full of Ants
+Full of Ants,"When damaged, 2 random Ant cards are added to your hand.",T,,
+Geode,"When damaged, a random side deck mox card is added to your hand.",T,,Mineral
+Mineral,"When damaged, 2 random side deck mox cards are added to your hand.",T,,
+Vessel Printer,"When damaged, draw a card from your side deck.",T,,Vessel Factory
+Vessel Factory,"When damaged, draw 2 cards from your side deck.",T,,
 Rabbit Hole,"When played, a ""TOKEN"" is added to your hand.",T,,Rabbit Chasm
 Rabbit Chasm,"When played, two ""TOKEN"" cards are added to your hand.",T,,
 Ash Tray,"When played, ""The Smoke"" is added to your hand.",T,,
