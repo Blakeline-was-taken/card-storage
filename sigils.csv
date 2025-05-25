@@ -577,8 +577,8 @@ Reaction Replica,"When you play a card, it gets played a second time.",T,,Reacti
 Reaction Duplicata,"When you play a card, it gets played two more times.",T,,
 Double Death,"When your cards die, they perish 1 more time.",T,,Triple Death
 Triple Death,"When your cards die, they perish 2 more times.",T,,
-Arcane Echo,"Whenever you use an activated ability, trigger its effect a second time.",T,,Arcane Recursion
-Arcane Recursion,"Whenever you use an activated ability, trigger its effect three times.",T,,
+Arcane Echo,"Activated abilities trigger twice when triggered.",T,,Arcane Recursion
+Arcane Recursion,"Activated abilities trigger three times when triggered.",T,,
 Time Loop,"Your end step triggers an additional time.",T,,
 Illusion Dust,"During your end step, this card makes your other cards believe it is a Mox card being shattered.",,,
 Pay Tribute,"You may sacrifice a card to gain bones equal to its base health. It then perishes, and this card gains 1 power.",T,,
