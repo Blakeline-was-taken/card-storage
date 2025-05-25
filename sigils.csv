@@ -177,7 +177,7 @@ Aggressive,"When placed, the opposing card is struck for 1 damage.",T,,Opportuni
 Opportunist,"When placed, this card immediately strikes the opposing space.",T,,Strategic
 Strategic,"When placed, this card immediately strikes any opposing space.",T,,
 Sentry,"When a card enters the opposing space, it is dealt 1 damage.",T,,Armed Sentry
-Armed Sentry,"When a card enters the opposing space, it is dealt 1 damage twice.",T,,
+Armed Sentry,"When a card enters the opposing space, it is dealt 2 damage.",T,,
 Petrifying Gaze,"When a card enters the opposing space, it won't be able to attack, move, or be sacrificed until your end step.",T,,Turned To Stone
 Turned To Stone,"The opposing card cannot attack, move, or be sacrificed.",T,,
 Poisonous,"During the opponent's end step, the opposing card takes 1 damage.",T,,Black Hole
@@ -185,9 +185,9 @@ Black Hole,"During the opponent's end step, the opposing card perishes.",T,,Sing
 Singularity,"During the opponent's end step, the opposing card perishes and this card gains its remaining health.",T,,
 Death Veil,"When damaged, if this card stays alive, the card that damaged it perishes.",T,,Caustic
 Sharp Quills,"When a card damages this card, it is dealt 1 damage in return.",T,,Sharper Quills
-Sharper Quills,"When a card damages this card, it is dealt 1 damage in return, twice.",T,,Caustic
+Sharper Quills,"When a card damages this card, it is dealt 2 damage in return.",T,,Caustic
 Gem Instability,"When a card damages your Mox cards, it is dealt 1 damage in return.",,,Gem Turbulence
-Gem Turbulence,"When a card damages your Mox cards, it is dealt 1 damage in return, twice.",,,
+Gem Turbulence,"When a card damages your Mox cards, it is dealt 2 damage in return.",,,
 Counter Strike,"When struck, this card strikes the card that struck it.",T,,Caustic
 Caustic,"When struck, the card that struck this card perishes.",T,,
 Incense,"When struck, cards that summoned this card strike the card that struck it.",T,,
