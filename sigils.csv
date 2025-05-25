@@ -77,7 +77,7 @@ Magnificent Gem,"This card provides one Green, one Orange and one Blue gem.",,,M
 Moxum Opus,"This card provides three gems of any color.",,,
 Overcoat,Any gems provided on your side become gems of any color.,,,Paintjob
 Paintjob,Your Mox cards also provide a gem of any color.,,,
-Gemorphosis,"While this card is on the field, your other cards have the Mox tribe.",,,
+Gemorphosis,"Your other cards have the Mox tribe.",,,
 Destiny,"This card provides a gem of a random color. Pay 2 energy to roll the color.",,,
 Fragment Shard,"This card can be shattered to provide a shattered gem of any color.",,,Fragment Hoard
 Fragment Hoard,"This card can be shattered to provide 2 shattered gems of any color.",,,Fragment Mass
@@ -107,8 +107,8 @@ Chemical Stimulant,"You must always roll your chemicals when able to.",T,,
 Arcane Conjuration,"When played, gain a chemical, and choose its value.",T,,
 Transmutation,"Pay 1 energy cell to set a chemical's value.",T,,
 Arcane Refinement,"You may shatter a card to gain 2 chemicals.",T,,
-Ad Infinitum,"While this card is on the field, chemicals are not lost when spent.",T,,
-Fate Decided,"While this card is on the field, you may choose the outcome of any dice rolls you make.",T,,
+Ad Infinitum,"Chemicals you spend are not lost.",T,,
+Fate Decided,"You may choose the outcome of any dice rolls you make.",T,,
 Bleeding,"During your end step, this card takes 1 damage, giving 1 flesh.",,,
 Elixir Leaker,"During your end step, this card moves to an adjacent space, giving 1 elixir.",,,
 Bloodless,This card cannot be sacrificed.,,,
@@ -163,8 +163,8 @@ Split Strike,"When attacking, this card strikes a space adjacent to the opposing
 Confused Strike,"When attacking, this card strikes either the opposing space, or a space adjacent to it.",T,,Sniper
 Sniper,"When it strikes, this card may target any space on the opposite side.",T,,Split Shot
 Split Shot,"This card's strikes target any 2 spaces on the opposite side.",T,,
-Rattle 'Em!,"While this card is on the field, your [mark:Brittle] Brittle cards have [sigil:Sniper] Sniper.",,,
-Guidance,"While this card is on the field, your cards attack two lanes of your choice.",T,,
+Rattle 'Em!,"Your [mark:Brittle] Brittle cards have [sigil:Sniper] Sniper.",,,
+Guidance,"Your cards attack two lanes of your choice.",T,,
 Inverted Strike,"When attacking, this card hits the space reached by following an L-shape from its position.",T,,Cavalry
 Cavalry,"This card also hits the space reached by following an L-shape from its position when it strikes.",T,,
 On Cue,"This card only attacks when adjacent cards strike.",T,,Clockwork
@@ -536,7 +536,7 @@ Spam Conduit,"Cards played between this and another Conduit card trigger their a
 Conduit Relay,"If you control another Conduit card, all your other cards are considered to be between them.",T,,Energizer
 Powered,"This card always counts as being between two Conduit cards.",T,,Capacitor
 Capacitor,"Adjacent cards count as being between two Conduit cards.",T,,Energizer
-Gem Cable,"While this card is on the field, your Mox cards count as Conduit cards.",,,Energizer
+Gem Cable,"Your Mox cards count as Conduit cards.",,,Energizer
 Energizer,"All your cards count as being between two Conduit cards.",T,,
 Circuit Buff,"If this card is between two Conduit cards, it has 2 more power.",T,,Circuit Rage
 Circuit Rage,"If this card is between two Conduit cards, it has 4 more power.",T,,
@@ -579,7 +579,7 @@ Double Death,"When your cards die, they perish 1 more time.",T,,Triple Death
 Triple Death,"When your cards die, they perish 2 more times.",T,,
 Arcane Echo,"Whenever you use an activated ability, trigger its effect a second time.",T,,Arcane Recursion
 Arcane Recursion,"Whenever you use an activated ability, trigger its effect three times.",T,,
-Time Loop,"While this card is on the field, your end step triggers twice.",T,,
+Time Loop,"Your end step triggers an additional time.",T,,
 Illusion Dust,"During your end step, this card makes your other cards believe it is a Mox card being shattered.",,,
 Pay Tribute,"You may sacrifice a card to gain bones equal to its base health. It then perishes, and this card gains 1 power.",T,,
 Wood Sculpting,"When played, you may switch your totem for another one.",T,,
