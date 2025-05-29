@@ -344,9 +344,9 @@ Bones Malone,Undead,Talking,5 bones,2,1,"Sniper, Rattle 'Em!",,,Skeleton Outlaw,
 Star Weaver,Undead,Talking,5 bones,1,4,"Equivalent Exchange, Gift Bearer",,,Skeleton,"""From dust I am born, to dust I succumb.""",Pixel Profligate,,Utility,,,,
 Unlucky Corpse,Undead,Talking,6 bones,2,2,Unearthed Pack,,,Zombie,"""Wow, great draw!""",Pixel Profligate,,Utility,,,,
 Unseelie Queen,Undead,Talking,2 blood,2,2,"Unseelie Authority, Witching Hour",,,Noble,"""Cower! It is now the Witching Hour!""",Herilind,,"Support, Utility",,,,
-Gem Nanite,Tech,Side Deck,free,0,1,"Transformer, Green Extract, Bloodless","Gem Nanite_t, Gem Nanite_t_t",,Mox Mechabeast,They always make the best light shows.,Mark,,Mox,,,,
-Gem Nanite_t,Tech,Side Deck,free,0,1,"Transformer, Orange Extract, Bloodless","Gem Nanite, Gem Nanite_t_t",,Mox Mechabeast,They always make the best light shows.,Mark,,Mox,,,,
-Gem Nanite_t_t,Tech,Side Deck,free,0,1,"Transformer, Blue Extract, Bloodless","Gem Nanite, Gem Nanite_t",,Mox Mechabeast,They always make the best light shows.,Mark,,Mox,,,,
+Gem Nanite,Tech,Side Deck,free,0,1,"Transformer, Bloodless","Gem Nanite_t, Gem Nanite_t_t",,Mox Mechabeast,They always make the best light shows.,Mark,,Mox,,,,Green
+Gem Nanite_t,Tech,Side Deck,free,0,1,"Transformer, Bloodless","Gem Nanite, Gem Nanite_t_t",,Mox Mechabeast,They always make the best light shows.,Mark,,Mox,,,,Orange
+Gem Nanite_t_t,Tech,Side Deck,free,0,1,"Transformer, Bloodless","Gem Nanite, Gem Nanite_t",,Mox Mechabeast,They always make the best light shows.,Mark,,Mox,,,,Blue
 L33pbot,Tech,Side Deck,free,0,2,"Mighty Leap, Bloodless",,,Leep Bot,Strong springs for jumping into action.,Pixel Profligate,,Defense,L33pbot.V2,,,
 Power Bank,Tech,Side Deck,free,0,1,"Battery Bearer, Power Leak, Bloodless",,,Machine,Charges 99% faster than the big brand.,Murigen,,Resource,,,,
 Null Conduit,Tech,Common,free,0,2,Bloodless,,,Conduit,"Transfers power, but not much else.",Pixel Profligate,T,Conduit,,,,

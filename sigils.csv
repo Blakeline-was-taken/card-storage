@@ -61,13 +61,10 @@ Spare Supply,"When played, your depleted energy cells are refilled.",T,,No Power
 No Max Reduction,"Your energy cells cannot be destroyed.",,,No Power Loss
 No Power Loss,"Your depleted energy cells instantly refill.",,,
 Gem Linked,This card counts as a Mox card.,,,
-Green Extract,This card has a Green Essence.,,,Green Gem
 Green Gem,This card provides a Green gem.,,,Malachite Gem
 Malachite Gem,This card provides 2 Green gems.,,,
-Orange Extract,This card has an Orange Essence.,,,Orange Gem
 Orange Gem,This card provides an Orange gem.,,,Citrine Gem
 Citrine Gem,This card provides 2 Orange gems.,,,
-Blue Extract,This card has a Blue Essence.,,,Blue Gem
 Blue Gem,This card provides a Blue gem.,,,Azurite Gem
 Azurite Gem,This card provides 2 Blue gems.,,,
 Prism Gem,This card provides a gem of any color.,,,Light Gem
