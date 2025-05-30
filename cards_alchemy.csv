@@ -100,7 +100,7 @@ Pylon Mason,Alchemy,Common,5 aether,1,2,"Pylon Carver, Made of Stone",,,Cultist 
 The Hexahedron,Alchemy,Common,1 aether + 3 flesh + 1 elexir,X,3,"Flesh Power, Bloodsucker, Eldritch Rift",,,Pylon Aberration Ceremorph,Just looking at it provokes headaches.,Mark,T,,,The Cube,,,
 Blimp Fortress,Alchemy,Common,6 metal,3,5,"Airborne, Bastion",,,Machine,A battleship in the sky.,Nobody,T,T,,,,,
 Sulphur,Alchemy,Common,3 aether + 2 metal + 1 flesh,2,2,"Bifurcated Strike, Burning",,,Cyborg Mutant,Everything is left burning in its wake.,Nobody,T,T,,,,,
-Bionic Hulk,Alchemy,Common,2 flesh + 2 elexir + 2 metal,4,3,"Guardian, Aquanaut",,Bionic Trait,Cyborg Mutant Machine,Won't let you touch the children.,Nobody,T,T,,,,,NULL
+Bionic Hulk,Alchemy,Common,2 flesh + 2 elexir + 2 metal,4,3,"Guardian, Aquanaut",,Bionic Trait,Cyborg Mutant Machine,Won't let you touch the children.,Nobody,T,T,,,,,
 Jaw Leviathan,Alchemy,Common,3 elexir + 4 flesh,3,5,"Burrower, Counter Strike",,,Mutant Reptile,Its maw can crush anything. Anything.,Mark,T,,,,,,
 Mutant,Alchemy,Common,3 aether + 2 elexir + 2 flesh,0,6,"Neck Snapper, Chemical Stimulant",,,Mutant Experiment,"Unnervingly docile, until it snaps.",Desaft,T,,,,,T,
 Shielded Clockwork,Alchemy,Common,5 metal + 2 elexir,1,6,"Taunt, Ironclad",,,Android Construct,"The giant of iron, ultimate protector.",Nobody,T,T,,,,,
@@ -127,7 +127,7 @@ Heavy Cyborg,Alchemy,Uncommon,3 metal + 3 flesh,2,6,On Cue,,,Cyborg Outlaw,Do no
 Alhoon,Alchemy,Uncommon,1 prism + 1 shattered prism,1,3,Arcane Refinement,,,Ceremorph Mage,Great is the cost of forbidden magicks.,Desaft,T,,,,,,
 Mycobot,Alchemy,Uncommon,10 energy,3,1,"Assimilator, Ticking",,,Polyp Bot Experiment,Two into one.,Pixel Profligate,T,,,,,,
 Securitron,Alchemy,Rare,2 aether + 3 metal,0,3,"Spotlight, Rampager",,Securitron Trait,Bot Machine Experiment,Core of the watchtower's security.,Carpengizmat,T,T,,,,,
-Mutating Mass,Alchemy,Rare,free,0,1,"Repulsive, Labile Evolution",,,Mutant Bot Experiment,"Limited potential, but interesting outcomes.",Nobody,T,,,,,,NULL
+Mutating Mass,Alchemy,Rare,free,0,1,"Repulsive, Labile Evolution",,,Mutant Bot Experiment,"Limited potential, but interesting outcomes.",Nobody,T,,,,,,
 Vat Creature,Alchemy,Rare,free,1,1,Sharp Quills,,,Experiment,Already picking fights.,Max the Odd,,,Vat Homunculus,,,,
 Vat Homunculus,Alchemy,Rare,free,2,2,Aggressive,,,Experiment,Its aggression is growing.,Max the Odd,,,Vat Abomination,,,,
 Vat Abomination,Alchemy,Rare,free,3,3,Snag,,,Experiment,"Soon, it will be unstoppable.",Max the Odd,,,Vat Horror,,,,
