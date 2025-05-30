@@ -50,7 +50,6 @@ Death Surge,"When this card perishes, gain 2 energy cells.",,,Death Surcharge
 Death Surcharge,"When this card perishes, gain 4 energy cells.",,,
 Discharge,"When this card kills another, gain an energy cell.",,,Surging Purge
 Surging Purge,"When an opposing card dies in combat, gain 1 energy cell.",T,,
-Soul Mangler,"When this card kills another, gain 2 energy cells.",,,
 Shock,"When struck, gain an energy cell.",,,Static
 Static,"When struck, gain 2 energy cells.",,,
 Dust Charge,"When your Mox cards die, gain an energy cell.",,,Skull Charge
@@ -85,6 +84,7 @@ Gem Transmuter,"Your mox cards can be sacrificed, and don't perish when shattere
 Lapis Holder,"After this card dies, the next card to enter its space will gain the [sigil:BlueGem] Blue Gem sigil.",,,Azur Lapis
 Azur Lapis,"After this card dies, the next card to enter its space will gain the [sigil:AzuriteGem] Azurite Gem sigil.",,,
 Magical Scraps,"Pay 3 bones to add a Side Deck Mox card of your choice to your hand.",,,
+Gem Salvage,"When this card kills another, add a Side Deck Mox card of your choice to your hand.",,,
 Rust Polish,"Pay 2 Metal to add a Side Deck Mox card of your choice to your hand.",,,
 Eldritch Power,"During your end step, gain 1 chemical.",T,,Eldritch Convergence
 Eldritch Convergence,"During your end step, gain 2 chemicals.",T,,Eldritch Portal
