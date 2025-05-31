@@ -165,7 +165,7 @@ Inverted Strike,"When attacking, this card hits the space reached by following a
 Cavalry,"This card also hits the space reached by following an L-shape from its position when it strikes.",T,,
 On Cue,"This card only attacks when adjacent cards strike.",T,,Clockwork
 Clockwork,"This card also attacks when adjacent cards strike.",T,,
-Sadism,"When this card kills another, it strikes that card's space again.",T,,Cruelty
+Sadism,"When this card kills another, it strikes that card's space.",T,,Cruelty
 Cruelty,"When this card kills another, it then strikes its adjacent spaces.",T,,
 Piercing,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded down.",T,,Empaling
 Empaling,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded up.",T,,
