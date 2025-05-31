@@ -151,7 +151,7 @@ Strange Pupa,Beast,Rare,1 blood,0,3,Fledgling,Mothman,,Insect,There is something
 Amalgam,Beast,Rare,2 blood,3,3,,,Amalgam Trait,All,Amalgam is all.,Pixel Profligate,T,Reliable,,,,
 Cockatrice,Beast,Rare,2 blood,1,3,"Transformer, Petrifying Gaze",Cockatrice_t,,Cryptid Avian Reptile,A terrible regent with a shrewd glare.,NEWS,T,"Defense, Removal",,,,
 Cockatrice_t,Beast,Rare,2 blood,1,3,"Transformer, Touch of Death",Cockatrice,,Cryptid Reptile Avian,Cunning and vitriol make a lethal bite.,NEWS,,"Defense, Removal",,,,
-Hodag,Beast,Rare,2 blood,1,3,"Bloodlust, Bloodsucker",,,Cryptid,"A fearsome, hellacious creature.",Pixel Profligate,T,Reliable,,,,
+Hodag,Beast,Rare,2 blood,1,5,"Bloodlust, Swapper",,,Cryptid,"A fearsome, hellacious creature.",Pixel Profligate,T,Reliable,,,,
 Kelpie,Beast,Rare,2 blood,2,1,"Lurking, Hefty",,,Hooved Fish,It will drag you dead in the water.,Mark,T,Defense,,,,
 Ouroboros,Beast,Rare,2 blood,1,1,"Unkillable, Unending",,,Reptile Cryptid,It will always return.,Pixel Profligate,T,Reliable,,,,
 Pack Rat,Beast,Rare,2 blood,2,2,Trinket Bearer,,,Vermin,A prudent rat bearing trinkets.,Pixel Profligate,T,"Reliable, Utility",,,,
