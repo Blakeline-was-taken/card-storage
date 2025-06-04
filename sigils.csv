@@ -255,11 +255,12 @@ Unending,"When this card dies, it gains 1 base power and health, up to 5. When t
 Backup,"When this card dies, a copy is added to your hand.",T,,
 Brood Parasite,"When played, a ""Broken Egg"" is placed in the opposing space.",T,,Brooding
 Brooding,"When played, a ""Broken Egg"" is placed in the opposing space or a ""Raven Egg"" is added to your hand.",T,,
-Sprinter,"During your end step, this card moves to an adjacent space.",T,,Hefty
+Sprinter,"During your end step, this card moves to an adjacent empty space.",T,,Hefty
 Clinger,"When you place a card, this card goes to the closest space between them.",T,,Switch In
 Switch In,"When you place a card, this card swaps positions with it.",T,,
 Hefty,"During your end step, this card moves to an adjacent space, pushing other cards in its way.",T,,Rampager
 Rampager,"During your end step, this card swaps places with an adjacent space.",T,,Hopper
+Trample,"During your end step, this card moves to an adjacent space. If a card is in its way, it kills it and gains 1 power."
 Hopper,"During your end step, this card moves to an empty space.",T,,Warper
 Warper,"During your end step, this card swaps places with another space.",T,,Teleport
 Wary,"When a card is played opposing this one, this card swaps places with any space on your side of the field.",T,,
