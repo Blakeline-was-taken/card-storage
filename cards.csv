@@ -134,7 +134,7 @@ Tatzel,Beast,Uncommon,2 blood,3,1,"Waterborne, Piercing",,,Fish,The ultimate sea
 Lammergeier,Beast,Uncommon,3 blood,X,4,"Airborne, Scattered Bones",,,Avian,A horrific bird with a peculiar diet.,Pixel Profligate,T,Offense,,,,
 Dung Beetle,Beast,Uncommon,2 bones,1,1,"Hefty, Stinky",,,Insect,"Quite strong, despite its meager size.",Pixel Profligate,T,Defense,,,,
 Cockroach,Beast,Uncommon,4 bones,1,1,Unkillable,,,Insect,"An immortal, persistent nuisance.",Pixel Profligate,T,Reliable,,,,
-Hyena,Beast,Uncommon,6 bones,1,2,"Swarm, Scrounger",,,Canine,A gnarly yet cowardly scavenger.,"Faycel, Mark",T,"Reliable, Resource",,,,
+Slug,Beast,Uncommon,1 blood,0,3,Gooey,,Boneless,,"It may look innocent, but don't touch it.",Nobody,T,Defense,,,,
 Zen Panda,Beast,Uncommon,7 bones,0,5,Scalebound,,,,It won't let peace and love be tarnished.,Faycel,T,Defense,,,,
 Geck,Beast,Rare,free,1,1,,,,Reptile,"Uninspiring, but charming despite it all.",Pixel Profligate,T,Reliable,,,,
 Ijiraq,Beast,Rare,free,3,1,"Repulsive, Imposture",,,Cryptid,Its true appearance is... horrifying.,Pixel Profligate,T,"Reliable, Offense",,,,
