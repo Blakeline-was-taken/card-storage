@@ -260,7 +260,7 @@ Clinger,"When you place a card, this card goes to the closest space between them
 Switch In,"When you place a card, this card swaps positions with it.",T,,
 Hefty,"During your end step, this card moves to an adjacent space, pushing other cards in its way.",T,,Rampager
 Rampager,"During your end step, this card swaps places with an adjacent space.",T,,Hopper
-Trample,"During your end step, this card moves to an adjacent space. If a card is in its way, it kills it and gains 1 power."
+Trample,"During your end step, this card moves to an adjacent space. If a card is in that space, it perishes and this card gains 1 power."
 Hopper,"During your end step, this card moves to an empty space.",T,,Warper
 Warper,"During your end step, this card swaps places with another space.",T,,Teleport
 Wary,"When a card is played opposing this one, this card swaps places with any space on your side of the field.",T,,
@@ -532,6 +532,7 @@ Eldritch Conduit,"During your draw step, you may set one chemical's value per ca
 Activation Conduit,"Cards played between this and another Conduit card trigger their activated ability once for free.",,,Spam Conduit
 Spam Conduit,"Cards played between this and another Conduit card trigger their activated ability twice for free.",,,
 Conduit Relay,"If you control another Conduit card, all your other cards are considered to be between them.",T,,Energizer
+Radiowave,"The card you control with the most spaces between it and this card counts as a Conduit card.",T,,
 Powered,"This card always counts as being between two Conduit cards.",T,,Capacitor
 Capacitor,"Adjacent cards count as being between two Conduit cards.",T,,Energizer
 Gem Cable,"Your Mox cards count as Conduit cards.",,,Energizer
