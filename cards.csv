@@ -277,7 +277,7 @@ Shade,Undead,Common,4 max,1,1,"Lingering, Haunter",,,Spectre,Its always able to 
 Tsukumogami,Undead,Common,4 max,0,1,"Mass Grave, Haunter",,,Possessed,A tool that's lived for a century.,Murigen,T,Resource,,,,
 Bone Shadow,Undead,Common,5 max,3,1,Spiteful,,,Skeleton Spectre Demon,Ruthlessly tries to rekindle itself.,Blakeline,T,"Resource, Offense",Bone Devil,,,
 Wraith,Undead,Uncommon,5 max,2,1,"Touch of Death, Haunter",,,Spectre,An inescapable harbinger of death.,Murigen,T,Removal,The Reaper,,,
-Ghost Train,Undead,Common,8 max,0,7,"Trample, Poisonous",,,Spectre Construct,Hear the choo choo of death.,Nobody,T,Offense,,,
+Ghost Train,Undead,Common,8 max,0,7,"Trample, Poisonous",,,Spectre Machine,Hear the choo choo of death.,Nobody,T,Offense,,,
 Iconoclasm,Undead,Common,7 max,2,2,"Leader, Counter Strike",,,Aberration Spectre,You can't kill an idea.,Murigen,T,"Support, Offense",,,,
 Cadaver Rat,Undead,Common,1 blood,1,1,"Corpse Eater, Bone Digger",,,Vermin Zombie,A corpse within a corpse.,Pixel Profligate,T,Resource,,,,
 Pumpkling,Undead,Common,1 blood,1,1,"Spiteful, Rooted",,,Possessed,Preys always end up completely drained.,Murigen,T,Resource,Blazing Jack,,,
