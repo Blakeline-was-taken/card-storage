@@ -150,6 +150,7 @@ Aquanaut,"This card ignores any changes to the target of its strikes.",T,,Subnau
 Subnautics,"When the target of this card's strikes is changed, it will also hit its original target.",,,
 Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
 Strong Venom,"When this card damages another, that card is discarded.",T,,
+Snapshot,"When played, the opposing card is removed from the field and added to your hand.",T,,
 Bifurcated Strike,"When attacking, this card strikes both spaces adjacent to the opposing space.",T,,Trifurcated Strike
 Trifurcated Strike,"When attacking, this card strikes the opposing space and the spaces adjacent to it.",T,,Omnistrike
 Omnistrike,"When attacking, if there are opposing cards, this card strikes all of them.",T,,Wiping Strike
@@ -583,7 +584,6 @@ Illusion Dust,"During your end step, this card makes your other cards believe it
 Pay Tribute,"You may sacrifice a card to gain bones equal to its base health. It then perishes, and this card gains 1 power.",T,,
 Wood Sculpting,"When played, you may switch your totem for another one.",T,,
 Burden,"This card can only be removed from your deck by exchanging it.",T,,
-Snapshot,"When played, a card on the field is discarded.",,,
 Grim Epitaph,"When played, search a card from your discard and place it on your field.",,,
 Particle Scan,"When played, a copy of an opposing card is placed on your field.",,,
 Magickal Bleach,"When played, choose any card on the field. It will lose its sigils.",,,
