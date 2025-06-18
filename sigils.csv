@@ -517,6 +517,7 @@ Null Conduit,"This card counts as a Conduit card.",T,,
 Pure Conduit,"Cards between this and another Conduit card nullify the sigils of their opposing card.",T,,
 Attack Conduit,Cards between this and another Conduit card have 1 more power.,T,,Power Conduit
 Power Conduit,Cards between this and another Conduit card have 2 more power.,T,,
+Aim Conduit,Cards between this and another Conduit card may target any opposing space when they strike.,T,,
 Overclock Conduit,"Cards between this and another Conduit card have 2 more power, but you take 2 damage when they perish.",T,,
 Turret Conduit,"When a card enters the opposing space of your Conduit cards or of cards between them, it is dealt 1 damage.",T,,
 Heal Conduit,"During your end step, cards between this and another Conduit card gain 1 health, up to 5.",T,,Soul Conduit
