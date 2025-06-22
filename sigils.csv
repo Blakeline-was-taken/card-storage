@@ -169,8 +169,8 @@ On Cue,"This card only attacks when adjacent cards strike.",T,,Clockwork
 Clockwork,"This card also attacks when adjacent cards strike.",T,,
 Sadism,"When this card kills another, it strikes that card's space.",T,,Cruelty
 Cruelty,"When this card kills another, it then strikes its adjacent spaces.",T,,
-Piercing,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded down.",T,,Empaling
-Empaling,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded up.",T,,
+Piercing,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded down.",T,,Impaling
+Impaling,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded up.",T,,
 Aggressive,"When placed, the opposing card is struck for 1 damage.",T,,Opportunist
 Opportunist,"When placed, this card immediately strikes the opposing space.",T,,Strategic
 Strategic,"When placed, this card immediately strikes any opposing space.",T,,
