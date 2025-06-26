@@ -170,6 +170,25 @@
     </div>
   </form>
   
+  <div id="deck-builder">
+    <div class="deck-header">
+      <h2>Your Deck (<span id="deck-count">0</span>)</h2>
+      <button id="toggle-deck">−</button>
+    </div>
+    <div id="deck-body">
+      <div id="deck-container"></div>
+      <button id="export-deck-btn">Export Deck</button>
+    </div>
+  </div>
+
+  <div id="export-popup" class="hidden">
+    <div id="export-popup-content">
+      <span id="export-close">&times;</span>
+      <h3>Deck Export</h3>
+      <textarea id="export-textarea" readonly></textarea>
+      <button id="copy-deck-btn">Copy Deck</button>
+    </div>
+  </div>
 
   <div id="card-count"></div>
 

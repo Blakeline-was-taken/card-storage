@@ -13,6 +13,9 @@ let selectedTribes = [];
 let selectedRoles = [];
 let selectedArtists = [];
 
+let deck = [];
+let deckVisible = true;
+
 // ========== INIT ==========
 
 fetch("../../cards.csv")
@@ -704,6 +707,18 @@ const CardDisplay = {
       
         popup.classList.remove("hidden");
       });
+      const addButton = document.createElement("button");
+      addButton.textContent = "+";
+      addButton.className = "add-to-deck-btn";
+      addButton.style.display = deckVisible ? "block" : "none";
+
+      addButton.addEventListener("click", (e) => {
+        e.stopPropagation();
+        addToDeck(card);
+      });
+
+      div.style.position = "relative";
+      div.appendChild(addButton);
     });
 
     document.getElementById("card-count").textContent = `${cards.length} card(s) found`;
@@ -740,3 +755,80 @@ function showTooltip(text) {
 function hideTooltip() {
   tooltip.classList.add("hidden");
 }
+
+function addToDeck(card) {
+  if (deck.length >= 40) return alert("Deck full (40 max)");
+  deck.push(card);
+  renderDeck();
+}
+
+function removeFromDeck(index) {
+  deck.splice(index, 1);
+  renderDeck();
+}
+
+function renderDeck() {
+  const deckContainer = document.getElementById("deck-container");
+  const deckCount = document.getElementById("deck-count");
+  deckContainer.innerHTML = "";
+  deck.forEach((card, i) => {
+    const div = document.createElement("div");
+    div.className = "deck-card";
+
+    const img = document.createElement("img");
+    const name = card["Card Name"];
+    const temple = card.Temple || "Unknown";
+    const tier = card.Tier || "Unknown";
+    const isDraftable = card.Draftable !== "";
+    const folder = (!isDraftable && tier !== "Side Deck" && tier !== "Talking" && temple !== "Terrain") ? "Not Draftable" : tier;
+
+    img.src = `../../cards/${temple}/${folder}/${name}.png`;
+    img.alt = name;
+    div.appendChild(img);
+
+    const removeBtn = document.createElement("button");
+    removeBtn.textContent = "−";
+    removeBtn.className = "remove-btn";
+    removeBtn.addEventListener("click", () => removeFromDeck(i));
+    div.appendChild(removeBtn);
+
+    deckContainer.appendChild(div);
+  });
+  deckCount.textContent = deck.length;
+}
+
+document.getElementById("export-deck-btn").addEventListener("click", () => {
+  const popup = document.getElementById("export-popup");
+  const textarea = document.getElementById("export-textarea");
+  const names = deck.map(card => card["Card Name"]);
+  textarea.value = JSON.stringify(names, null, 2);
+  popup.classList.remove("hidden");
+});
+
+document.getElementById("export-close").addEventListener("click", () => {
+  document.getElementById("export-popup").classList.add("hidden");
+});
+
+document.getElementById("export-popup").addEventListener("click", (e) => {
+  if (e.target === e.currentTarget) {
+    document.getElementById("export-popup").classList.add("hidden");
+  }
+});
+
+document.getElementById("copy-deck-btn").addEventListener("click", () => {
+  const textarea = document.getElementById("export-textarea");
+  textarea.select();
+  textarea.setSelectionRange(0, 99999); // mobile support
+  document.execCommand("copy");
+});
+
+document.getElementById("toggle-deck").addEventListener("click", () => {
+  deckVisible = !deckVisible;
+
+  document.getElementById("deck-body").style.display = deckVisible ? "block" : "none";
+  document.getElementById("toggle-deck").textContent = deckVisible ? "−" : "+";
+
+  document.querySelectorAll(".add-to-deck-btn").forEach(btn => {
+    btn.style.display = deckVisible ? "block" : "none";
+  });
+});

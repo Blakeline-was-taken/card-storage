@@ -298,3 +298,161 @@ button#reset-filters:hover {
 #custom-tooltip.hidden {
   display: none;
 }
+
+#deck-builder {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 1rem;
+  border: 3px solid #aaa;
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+#deck-builder h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#deck-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.deck-card {
+  position: relative;
+  width: 120px;
+}
+
+.deck-card img {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.deck-card .remove-btn {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 1rem;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+#export-deck-btn {
+  display: block;
+  margin: 1rem auto 0 auto;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: #0074D9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#export-deck-btn:hover {
+  background: #005fa3;
+}
+
+#export-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+}
+
+#export-popup.hidden {
+  display: none;
+}
+
+#export-popup-content {
+  background: #1a1a1a;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+}
+
+#export-popup-content h3 {
+  margin-top: 0;
+}
+
+#export-popup-content textarea {
+  width: 100%;
+  height: 300px;
+  background: #333;
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 6px;
+  padding: 1rem;
+  font-family: monospace;
+  resize: none;
+}
+
+#export-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#copy-deck-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#copy-deck-btn:hover {
+  background-color: #218838;
+}
+
+.deck-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#toggle-deck {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  line-height: 1;
+}
+
+.add-to-deck-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-weight: bold;
+}
