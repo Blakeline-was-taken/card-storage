@@ -133,7 +133,7 @@ Addict,"During your end step, this card loses 1 health unless you spend 3 energy
 Dust Eater,"During your end step, this card loses 1 health unless you shatter a card.",,,
 Desecration,"When played, search a card from your deck and discard it.",T,,
 Power Leak,"When this card perishes, lose an energy cell.",,,Blackout
-Blackout,"When this card perishes, lose 2 energy.",,,
+Blackout,"When this card perishes, deplete 2 energy cells.",,,
 Delete,"When this card dies, shuffle the cards in your hand back to their decks.",T,,Defiler
 Defiler,"When this card dies, discard the top card of your deck.",T,,Desecration
 Dead Byte,"When killed, search and discard a card from your deck, then deal its health worth of damage directly.",T,,
@@ -172,7 +172,7 @@ Cruelty,"When this card kills another, it then strikes its adjacent spaces.",T,,
 Piercing,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded down.",T,,Impaling
 Impaling,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded up.",T,,
 Aggressive,"When placed, the opposing card is struck for 1 damage.",T,,Opportunist
-Opportunist,"When placed, this card immediately strikes the opposing space.",T,,Strategic
+Opportunist,"When placed, this card immediately strikes the opposing card.",T,,Strategic
 Strategic,"When placed, this card immediately strikes any opposing space.",T,,
 Sentry,"When a card enters the opposing space, it is dealt 1 damage.",T,,Armed Sentry
 Armed Sentry,"When a card enters the opposing space, it is dealt 2 damage.",T,,
@@ -197,7 +197,7 @@ Bomber,"When played, all other cards on the board are dealt 5 damage.",T,,
 Burning,"During your end step, this card takes 1 damage. A card striking or damaged by this card gains [sigil:Burning] Burning.",T,,Pyromania
 Firestarter,"This card gives [sigil:Burning] Burning to the cards it damages. It cannot gain [sigil:Burning] Burning.",T,,Pyromania
 Pyromania,"A card striking or damaged by this card gains [sigil:Burning] Burning but this card cannot gain [sigil:Burning] Burning.",,,
-Heat Wave,"Opposing cards gain [sigil:Burning] Burning when they are placed on the field. This card cannot gain [sigil:Burning] Burning.",T,,
+Heat Wave,"Opposing cards gain [sigil:Burning] Burning when they are placed on the field.",T,,
 Detonator,"When this card dies, it deals 10 damage to the cards around it.",T,,Deathtrap
 Tactical Nuke,"You may shatter a card to deal 10 damage to the cards around it.",T,,
 Gem Detonator,"When your Mox cards perish, they deal 10 damage to the cards around them.",,,Gem Trap
