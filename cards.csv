@@ -453,7 +453,7 @@ The Cube,Tech,Common,2 max + 8 energy,X,1,"Convalesce, CELL_Sharp Quills, Health
 Mecha Warrior,Tech,Common,3 max + 8 energy,2,3,"Double Strike, Warper",,,Android Knight,An ultra high-power model.,Murigen,T,Reliable,,,,
 Security System,Tech,Common,2 max + 9 energy,0,5,"Turret Conduit, Offense Upgrade",,,Pylon Conduit Machine,Makes its routine virus scan.,Murigen,T,"Defense, Support, Conduit",,,,
 Supervisor,Tech,Common,12 energy,3,4,"Spotlight, Restructure",,,Worker Android,Prowls factories searching intruders.,Murigen,T,"Reliable, Utility, Support",,,,
-Pon,Tech,Common,1 prism,1,1,"Sprinter, Split Strike",,,Chess Bot,"Weak, but brimming with potential.",Desaft,T,Reliable,,,,
+Pon,Tech,Common,1 prism,1,1,"Sprinter, Split Strike",,,Chess Bot,"Weak, but brimming with potential.",Mark,T,Reliable,,,,
 B0D-Y,Tech,Common,1 emerald,1,1,Convalesce,,,Bot,Held together by grime and duct tape.,Mark,T,Defense,,,,
 W1LL-0,Tech,Common,1 ruby,1,1,Sentry,,,Bot,"Built for computing, wired for war.",Mark,T,Defense,,,,
 M1-ND,Tech,Common,1 sapphire,1,1,Battery Bearer,,,Bot,Streamlined for a sharper future.,Mark,T,Resource,,,,
