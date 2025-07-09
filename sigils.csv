@@ -19,10 +19,6 @@ Bone Digger,"During your end step, gain 1 bone.",T,,Tomb Digger
 Tomb Digger,"During your end step, gain 2 bones.",T,,Mass Grave
 Mass Grave,"During your end step, gain 3 bones.",T,,Digger King
 Digger King,"During your end step, gain 4 bones.",,,
-Excavator,"When you gain energy cells, gain 1 bone.",,,Drill
-Drill,"When you gain energy cells, gain 2 bones.",,,
-Necromancy,"During your end step, gain 1 bone per Mox card you control.",,,Skullmancy
-Skullmancy,"During your end step, gain 2 bones per Mox card you control.",,,
 Scrounger,"When this card kills another, gain 1 bone.",T,,Spiteful
 Spiteful,"When this card kills another, gain 2 bones.",T,,Skull Taker
 Skull Taker,"When this card kills another, gain 3 bones.",T,,Spine Ripper
@@ -167,6 +163,7 @@ Inverted Strike,"When attacking, this card hits the space reached by following a
 Cavalry,"This card also hits the space reached by following an L-shape from its position when it strikes.",T,,
 On Cue,"This card only attacks when adjacent cards strike.",T,,Clockwork
 Clockwork,"This card also attacks when adjacent cards strike.",T,,
+Gem Clock,"This card attacks once per mox card you control.",,,
 Sadism,"When this card kills another, it strikes that card's space.",T,,Cruelty
 Cruelty,"When this card kills another, it then strikes its adjacent spaces.",T,,
 Piercing,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded down.",T,,Impaling
@@ -471,6 +468,8 @@ Sparkling Dust,"You may shatter a card to make this card gain 1 power, up to 5."
 Arcane Blessing,"Once per turn, you may discard a card in your hand or field to make a card gain 1 power.",T,,
 Turbocharge,"Pay 3 energy to add [sigil:Overclocked] Overclock to a card you control that doesn't have it.",T,,
 Convalesce,"During your end step, this card gains 1 health, up to 5.",T,,Whimsical Healer
+Gemagnify,"During your end step, this card gains 1 health per mox card you control, up to 5.",,,Gem Healing
+Gem Healing,"During your end step, this card gains 1 health per mox card you control.",,,
 Reinforce,"During your end step, one of your other cards gains 1 health, up to its base health.",T,,Healthcare
 Healthcare,"During your end step, heal one of your other cards up to its base health.",T,,
 Whimsical Healer,"During your end step, a card of your choice gains 1 health, up to 5.",,,Health Boost
@@ -596,3 +595,4 @@ I Doth Decree,"Your cards have no maximum power or health.",T,,
 Swift Play,"This card can only be played during any step of your opponent's turn.",T,,Omniplay
 Omniplay,"This card can be played at any step during either turn.",T,,
 Steal,"When killed in combat, your opponent loses 2 bones.",T,,
+?????,"???? ???? ????? ??? ??????, ????????? ???????.",T,,
