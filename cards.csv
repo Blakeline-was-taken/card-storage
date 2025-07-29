@@ -302,7 +302,7 @@ Librarian,Undead,Uncommon,7 bones,1,2,"Hoarder, Memoriam",,,Skeleton Cultist,The
 Nachzehrer,Undead,Uncommon,7 bones,2,1,"Bloodsucker, Bloodlust",,,Zombie,Consuming whatever carrion it can find.,Pixel Profligate,T,Reliable,,,,
 Spine Wyrm,Undead,Uncommon,8 bones,3,2,"Sharp Quills, Loose Bones",,,Skeleton Reptile,A monstrous force of ivory.,Pixel Profligate,T,"Reliable, Resource",,,,
 Wight,Undead,Uncommon,8 bones,2,2,Legion,,,Zombie,"A venerable commander, more so in death.",Murigen,T,"Reliable, Utility",,,,
-Abyss Watcher,Undead,Uncommon,9 bones,2,2,"Double Strike, Piercing",,,Ancient Zombie,Guardians of unknowable depths.,"Murigen, Ixams",T,"Offense, Utility",,,,
+Abyss Watcher,Undead,Uncommon,9 bones,2,2,"Double Strike, Piercing",,,Ancient Zombie,Guardians of unknowable depths.,"Murigen, Ixams",T,Offense,,,,
 Creaking Skull,Undead,Uncommon,9 bones,3,4,"Bone King, Mighty Leap",,,Skeleton,Bones rattle in the night.,Murigen,T,"Reliable, Resource",Gashadokuro,,,
 Abomination,Undead,Uncommon,10 bones,1,7,"Attack Conduit, Stinky",,,Zombie Conduit Construct,Cobbled together from skin and bone.,Pixel Profligate,T,Conduit,,,,
 Powder Kelly,Undead,Uncommon,10 bones,2,1,Bomber,,,Skeleton Pirate,Landlubbers beware and crew take cover!,NEWS,T,"Removal, Offense",,,,
