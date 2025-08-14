@@ -487,7 +487,7 @@ Split Cell,Tech,Uncommon,8 energy,0,3,"Circuit Buff, CELL_Bifurcated Strike",,,C
 8r4zen Hot 4ir,Tech,Uncommon,1 max + 8 energy,3,5,"Rampager, Burning",,,Hooved Mechabeast,Little to nothing is left in their wake.,NEWS,T,"Offense, Removal",,,,
 Over-Technician,Tech,Uncommon,9 energy,1,4,"Attack Conduit, Turbocharge",,,Conduit Skeleton Android,"High voltage, high efficiency, high risk.",NEWS,T,Conduit,,,,
 Gems Conduit,Tech,Uncommon,10 energy,0,5,"Gem Conduit, Prism Gem",,,Mox Conduit,A device that turns electricity into magic.,Mark,T,"Mox, Conduit",,,,
-Gr1zz,Tech,Uncommon,10 energy,0,5,"Transformer, Resonance",Gr1zz_t,Gr1zz Trait,Mechabeast,"A true beast, replicated by machinery.",Pixel Profligate,T,Offense,,,,
+Gr1zz,Tech,Uncommon,10 energy,0,5,"Transformer, Resonance",Gr1zz_t,,Mechabeast,"A true beast, replicated by machinery.",Pixel Profligate,T,Offense,,,,
 Gr1zz_t,Tech,Uncommon,10 energy,4,5,"Transformer, Aquanaut",Gr1zz,,Mechabeast,"A true beast, replicated by machinery.",NEWS,,Offense,,,,
 Very Big L33pbot,Tech,Uncommon,2 max + 10 energy,2,5,"Mighty Leap, Sentry, Poisonous",,,Leep Machine,"Clunky, inefficient, and reeks of fumes.",Murigen,T,Defense,,,,
 Plasma Jimmy,Tech,Rare,2 energy,0,3,Head Shot,,,Bot,"Shoots on command, without hesitation.",Pixel Profligate,T,Removal,,,,
