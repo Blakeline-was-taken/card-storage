@@ -576,6 +576,7 @@ Vicious Mockery,"If this card is played opposing a card, it mimics its stats and
 Sigil Eater,"When this card kills another, that card's sigils replaces all sigils on this card, except for this one.",T,,Sigil Devourer
 Sigil Devourer,"When this card kills another, it gains that card's sigils.",T,,
 Transformation,"This card gains up to 3 sigils from the cards sacrificed to play it.",T,,
+Resonance,"When played, this card immediately triggers one of its other sigils.",T,,
 Reaction Replica,"When you play a card, it gets played a second time.",T,,Reaction Duplicata
 Reaction Duplicata,"When you play a card, it gets played two more times.",T,,
 Double Death,"When your cards die, they perish 1 more time.",T,,Triple Death
