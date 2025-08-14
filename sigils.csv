@@ -210,7 +210,7 @@ Dive Bomb,"You may sacrifice this card to damage equal to its health to any card
 Kamikaze,"During your draw step, this card moves to the opposing space where it perishes.",T,,
 Mighty Leap,"Damage dealt directly to its space is dealt to this card instead.",T,,Air Barrage
 Air Barrage,"This card's space cannot be dealt direct damage.",T,,
-Scalebound,"Any direct damage you recieve is dealt to this card instead.",T,,
+Scalebound,"When hit directly, if the scales are past your danger spot, you will only take 1 direct damage.",T,,
 High Up,"Damage dealt directly to this card's space is dealt to this card instead, and vice versa.",T,,
 Waterborne,Strikes targeting this card hit its space directly instead.,T,,Deep Dive
 Deep Dive,"You may make strikes targeting this card only target its space directly this turn.",T,,
@@ -576,7 +576,6 @@ Vicious Mockery,"If this card is played opposing a card, it mimics its stats and
 Sigil Eater,"When this card kills another, that card's sigils replaces all sigils on this card, except for this one.",T,,Sigil Devourer
 Sigil Devourer,"When this card kills another, it gains that card's sigils.",T,,
 Transformation,"This card gains up to 3 sigils from the cards sacrificed to play it.",T,,
-Resonance,"When played, this card immediately triggers one of its other sigils.",T,,
 Reaction Replica,"When you play a card, it gets played a second time.",T,,Reaction Duplicata
 Reaction Duplicata,"When you play a card, it gets played two more times.",T,,
 Double Death,"When your cards die, they perish 1 more time.",T,,Triple Death
