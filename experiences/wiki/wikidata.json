@@ -8,25 +8,25 @@
   "beast-temple": {
     "title": "Beast Temple",
     "description": "A detailed look at the Beast temple.",
-    "image": "../../../site_images/Beast.jpg",
+    "image": "../../site_images/Beast.jpg",
     "collections": ["Temples", "Beast"]
   },
   "undead-temple": {
     "title": "Undead Temple",
     "description": "A detailed look at the Undead temple.",
-    "image": "../../../site_images/Undead.jpg",
+    "image": "../../site_images/Undead.jpg",
     "collections": ["Temples", "Undead"]
   },
   "tech-temple": {
     "title": "Tech Temple",
     "description": "A detailed look at the Tech temple.",
-    "image": "../../../site_images/Tech.jpg",
+    "image": "../../site_images/Tech.jpg",
     "collections": ["Temples", "Tech"]
   },
   "magick-temple": {
     "title": "Magick Temple",
     "description": "A detailed look at the Magick temple.",
-    "image": "../../../site_images/Magick.jpg",
+    "image": "../../site_images/Magick.jpg",
     "collections": ["Temples", "Magick"]
   },
   "leshy": {
