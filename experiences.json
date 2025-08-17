@@ -4,6 +4,11 @@
   "image": "site_images/card_visualiser.jpg",
   "link": "experiences/card-visualiser/visualiser_index.html"
 },{
+  "title": "Campaign Wiki",
+  "description": "A wiki for the campaign, with articles about characters, locations, and more.",
+  "image": "site_images/wiki.jpg",
+  "link": "experiences/wiki/wiki_index.html"
+},{
   "title": "Card Classifier",
   "description": "Choose the cards you'd pick at a card draw and see which ones you picked the least.",
   "image": "site_images/card_classifier.jpg",

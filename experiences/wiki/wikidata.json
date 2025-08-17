@@ -1,0 +1,207 @@
+{
+  "article-exemple": {
+    "title": "Example Article",
+    "description": "A demo article to showcase the wiki structure.",
+    "image": "images/example.jpg",
+    "collections": []
+  },
+  "beast-temple": {
+    "title": "Beast Temple",
+    "description": "A detailed look at the Beast temple.",
+    "image": "../../../site_images/Beast.jpg",
+    "collections": ["Temples", "Beast"]
+  },
+  "undead-temple": {
+    "title": "Undead Temple",
+    "description": "A detailed look at the Undead temple.",
+    "image": "../../../site_images/Undead.jpg",
+    "collections": ["Temples", "Undead"]
+  },
+  "tech-temple": {
+    "title": "Tech Temple",
+    "description": "A detailed look at the Tech temple.",
+    "image": "../../../site_images/Tech.jpg",
+    "collections": ["Temples", "Tech"]
+  },
+  "magick-temple": {
+    "title": "Magick Temple",
+    "description": "A detailed look at the Magick temple.",
+    "image": "../../../site_images/Magick.jpg",
+    "collections": ["Temples", "Magick"]
+  },
+  "leshy": {
+    "title": "Leshy",
+    "description": "A detailed look at Leshy, the guardian of the Beast temple.",
+    "collections": ["Characters", "Beast", "Scrybes", "Bosses"]
+  },
+  "grimora": {
+    "title": "Grimora",
+    "description": "A detailed look at Grimora, the guardian of the Undead temple.",
+    "collections": ["Characters", "Undead", "Scrybes", "Bosses"]
+  },
+  "p03": {
+    "title": "P03",
+    "description": "A detailed look at P03, the guardian of the Tech temple.",
+    "collections": ["Characters", "Tech", "Scrybes", "Bosses"]
+  },
+  "magnificus": {
+    "title": "Magnificus",
+    "description": "A detailed look at Magnificus, the guardian of the Magick temple.",
+    "collections": ["Characters", "Magick", "Scrybes", "Bosses"]
+  },
+  "prospector": {
+    "title": "The Prospector",
+    "description": "A detailed look at The Prospector, a character of the Beast temple.",
+    "collections": ["Characters", "Beast", "Bosses"]
+  },
+  "angler": {
+    "title": "The Angler",
+    "description": "A detailed look at The Angler, a character of the Beast temple.",
+    "collections": ["Characters", "Beast", "Bosses"]
+  },
+  "trapper": {
+    "title": "The Trapper/Trader",
+    "description": "A detailed look at The Trapper and The trader, a double-faceted character of the Beast temple.",
+    "collections": ["Characters", "Beast", "Bosses"]
+  },
+  "woodcarver": {
+    "title": "The Woodcarver",
+    "description": "A detailed look at The Woodcarver, a character of the Beast temple.",
+    "collections": ["Characters", "Beast", "Bosses"]
+  },
+  "kaycee": {
+    "title": "Kaycee Hobbes",
+    "description": "A detailed look at Kaycee Hobbes, a character of the Undead temple.",
+    "collections": ["Characters", "Undead", "Bosses"]
+  },
+  "sawyer": {
+    "title": "Sawyer Patel",
+    "description": "A detailed look at Sawyer Patel, a character of the Undead temple.",
+    "collections": ["Characters", "Undead", "Bosses"]
+  },
+  "cornelius": {
+    "title": "Cornelius Timberton",
+    "description": "A detailed look at Cornelius Timberton The III, a character of the Undead temple.",
+    "collections": ["Characters", "Undead", "Bosses"]
+  },
+  "royal": {
+    "title": "Royal Domingues",
+    "description": "A detailed look at Royal Domingues, a character of the Undead temple.",
+    "collections": ["Characters", "Undead", "Bosses"]
+  },
+  "bone-lord": {
+    "title": "The Bone Lord",
+    "description": "A detailed look at the Bone Lord, a character of the Undead temple.",
+    "collections": ["Characters", "Undead"]
+  },
+  "inspector": {
+    "title": "The Inspector",
+    "description": "A detailed look at The Inspector, a character of the Tech temple.",
+    "collections": ["Characters", "Tech", "Bosses"]
+  },
+  "engineer": {
+    "title": "The Engineer",
+    "description": "A detailed look at The Engineer, a character of the Tech temple.",
+    "collections": ["Characters", "Tech", "Bosses"]
+  },
+  "melter": {
+    "title": "The Melter",
+    "description": "A detailed look at The Melter, a character of the Tech temple.",
+    "collections": ["Characters", "Tech", "Bosses"]
+  },
+  "dredger": {
+    "title": "The Dredger",
+    "description": "A detailed look at The Dredger, a character of the Tech temple.",
+    "collections": ["Characters", "Tech", "Bosses"]
+  },
+  "goobert": {
+    "title": "Goobert",
+    "description": "A detailed look at Goobert, a character of the Magick temple.",
+    "collections": ["Characters", "Magick", "Bosses"]
+  },
+  "amber": {
+    "title": "Amber",
+    "description": "A detailed look at Amber, a character of the Magick temple.",
+    "collections": ["Characters", "Magick", "Bosses"]
+  },
+  "lonely-wizard": {
+    "title": "Lonely Wizard",
+    "description": "A detailed look at Lonely Wizard, a character of the Magick temple.",
+    "collections": ["Characters", "Magick", "Bosses"]
+  },
+  "blank-sage": {
+    "title": "Blank Sage",
+    "description": "A detailed look at Blank Sage, a character of the Magick temple.",
+    "collections": ["Characters", "Magick", "Bosses"]
+  },
+  "mycologists": {
+    "title": "The Mycologists",
+    "description": "A detailed look at The Mycologists, an important character.",
+    "collections": ["Characters", "Lore"]
+  },
+  "rebecca": {
+    "title": "Rebecca",
+    "description": "A detailed look at Rebecca, a not-so-important character.",
+    "collections": ["Characters"]
+  },
+  "redacted": {
+    "title": "[REDACTED]",
+    "description": "A mysterious character with unknown details.",
+    "collections": ["Characters", "Lore"]
+  },
+  "old-data": {
+    "title": "Old Data",
+    "description": "The root of all evil.",
+    "collections": ["Lore"]
+  },
+  "moon": {
+    "title": "The Moon",
+    "description": "A celestial body with significant lore implications.",
+    "collections": ["Lore"]
+  },
+  "monuments": {
+    "title": "Ancient Monuments",
+    "description": "The epicenter of the world, bathed in mysterious glow.",
+    "collections": ["Areas", "Lore"]
+  },
+  "cabin": {
+    "title": "The Cabin",
+    "description": "The final area of the Beast temple, home to Leshy.",
+    "collections": ["Areas", "Beast"]
+  },
+  "crypt": {
+    "title": "The Crypt",
+    "description": "The final area of the Undead temple, home to Grimora.",
+    "collections": ["Areas", "Undead"]
+  },
+  "resplandant-bastion": {
+    "title": "Resplendant Bastion",
+    "description": "The final area of the Tech temple, home to P03.",
+    "collections": ["Areas", "Tech"]
+  },
+  "study": {
+    "title": "The Study",
+    "description": "The final area of the Magick temple, home to Magnificus.",
+    "collections": ["Areas", "Magick"]
+  },
+  "hut": {
+    "title": "The Hut",
+    "description": "A mysterious hut difficult to access, home to the Mycologists.",
+    "collections": ["Areas", "Lore"]
+  },
+  "story": {
+    "title": "Main Story",
+    "description": "A detailed look at the main story of the Campaign.",
+    "collections": ["Lore"]
+  },
+  "game": {
+    "title": "Game",
+    "description": "A detailed look at the actual game progression and mechanics.",
+    "collections": ["Gameplay"]
+  },
+  "challenges": {
+    "title": "Challenges",
+    "description": "A detailed look at the various challenges available in the game.",
+    "collections": ["Gameplay"]
+  }
+}
