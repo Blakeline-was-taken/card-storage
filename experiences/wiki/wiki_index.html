@@ -140,13 +140,12 @@
                     const key = node.getAttribute("page");
                     const article = data[key];
                     if (article) {
-                      const card = document.createElement("div");
+                      const card = document.createElement("a");
                       card.className = "card";
+                      card.href = `wiki_index.html?page=${key}`;
                       card.innerHTML = `
-                        <a href="wiki_index.html?page=${key}">
-                          ${article.image ? `<img src="${article.image}" alt="${article.title}">` : ""}
-                        </a>
-                        <h4><a href="wiki_index.html?page=${key}">${article.title}</a></h4>
+                        ${article.image ? `<img src="${article.image}" alt="${article.title}">` : ""}
+                        <h4>${article.title}</h4>
                         <p>${article.description || ""}</p>
                       `;
                       node.replaceWith(card);
