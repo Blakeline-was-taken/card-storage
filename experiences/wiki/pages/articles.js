@@ -20,12 +20,12 @@ export default function(container, bannerHtml) {
       // Sort articles by title
       articles.sort((a, b) => a.title.localeCompare(b.title));
 
-      // Group by first letter (ignorer "The " devant)
+      // Group by first letter (ignore "The ")
       const grouped = {};
       for (const art of articles) {
         let normalized = art.title.trim();
         if (normalized.toLowerCase().startsWith("the ")) {
-          normalized = normalized.slice(4); // enlève "The "
+          normalized = normalized.slice(4);
         }
         const letter = normalized[0].toUpperCase();
         if (!grouped[letter]) grouped[letter] = [];
@@ -34,12 +34,12 @@ export default function(container, bannerHtml) {
 
       const letters = Object.keys(grouped).sort();
 
-      // Générer le tableau invisible 2 colonnes
+      // Generate invisible table
       let html = `<table class="layout-table">`;
       for (let i = 0; i < letters.length; i += 2) {
         html += `<tr>`;
 
-        // Colonne gauche
+        // Left column
         const leftLetter = letters[i];
         html += `<td style="width:50%;">`;
         html += `<h2>${leftLetter}</h2><ul>`;
@@ -53,7 +53,7 @@ export default function(container, bannerHtml) {
         html += `</ul>`;
         html += `</td>`;
 
-        // Colonne droite
+        // Right column
         const rightLetter = letters[i + 1];
         if (rightLetter) {
           html += `<td style="width:50%;">`;
