@@ -260,6 +260,7 @@ Switch In,"When you place a card, this card swaps positions with it.",T,,
 Hefty,"During your end step, this card moves to an adjacent space, pushing other cards in its way.",T,,Rampager
 Rampager,"During your end step, this card swaps places with an adjacent space.",T,,Hopper
 Trample,"During your end step, this card moves to an adjacent space. If a card is in that space, it perishes and this card gains 1 power."
+Grave Hopper,"When another card you control perishes, this card moves to its space.",T,,Hopper
 Hopper,"During your end step, this card moves to an empty space.",T,,Warper
 Warper,"During your end step, this card swaps places with another space.",T,,Teleport
 Wary,"When a card is played opposing this one, this card swaps places with any space on your side of the field.",T,,
