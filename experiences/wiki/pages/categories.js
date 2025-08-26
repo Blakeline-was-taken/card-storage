@@ -1,7 +1,7 @@
 export default function(container, bannerHtml) {
   container.innerHTML = `<article>
     <h1 id="page-title">All Categories</h1>
-    <div class="card-gallery" id="categories-container"></div>
+    <div class="page-gallery" id="categories-container"></div>
   </article>` + bannerHtml;
 
   const categoriesContainer = container.querySelector("#categories-container");
@@ -27,11 +27,11 @@ export default function(container, bannerHtml) {
         );
 
         sortedCategories.forEach(col => {
-          const card = document.createElement("div");
-          card.className = "card";
-          card.innerHTML = `<h3><a href="wiki_index.html?page=categories&${col}">${col}</a></h3>
+          const page = document.createElement("div");
+          page.className = "page";
+          page.innerHTML = `<h3><a href="wiki_index.html?page=categories&${col}">${col}</a></h3>
                             <p>Check out all articls linked to "${col}".</p>`;
-          categoriesContainer.appendChild(card);
+          categoriesContainer.appendChild(page);
         });
       } else {
         // --- Print all articles from selected category ---
@@ -53,16 +53,16 @@ export default function(container, bannerHtml) {
         articles.sort((a, b) => a.title.localeCompare(b.title, undefined, {sensitivity: 'base'}));
 
         articles.forEach(article => {
-          const card = document.createElement("div");
-          card.className = "card";
-          card.innerHTML = `
+          const page = document.createElement("div");
+          page.className = "page";
+          page.innerHTML = `
             <a href="wiki_index.html?page=${article.key}">
               ${article.image ? `<img src="${article.image}" alt="${article.title}">` : ""}
             </a>
             <h4><a href="wiki_index.html?page=${article.key}">${article.title}</a></h4>
             <p>${article.description || ""}</p>
           `;
-          categoriesContainer.appendChild(card);
+          categoriesContainer.appendChild(page);
         });
       }
     })
