@@ -77,7 +77,7 @@
   "woodcarver": {
     "title": "The Woodcarver",
     "description": "A detailed look at The Woodcarver, a character of the Beast temple.",
-    "categories": ["Characters", "Beast", "Bosses"]
+    "categories": ["Characters", "Beast", "Bosses", "Modded"]
   },
   "kaycee": {
     "title": "Kaycee Hobbes",
@@ -92,7 +92,7 @@
   "cornelius": {
     "title": "Cornelius Timberton",
     "description": "A detailed look at Cornelius Timberton The III, a character of the Undead temple.",
-    "categories": ["Characters", "Undead", "Bosses"]
+    "categories": ["Characters", "Undead", "Bosses", "Modded"]
   },
   "royal": {
     "title": "Royal Domingues",
@@ -112,7 +112,7 @@
   "engineer": {
     "title": "The Engineer",
     "description": "A detailed look at The Engineer, a character of the Tech temple.",
-    "categories": ["Characters", "Tech", "Bosses"]
+    "categories": ["Characters", "Tech", "Bosses", "Modded"]
   },
   "melter": {
     "title": "The Melter",
@@ -142,7 +142,7 @@
   "blank-sage": {
     "title": "Blank Sage",
     "description": "A detailed look at Blank Sage, a character of the Magick temple.",
-    "categories": ["Characters", "Magick", "Bosses"]
+    "categories": ["Characters", "Magick", "Bosses", "Modded"]
   },
   "mycologists": {
     "title": "The Mycologists",

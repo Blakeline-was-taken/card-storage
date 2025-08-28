@@ -180,6 +180,11 @@
         .catch(err => {
           document.getElementById("page-content").innerHTML = `<p>Error : ${err}</p>`;
         });
+
+      function toggleTOC() {
+        const toc = document.querySelector('.toc');
+        toc.classList.toggle('collapsed');
+      }
     </script>
   </main>
 </div>

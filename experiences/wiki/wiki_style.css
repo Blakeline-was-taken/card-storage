@@ -3,6 +3,7 @@
 body { font-family: Arial, sans-serif; background-image: url("../../site_images/Default.jpg"); background-size: cover; color:#ddd; line-height:1.5; }
 a { color:#ffa44e; text-decoration:none; }
 a:hover { text-decoration:underline; }
+*[id] { scroll-margin-top: 70px; }
 
 /* HEADER */
 header { position:fixed; top:0; width:100%; background:#160f0f; color:#fff; padding:10px 20px; display:flex; align-items:center; justify-content:space-between; border-bottom:2px solid #342a2a; }
@@ -11,7 +12,7 @@ header nav a { margin:0 10px; color:#fff; font-weight:bold; }
 
 /* LAYOUT */
 .container { display:flex; margin:70px auto; max-width:1200px; }
-aside { width:220px; padding:10px; background:#291f1f; border:1px solid #342a2a; border-radius:5px; }
+aside { width:220px; padding:10px; background:#291f1f; border:1px solid #342a2a; border-radius:5px; position: sticky; top: 70px; height: fit-content; }
 main { flex:1; margin-left:20px; }
 
 /* SIDEBAR */
@@ -28,7 +29,7 @@ main h3 { margin-top:15px; margin-bottom:5px; color:#fff; }
 main p { margin-bottom:10px; }
 
 /* INFOBOX */
-.infobox { float:right; width:250px; margin:0 0 20px 20px; border:1px solid #342a2a; background:#291f1f; font-size:14px; }
+.infobox { float:right; width:250px; margin:0 0 20px 20px; border:1px solid #342a2a; background:#1d1515; font-size:14px; }
 .infobox th { background:#342a2a; padding:5px; text-align:left; color:#fff; }
 .infobox td { padding:5px; border-top:1px solid #342a2a; color:#ddd; }
 .infobox img { width:100%; }
@@ -112,3 +113,15 @@ code { font-family: monospace; }
 #search-results { display: none; position: absolute; top: 100%; left: 16%; width: 68%; overflow-y: auto; background: #342a2a; border: 1px solid #2f333d; border-radius: 5px; list-style: none; margin: 5px 0 0; z-index: 1000; }
 #search-results li { padding: 6px 12px; cursor: pointer; color: #ddd; }
 #search-results li:hover { background: #2f333d; }
+
+/* TABLE OF CONTENTS */
+.toc { border: 1px solid #342a2a; background-color: #1d1515; border-radius: 5px; padding: 10px 15px; margin: 15px 0; font-size: 0.95em; width:fit-content; min-width: 8.5em; }
+.toc h2 { margin: 0; font-size: 1.1em; color: #ffa44e; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none; }
+.toc h2:hover { color: #ffba6a; }
+.toc ol { margin: 10px 0 0 20px; padding: 0; }
+.toc li { margin: 4px 0; }
+.toc li a { color: #ffec9a; }
+.toc li a:hover { text-decoration: underline; }
+.toc.collapsed ol { display: none; }
+#toc-arrow { transition: transform 0.2s ease; }
+.toc.collapsed #toc-arrow { transform: rotate(-90deg); }
