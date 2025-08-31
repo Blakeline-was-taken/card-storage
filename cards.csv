@@ -165,9 +165,9 @@ The Daus,Beast,Rare,2 blood,2,2,Summon,Chime,,Hooved,Protective of the bells it 
 Wechuge,Beast,Rare,3 blood,2,2,"Bloodsucker, Life Donor, Hearty Offering",,,Cryptid,"It is not a cannibal, surprisingly.",Murigen,T,"Reliable, Resource",,,,
 Werewolf,Beast,Rare,3 blood,5,2,Aligning Stars,,,Canine Cryptid,Howling at the moon.,Mark,T,"Offense, Utility",,,,
 White Whale,Beast,Rare,3 blood,3,6,"Deep Dive, Piercing",,,Fish,Whalers go mad at the mere sight.,"Nevernamed, Murigen",T,Reliable,,,,
-Pelt Lice,Beast,Rare,4 blood,1,1,Pelt Pest,,,Pelt Insect,The worst part of the trade.,NEWS,T,Reliable,,,,
 Urayuli,Beast,Rare,4 blood,7,7,,,,Cryptid,This level of brutality needs no words.,Pixel Profligate,T,Offense,,,,
 Amoeba,Beast,Rare,2 bones,1,2,Amorphous,,,,"Always different, ever-changing.",Pixel Profligate,T,Reliable,,,,
+Long Elk,Beast,Rare,5 bones,1,2,"Spine Walker, Touch of Death",,,Hooved Skeleton,Words cannot describe this... creature.,Pixel Profligate,T,"Resource, Removal",,,,
 Snallygaster,Beast,Rare,10 bones,2,5,Omnistrike,,,Cryptid Avian Reptile,A hideous and lethal monstrosity.,Pixel Profligate,T,"Offense, Reliable",,,,
 Jackrabbit,Beast,Talking,1 blood,0,3,"Rabbit Hole, Battery Bearer, Bone Digger",Rabbit,,Vermin,"""Ah, young one! A pleasure to see you!""",Murigen,,Resource,,,,Prism
 Boobie,Beast,Talking,2 blood,2,1,"Hoarder, Waterborne",,,Avian,"""Maybe love is merrier as a bird...""",Mark,,Utility,,,,
@@ -322,7 +322,6 @@ Drowned Soul,Undead,Rare,3 bones,1,1,"Touch of Death, Waterborne",,,Spectre,A sh
 Tomb Robber,Undead,Rare,3 bones,0,2,Disentomb,,,Skeleton,A little investment goes a long way.,Pixel Profligate,T,Insight,,,,
 Dead Hand,Undead,Rare,4 bones,1,1,Handy,,,Zombie,"Not all there, but carries a boon.",Pixel Profligate,T,Insight,,,,
 Victor,Undead,Rare,4 bones,2,1,"Reanimate, Bone Digger",,,Zombie Conduit,"A true monster, men couldn't compare.",NEWS,T,Conduit,,,,
-Long Elk,Undead,Rare,5 bones,1,2,"Spine Walker, Touch of Death",,,Hooved Skeleton,Words cannot describe this... creature.,Pixel Profligate,T,"Resource, Removal",,,,
 Night Shifters,Undead,Rare,5 bones,0,5,"Mass Grave, Rotting",,,Worker,"Working the graveyard shift, together.","Yoyo, Lilith",T,Resource,,,,
 Necromancer,Undead,Rare,6 bones,1,2,"Double Death, Memoriam",,,Skeleton Wizard,"Back from the grave, if only briefly.",Pixel Profligate,T,"Resource, Utility",,,,
 Slinger's Soul,Undead,Rare,6 bones,3,1,Head Shot,,,Outlaw Spectre,A stalwart spirit sharpshooter.,Desaft,T,"Offense, Removal",,,,
