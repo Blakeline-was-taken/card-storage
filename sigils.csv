@@ -33,9 +33,7 @@ Bone King,"When this card perishes, gain 4 bones instead of 1.",,,Pile of Bones
 Pile of Bones,"When this card perishes, gain 8 bones instead of 1.",,,
 Memoriam,"When your other cards perish, gain 1 more bone.",T,,Commute
 Commute,"When your other cards perish, gain 2 more bones.",T,,
-Loose Bones,"During your end step, this card moves to an adjacent space, giving 1 bone.",,,Spine Walker
-Spine Walker,"During your end step, this card moves to an adjacent space, giving 2 bones.",T,,Spine Lord
-Spine Lord,"During your end step, this card moves to an adjacent space, giving 3 bones.",T,,
+Loose Bones,"During your end step, this card moves to an adjacent space, giving 1 bone.",,,
 Bonehorn,"Pay 1 energy to gain 1 bone.",T,,
 Bury,"Once per turn, you may discard a card in your hand or field to gain 3 bones.",T,,
 Battery Bearer,"When played, gain an energy cell.",,,Bank Bearer
@@ -252,7 +250,7 @@ Loose Limb,"Before being struck, this card moves to an adjacent space and leaves
 Lingering,"When this card dies, if you still have cards in your main deck, it is shuffled inside it instead of perishing.",T,,Unkillable
 Unkillable,"When this card dies, it returns to your hand instead of perishing.",T,,Immortal
 Unending,"When this card dies, it gains 1 base power and health, up to 5. When the battle ends, it loses 1 base power and health, down to 1.",T,,
-Backup,"When this card dies, a copy is added to your hand.",T,,
+Rebirth,"When this card dies, it takes its next form and returns to your hand instead of perishing.",T,,
 Brood Parasite,"When played, a ""Broken Egg"" is placed in the opposing space.",T,,Brooding
 Brooding,"When played, a ""Broken Egg"" is placed in the opposing space or a ""Raven Egg"" is added to your hand.",T,,
 Sprinter,"During your end step, this card moves to an adjacent empty space.",T,,Hefty
@@ -304,8 +302,7 @@ Imprison,"When played, choose another card you control and discard it. When this
 Resurrect,"When this card dies, search a card from your discard and place it in this space.",T,,
 Corpse Eater,"When a card you control perishes, if this card is in your hand, it is placed it in its space.",T,,Parasite
 Parasite,"When a card you control perishes, if this card is in your hand, you may place it in its space.",T,,
-Pelt Pest,"When you play a Pelt card, if this card is in your hand or deck, that Pelt card is destroyed, this card is placed in its space and it permanently gains 1 power and health.",T,,
-Post Mortem,"When this card dies, it changes form and regains its health.",T,,
+Apparition,"You can search and place this card from your deck or hand by saying its name 3 consecutive times and placing the scales one space away from death.",T,,
 Legion,"When played, search a common card from your discard and place it on your side for free.",T,,Army
 Army,"When played, search a card from your discard and place it on your side.",T,,
 Summon,"When played, up to 2 ""TOKEN"" cards are placed in adjacent spaces.",T,,Invoke
@@ -339,6 +336,7 @@ Frog Friend,"During your end step, this card moves to an adjacent space and leav
 Frog Crew,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a random Frog card behind.",T,,
 Wire Weaver,"During your end step, this card moves to an adjacent space and leaves a ""Null Conduit"" behind.",T,,Wire Carver
 Wire Carver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Null Conduit"" behind.",T,,
+Spine Walker,"During your end step, this card moves to an adjacent space and leaves a ""Vertebrae"" behind.",T,,
 Transmogutate,"Once per turn, you may sacrifice a card to place a Side Deck Mox card of your choice in its place.",,,
 Gift Bearer,"When this card dies, draw a card from your deck.",T,,Generosity Bearer
 Generosity Bearer,"When this card dies, draw two cards from your deck.",T,,Loaded
