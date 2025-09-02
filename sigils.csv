@@ -403,6 +403,7 @@ Equivalent Exchange,"Once per turn, exchange a card from your hand with one it s
 Colony,This card's power is the number of Ant cards you control.,T,T,
 Pylon Powered,This card's power is the number of Pylon cards you control.,T,T,
 Burden Power,"This card's power is the number of Pelt cards you control, including itself.",T,T,
+Loner,This card's power is the number of empty spaces on your side of the field.,T,T,
 Strong Hand,"This card's power is the size of your hand, up to 5.",T,T,
 Spilt Blood,"This card's power is the amount of blood you made this turn, up to 5.",T,T,
 Scattered Bones,"This card's power is half the number of unspent bones you own, rounded down and up to 5.",T,T,
@@ -547,7 +548,7 @@ Fuse Cover,"Strikes targeting Conduit cards you control are redirected to this c
 Breaker,"Your conduit cards cannot be struck.",T,,
 Enhanced Arcane,"If you provide 2 unique mox colors, this card has 1 more power.",,,Empowered Arcane
 Empowered Arcane,"If you provide 2 unique mox colors, this card has 2 more power.",,,
-Tribal Chant,"If this card shares a tribe with another card you control, it has 1 more power.",T,,
+Pack Mentality,"If this card shares a tribe with another card you control, it has 2 more power.",T,,
 Night of the Living Dead,Your cards cost 2 fewer bones and energy to play.,T,,Full Moon Night
 Full Moon Night,Your cards cost half their normal amount of bones and energy to play.,T,,
 Unseelie Authority,"When a non-Spectre card you control perishes, a 0-power Spectre card is placed in its place.",T,,
