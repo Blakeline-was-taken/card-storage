@@ -184,7 +184,7 @@ Skeleton,Undead,Side Deck,free,1,1,"Scrounger, Brittle, Bloodless",,,Skeleton,A 
 Boot,Undead,Common,free,0,2,Bloodless,,,,Lost equipment is scarce but useful.,Pixel Profligate,,Reliable,,,,
 Disturbed Grave,Undead,Common,free,0,1,"Fledgling, Unburial, Bloodless",Zombie,,Zombie Grave,They never stay dead for long.,Pixel Profligate,T,"Reliable, Resource",Zombie,,,
 Draugr,Undead,Common,free,0,1,"Frozen Away, Bloodless",Skeleton,,Skeleton Possessed,"Frozen in time, waiting for freedom.",Pixel Profligate,T,Reliable,,,,
-Guts,Undead,Common,free,0,2,"Stinky, Rotting",,,,Repugnant...,Nobody,,Defense,,,,
+Guts,Undead,Common,free,0,2,"Stinky, Rotting",,,,Repugnant...,Pixel Profligate,,Defense,,,,
 Locust Curse,Undead,Common,free,0,1,"Rampager, Stinky",,,Insect,They leave nothing behind their wake.,NEWS,,Defense,,,,
 Gravedigger,Undead,Common,1 bone,0,3,Bone Digger,,,Worker,Willing to dig what needs to be dug.,Pixel Profligate,T,Resource,Big Dig,,,
 Jikininki,Undead,Common,1 bone,0,3,Scavenger,,,Possessed,He'll leave the bones for you to take.,Murigen,T,Resource,,,,
