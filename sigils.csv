@@ -302,7 +302,7 @@ Imprison,"When played, choose another card you control and discard it. When this
 Resurrect,"When this card dies, search a card from your discard and place it in this space.",T,,
 Corpse Eater,"When a card you control perishes, if this card is in your hand, it is placed it in its space.",T,,Parasite
 Parasite,"When a card you control perishes, if this card is in your hand, you may place it in its space.",T,,
-Apparition,"You can search and place this card from your deck or hand by saying its name 3 consecutive times and placing the scales one space away from death.",T,,
+Apparition,"You may play this card for free from your deck or hand by saying its name 3 consecutive times. You then take up to 8 non-lethal direct damage.",T,,
 Legion,"When played, search a common card from your discard and place it on your side for free.",T,,Army
 Army,"When played, search a card from your discard and place it on your side.",T,,
 Summon,"When played, up to 2 ""TOKEN"" cards are placed in adjacent spaces.",T,,Invoke
