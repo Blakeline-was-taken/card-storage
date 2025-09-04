@@ -2,13 +2,14 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Inscryption Campaign Wiki</title>
+  <title>Inscryption Disk 3 Wiki</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="wiki_style.css">
+  <link rel="icon" type="image/png" href="../../site_images/favicon.png">
 </head>
 <body>
 <header>
-  <h1>Inscryption Disk 3 Wiki</h1>
+  <h1 style="display: flex; align-items: center;"><img src="../../site_images/favicon.png" height="25px" style="padding-right: 10px;">Inscryption Disk 3 Wiki</h1>
   <div class="search-container">
     <input type="text" id="searchbar" placeholder="Search..." autocomplete="off">
     <ul id="search-results"></ul>
@@ -21,6 +22,9 @@
         .then(r => r.json())
         .then(data => {
           wikidata = data;
+          if (data[page] && data[page].title) {
+            document.title = data[page].title + " - Disk 3 Wiki";
+          }
         });
 
       const searchInput = document.getElementById("searchbar");
