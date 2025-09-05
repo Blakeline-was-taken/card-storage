@@ -540,7 +540,7 @@ Conduit Relay,"If you control another Conduit card, all your other cards are con
 Radiowave,"The card you control with the most spaces between it and this card counts as a Conduit card.",T,,
 Powered,"This card always counts as being between two Conduit cards.",T,,Capacitor
 Capacitor,"Adjacent cards count as being between two Conduit cards.",T,,Energizer
-Gem Cable,"Your Mox cards count as Conduit cards.",,,Energizer
+Gem Cable,"Your Mox cards count as Conduit cards, and vice versa.",,,
 Energizer,"All your cards count as being between two Conduit cards.",T,,
 Circuit Buff,"If this card is between two Conduit cards, it has 2 more power.",T,,Circuit Rage
 Circuit Rage,"If this card is between two Conduit cards, it has 4 more power.",T,,
