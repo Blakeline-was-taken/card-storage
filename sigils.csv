@@ -249,7 +249,6 @@ Evasion,"Before being struck, this card moves to an adjacent space.",T,,Loose Li
 Loose Limb,"Before being struck, this card moves to an adjacent space and leaves ""TOKEN"" behind.",T,,
 Lingering,"When this card dies, if you still have cards in your main deck, it is shuffled inside it instead of perishing.",T,,Unkillable
 Unkillable,"When this card dies, it returns to your hand instead of perishing.",T,,Immortal
-Unending,"When this card dies, it gains 1 base power and health, up to 5. When the battle ends, it loses 1 base power and health, down to 1.",T,,
 Rebirth,"When this card dies, it takes its next form and returns to your hand instead of perishing.",T,,
 Brood Parasite,"When played, a ""Broken Egg"" is placed in the opposing space.",T,,Brooding
 Brooding,"When played, a ""Broken Egg"" is placed in the opposing space or a ""Raven Egg"" is added to your hand.",T,,
