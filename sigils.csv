@@ -67,6 +67,8 @@ Moxum Opus,"This card provides three gems of any color.",,,
 Overcoat,Any gems provided on your side become gems of any color.,,,Paintjob
 Paintjob,Your Mox cards also provide a gem of any color.,,,
 Gemorphosis,"Your other cards have the Mox tribe.",,,
+Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,
+Modularity,"All your cards are gemified, including this one and cards from your hand.",T,,
 Destiny,"This card provides a gem of a random color. Pay 2 energy to roll the color.",,,
 Fragment Shard,"This card can be shattered to provide a shattered gem of any color.",,,Fragment Hoard
 Fragment Hoard,"This card can be shattered to provide 2 shattered gems of any color.",,,Fragment Mass
@@ -411,7 +413,6 @@ Grim Power,"When another card perishes, this card gains 1 power, up to 5.",T,,
 Overclock,"This card's power is half your amount of unspent energy, rounded down.",T,T,
 Gem Powered,This card's power is the number of Mox cards you control.,T,T,
 Gem Power,This card's power is the number of gems being provided on your field.,T,T,
-Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,
 Flesh Power,"This card's power is the number of Flesh chemicals you own, up to 5.",T,T,
 Dice Power,"When played, roll a d6. This card's power is the result.",T,T,
 Facsimile,This card's power is the opposing card's power.,T,T,
