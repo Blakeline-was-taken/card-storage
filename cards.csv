@@ -18,7 +18,7 @@ Carved Totem,Beast,Common,1 blood + asterisk,0,2,"Lifeblood, Bloodless",,Materia
 Crab,Beast,Common,1 blood + asterisk,1,1,Armored,,Material Diet,,"Tiny, scuttling, but resilient stature.",Murigen,T,Defense,,,,
 Eel,Beast,Common,1 blood,1,1,"Waterborne, Discharge",,,Fish,An energetic little fish.,"Borbay, Mark",T,Resource,Hrokkall,,,
 Elk Fawn,Beast,Common,1 blood,1,1,"Sprinter, Fledgling",Elk,,Hooved,"Young, ambitious, and scared.",Pixel Profligate,T,Reliable,Elk,,,
-Falcon,Beast,Common,1 blood,1,1,"Airborne, Side Hustle",,,Avian,"High speeds, and good hunting skills.",Mark,T,Insight,Hawk,,,
+Falcon,Beast,Common,1 blood,2,2,"Airborne, Target Required",,,Avian,"High speeds, and good hunting skills.",Mark,T,Offense,,,,
 Farm Hen,Beast,Common,1 blood,1,2,Mother's Heart,,,Avian,Each egg lost is a tragedy for it.,Mark,T,Reliable,,,,
 Fennec,Beast,Common,1 blood,1,2,"Side Hustle, Annoying",,,Canine,"A predator, surprisingly resilient.",Mark,T,Insight,Fox,,,
 Flying Ant,Beast,Common,1 blood,X,1,"Airborne, Colony",,,Ant Insect,"A pest alone, but devastating in swarm.",Pixel Profligate,T,Offense,Ant Queen,,,
