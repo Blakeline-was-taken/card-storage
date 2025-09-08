@@ -370,6 +370,7 @@ Billdozer,Tech,Common,2 energy,0,2,Bulldoze,,,Worker Machine,"Well-meaning, but 
 Bone Mill,Tech,Common,2 energy,0,2,Fossil Fuel,,,Machine,Also useful for producing glue.,Desaft,T,Resource,,,,
 Boom-o-latcher,Tech,Common,2 energy,0,1,LATCHER_Detonator,,,Latcher,Loading others with extreme explosives.,Pixel Profligate,T,Removal,,,,
 Cable Latcher,Tech,Common,2 energy,0,2,LATCHER_Null Conduit,,,Conduit Latcher,Just barely able to make a connection.,Murigen,T,Conduit,,,,
+D-Canvas,Tech,Common,2 energy,0,1,Gemification,,,Latcher,An artist at the core.,Nobody,T,Support,,T,,
 Coo1Bo7,Tech,Common,2 max,0,1,"Hoarfrost, Heat Drop",,,Bot,Helps to cool off excess heat.,Mark,T,Utility,,,,
 Empty Vessel,Tech,Common,2 energy,0,2,Blank Copy,,,Bot,"A blank slate, brimming with potential.",Pixel Profligate,T,Utility,,,,
 Gift Bot,Tech,Common,2 energy,0,2,Gift Bearer,,,Bot,What could it be hiding from you?,Pixel Profligate,T,Insight,Gift Bot EX,,,
