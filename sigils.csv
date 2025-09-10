@@ -103,8 +103,6 @@ Ad Infinitum,"Chemicals you spend are not lost.",T,,
 Fate Decided,"You may choose the outcome of any dice rolls you make.",T,,
 Bleeding,"During your end step, this card takes 1 damage, giving 1 flesh.",,,
 Elixir Leaker,"During your end step, this card moves to an adjacent space, giving 1 elixir.",,,
-Bloodless,This card cannot be sacrificed.,,,
-Boneless,This card does not drop a bone when dying.,,,
 Gem Dependent,"If you control no other Mox cards, this card perishes.",,,Material Dependent
 Gem Binding,"This card redirects any damage that would kill it to a Mox card you control, if possible.",,,
 Flesh Hunger,"If you don't own at least 2 Flesh chemicals, this card perishes.",,,
@@ -486,7 +484,7 @@ Assembly,"During your end step, adjacent cards perish. Their sigils replace this
 Enlarge,"Pay 2 bones to increase this card's power and health by 1, up to 5.",T,,
 Invigorate,"You may sacrifice a card, which perishes, and increases both stats of any card you control by 1, up to 5.",T,,
 Absorption,"You may sacrifice a card to make this card gain 2 health up to 5.",T,,
-Swapper,"When damaged, swap this card's health and power.",T,,Swap
+Swapper,"When struck, swap this card's health and power.",T,,Swap
 Swap,"You may swap this card's health and power.",T,,
 Morsel,"When sacrificed, this card's stats are added to the card it was sacrificed to.",T,,Delightful
 Delightful,"When sacrificed, this card's stats are added to the card it was sacrificed to, which also gains 1 power and health.",T,,
