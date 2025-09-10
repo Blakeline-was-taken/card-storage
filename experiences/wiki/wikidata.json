@@ -226,7 +226,7 @@
   },
   "events": {
     "title": "Events",
-    "description": "A collection of events that help you build your deck.",
+    "description": "The different nodes that exist to help you build your deck.",
     "categories": ["Gameplay"]
   },
   "items": {
