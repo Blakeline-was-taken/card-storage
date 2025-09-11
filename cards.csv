@@ -569,8 +569,8 @@ Senior Sage,Magick,Common,1 emerald + 1 prism,1,2,Expertise,,,Noble Sage,Here to
 Shade Soul,Magick,Common,1 emerald + 1 prism,1,2,Dust Gatherer,,,Mage Spectre,They rekindle magickal remnants.,Murigen,T,Resource,,,,
 Mind Library,Magick,Common,1 shattered emerald + 1 prism,0,3,"Blue Gem, RAINBOW, Generosity Bearer",,Bloodless,Mox Altar,What is wisdom without discovery?,Murigen,T,"Insight, Mox",,,,Green
 Corpsebloom,Magick,Common,2 emeralds,1,2,"Stinky, RAINBOW, Fledgling",Terror of Verdure,,Aberration Construct,This is not even its final form.,Murigen,T,Reliable,Terror of Verdure,,,
+Dizzy Mage,Magick,Common,2 emeralds,0,1,"Warper, Dust Power",,,Mage Aberration,This one's exam was quite twisted.,Pixel Profligate,T,Reliable,,,,
 Jester,Magick,Common,2 emeralds,2,2,"Gem Binding, Mighty Leap",,,,A wicked puppeteer of the arcane.,Murigen,T,Offense,,,,
-Twilight Magus,Magick,Common,2 emeralds,0,2,Sparkling Dust,,,Mage,Wells of power sleep in fragments.,syntaxevasion,T,Offense,,,,
 Crystal Carrier,Magick,Common,1 prism + 2 emeralds,X,3,"Fragment Hoard, Gem Powered",,,Corrupted Mox,Magick brought them to life.,Murigen,T,"Reliable, Resource",,,,
 Apoethis' Gale,Magick,Common,1 prism + 2 shattered emeralds,2,4,"Rampager, Opportunist",,,Avian Reptile Aberration,One of many forms to bring havoc.,NEWS,T,Reliable,,,,
 Ambush Mage,Magick,Common,1 ruby,1,1,Opportunist,,,Outlaw,This attack could have been predicted.,Murigen,T,Offense,,,,
@@ -616,8 +616,8 @@ Stygian Mox,Magick,Common,1 shattered sapphire,0,2,"Blue Gem, LATCHER_Overclocke
 Fleeting Conjuror,Magick,Common,1 sapphire + 1 prism,X,1,"Double Strike, Brittle, Gem Power",,,Wizard Spectre,Powerful magick in a fleeting form.,Pixel Profligate,T,Offense,,,,
 Fortune Teller,Magick,Common,1 sapphire + 1 prism,0,4,"Blue Gem, RAINBOW, All-Sight",,,Mox Wizard,Do you wish to know your fate?,Desaft,T,"Insight, Mox",,,,
 Soul Garden,Magick,Common,1 shattered sapphire + 1 prism,0,3,"Orange Gem, RAINBOW, Leader",,Bloodless,Mox Altar,What is drive without rest?,Murigen,T,"Defense, Mox",,,,Blue
-Dizzy Mage,Magick,Common,2 sapphires,0,2,"Warper, Dust Power",,,Mage Aberration,This one's exam was quite twisted.,Pixel Profligate,T,Reliable,,,,
 Old Hag,Magick,Common,2 sapphires,3,1,"Corpse Eater, Gem Dependent",,,Corrupted Wizard,Rambles on incorrect spell recitations.,Murigen,T,Offense,,,,
+Twilight Magus,Magick,Common,2 sapphires,0,0/3,Sparkling Dust,,,Mage,Wells of power sleep in fragments.,syntaxevasion,T,Offense,,,,
 Mindripper,Magick,Common,1 shattered sapphire + 1 shattered prism,4,4,Gem Dependent,,,Aberration,A lust for gems and for blood.,Pixel Profligate,T,Offense,,,,
 Basilisk,Magick,Common,1 emerald + 1 ruby,2,4,"Familiar, Petrifying Gaze",,,Cryptid Reptile,Don't look it in the eyes. It'll go away.,Murigen,T,Defense,,,,
 Clay Titan,Magick,Common,1 ruby + 1 emerald,4,1,"Armored, Swapper",,Bloodless,Aberration Construct,"Hard, soft, it struggles to pick one.",Nobody,T,Reliable,,,,
