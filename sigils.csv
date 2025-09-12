@@ -430,8 +430,8 @@ Dooming Dust,"Once per turn, you may shatter a card to make another card have 2 
 Stimulate,"Once per turn, pay 3 energy to make this card gain 1 power, up to 5.",T,,
 Power Dice,"Pay 3 energy to roll a D6. This card's base power becomes the result until your end step.",T,,
 Infinifold,"Once per turn, you may shatter a card to double this card's power.",T,,
-Expertise,Any stat change applied to this card apart from damage is doubled.,T,,Mastery
-Mastery,Any stat change applied to this card apart from damage is tripled.,T,,
+Expertise,Any stat increase applied to this card is doubled.,T,,Mastery
+Mastery,Any stat increase applied to this card is tripled.,T,,
 Leader,Adjacent cards have 1 more power.,T,,Commander
 Commander,Adjacent cards have 2 more power.,T,,
 Sea Shanty,"Your [mark:brittle] Brittle cards have 1 more power.",T,,Treasure Hunt
