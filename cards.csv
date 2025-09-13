@@ -3,7 +3,7 @@ Bee,Beast,Side Deck,free,1,1,"Airborne, Brittle",,,Insect,Unassuming but determi
 Bloodstained Nest,Beast,Side Deck,free,0,2,Fledgling,Offering Nest,,Avian Altar,The first drop calls for more.,Nobody,,Resource,Offering Nest,,,
 Hollow Nest,Beast,Side Deck,free,0,2,Fledgling,Bloodstained Nest,Bloodless,Avian Altar,"Empty now, but waiting to be filled.",Nobody,,Resource,Bloodstained Nest,,,
 Offering Nest,Beast,Side Deck,free,0,2,"Fledgling, Blood Pact",Sacrificial Nest,,Avian Altar,The brood is eager to be taken.,Nobody,,Resource,Sacrificial Nest,,,
-Sacrificial Nest,Beast,Side Deck,free,0,2,"Prized Sacrifice, Worthy Sacrifice",,,Avian Altar,All that remains is the taking.,Nobody,,Resource,,,,
+Sacrificial Nest,Beast,Side Deck,free,0,2,Worthy Sacrifice,,,Avian Altar,All that remains is the taking.,Nobody,,Resource,,,,
 Squirrel,Beast,Side Deck,free,0,1,,,,Vermin,"Small, frail, but ever so useful.",Pixel Profligate,,Reliable,Squirrel Ball,,,
 Piranha_t,Beast,Common,free,1,1,,,,Fish,Vicious pack-hunters or the rivers.,Pixel Profligate,,Offense,,,,
 Rabbit,Beast,Common,free,0,1,,,,Vermin,What purpose could it serve?,Pixel Profligate,,Reliable,Jackalope,,,
