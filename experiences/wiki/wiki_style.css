@@ -49,9 +49,13 @@ footer { position:fixed; bottom: 0; width:100%; padding:10px; background:#160f0f
 
 /* Tableaux wiki */
 .wiki-table { width:100%; border-collapse:collapse; margin-bottom:15px; background:#251c1c; }
+.wiki-table thead { background:#342a2a; color:#fff; }
 .wiki-table th, .wiki-table td { border:1px solid #342a2a; padding:8px; }
 .wiki-table tr:nth-child(even) { background-color: #2a2020; }
-.wiki-table th { background:#342a2a; color:#fff; }
+.collapsible thead:hover { background: #3d2f2f; cursor: pointer; }
+.wiki-table.collapsed tbody { display: none; }
+.collapse-arrow { float: right; font-size: 0.9em; user-select: none; transition: transform 0.2s ease; }
+.wiki-table.collapsed .collapse-arrow { transform: rotate(-90deg); }
 
 /* Tableaux invisibles pour mise en page */
 .layout-table { width: 100%; border-collapse: collapse; }

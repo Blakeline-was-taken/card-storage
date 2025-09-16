@@ -75,12 +75,16 @@
 
   <!-- Tables -->
   <h3>Character Stats</h3>
-  <table class="wiki-table">
-    <tr><th>Stat</th><th>Value</th></tr>
-    <tr><td>Strength</td><td>8/10</td></tr>
-    <tr><td>Agility</td><td>7/10</td></tr>
-    <tr><td>Intelligence</td><td>9/10</td></tr>
-    <tr><td>Charisma</td><td>6/10</td></tr>
+  <table class="wiki-table collapsible">
+    <thead onclick="toggleTable(this)">
+      <tr><th>Stat</th><th>Value<span class="collapse-arrow">▼</span></th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Strength</td><td>8/10</td></tr>
+      <tr><td>Agility</td><td>7/10</td></tr>
+      <tr><td>Intelligence</td><td>9/10</td></tr>
+      <tr><td>Charisma</td><td>6/10</td></tr>
+    </tbody>
   </table>
 
   <!-- Floating images -->
