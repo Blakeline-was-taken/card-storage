@@ -60,7 +60,7 @@ footer { position:fixed; bottom: 0; width:100%; padding:10px; background:#160f0f
 /* Tableaux invisibles pour mise en page */
 .layout-table { width: 100%; border-collapse: collapse; }
 .layout-table td { border: none; padding: 5px; vertical-align: top; }
-.layout-table div { margin: 0; }
+.layout-table td * { margin: 0; }
 
 /* Listes dans les mains */
 main ul, main ol { padding-left: 30px; margin: 10px 0; }
