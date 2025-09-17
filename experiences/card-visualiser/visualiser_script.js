@@ -204,7 +204,7 @@ const FilterLogic = {
       const rainbowOk = !values.rainbowSigil || rawSigils.includes("RAINBOW");
       const tribalOk = !values.tribalSigil || rawSigils.includes("TRIBAL");
 
-      const traits = (card.Traits || "").split(",");
+      const traits = (card.Traits || "").split(",").map(s => s.trim());
       const traitsOk = selectedTraits.length === 0 || (
         values.exclusiveTraits
           ? selectedTraits.every(t => traits.includes(t))
