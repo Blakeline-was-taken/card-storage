@@ -49,6 +49,7 @@ Shock,"When struck, gain an energy cell.",,,Static
 Static,"When struck, gain 2 energy cells.",,,
 Dust Charge,"When your Mox cards die, gain an energy cell.",,,Skull Charge
 Skull Charge,"When your other cards cards die, gain an energy cell.",,,
+Graveyard Fog,"When this card dies, you may choose to gain 1 energy instead of bones.",T,,
 Fossil Fuel,"Pay 1 bone to refill an energy cell.",T,,
 Spare Supply,"When played, your depleted energy cells are refilled.",T,,No Power Loss
 No Max Reduction,"Your energy cells cannot be destroyed.",,,No Power Loss
@@ -550,6 +551,7 @@ Breaker,"Your conduit cards cannot be struck.",T,,
 Enhanced Arcane,"If you provide 2 unique mox colors, this card has 1 more power.",,,Empowered Arcane
 Empowered Arcane,"If you provide 2 unique mox colors, this card has 2 more power.",,,
 Pack Mentality,"If this card shares a tribe with another card you control, it has 2 more power.",T,,
+Marrow Catalyst,Your cards cost 2 fewer bones to play.,T,,Night of the Living Dead
 Night of the Living Dead,Your cards cost 2 fewer bones and energy to play.,T,,Full Moon Night
 Full Moon Night,Your cards cost half their normal amount of bones and energy to play.,T,,
 Unseelie Authority,"When a non-Spectre card you control perishes, a 0-power Spectre card is placed in its place.",T,,
