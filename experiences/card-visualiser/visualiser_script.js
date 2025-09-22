@@ -156,6 +156,7 @@ const FilterLogic = {
       cellSigil: document.getElementById("cell-sigil-checkbox").checked,
       rainbowSigil: document.getElementById("rainbow-sigil-checkbox").checked,
       tribalSigil: document.getElementById("tribal-sigil-checkbox").checked,
+      movementSigil: document.getElementById("movement-sigil-checkbox").checked,
       exclusiveTraits: document.getElementById("exclusive-traits-checkbox").checked,
       exclusiveTribes: document.getElementById("exclusive-tribes-checkbox").checked,
       exclusiveCosts: document.getElementById("exclusive-cost-checkbox").checked,
@@ -203,6 +204,7 @@ const FilterLogic = {
       const cellOk = !values.cellSigil || rawSigils.some(s => s.startsWith("CELL_"));
       const rainbowOk = !values.rainbowSigil || rawSigils.includes("RAINBOW");
       const tribalOk = !values.tribalSigil || rawSigils.includes("TRIBAL");
+      const movementOk = !values.movementSigil || sigils.some(s => ["Sprinter", "Hefty", "Rampager", "Flee", "Bulldoze", "Loose Bones", "Trample", "Squirrel Shedder", "Skeleton Crew", "Spirit Spread", "Leep Legion", "Mox Dropper", "Frog Friend", "Wire Weaver", "Spine Walker"].includes(s))
 
       const traits = (card.Traits || "").split(",").map(s => s.trim());
       const traitsOk = selectedTraits.length === 0 || (
@@ -248,7 +250,7 @@ const FilterLogic = {
       const isGemified = card.Gemified !== "";
       const gemifiedOk = values.gemified || isGemified;
 
-      return nameOk && templeOk && tierOk && statsOk && sigilsOk && latcherOk && cellOk && rainbowOk && tribalOk && traitsOk && tribesOk && costsOk && rolesOk && artistsOk && draftableOk && evolvedOk && gemifiedOk;
+      return nameOk && templeOk && tierOk && statsOk && sigilsOk && latcherOk && cellOk && rainbowOk && tribalOk && movementOk && traitsOk && tribesOk && costsOk && rolesOk && artistsOk && draftableOk && evolvedOk && gemifiedOk;
     });
 
     CardDisplay.render(result);
@@ -311,7 +313,7 @@ const FilterUI = {
      "power-operator", "power-value", "health-operator", "health-value",
      "exclusive-sigils-checkbox", "exclusive-traits-checkbox", "exclusive-tribes-checkbox",
      "exclusive-cost-checkbox", "exclusive-roles-checkbox", "exclusive-artists-checkbox",
-     "latcher-sigil-checkbox", "cell-sigil-checkbox", "rainbow-sigil-checkbox", "tribal-sigil-checkbox"
+     "latcher-sigil-checkbox", "cell-sigil-checkbox", "rainbow-sigil-checkbox", "tribal-sigil-checkbox", "movement-sigil-checkbox"
     ].forEach(id => document.getElementById(id).addEventListener("input", () => FilterLogic.apply()));
   },
 
