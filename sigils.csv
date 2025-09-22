@@ -276,6 +276,7 @@ Bulldoze,"Move this card to an adjacent space, pushing other cards in its way.",
 Teleport,"Once per turn, swap this card's place with any other space on your side.",T,,
 Telekinesis,"Pay 1 chemical to move one of your cards to an empty space.",,,
 Hotswap,"Pay 2 energy to swap this card's place with any other space on your side.",T,,
+Constriction,"Pay 3 bones to move an opposing card in front of this card.",T,,
 Rooted,This card cannot be moved or removed from its space until it perishes.,T,,Unphased
 Unphased,This card cannot be moved or removed from its space until it perishes. It is unaffected by opposing sigils.,T,,
 Mother's Heart,"When played, draw a ""Chick"".",T,,Mother's Love
