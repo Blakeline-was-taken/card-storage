@@ -532,6 +532,7 @@ Armor Conduit,"During your end step, cards between this and another Conduit card
 Nano Conduit,"During your end step, your Conduit cards and cards between them gain an [mark:armor] Armor mark.",T,,
 Spawn Conduit,"During your end step, a card costing from 0 to 3 energy is searched and placed between this and another Conduit card.",T,,Production Conduit
 Production Conduit,"During your end step, search cards costing up to 3 energy and place them in every empty space between this and another Conduit card.",T,,
+Gem Spawn Conduit,"During your end step, a random Gem Vessel is placed between this and another Conduit card.",T,,
 Blood Conduit,"Cards between this and another Conduit card provide 1 more blood when sacrificed.",T,,Bloodier Conduit
 Bloodier Conduit,"Cards between this and another Conduit card provide 3 blood when sacrificed.",T,,
 Energy Conduit,"While you control another Conduit card, your energy cells refill.",,,No Power Loss
