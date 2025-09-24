@@ -157,7 +157,7 @@ Split Strike,"When attacking, this card strikes a space adjacent to the opposing
 Confused Strike,"When attacking, this card strikes either the opposing space, or a space adjacent to it.",T,,Sniper
 Sniper,"When it strikes, this card may target any space on the opposite side.",T,,Split Shot
 Split Shot,"This card's strikes target any 2 spaces on the opposite side.",T,,
-Sapphire Aim,"When it strikes, this card may target any space opposed by a blue gem-providing card you control.",T,,
+Sapphire Aim,"If you provide a blue gem, this card may target any space opposing your mox cards when it strikes.",T,,
 Rattle 'Em!,"Your [mark:Brittle] Brittle cards have [sigil:Sniper] Sniper.",,,
 Guidance,"Your cards attack two lanes of your choice.",T,,
 Inverted Strike,"When attacking, this card hits the space reached by following an L-shape from its position.",T,,Cavalry
