@@ -101,7 +101,7 @@ Cicada,Beast,Common,3 bones,1,1,"Annoying, Fecundity",,,Insect,Its incessant buz
 Frozen Possum,Beast,Common,3 bones,0,5,Frozen Away,Opossum,Bloodless,Vermin,Nature is cold and unforgiving.,Pixel Profligate,T,Defense,,,,
 Meerkat,Beast,Common,3 bones,1,1,Watchman,,,Vermin,Always on the lookout.,Nobody,T,Insight,,,,
 Opossum,Beast,Common,3 bones,1,1,Scavenger,,,Vermin,"Resourceful, weak, but endearing.",Pixel Profligate,T,Resource,,,,
-Spider,Beast,Common,3 bones,1,1,Web Shooter,,,Insect,A certified web designer.,Blakeline,T,Defense,Cellar Spider,,,
+Spider,Beast,Common,3 bones,1,1,Web Shooter,,,Insect,A certified web designer.,Murigen,T,Defense,Cellar Spider,,,
 Bat,Beast,Common,4 bones,2,1,Airborne,,,Vermin,"A minor, meddlesome terror.",Pixel Profligate,T,Offense,,,,
 Coyote,Beast,Common,4 bones,2,1,"TRIBAL, Scavenger",,,Canine,A meager but dangerous scavenger.,Pixel Profligate,T,"Offense, Resource",Jackal,,,
 Fire Ant,Beast,Common,4 bones,x,1,"Firestarter, Colony",,,Ant Insect,Its venom sets nerves and forests alight.,Mark,T,Removal,Ant Queen,,,
