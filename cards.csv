@@ -638,7 +638,7 @@ Mad Cultist,Magick,Common,2 blood,X,3,"Gem Power, Clinger",,,Cultist,Led astray 
 Mad Martyr,Magick,Common,2 blood,0,4,"Life Donor, Hemanation, Gem Animator",Mad Martyr_t,,Cultist,Always jubilating at the sacrifice.,Pixel Profligate,T,"Resource, Support",,,,
 Mad Martyr_t,Magick,Common,2 blood,X,4,"Life Donor, Hemanation, Gem Powered",Mad Martyr,,Cultist,Always jubilating at the sacrifice.,"Pixel Profligate, Blakeline",,"Resource, Support",,,,
 Mad Prophet,Magick,Common,2 blood,2,2,"Divination, Grim Call",,,Cultist,Power comes from the name you chose.,Pixel Profligate,T,Insight,,,,
-Null Mage,Magick,Common,6 energy,0,3,"Pure Conduit, Gem Cable",,,Android Conduit Mage,Even mages see the value of energy.,Pixel Profligate,T,"Support, Conduit",,,,
+Consequence,Magick,Common,3 blood,3,3,Gem Clock,,,Corrupted Cultist,Such is the price of forbidden magicks.,Nobody,T,Reliable,,,,
 Gelumagus,Magick,Uncommon,1 prism,1,1,"Frigid Winds, Gem Dependent",,,Aberration Magician,They learn from the chilling squall.,NEWS,T,Utility,,,,
 Magic Missiler,Magick,Uncommon,2 prisms,1,1,"Trifurcated Strike, Sniper, Brittle",,,,A well-known incantation.,Murigen,T,Offense,,,,
 Berdo Bardo,Magick,Uncommon,3 prisms,2,7,"Airborne, Mighty Leap",,,Sage,He outdid even his master's style.,NEWS,T,Defense,,,,
