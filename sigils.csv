@@ -346,8 +346,8 @@ Gift Bearer,"When this card dies, draw a card from your deck.",T,,Generosity Bea
 Generosity Bearer,"When this card dies, draw two cards from your deck.",T,,Loaded
 Gem Bearer,"When this card dies, draw a random Side deck Mox card.",,,Gem Generosity
 Gem Generosity,"When this card dies, draw two random Side deck Mox cards.",,,
-Gem Greed,"When your Mox cards perish, draw a card from your deck.",,,Gem Greedier
-Gem Greedier,"When your Mox cards perish, draw 2 cards from your deck.",,,
+Gem Greed,"When your other Mox cards perish, draw a card from your deck.",,,Gem Greedier
+Gem Greedier,"When your other Mox cards perish, draw 2 cards from your deck.",,,
 Greed,"Sacrifice this card to draw one random side deck mox card per mox card on your field.",,,
 Polyp Harvest,"When your Polyp cards perish, draw a card from your deck.",T,,
 Go Fetch,"When your Canine cards perish, draw a card from your deck.",T,,Search Dogs
