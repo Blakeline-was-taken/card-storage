@@ -322,7 +322,7 @@ Bone Lord's Horn,Undead,Rare,3 bones,0,1,"Bonehorn, Bone King",,,Ancient Demon,T
 Drowned Soul,Undead,Rare,3 bones,1,1,"Touch of Death, Waterborne",,,Spectre,A shame no one was there to save them.,Pixel Profligate,T,Removal,,,,
 Tomb Robber,Undead,Rare,3 bones,0,2,Disentomb,,,Skeleton,A little investment goes a long way.,Pixel Profligate,T,Insight,,,,
 Dead Hand,Undead,Rare,4 bones,1,1,Handy,,,Zombie,"Not all there, but carries a boon.",Pixel Profligate,T,Insight,,,,
-Victor,Undead,Rare,4 bones,2,1,"Reanimate, Bone Digger",,,Zombie Conduit,"A true monster, men couldn't compare.",NEWS,T,Conduit,,,,
+Victor,Undead,Rare,4 bones,0,1,"Deathcard, Bone Digger",,,Zombie Conduit,"A true monster, men couldn't compare.",NEWS,T,Conduit,,,,
 Forsaken Husk,Undead,Rare,5 bones,2,2,"Rebirth, Aggressive",,,Skeleton,The marrow remembers what the flesh forgot.,Nobody,,Reliable,,,,
 Night Shifters,Undead,Rare,5 bones,0,5,"Mass Grave, Rotting",,,Zombie Worker,"Working the graveyard shift, together.","Yoyo, Lilith",T,Resource,,,,
 Necromancer,Undead,Rare,6 bones,1,2,"Double Death, Memoriam",,,Skeleton Wizard,"Back from the grave, if only briefly.",Pixel Profligate,T,"Resource, Utility",,,,
