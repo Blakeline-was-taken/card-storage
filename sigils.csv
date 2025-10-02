@@ -167,8 +167,8 @@ Clockwork,"This card also attacks when adjacent cards strike.",T,,
 Gem Clock,"This card attacks once per mox card you control.",,,
 Sadism,"When this card kills another, it strikes that card's space.",T,,Cruelty
 Cruelty,"When this card kills another, it then strikes its adjacent spaces.",T,,
-Piercing,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded down.",T,,Impaling
-Impaling,"When this card strikes another, it also strikes its backlane for half of the damage dealt, rounded up.",T,,
+Piercing,"When this card strikes another, it also strikes its back lane for half of the damage dealt, rounded down.",T,,Impaling
+Impaling,"When this card strikes another, it also strikes its back lane.",T,,
 Aggressive,"When placed, the opposing card is struck for 1 damage.",T,,Opportunist
 Opportunist,"When placed, this card immediately strikes the opposing card.",T,,Strategic
 Strategic,"When placed, this card immediately strikes any opposing space.",T,,
@@ -574,8 +574,8 @@ Divination,"When played, look at and rearrange the top 3 cards on your deck.",T,
 Occult,"When played, look at and rearrange the cards in your deck. Your deck is shuffled when this card dies.",T,,Prophecy
 Prophecy,"When you would draw an unspecified card from your deck, search a card from your deck instead.",T,,
 Event Horizon,"When played, swap another card on your field with one from your hand.",T,,
-Tackle,"When played, the opposing card is sent to the backlane, if possible.",T,,Fling
-Fling,"When played, the opposing card is sent to any space in the backlane.",T,,
+Tackle,"When played, the opposing card is sent to the back lane, if possible.",T,,Fling
+Fling,"When played, the opposing card is sent to any space in the back lane.",T,,
 Amorphous,This card is treated as having the opposing card's sigils.,T,,Mimic
 Mimic,"When played, this card copies the sigils of any opposing card.",T,,
 Undefined,"Choose an opposing card to mimic the sigils of.",,,
