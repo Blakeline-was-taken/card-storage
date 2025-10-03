@@ -575,7 +575,7 @@ Divination,"When played, look at and rearrange the top 3 cards on your deck.",T,
 Occult,"When played, look at and rearrange the cards in your deck. Your deck is shuffled when this card dies.",T,,Prophecy
 Prophecy,"When you would draw an unspecified card from your deck, search a card from your deck instead.",T,,
 Event Horizon,"When played, swap another card on your field with one from your hand.",T,,
-Tackle,"When played, the opposing card is sent to the back lane, if possible.",T,,Fling
+Tackle,"When played, the opposing card is sent back to its owner's hand.",T,,Fling
 Fling,"When played, the opposing card is sent to any space in the back lane.",T,,
 Amorphous,This card is treated as having the opposing card's sigils.,T,,Mimic
 Mimic,"When played, this card copies the sigils of any opposing card.",T,,
