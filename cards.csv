@@ -650,7 +650,7 @@ Hither Witch,Magick,Uncommon,1 ruby,0,1,"Absorption, Raging Flames",,,Cultist,Th
 Maw Mage,Magick,Uncommon,1 ruby,1,2,"Bloodlust, Rooted",,,Corrupted Aberration Mage,Photosynthesis was too inefficient.,Pixel Profligate,T,Reliable,,,,
 Summon Shield,Magick,Uncommon,1 ruby,0,3,"Armored, Familiar",,Bloodless,Possessed,A magic shield formed from a genius.,NEWS,,Defense,,,,
 Summon Sword,Magick,Uncommon,1 ruby,2,1,"Piercing, Familiar",,Bloodless,Possessed,A blade born from the brainchild.,NEWS,,Offense,,,,
-Gem Banneret,Magick,Uncommon,1 ruby + 1 prism,1,2,Whimsical Leader,,,Wizard Knight,Rallying the inanimate into a fervour.,Pixel Profligate,T,Support,,,,
+Gem Banneret,Magick,Uncommon,1 ruby + 1 prism,0,2,Whimsical Leader,,,Wizard Knight,Rallying the inanimate into a fervour.,Pixel Profligate,T,Support,,,,
 Enchanter,Magick,Uncommon,2 rubies,0,1,"Leader, Gem Animator",,,Wizard,Not one for working alone.,Pixel Profligate,T,Support,,,,
 Electric Pupil,Magick,Uncommon,1 sapphire,1,2,"Dust Charge, Sprinter",,,Bot Mage,Even objects can learn magicks.,Mark,T,Resource,,,,
 Faterender,Magick,Uncommon,1 shattered sapphire,1,1,"Snag, Touch of Death",,,Corrupted Wizard,Your fate is sealed. It is death.,Murigen,T,"Removal, Utility",,,,
