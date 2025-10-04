@@ -61,6 +61,7 @@ Orange Gem,This card provides an Orange gem.,,,Citrine Gem
 Citrine Gem,This card provides 2 Orange gems.,,,
 Blue Gem,This card provides a Blue gem.,,,Azurite Gem
 Azurite Gem,This card provides 2 Blue gems.,,,
+Arbitrary Gem,"This card provides a gem of a random color. During your draw step, re-roll the color.",,,Prism Gem
 Prism Gem,This card provides a gem of any color.,,,Gem Catalyst
 Prism Essence,This card provides a gem of any color.,,,
 Gem Catalyst,This card provides 2 gems of any color.,,,Moxum Opus
@@ -71,7 +72,6 @@ Paintjob,Your Mox cards also provide a gem of any color.,,,
 Gemorphosis,"Your other cards have the Mox tribe.",,,
 Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,
 Modularity,"All your cards are gemified, including this one and cards from your hand.",T,,
-Destiny,"This card provides a gem of a random color. Pay 2 energy to roll the color.",,,
 Fragment Shard,"This card can be shattered to provide a shattered gem of any color.",,,Fragment Hoard
 Fragment Hoard,"This card can be shattered to provide 2 shattered gems of any color.",,,Fragment Mass
 Fragment Mass,"This card can be shattered to provide 3 shattered gems of any color.",,,

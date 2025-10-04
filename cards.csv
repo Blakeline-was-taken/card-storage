@@ -363,7 +363,7 @@ Sapphire Vessel,Tech,Common,free,0,2,Blue Gem,,,Mox Machine,A vessel for the uni
 Energy Bot,Tech,Common,1 energy,0,1,Battery Bearer,,,Bot,Full of energy that it cannot use.,Pixel Profligate,T,Resource,Overcharger,,,
 Junk-0,Tech,Common,1 energy,0,1,Stinky,,,Android,It's odd for rust to smell this bad.,Pixel Profligate,T,Defense,Scrapton,,,
 Light Latcher,Tech,Common,1 energy,0,1,LATCHER_Powered,,,Latcher,It only powers one slot.,Murigen,T,Conduit,,,,
-Mechanical Jewel,Tech,Common,1 max,0,2,Destiny,,,Mox Machine,Reads fate with relative uncertainty.,NEWS,T,Mox,,,,
+Mechanical Jewel,Tech,Common,1 max,0,2,Arbitrary Gem,,,Mox Machine,Reads fate with relative uncertainty.,NEWS,T,Mox,,,,
 Sentry Drone,Tech,Common,1 energy,0,1,Sentry,,,Machine,Shoots anything that gets close.,Pixel Profligate,T,Defense,,,,
 Sparkplug,Tech,Common,1 energy,0,1,Shock,,,Bot Conduit,Contact may result in shocking discovery.,Murigen,T,"Resource, Conduit",,,,
 49er,Tech,Common,2 energy,1,1,Sprinter,,,Worker Android Bot,"On the move, searching for something.",Pixel Profligate,T,Reliable,,,,
