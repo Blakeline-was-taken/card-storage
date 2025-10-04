@@ -174,6 +174,7 @@ Opportunist,"When placed, this card immediately strikes the opposing card.",T,,S
 Strategic,"When placed, this card immediately strikes any opposing space.",T,,
 Sentry,"When a card enters the opposing space, it is dealt 1 damage.",T,,Armed Sentry
 Armed Sentry,"When a card enters the opposing space, it is dealt 2 damage.",T,,
+Gem Tactician,"When a card enters the opposing space of a mox card you control, it is dealt 1 damage.",T,,
 Petrifying Gaze,"When a card enters the opposing space, it won't be able to attack, move, or be sacrificed until your end step.",T,,Turned To Stone
 Turned To Stone,"The opposing card cannot attack, move, or be sacrificed.",T,,
 Poisonous,"During the opponent's end step, the opposing card takes 1 damage.",T,,Black Hole
