@@ -234,6 +234,11 @@
     "description": "Various items available in the game.",
     "categories": ["Gameplay"]
   },
+  "decks": {
+    "title": "Starter Decks",
+    "description": "All the starter decks available for each Temple.",
+    "categories": ["Gameplay"]
+  },
   "todo": {
     "title": "Todo List",
     "description": "List of all the remaining tasks to do for the campaign.",
