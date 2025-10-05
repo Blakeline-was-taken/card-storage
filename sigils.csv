@@ -1,87 +1,84 @@
 Name,Description,Can_be_colored,Is_attack_sigil,Upgraded_sigil
 Distresser,"During your end step, this card stresses. Nothing happens.",,,
 Heat Drop,"When played, this card cools the air. Nothing happens.",,,
-Blood Pact,"When sacrificed, this card provides 1 more blood.",,,Worthy Sacrifice
-Worthy Sacrifice,"When sacrificed, this card provides 3 blood.",,,Blood Fountain
-Hearty Offering,"When sacrificed, this card provides any amount of blood up to its health.",,,Generous Donation
-Generous Donation,"When sacrificed, this card provides any amount of blood up to its stats.",,,
-Blood Fountain,"When sacrificed, this card provides as much blood as needed.",,,
-Embezzling,"When sacrificed, this card provides 1 more blood per mox card you control.",,,
-Life Donor,"When sacrificed, this card loses 1 health per blood it provides instead of perishing.",,,Many Lives
+Blood Pact,"When sacrificed, this card provides 1 extra [resource:blood] blood.",,,Worthy Sacrifice
+Worthy Sacrifice,"When sacrificed, this card provides 3[mark:x][resource:blood] instead of 1.",,,Blood Fountain
+Hearty Offering,"When sacrificed, this card provides any amount of [resource:blood] up to its health.",,,Generous Donation
+Generous Donation,"When sacrificed, this card provides any amount of [resource:blood] up to its total stats.",,,
+Blood Fountain,"When sacrificed, this card provides as much [resource:blood] blood as needed.",,,
+Embezzling,"When sacrificed, this card provides 1 extra [resource:blood] per mox card you control.",,,
+Life Donor,"When sacrificed, this card loses 1 health per [resource:blood] blood it provides instead of perishing.",,,Many Lives
 Many Lives,This card does not perish when sacrificed.,T,,Two Many Lives
 Two Many Lives,"This card does not perish when sacrificed, and can be sacrificed twice for a single cost.",T,,
 Lifeblood,All your other cards can be sacrificed.,,,Convergence
-Convergence,All your other cards can be sacrificed and shattered for a shattered gem of any color.,,,
-Blood Battery,"When playing cards, you may pay 4 energy instead of paying 1 blood.",,,
+Convergence,All your other cards can be sacrificed and shattered for a [resource:shatter] of any color.,,,
+Blood Battery,"When playing cards, you may pay 4[mark:x][resource:energy] instead of paying 1 [resource:blood].",,,
 Prized Sacrifice,You cannot sacrifice other cards alongside this one.,,,
-Unburial,"When played, gain 1 bone.",,,Unboxing
-Unboxing,"When played, gain 2 bones.",,,
-Bone Digger,"During your end step, gain 1 bone.",T,,Tomb Digger
-Tomb Digger,"During your end step, gain 2 bones.",T,,Mass Grave
-Mass Grave,"During your end step, gain 3 bones.",T,,Digger King
-Digger King,"During your end step, gain 4 bones.",,,
-Scrounger,"When this card kills another, gain 1 bone.",T,,Spiteful
-Spiteful,"When this card kills another, gain 2 bones.",T,,Skull Taker
-Skull Taker,"When this card kills another, gain 3 bones.",T,,Spine Ripper
-Spine Ripper,"When this card kills another, gain 4 bones.",T,,
-Scavenger,"When an opposing card dies in combat, gain 1 bone.",T,,Carrion
-Carrion,"When an opposing card dies in combat, gain 2 bones.",T,,
-Harvester,"Gain a bone for each direct damage this card deals.",T,,Reaper
-Reaper,"Gain 2 bones for each direct damage this card deals.",T,,
-Fracture,"When killed in combat, gain bones equal to the full damage dealt.",T,,Munchmeyer
-Munchmeyer,"When damaged, gain bones equal to the full damage dealt.",T,,
-Bone King,"When this card perishes, gain 4 bones instead of 1.",,,Pile of Bones
-Pile of Bones,"When this card perishes, gain 8 bones instead of 1.",,,
-Memoriam,"When your other cards perish, gain 1 more bone.",T,,Commute
-Commute,"When your other cards perish, gain 2 more bones.",T,,
-Loose Bones,"During your end step, this card moves to an adjacent space, giving 1 bone.",,,
-Bonehorn,"Pay 1 energy to gain 1 bone.",T,,
-Bury,"Once per turn, discard a card from your hand or field to gain 3 bones.",T,,
-Battery Bearer,"When played, gain an energy cell.",,,Bank Bearer
-Bank Bearer,"When played, gain 2 energy cells.",,,
-Generator,"During your end step, gain an energy cell.",,,Reactor
-Reactor,"During your end step, gain 2 energy cells.",,,
-Death Surge,"When this card perishes, gain 2 energy cells.",,,Death Surcharge
-Death Surcharge,"When this card perishes, gain 4 energy cells.",,,
-Discharge,"When this card kills another, gain an energy cell.",,,Surging Purge
-Surging Purge,"When an opposing card dies in combat, gain 1 energy cell.",T,,
-Shock,"When struck, gain an energy cell.",,,Static
-Static,"When struck, gain 2 energy cells.",,,
-Dust Charge,"When your Mox cards die, gain an energy cell.",,,Skull Charge
+Unburial,"When played, gain 1 [resource:bone].",,,Unboxing
+Unboxing,"When played, gain 2[mark:x][resource:bone].",,,
+Bone Digger,"During your end step, gain 1 [resource:bone] bone.",T,,Tomb Digger
+Tomb Digger,"During your end step, gain 2[mark:x][resource:bone] bones.",T,,Mass Grave
+Mass Grave,"During your end step, gain 3[mark:x][resource:bone] bones.",T,,Digger King
+Digger King,"During your end step, gain 4[mark:x][resource:bone] bones.",,,
+Scrounger,"When this card kills another, gain \n 1 [resource:bone] bone.",T,,Spiteful
+Spiteful,"When this card kills another, gain 2[mark:x][resource:bone] bones.",T,,Skull Taker
+Skull Taker,"When this card kills another, gain 3[mark:x][resource:bone] bones.",T,,Spine Ripper
+Spine Ripper,"When this card kills another, gain 4[mark:x][resource:bone] bones.",T,,
+Scavenger,"When an opposing card dies in combat, gain 1 [resource:bone] bone.",T,,Carrion
+Carrion,"When an opposing card dies in combat, gain 2[mark:x][resource:bone] bones.",T,,
+Harvester,"Gain a [resource:bone] bone for each direct damage this card deals.",T,,Reaper
+Reaper,"Gain 2[mark:x][resource:bone] bones for each direct damage this card deals.",T,,
+Fracture,"When killed in combat, gain [resource:bone] bones equal to the full damage dealt.",T,,Munchmeyer
+Munchmeyer,"When damaged, gain [resource:bone] bones equal to the full damage dealt.",T,,
+Bone King,"When this card perishes, gain 4[mark:x][resource:bone] bones instead of 1 [resource:bone].",,,Pile of Bones
+Pile of Bones,"When this card perishes, gain 8[mark:x][resource:bone] bones instead of 1 [resource:bone].",,,
+Memoriam,"When your other cards perish, gain \n 1 [resource:bone] bone.",T,,Commute
+Commute,"When your other cards perish, gain 2[mark:x][resource:bone] bones.",T,,
+Loose Bones,"During your end step, this card moves to an adjacent space, giving 1 [resource:bone] bone.",,,
+Bonehorn,"Pay 1 [resource:energy] energy to gain 1 [resource:bone] bone.",T,,
+Bury,"Once per turn, discard a card from your hand or field to gain 3[mark:x][resource:bone] bones.",T,,
+Battery Bearer,"When played, gain an [resource:energy] energy cell.",,,Bank Bearer
+Bank Bearer,"When played, gain 2[mark:x][resource:energy] energy cells.",,,
+Generator,"During your end step, gain an [resource:energy] energy cell.",,,Reactor
+Reactor,"During your end step, gain 2[mark:x][resource:energy] energy cells.",,,
+Death Surge,"When this card perishes, gain 2[mark:x][resource:energy] energy cells.",,,Death Surcharge
+Death Surcharge,"When this card perishes, gain 4[mark:x][resource:energy] energy cells.",,,
+Discharge,"When this card kills another, gain an [resource:energy] energy cell.",,,Surging Purge
+Surging Purge,"When an opposing card dies in combat, gain an [resource:energy] energy cell.",T,,
+Shock,"When struck, gain an [resource:energy] energy cell. \n",,,Static
+Static,"When struck, gain 2[mark:x][resource:energy] energy cells. \n",,,
+Dust Charge,"When your Mox cards die, gain an [resource:energy] energy cell.",,,Skull Charge
 Skull Charge,"When your other cards cards die, gain an energy cell.",,,
-Graveyard Fog,"When this card dies, you may choose to gain 1 energy instead of bones.",T,,
-Fossil Fuel,"Pay 1 bone to refill an energy cell.",T,,
-Spare Supply,"When played, your depleted energy cells are refilled.",T,,No Power Loss
-No Max Reduction,"Your energy cells cannot be destroyed.",,,No Power Loss
-No Power Loss,"Your depleted energy cells instantly refill.",,,
+Graveyard Fog,"When this card dies, you may choose to gain 1 energy instead of [resource:bone] bones.",T,,
+Fossil Fuel,"Pay 1 [resource:bone] bone to refill an [resource:energy_empty] energy cell.",T,,
+Spare Supply,"When played, your \n [resource:energy_empty] energy cells are refilled.",T,,No Power Loss
+No Max Reduction,"Your [resource:energy] energy cells cannot be destroyed.",,,No Power Loss
+No Power Loss,"Your [resource:energy_empty] energy cells instantly refill.",,,
 Gem Linked,This card counts as a Mox card.,,,
-Green Gem,This card provides a Green gem.,,,Malachite Gem
-Malachite Gem,This card provides 2 Green gems.,,,
-Orange Gem,This card provides an Orange gem.,,,Citrine Gem
-Citrine Gem,This card provides 2 Orange gems.,,,
-Blue Gem,This card provides a Blue gem.,,,Azurite Gem
-Azurite Gem,This card provides 2 Blue gems.,,,
-Arbitrary Gem,"This card provides a gem of a random color. During your draw step, re-roll the color.",,,Prism Gem
-Prism Gem,This card provides a gem of any color.,,,Gem Catalyst
-Prism Essence,This card provides a gem of any color.,,,
-Gem Catalyst,This card provides 2 gems of any color.,,,Moxum Opus
-Magnificent Gem,"This card provides one Green, one Orange and one Blue gem.",,,Moxum Opus
-Moxum Opus,"This card provides three gems of any color.",,,
-Overcoat,Any gems provided on your side become gems of any color.,,,Paintjob
-Paintjob,Your Mox cards also provide a gem of any color.,,,
+Green Gem,This card provides a [resource:green_gem] Green gem.,,,Malachite Gem
+Malachite Gem,This card provides 2[mark:x][resource:green_gem] Green gems.,,,
+Orange Gem,This card provides an [resource:orange_gem] Orange gem.,,,Citrine Gem
+Citrine Gem,This card provides 2[mark:x][resource:orange_gem] Orange gems.,,,
+Blue Gem,This card provides a [resource:blue_gem] Blue gem.,,,Azurite Gem
+Azurite Gem,This card provides 2[mark:x][resource:blue_gem] Blue gems.,,,
+Arbitrary Gem,"This card provides a [resource:gem] gem of a random color. During your draw step, re-roll the color.",,,Prism Gem
+Prism Gem,This card provides a [resource:prism_gem] gem of any color.,,,Gem Catalyst
+Gem Catalyst,This card provides 2[mark:x][resource:prism_gem] gems of any color.,,,Moxum Opus
+Magnificent Gem,"This card provides a [resource:green_gem] Green gem, an [resource:orange_gem] Orange gem and a [resource:blue_gem] Blue gem.",,,Moxum Opus
+Moxum Opus,"This card provides 3[mark:x][resource:prism_gem] gems of any color.",,,
+Overcoat,Any [resource:gem] gems provided on your side become [resource:prism_gem] gems of any color.,,,Paintjob
+Paintjob,Your Mox cards also provide a [resource:prism_gem] gem of any color.,,,
 Gemorphosis,"Your other cards have the Mox tribe.",,,
 Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,
 Modularity,"All your cards are gemified, including this one and cards from your hand.",T,,
-Fragment Shard,"This card can be shattered to provide a shattered gem of any color.",,,Fragment Hoard
-Fragment Hoard,"This card can be shattered to provide 2 shattered gems of any color.",,,Fragment Mass
-Fragment Mass,"This card can be shattered to provide 3 shattered gems of any color.",,,
-Body of Dust,"When you shatter a card, it provides double the amount of shattered gems.",,,Made of Dust
-Made of Dust,"When you shatter a card, it provides triple the amount of shattered gems.",,,
+Fragment Shard,"This card can be shattered to provide a [resource:shatter] shattered gem of any color.",,,Fragment Hoard
+Fragment Hoard,"This card can be shattered to provide 2[mark:x][resource:shatter] shattered gems of any color.",,,Fragment Mass
+Fragment Mass,"This card can be shattered to provide 3[mark:x][resource:shatter] shattered gems of any color.",,,
 Dust Gatherer,"When you shatter a card, it does not perish.",,,Gem Transmuter
 Gem Transmuter,"Your mox cards can be sacrificed, and don't perish when shattered or sacrificed.",,,
 Lapis Holder,"After this card dies, the next card to enter its space will gain the [sigil:BlueGem] Blue Gem sigil.",,,Azur Lapis
 Azur Lapis,"After this card dies, the next card to enter its space will gain the [sigil:AzuriteGem] Azurite Gem sigil.",,,
-Magical Scraps,"Pay 3 bones to draw a Side Deck Mox card of your choice.",,,
+Magical Scraps,"Pay 3[mark:x][resource:bone] bones to draw a Side Deck Mox card of your choice.",,,
 Gem Salvage,"When this card kills another, draw a Side Deck Mox card of your choice.",,,
 Rust Polish,"Pay 2 Metal to draw a Side Deck Mox card of your choice.",,,
 Eldritch Power,"During your end step, gain 1 chemical.",T,,Eldritch Convergence
@@ -96,10 +93,10 @@ Hypercharged Pylons,"When a Pylon card is played, gain 1 chemical per Pylon card
 Predicted Pylons,"Choose the value of any chemical gained by a Pylon card.",T,,
 Incinerator Pit,"When your other cards perish, gain 1 metal.",T,,Overcook
 Overcook,"When your other cards perish, gain 2 metal.",T,,
-Eldritch Death,"Any bone gained from this card turns into a chemical instead.",T,,
+Eldritch Death,"Any [resource:bone] bone gained from this card turns into a chemical instead.",T,,
 Chemical Stimulant,"You must always roll your chemicals when able to.",T,,
 Arcane Conjuration,"When played, gain a chemical, and choose its value.",T,,
-Transmutation,"Pay 1 energy cell to set a chemical's value.",T,,
+Transmutation,"Pay 1 [resource:max_energy] energy cell to set a chemical's value.",T,,
 Arcane Refinement,"Shatter a card to gain 2 chemicals.",T,,
 Ad Infinitum,"Chemicals you spend are not lost.",T,,
 Fate Decided,"You may choose the outcome of any dice rolls you make.",T,,
@@ -124,12 +121,12 @@ On the Clock,"During your draw step, you may return this card to your hand.",,,
 Ticking,"During your end step, this card loses 1 health.",T,,Raging Flames
 Rotting,"During your end step, this card loses 1 health and power.",T,,Ticking
 Ravenous,"During your end step, this card loses 1 health unless you sacrifice a card.",,,
-Osteophage,"During your end step, this card loses 1 health unless you spend 3 bones.",,,
-Addict,"During your end step, this card loses 1 health unless you spend 3 energy.",,,
+Osteophage,"During your end step, this card loses 1 health unless you spend 3[mark:x][resource:bone] bones.",,,
+Addict,"During your end step, this card loses 1 health unless you spend 3[mark:x][resource:energy] energy.",,,
 Dust Eater,"During your end step, this card loses 1 health unless you shatter a card.",,,
 Desecration,"When played, search a card from your deck and discard it.",T,,
-Power Leak,"When this card perishes, lose an energy cell.",,,Blackout
-Blackout,"When this card perishes, deplete 2 energy cells.",,,
+Power Leak,"When this card perishes, lose an [resource:max_energy] energy cell.",,,Blackout
+Blackout,"When this card perishes, deplete 2 [resource:energy] energy cells.",,,
 Delete,"When this card dies, shuffle the cards in your hand back to their decks.",T,,Defiler
 Defiler,"When this card dies, discard the top card of your deck.",T,,Desecration
 Dead Byte,"When killed, search and discard a card from your deck, then deal its health worth of damage directly.",T,,
@@ -141,7 +138,7 @@ Target Spotted,"This card can only strike empty spaces if their back lane has a 
 Airborne,This card's strikes only hit the space they target directly.,T,,Aerobatics
 Aerobatics,"When this card strikes another, you may target its space directly instead.",T,,
 Falconry,"When they strike, your Avian cards may choose to deal direct or normal damage to the spaces they strike.",T,,
-Carry Up,"Once per turn, pay 1 bone to make a card only hit the spaces of its targets directly until your draw step.",
+Carry Up,"Once per turn, pay 1 [resource:bone] bone to make a card only hit the spaces of its targets directly until your draw step.",
 Aquanaut,"This card ignores any changes to the target of its strikes.",T,,Subnautics
 Subnautics,"When the target of this card's strikes is changed, it will also hit its original target.",,,
 Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
@@ -157,7 +154,7 @@ Split Strike,"When attacking, this card strikes a space adjacent to the opposing
 Confused Strike,"When attacking, this card strikes either the opposing space, or a space adjacent to it.",T,,Sniper
 Sniper,"When it strikes, this card may target any space on the opposite side.",T,,Split Shot
 Split Shot,"This card's strikes target any 2 spaces on the opposite side.",T,,
-Sapphire Aim,"If you provide a blue gem, this card may target any space opposing your mox cards when it strikes.",T,,
+Sapphire Aim,"If you provide a [resource:blue_gem] blue gem, this card may target any space opposing your mox cards when it strikes.",T,,
 Rattle 'Em!,"Your [mark:Brittle] Brittle cards have [sigil:Sniper] Sniper.",,,
 Guidance,"Your cards attack two lanes of your choice.",T,,
 Inverted Strike,"When attacking, this card hits the space reached by following an L-shape from its position.",T,,Cavalry
@@ -206,8 +203,8 @@ Trapped Pylons,"When your Pylon cards perish, their opposing card perishes.",T,,
 Snake Eyes,"When this card dies, roll a d6. Cards around it are dealt that amount of damage.",T,,All In
 All In,"When this card dies, roll a d6. The opposing card perishes, and a corresponding amount of direct damage is dealt.",T,,
 Fire Blast,"When this card dies, cards around it gain [sigil:Burning] Burning.",T,,
-Head Shot,"Pay 2 energy to deal 1 damage to the opposing card.",T,,
-Neck Snapper,"Pay 3 energy cells to deal 10 damage to any card. This card takes 1 damage.",T,,
+Head Shot,"Pay 2[mark:x][resource:energy] energy to deal 1 damage to the opposing card.",T,,
+Neck Snapper,"Pay 3[mark:x][resource:max_energy] energy cells to kill any card. This card takes 1 damage.",T,,
 Dive Bomb,"Sacrifice this card to damage equal to its health to any card.",,,
 Kamikaze,"During your draw step, this card moves to the opposing space where it perishes.",T,,
 Mighty Leap,"Damage dealt directly to its space is dealt to this card instead.",T,,Air Barrage
@@ -276,8 +273,8 @@ Flee,"Once per turn, move this card to an adjacent space.",T,,
 Bulldoze,"Move this card to an adjacent space, pushing other cards in its way.",T,,
 Teleport,"Once per turn, swap this card's place with any other space on your side.",T,,
 Telekinesis,"Pay 1 chemical to move one of your cards to an empty space.",,,
-Hotswap,"Pay 2 energy to swap this card's place with any other space on your side.",T,,
-Constriction,"Pay 3 bones to move an opposing card in front of this card.",T,,
+Hotswap,"Pay 2[mark:x][resource:energy] energy to swap this card's place with another space on your side.",T,,
+Constriction,"Pay 3[mark:x][resource:bone] bones to move an opposing card in front of this card.",T,,
 Rooted,This card cannot be moved or removed from its space until it perishes.,T,,Unphased
 Unphased,This card cannot be moved or removed from its space until it perishes. It is unaffected by opposing sigils.,T,,
 Mother's Heart,"When played, draw a ""Chick"".",T,,Mother's Love
@@ -394,15 +391,15 @@ Chew Toy,"When played, draw a random Hound card. The cost of Hound cards is halv
 Mech Builder,"When played, draw a Mechabeast card of your choice.",T,,
 Psychic Link,"When played, draw a ""Squidling"".",T,,
 Fragile Construct,"When played, search a [mark:brittle] Brittle card from your deck or discard, or draw a ""Skeleton"".",T,,
-Re-Index,"When played, search a common card from your deck costing up to 6 energy and another from your discard.",,,Restore
-Restore,"When played, search an energy-costing common card from your deck and another from your discard.",,,
+Re-Index,"When played, search a common card from your deck costing up to 6[mark_x][resource:energy] energy and another from your discard.",,,Restore
+Restore,"When played, search an [resource:energy] energy costing common card from your deck and another from your discard.",,,
 Hoarder,"When played, search a common card from your deck.",T,,Collector
 Collector,"When played, search a card from your deck.",T,,
 Horde,"When this card kills another, draw a ""TOKEN"".",T,,
 Hotfix,"When your side deck cards die, they return to your hand instead.",T,,
-Disentomb,"Pay 2 bones to search a [mark:brittle] Brittle card from any of your decks.",T,,
-Cybernetics,"Pay 4 energy to create and place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
-Print Process,"Pay 2 energy cells to draw a card from your deck.",T,,
+Disentomb,"Pay 2[mark:x][resource:bone] bones to search a [mark:brittle] Brittle card from any of your decks.",T,,
+Cybernetics,"Pay 4[mark:x][resource:energy] energy to create and place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
+Print Process,"Pay 2[mark:x][resource:max_energy] energy cells to draw a card from your deck.",T,,
 Printing Press,"Pay 2 metal to draw a card from your deck.",T,,
 Reanimate,"Once per turn, pay for and play a common card from your discard.",T,,
 Equivalent Exchange,"Once per turn, exchange a card from your hand with one it shares a tribe with from your discard pile.",T,,
@@ -412,8 +409,8 @@ Burden Power,"This card's power is the number of Pelt cards you control, includi
 Loner,This card's power is the number of empty spaces on your side of the field.,T,T,
 Strong Hand,"This card's power is the size of your hand, up to 5.",T,T,
 Spilt Blood,"This card's power is the amount of blood you made this turn, up to 5.",T,T,
-Scattered Bones,"This card's power is half the number of unspent bones you own, rounded down and up to 5.",T,T,
-Catacomb,"This card's power is the number of unspent bones you own, up to 5.",T,T,
+Scattered Bones,"This card's power is half the number of bones you own, rounded down and up to 5.",T,T,
+Catacomb,"This card's power is the number of bones you own, up to 5.",T,T,
 Grim Power,"When another card perishes, this card gains 1 power, up to 5.",T,,
 Overclock,"This card's power is half your amount of unspent energy, rounded down.",T,T,
 Gem Powered,This card's power is the number of Mox cards you control.,T,T,
@@ -425,7 +422,7 @@ traeH Power,This card's power is the opposing card's health.,T,T,
 Health Power,This card's power is this card's health.,T,T,
 Scale Power,This card's power is dependent on how tipped in your favour the scales are.,T,T,
 Item Power,This card's power is twice the number of items you own.,T,T,
-Overcharge,"For every energy cell you would gain when already at 12, this card gains 1 power, up to 7.",,,
+Overcharge,"For every [resource:energy] energy cell you would gain when already at 12, this card gains 1 power, up to 7.",,,
 Raging Flames,"During your end step, this card loses 1 health and gains 1 power.",T,,Whimsical Leader
 Bell Ringer,"This card's power is the number of times the bell was rung since it was played, up to 5.",T,T,
 Bloodlust,"When this card kills another, it gains 1 power, up to 5.",T,,Bloodshed
@@ -434,8 +431,8 @@ Resentful,"When damaged, this card gains 1 power, up to 5.",T,,Sensitive
 Sensitive,"When damaged or when its space is struck directly, this card gains 1 power, up to 5.",T,,
 Dust Power,"When your Mox cards die, this card gains 1 power, up to 5.",,,Dust Fueled
 Dooming Dust,"Once per turn, shatter a card to make another card have 2 more power until your end step.",,,
-Stimulate,"Once per turn, pay 3 energy to make this card gain 1 power, up to 5.",T,,
-Power Dice,"Pay 3 energy to roll a D6. This card's base power becomes the result until your end step.",T,,
+Stimulate,"Once per turn, pay 3[mark:x][resource:energy] energy to make this card gain 1 power, up to 5.",T,,
+Power Dice,"Pay 3[mark:x][resource:energy] energy to roll a D6. This card's base power becomes the result until your end step.",T,,
 Infinifold,"Once per turn, shatter a card to double this card's power.",T,,
 Expertise,Any stat increase applied to this card is doubled.,T,,Mastery
 Mastery,Any stat increase applied to this card is tripled.,T,,
@@ -474,7 +471,7 @@ Soul Strike,"When this card dies, a Mox card you control gains 1 power and strik
 Soul Assault,"When this card dies, a Mox card you control gains 1 power and strikes an opposing space of your choice.",,,
 Sparkling Dust,"Shatter a card to make it deal its health worth of damage to a card of your choice.",,,
 Arcane Blessing,"Once per turn, discard a card from your hand or field to make any card gain 1 power.",T,,
-Turbocharge,"Pay 3 energy to add [sigil:Overclocked] Overclock to a card you control that doesn't have it.",T,,
+Turbocharge,"Pay 3[mark:x][resource:energy] energy to add [sigil:Overclocked] Overclock to a card without it that you control.",T,,
 Convalesce,"During your end step, this card gains 1 health, up to 5.",T,,Whimsical Healer
 Gemagnify,"During your end step, this card gains 1 health per mox card you control, up to 5.",,,Gem Healing
 Gem Healing,"During your end step, this card gains 1 health per mox card you control.",,,
@@ -488,7 +485,7 @@ Bloodguzzler,"When this card damages another, it gains health equal to the damag
 Heart of Dust,"When your Mox cards die, this card gains 1 health, up to 5.",,,Dust Fueled
 Assimilator,"During your end step, adjacent cards perish. Add their health to this card.",T,,
 Assembly,"During your end step, adjacent cards perish. Their sigils replace this card's other sigils.",,,
-Enlarge,"Pay 2 bones to increase this card's power and health by 1, up to 5.",T,,
+Enlarge,"Pay 2[mark:x][resource:bone] bones to increase this card's power and health by 1, up to 5.",T,,
 Invigorate,"Sacrifice a card, which perishes, and increases both stats of any card you control by 1, up to 5.",T,,
 Absorption,"Sacrifice a card to make this card gain 2 health up to 5.",T,,
 Swapper,"When struck, swap this card's power and health.",T,,Swap
@@ -533,12 +530,10 @@ Heal Conduit,"During your end step, cards between this and another Conduit card 
 Soul Conduit,"During your end step, your Conduit cards and cards between them gain 1 health, up to 5.",T,,
 Armor Conduit,"During your end step, cards between this and another Conduit card gain an [mark:armor] Armor mark.",T,,Nano Conduit
 Nano Conduit,"During your end step, your Conduit cards and cards between them gain an [mark:armor] Armor mark.",T,,
-Spawn Conduit,"During your end step, a card costing from 0 to 3 energy is searched and placed between this and another Conduit card.",T,,Production Conduit
+Spawn Conduit,"During your end step, a card costing 0-3[mark:x][resource:energy] energy is searched and placed between this and another Conduit card.",T,,Production Conduit
 Production Conduit,"During your end step, search cards costing up to 3 energy and place them in every empty space between this and another Conduit card.",T,,
 Gem Spawn Conduit,"During your end step, a random Gem Vessel is placed between this and another Conduit card.",T,,
-Blood Conduit,"Cards between this and another Conduit card provide 1 more blood when sacrificed.",T,,Bloodier Conduit
-Bloodier Conduit,"Cards between this and another Conduit card provide 3 blood when sacrificed.",T,,
-Energy Conduit,"While you control another Conduit card, your energy cells refill.",,,No Power Loss
+Energy Conduit,"While you control another Conduit card, your [resource:energy_empty] energy cells refill.",,,No Power Loss
 Gem Conduit,"Cards between this and another Conduit card are gemified.",,,
 Eldritch Conduit,"During your draw step, you may set one chemical's value per card between this and another Conduit card.",T,,
 Activation Conduit,"Cards played between this and another Conduit card trigger their activated ability once for free.",,,Spam Conduit
@@ -556,9 +551,9 @@ Breaker,"Your conduit cards cannot be struck.",T,,
 Enhanced Arcane,"If you provide 2 unique mox colors, this card has 1 more power.",,,Empowered Arcane
 Empowered Arcane,"If you provide 2 unique mox colors, this card has 2 more power.",,,
 Pack Mentality,"If this card shares a tribe with another card you control, it has 2 more power.",T,,
-Marrow Catalyst,Your cards cost 2 fewer bones to play.,T,,Night of the Living Dead
-Night of the Living Dead,Your cards cost 2 fewer bones and energy to play.,T,,Full Moon Night
-Full Moon Night,Your cards cost half their normal amount of bones and energy to play.,T,,
+Marrow Catalyst,Your cards cost 2[mark:x][resource:bone] bones less to play.,T,,Night of the Living Dead
+Night of the Living Dead,The cost of your cards is reduced by 2[mark:x][resource:bone] bones and 2[mark:x][resource:energy] energy.,T,,Full Moon Night
+Full Moon Night,Your cards cost half their normal amount of [resource:bone] bones and [resource:energy] energy to play.,T,,
 Unseelie Authority,"When a non-Spectre card you control perishes, a 0-power Spectre card is placed in its place.",T,,
 Puppet Master,"Your [mark:brittle] cards ignore its effect, but perish when this card dies.",T,,Illusionist
 Illusionist,"Your cards ignore [mark:brittle] Brittle.",T,,
@@ -594,7 +589,7 @@ Arcane Echo,"Activated abilities trigger twice when triggered.",T,,Arcane Recurs
 Arcane Recursion,"Activated abilities trigger three times when triggered.",T,,
 Time Loop,"Your end step triggers an additional time.",T,,
 Illusion Dust,"During your end step, this card makes your other cards believe it is a Mox card being shattered.",,,
-Pay Tribute,"Sacrifice a card to gain bones equal to its base health. It then perishes, and this card gains 1 power.",T,,
+Pay Tribute,"Sacrifice a card to gain [resource:bone] bones equal to its base health. It then perishes, and this card gains 1 power.",T,,
 Burden,"This card can only be removed from your deck by exchanging it.",T,,
 Grim Epitaph,"When played, search a card from your discard and place it on your field.",,,
 Particle Scan,"When played, a copy of an opposing card is placed on your field.",,,
@@ -604,5 +599,5 @@ The Golden Ram,"When killed in combat, a Golden Pelt is permanently added to you
 I Doth Decree,"Your cards have no maximum power or health.",T,,
 Swift Play,"This card can only be played during any step of your opponent's turn.",T,,Omniplay
 Omniplay,"This card can be played at any step during either turn.",T,,
-Steal,"When killed in combat, your opponent loses 2 bones.",T,,
+Steal,"When killed in combat, your opponent loses 2 [resource:bone] bones.",T,,
 ?????,"???? ???? ????? ??? ??????, ????????? ???????.",T,,
