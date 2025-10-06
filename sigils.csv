@@ -34,7 +34,7 @@ Pile of Bones,"When this card perishes, gain 8{mark:x}{resource:bone} bones inst
 Memoriam,"When your other cards perish, gain \n 1 {resource:bone} bone.",T,,Commute
 Commute,"When your other cards perish, gain 2{mark:x}{resource:bone} bones.",T,,
 Loose Bones,"During your end step, this card moves to an adjacent space, giving 1 {resource:bone} bone.",,,
-Bonehorn,"[Pay 1 {resource:energy}] Gain 1 {resource:bone} bone.",T,,
+Bonehorn,"[Pay {resource:energy}] Gain 1 {resource:bone} bone.",T,,
 Bury,"[Once per turn, discard a card from your hand or field] Gain 3{mark:x}{resource:bone} bones.",T,,
 Battery Bearer,"When played, gain an {resource:energy} energy cell.",,,Bank Bearer
 Bank Bearer,"When played, gain 2{mark:x}{resource:energy} energy cells.",,,
