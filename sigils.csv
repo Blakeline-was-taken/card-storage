@@ -2,7 +2,7 @@ Name,Description,Can_be_colored,Is_attack_sigil,Upgraded_sigil
 Distresser,"During your end step, this card stresses. Nothing happens.",,,
 Heat Drop,"When played, this card cools the air. Nothing happens.",,,
 Blood Pact,"When {mark:sacrifice}sacrificed, this card provides 1 extra {resource:blood} blood.",,,Worthy Sacrifice
-Worthy Sacrifice,"When {mark:sacrifice}sacrificed, this card provides 3{mark:x}{resource:blood} blood instead of 1.",,,Blood Fountain
+Worthy Sacrifice,"When {mark:sacrifice}sacrificed, this card provides 3{mark:x}{resource:blood} blood instead of 1 {resource:blood} blood.",,,Blood Fountain
 Hearty Offering,"When {mark:sacrifice}sacrificed, this card provides any amount of {resource:blood} up to its health.",,,Generous Donation
 Generous Donation,"When {mark:sacrifice}sacrificed, this card provides any amount of {resource:blood} up to its total stats.",,,
 Blood Fountain,"When {mark:sacrifice}sacrificed, this card provides as much {resource:blood} blood as needed.",,,
@@ -29,7 +29,7 @@ Harvester,"Gain a {resource:bone} bone for each direct damage this card deals.",
 Reaper,"Gain 2{mark:x}{resource:bone} bones for each direct damage this card deals.",T,,
 Fracture,"When killed in combat, gain {resource:bone} bones equal to the full damage dealt.",T,,Munchmeyer
 Munchmeyer,"When damaged, gain {resource:bone} bones equal to the full damage dealt.",T,,
-Bone King,"When this card perishes, gain 4{mark:x}{resource:bone} bones instead of 1 {resource:bone}.",,,Pile of Bones
+Bone King,"When this card perishes, gain 4{mark:x}{resource:bone} bones instead of 1 {resource:bone} bone.",,,Pile of Bones
 Pile of Bones,"When this card perishes, gain 8{mark:x}{resource:bone} bones instead of 1 {resource:bone}.",,,
 Memoriam,"When your other cards perish, gain \n 1 {resource:bone} bone.",T,,Commute
 Commute,"When your other cards perish, gain 2{mark:x}{resource:bone} bones.",T,,
