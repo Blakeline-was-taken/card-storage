@@ -187,6 +187,7 @@ Deathtrap,"When killed in combat, the opposing card perishes.",T,,Caustic
 Croaking Trap,"When your Amphibian cards are killed in combat, their opposing card dies.",T,,
 Vengeance,"When your cards perish, this card deals 1 damage to any other card.",T,,Avenger
 Avenger,"When your cards perish, this card strikes any other card.",T,,
+Last Will,"When {mark:sacrifice}sacrificed, this card deals damage equal to its health to any opposing card.",T,,
 Bomber,"When played, all other cards on the board are dealt 5 damage.",T,,
 Burning,"During your end step, this card takes 1 damage. A card striking or damaged by this card gains {sigil:Burning} Burning.",T,,Pyromania
 Firestarter,"This card gives {sigil:Burning} Burning to the cards it damages. It cannot gain {sigil:Burning} Burning.",T,,Pyromania
@@ -202,7 +203,6 @@ All In,"When this card dies, roll a d6. The opposing card perishes, and a corres
 Fire Blast,"When this card dies, cards around it gain {sigil:Burning} Burning.",T,,
 Head Shot,"[Pay {resource:energy}{resource:energy}] Deal 1 damage to the opposing card.",T,,
 Neck Snapper,"[Pay {resource:max_energy}{resource:max_energy}{resource:max_energy}] Kill any card. This card takes 1 damage.",T,,
-Dive Bomb,"[{mark:sacrifice}Sacrifice this card] Deal damage equal to its health to any card.",,,
 Kamikaze,"During your draw step, this card moves to the opposing space where it perishes.",T,,
 Mighty Leap,"Damage dealt directly to its space is dealt to this card instead.",T,,Air Barrage
 Air Barrage,"This card's space cannot be dealt direct damage.",T,,
@@ -492,6 +492,7 @@ Delightful,"When {mark:sacrifice}sacrificed, this card's stats are added to the 
 Biotic Needles,"[Pay 2 elixir] Any other card gains 1 power, up to 5. [Pay 2 flesh] Any other card gains 2 health, up to 5.",T,,
 Medicine,"[Pay 2 elixir] Adjacent cards have 1 more power. [Pay 2 flesh] Adjacent cards have 2 more health.",T,,
 Dust Fueled,"When your Mox cards die, this card gains 1 power and health, up to 5.",,,
+Envious,"When your cards gain power or health, this card gains it instead, with no maximum power or health.",T,,
 Recall the Broken,"When your cards perish due to {mark:brittle} Brittle, they return to your hand.",T,,
 Recycled Pylons,"When your Pylon cards perish, they are returned to your hand.",T,,
 Haunter,"After this card dies, the next card to enter its space gains its other sigils.",T,,Possessor
