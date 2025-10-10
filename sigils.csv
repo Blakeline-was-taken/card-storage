@@ -65,8 +65,7 @@ Prism Gem,This card provides a {resource:prism_gem} gem of any color.,,,Gem Cata
 Gem Catalyst,This card provides 2{mark:x}{resource:prism_gem} gems of any color.,,,Moxum Opus
 Magnificent Gem,"This card provides a {resource:green_gem} Green gem, an {resource:orange_gem} Orange gem and a {resource:blue_gem} Blue gem.",,,Moxum Opus
 Moxum Opus,"This card provides 3{mark:x}{resource:prism_gem} gems of any color.",,,
-Overcoat,Any {resource:gem} gems provided on your side become {resource:prism_gem} gems of any color.,,,Paintjob
-Paintjob,Your Mox cards also provide a {resource:prism_gem} gem of any color.,,,
+Palette Swap,"When played, you may change the color of one of your gems.",,,
 Gemorphosis,"Your other cards have the Mox tribe.",,,
 Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,Modularity
 Modularity,"All your cards are gemified, including this one and cards from your hand.",T,,
