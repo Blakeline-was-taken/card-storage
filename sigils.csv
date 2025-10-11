@@ -2,7 +2,7 @@ Name,Description,Can_be_colored,Is_attack_sigil,Upgraded_sigil
 Distresser,"During your end step, this card stresses. Nothing happens.",,,
 Heat Drop,"When played, this card cools the air. Nothing happens.",,,
 Blood Pact,"When {mark:sacrifice}sacrificed, this card provides 1 extra {resource:blood} blood.",,,Worthy Sacrifice
-Worthy Sacrifice,"When {mark:sacrifice}sacrificed, this card provides 3{mark:x}{resource:blood} blood instead of 1 {resource:blood} blood.",,,Blood Fountain
+Worthy Sacrifice,"When {mark:sacrifice}sacrificed, this card provides 3{mark:x}{resource:blood} blood.",,,Blood Fountain
 Hearty Offering,"When {mark:sacrifice}sacrificed, this card provides any amount of {resource:blood} up to its health.",,,Generous Donation
 Generous Donation,"When {mark:sacrifice}sacrificed, this card provides any amount of {resource:blood} up to its total stats.",,,
 Blood Fountain,"When {mark:sacrifice}sacrificed, this card provides as much {resource:blood} blood as needed.",,,
@@ -29,8 +29,8 @@ Harvester,"Gain a {resource:bone} bone for each direct damage this card deals.",
 Reaper,"Gain 2{mark:x}{resource:bone} bones for each direct damage this card deals.",T,,
 Fracture,"When killed in combat, gain {resource:bone} bones equal to the full damage dealt.",T,,Munchmeyer
 Munchmeyer,"When damaged, gain {resource:bone} bones equal to the full damage dealt.",T,,
-Bone King,"When this card perishes, gain 4{mark:x}{resource:bone} bones instead of 1 {resource:bone} bone.",,,Pile of Bones
-Pile of Bones,"When this card perishes, gain 8{mark:x}{resource:bone} bones instead of 1 {resource:bone}.",,,
+Bone King,"When this card perishes, gain 4{mark:x}{resource:bone} bones.",,,Pile of Bones
+Pile of Bones,"When this card perishes, gain 8{mark:x}{resource:bone} bones.",,,
 Memoriam,"When your other cards perish, gain \n 1 {resource:bone} bone.",T,,Commute
 Commute,"When your other cards perish, gain 2{mark:x}{resource:bone} bones.",T,,
 Loose Bones,"During your end step, this card moves to an adjacent space, giving 1 {resource:bone} bone.",,,
@@ -168,6 +168,7 @@ Opportunist,"When placed, this card immediately strikes the opposing card.",T,,S
 Strategic,"When placed, this card immediately strikes any opposing space.",T,,
 Sentry,"When a card enters the opposing space, it is dealt 1 damage.",T,,Armed Sentry
 Armed Sentry,"When a card enters the opposing space, it is dealt 2 damage.",T,,
+Quickdraw,"When a card enters the opposing space, this card strikes it.",T,,
 Gem Tactician,"When a card enters the opposing space of a mox card you control, it is dealt 1 damage.",T,,
 Petrifying Gaze,"When a card enters the opposing space, it won't be able to attack, move, or be {mark:sacrifice}sacrificed until your end step.",T,,Turned To Stone
 Turned To Stone,"The opposing card cannot attack, move, or be {mark:sacrifice}sacrificed.",T,,
