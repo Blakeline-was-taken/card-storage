@@ -259,8 +259,8 @@ Rampager,"During your end step, this card swaps places with an adjacent space.",
 Trample,"During your end step, this card moves to an adjacent space. If a card is in that space, it perishes and this card gains 1 power."
 Grave Hopper,"When another card you control perishes, this card moves to its space.",T,,Hopper
 Hopper,"During your end step, this card moves to an empty space.",T,,Warper
-Warper,"During your end step, this card swaps places with another space.",T,,Teleport
-Wary,"When a card is played opposing this one, this card swaps places with any space on your side of the field.",T,,
+Warper,"During your end step, this card swaps places with a card you control.",T,,Teleport
+Wary,"When a card is played opposing this one, this card swaps places with a card you control.",T,,
 Snag,"When played, a card is moved to an empty space on its own side.",T,,Moving Strike
 Moving Strike,"When this card strikes, it moves any other card to an empty space on its own side before striking.",T,,Superposition
 Restructure,"When played, rearrange the positions of your cards.",T,,Superposition
