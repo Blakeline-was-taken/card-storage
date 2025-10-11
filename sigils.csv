@@ -51,6 +51,7 @@ Skull Charge,"When your other cards cards die, gain an energy cell.",,,
 Graveyard Fog,"When this card dies, you may choose to gain 1 energy instead of {resource:bone} bones.",T,,
 Fossil Fuel,"[Pay {resource:bone}] Refill an {resource:energy_empty} energy cell.",T,,
 Spare Supply,"When played, your {resource:energy_empty} energy cells are refilled.",T,,No Power Loss
+Soul Stealer,"When you would lose {resource:max_energy} energy cells, this card perishes instead.",,,No Max Reduction
 No Max Reduction,"Your {resource:energy} energy cells cannot be destroyed.",,,No Power Loss
 No Power Loss,"Your {resource:energy_empty} energy cells instantly refill.",,,
 Gem Linked,This card counts as a Mox card.,,,

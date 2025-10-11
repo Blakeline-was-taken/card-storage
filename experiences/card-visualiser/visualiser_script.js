@@ -162,6 +162,7 @@ const FilterLogic = {
       exclusiveCosts: document.getElementById("exclusive-cost-checkbox").checked,
       exclusiveRoles: document.getElementById("exclusive-roles-checkbox").checked,
       exclusiveArtists: document.getElementById("exclusive-artists-checkbox").checked,
+      onlyCosts: document.getElementById("only-cost-checkbox").checked,
       draftable: !document.getElementById("draftable-filter").checked,
       evolved: !document.getElementById("evolved-filter").checked,
       gemified: !document.getElementById("gemified-filter").checked,
@@ -169,6 +170,7 @@ const FilterLogic = {
   },
 
   apply() {
+    console.log("Applying filters...");
     const values = this.getCurrentValues();
 
     const result = allCards.filter(card => {
@@ -229,9 +231,17 @@ const FilterLogic = {
 
       const costs = (card.Cost || "").toLowerCase();
       const costsOk = selectedCosts.length === 0 || (
-        values.exclusiveCosts
-          ? selectedCosts.every(c => costs.includes(c))
-          : selectedCosts.some(c => costs.includes(c))
+        values.onlyCosts
+          ? (() => {
+              listCosts = costs.split(" ").filter(c => !["shattered", "asterisk", "+"].includes(c) && isNaN(Number(c)) && !selectedCosts.some(c2 => c.includes(c2)));
+              if (card["Card Name"] === "Mage Council"){
+                console.log(listCosts);
+              }
+              return selectedCosts.every(c => costs.includes(c)) && listCosts.length === 0;
+            })()
+          : values.exclusiveCosts
+            ? selectedCosts.every(c => costs.includes(c))
+            : selectedCosts.some(c => costs.includes(c))
       );
 
       const artist = card.Artist || "";
@@ -312,7 +322,7 @@ const FilterUI = {
     ["temple-filter", "tier-filter", "draftable-filter", "evolved-filter", "gemified-filter",
      "power-operator", "power-value", "health-operator", "health-value",
      "exclusive-sigils-checkbox", "exclusive-traits-checkbox", "exclusive-tribes-checkbox",
-     "exclusive-cost-checkbox", "exclusive-roles-checkbox", "exclusive-artists-checkbox",
+     "exclusive-cost-checkbox", "exclusive-roles-checkbox", "exclusive-artists-checkbox", "only-cost-checkbox",
      "latcher-sigil-checkbox", "cell-sigil-checkbox", "rainbow-sigil-checkbox", "tribal-sigil-checkbox", "movement-sigil-checkbox"
     ].forEach(id => document.getElementById(id).addEventListener("input", () => FilterLogic.apply()));
   },

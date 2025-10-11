@@ -133,12 +133,14 @@ code { font-family: monospace; }
 .toc.collapsed #toc-arrow { transform: rotate(-90deg); }
 
 /* TEXT COLORS */
+.red { color: #ff4e4e; }
 .orange { color: #ffa44e; }
 .yellow { color: #ffec9a; }
-.red { color: #ff4e4e; }
 .green { color: #46e146; }
+.cyan { color: #4effd4; }
 .blue { color: #4ea1ff; }
 .purple { color: #b84eff; }
+.pink { color: #ff6aff; }
 .gray { color: #aaa; }
 .white { color: #fff; }
 

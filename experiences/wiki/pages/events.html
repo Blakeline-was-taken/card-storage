@@ -24,11 +24,21 @@
     </thead>
     <tbody>
       <tr>
+        <td><img src="../../campaign_assets/Events/RoomTinkering.png" alt="Tinkering Icon" width="100%"></td>
+        <td class="white">Tinkering</td>
+        <td>
+          <p><a href="wiki_index.html?page=rebecha">Rebecha</a> accompanies the Player to the next event, <span class="cyan">tinkering</span> it and buffing its effect.</p>
+          <p class="red">This event can only appear once per Area, and therefore has no <strong class="cyan">Tinker effect</strong>.</p>
+        </td>
+        <td class="cyan">Event Buff</td>
+      </tr>
+      <tr>
         <td><img src="../../campaign_assets/Events/RoomFindCard.png" alt="Card Draw Icon" width="100%"></td>
         <td class="white">Card Draw</td>
         <td>
           <p>The player gets a choice of 3 cards from the current temple.</p>
           <p>Every card has a 1/6 chance of being an Uncommon, otherwise it's a Common.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> Cards now have a 1/2 chance of being Uncommon.</p>
         </td>
         <td class="yellow">Card Gain</td>
       </tr>
@@ -37,8 +47,9 @@
         <td class="white">Wandering Trader</td>
         <td>
           <p>The player can trade one of their cards for a new one from any temple.</p>
-          <p>They get to choose between a card of the same <strong>Role</strong>, a card of the same <strong>Cost</strong> or a card of the same <strong>Rarity</strong>. (Talkers are considered Common rarity for this event.)</p>
+          <p>They get to choose between a card of the same <strong>Role</strong>, a card of the same <strong>Cost</strong> or a card of the same <strong>Temple</strong>.</p>
           <p>If none of the cards please them, they may take their card back and leave.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> The player can choose what characteristic of their card (<strong>Role</strong>, <strong>Cost</strong> or <strong>Temple</strong>) they want back, and they will be given a choice of 3 cards with that characteristic instead.</p>
         </td>
         <td class="yellow">Card Gain</td>
       </tr>
@@ -48,6 +59,7 @@
         <td>
           <p>A random temple is selected, and 3 cards are drawn just like the Card Draw event.</p>
           <p>Two additional common cards are drawn from the other 3 temples, for a total of 5 cards from which the player must pick 2.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> The player may choose the first Temple, and all cards have a 1/6 chance of being Uncommon.</p>
         </td>
         <td class="yellow">Card Gain</td>
       </tr>
@@ -55,7 +67,8 @@
         <td><img src="../../campaign_assets/Events/RoomCostChoice.png" alt="Cost Choice Icon" width="100%"></td>
         <td class="white">Cost Choice</td>
         <td>
-          <p>The player is given a choice of 3 costs based on the 2 most common costs in their deck. They are then given a card from any temple with that cost.</p>
+          <p>The player is given a choice of 3 costs based on the 2 most common costs in their deck. They are then given a ccommon card from any temple with that cost.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> The Player can pick whichever common card they want with the cost they chose.</p>
         </td>
         <td class="yellow">Card Gain</td>
       </tr>
@@ -63,7 +76,8 @@
         <td><img src="../../campaign_assets/Events/RoomRoleChoice.png" alt="Role Choice Icon" width="100%"></td>
         <td class="white">Role Choice</td>
         <td>
-          <p>The player is given a choice of 3 card roles. They are then given a card from any temple with that role.</p>
+          <p>The player is given a choice of 3 card roles. They are then given a common card from any temple with that role.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> The Player can pick whichever common card they want with the role they chose.</p>
         </td>
         <td class="yellow">Card Gain</td>
       </tr>
@@ -74,6 +88,7 @@
           <p>The player may destroy one of their cards in exchange for <strong>Foils</strong>.</p>
           <p><strong>Common</strong> cards are worth 3 foils, <strong>Uncommon</strong>s are worth 5 and <strong>Rare</strong>s are worth 8. The card also gives 2 extra foils per modification it has.</p>
           <p>If they do not wish to destroy any card, they may simply pass the event.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> The player gains double the foils they normally would.</p>
         </td>
         <td class="orange">Foils Gain</td>
       </tr>
@@ -83,6 +98,7 @@
         <td>
           <p>The player <strong>destroys</strong> a card in their deck to gain a random <a href="wiki_index.html?page=boons">Boon</a>.</p>
           <p>If they are already carrying 3 boons, they replace one, or choose not to interact with the event at all.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> The player gets a <strong class="red">Rare Boon</strong> instead.</p>
         </td>
         <td class="red">Boon Gain</td>
       </tr>
@@ -92,6 +108,7 @@
         <td>
             <p>The player gets a choice of 3 random <a href="wiki_index.html?page=items">Items</a>.</p>
             <p>If they are already carrying 3 items, they may replace one, or choose not to.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> The player gets as many item choices as it takes to fill all their slots.</p>
         </td>
         <td class="blue">Item Gain</td>
       </tr>
@@ -101,6 +118,7 @@
         <td>
           <p>The player may select a card to infuse with a random <strong>Essence</strong>.</p>
           <p>If they select a card that already has an Essence, they may deplete their health by 1 to give it a <strong>Prism Essence</strong>.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> Instead of an Essence, the card gains a permanent <strong>Gem Sigil</strong>.</p>
         </td>
         <td class="green">Card Buff</td>
       </tr>
@@ -108,13 +126,14 @@
         <td><img src="../../campaign_assets/Events/RoomShop.png" alt="Shop Icon" width="100%"></td>
         <td class="white">Trader Shop</td>
         <td>
-          <p>The Trader shop sells different types of goods in exchange for <strong>Foils</strong>:</p>
+          <p>The <a href="wiki_index.html?page=trapper">Trader</a> shop sells different types of goods in exchange for <strong>Foils</strong>:</p>
           <ul>
             <li>A <strong>Booster Pack</strong> from a temple of the player's choice</li>
             <li>A random <a href="wiki_index.html?page=items">Item</a></li>
             <li>A random <strong>event</strong> exclusive to the current temple</li>
             <li>A random <strong>common card</strong> from the temple <span class="gray">(x3)</span></li>
           </ul>
+          <p class="cyan"><strong>Tinker effect -</strong> Every good restocks infinitely.</p>
         </td>
         <td class="white">Shop</td>
       </tr>
