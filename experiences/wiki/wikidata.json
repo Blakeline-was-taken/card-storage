@@ -31,13 +31,8 @@
   },
   "characters": {
     "title": "Characters",
-    "description": "A collection of important characters in the game.",
+    "description": "A collection of all the different characters in the game.",
     "categories": ["Characters"]
-  },
-  "bosses": {
-    "title": "Bosses",
-    "description": "A collection of important bosses in the game.",
-    "categories": ["Characters", "Bosses"]
   },
   "leshy": {
     "title": "Leshy",
@@ -208,11 +203,6 @@
     "title": "The Hut",
     "description": "A mysterious hut difficult to access, home to the Mycologists.",
     "categories": ["Areas", "Lore"]
-  },
-  "story": {
-    "title": "Main Story",
-    "description": "A detailed look at the main story of the Campaign.",
-    "categories": ["Lore"]
   },
   "game": {
     "title": "Game",
