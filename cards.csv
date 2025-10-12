@@ -98,7 +98,7 @@ Chick,Beast,Common,2 bones,0,1,Uncertain,,,Avian,A little pettiness at the start
 Mealworm,Beast,Common,2 bones,0,2,Morsel,,,Insect,Does your mouth not water at the sight?,Pixel Profligate,T,Support,,,,
 Cicada,Beast,Common,3 bones,1,1,"Annoying, Fecundity",,,Insect,Its incessant buzz brought insanity.,Pixel Profligate,T,Utility,,,,
 Frozen Possum,Beast,Common,3 bones,0,5,Frozen Away,Opossum,Bloodless,Vermin,Nature is cold and unforgiving.,Pixel Profligate,T,Defense,,,,
-Meerkat,Beast,Common,3 bones,1,1,Watchman,,,Vermin,Always on the lookout.,Nobody,T,Insight,,,,
+Meerkat,Beast,Common,3 bones,1,1,Watchman,,,Vermin,Always on the lookout.,Mark,T,Insight,,,,
 Opossum,Beast,Common,3 bones,1,1,Scavenger,,,Vermin,"Resourceful, weak, but endearing.",Pixel Profligate,T,Resource,,,,
 Spider,Beast,Common,3 bones,1,1,Web Shooter,,,Insect,A certified web designer.,Murigen,T,Defense,Cellar Spider,,,
 Bat,Beast,Common,4 bones,2,1,Airborne,,,Vermin,"A minor, meddlesome terror.",Pixel Profligate,T,Offense,,,,
