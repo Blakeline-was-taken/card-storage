@@ -400,7 +400,7 @@ Sniper Bot,Tech,Common,3 energy,1,1,Sniper,,,Bot,"Easy to aim, easy to shoot.",P
 Thermal Core,Tech,Common,3 energy,0,1,"Green Gem, Generator",,,Mox Machine,Emeralds maintain thermal equilibrium.,Mark,T,"Mox, Resource",,,,
 Tough Cell,Tech,Common,3 energy,1,1,Circuit Buff,,,Cell,Now you're playing with power.,Pixel Profligate,T,Offense,,,,
 Botty Boltlegs,Tech,Common,2 max + 2 energy,1,3,"Death Surge, Clinger",,,Bot,An efficient use of energy while running.,NEWS,T,"Resource, Reliable",,,,
-C0pp3r-h34d,Tech,Common,4 energy,0,2,Transformer,C0pp3r-h34d_t,,Mechabeast Reptile,Provides a violent shock to the system.,NEWS,T,Removal,,,,
+C0pp3r-h34d,Tech,Common,4 energy,0,2,"Transformer, Death Veil",C0pp3r-h34d_t,,Mechabeast Reptile,Provides a violent shock to the system.,NEWS,T,Removal,,,,
 C0pp3r-h34d_t,Tech,Common,4 energy,2,2,"Transformer, Touch of Death",C0pp3r-h34d,,Mechabeast Reptile,Provides a violent shock to the system.,Pixel Profligate,,Removal,,,,
 Conduit Spooler,Tech,Common,4 energy,0,2,Wire Weaver,,,Bot,Tends to unravel a bit more than needed.,Murigen,T,"Utility, Conduit",,,,
 Explode Bot,Tech,Common,4 energy,1,1,Detonator,,,Bot,A bump could set it off.,Pixel Profligate,T,Removal,Mrs. Bomb,,,
