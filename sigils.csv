@@ -10,6 +10,7 @@ Embezzling,"When {mark:sacrifice}sacrificed, this card provides 1 extra {resourc
 Life Donor,"When {mark:sacrifice}sacrificed, this card loses 1 health per {resource:blood} blood it provides instead of perishing.",,,Many Lives
 Many Lives,This card does not perish when {mark:sacrifice}sacrificed.,T,,Two Many Lives
 Two Many Lives,"This card does not perish when {mark:sacrifice}sacrificed, and can be {mark:sacrifice}sacrificed twice for a single cost.",T,,
+Hemanation,"When {mark:sacrifice}sacrificed, this card changes form instead of perishing.",T,,
 Lifeblood,All your other cards can be {mark:sacrifice}sacrificed.,,,Convergence
 Convergence,All your other cards can be {mark:sacrifice}sacrificed and {mark:shatter}shattered for a {resource:shattered_gem} of any color.,,,
 Blood Battery,"When playing cards, you may pay 4{mark:x}{resource:energy} instead of paying 1 {resource:blood}.",,,
@@ -68,6 +69,7 @@ Magnificent Gem,"This card provides a {resource:green_gem} Green gem, an {resour
 Moxum Opus,"This card provides 3{mark:x}{resource:prism_gem} gems of any color.",,,
 Palette Swap,"When played, you may change the color of one of your gems.",,,
 Gemorphosis,"Your other cards have the Mox tribe.",,,
+Hemomancy,"When playing cards, you may pay 1 {resource:blood} blood instead of 1 {resource:prism_gem} gem.",,,
 Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,Modularity
 Modularity,"All your cards are gemified, including this one and cards from your hand.",T,,
 Fragment Shard,"This card can be {mark:shatter}shattered to provide a {resource:shattered_gem} shattered gem of any color.",,,Fragment Hoard
@@ -110,7 +112,8 @@ Circuit Dependent,"If this card is not between two Conduit cards, it perishes.",
 Familiar,"If you control no {mark:sacrifice}sacrificeable cards without this sigil, this card perishes.",T,,Material Dependent
 Material Dependent,"If you control no other cards, this card perishes.",
 Annoying,The opposing card has 1 more power.,T,,Infuriating
-Infuriating,"If this card is opposed, both cards have 1 more power.",T,,
+Infuriating,"If this card is opposed, both cards have 1 more power.",T,,Defiant
+Defiant,"If this card is opposed, its power is doubled.",T,,
 Fading,"During your end step, this card is discarded if it is in your hand.",T,,
 Brittle,"After this card attacks, it will perish during your end step.",T,,Frail
 Frail,"After this card attacks, it will perish during your draw step.",T,,
@@ -289,7 +292,6 @@ Infection,"During your draw step, this card turns into a random Polyp card.",T,,
 Infestation,"During your end step, this card turns into a common Polyp card.",T,,
 Finical Hatchling,"If your deck contains 5 different values for both health and power, and 5 different tribes, this card turns into a ""Hydra"".",T,,
 Transformer,"During your draw step, this card changes form.",T,,
-Hemanation,"When {mark:sacrifice}sacrificed, this card changes form.",T,,
 Ritual,"[{mark:sacrifice}Sacrifice another card] This card changes form.",T,,
 B34st Tamer,"You may trigger the {sigil:Transformer} Transformer sigils of your cards at will.",T,,
 Frozen Away,"When damaged, if this card perishes, a ""TOKEN"" is placed in its space.",T,,Ambush
@@ -497,6 +499,7 @@ Recall the Broken,"When your cards perish due to {mark:brittle} Brittle, they re
 Recycled Pylons,"When your Pylon cards perish, they are returned to your hand.",T,,
 Haunter,"After this card dies, the next card to enter its space gains its other sigils.",T,,Possessor
 Possessor,"After this card dies, the next card to enter its space gains its other sigils, as well as {sigil:Haunter} Haunter.",T,,
+Gem Persistance,"When a side deck mox card you control dies, the next card to enter its space gains its sigils.",T,,
 Spiritual Persistance,"When played, another card gains {sigil:Haunter} Haunter.",,,Haunting Presence
 Haunting Presence,"When played, all your other cards gain {sigil:Haunter} Haunter.",,,
 Inscrybe,"When playing a card, it gains the sigils of the cards you {mark:sacrifice}sacrifice.",T,,
@@ -597,4 +600,5 @@ I Doth Decree,"Your cards have no maximum power or health.",T,,
 Swift Play,"This card can only be played during any step of your opponent's turn.",T,,Omniplay
 Omniplay,"This card can be played at any step during either turn.",T,,
 Steal,"When killed in combat, your opponent loses 2 {resource:bone} bones.",T,,
+Eluhvbem,"Jxyi sqht teui iecujxydw hqdtec mxud qd kdademd uludj esskhi.",T,,
 ?????,"???? ???? ????? ??? ??????, ????????? ???????.",T,,
