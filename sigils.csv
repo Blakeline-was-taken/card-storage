@@ -352,7 +352,7 @@ Go Fetch,"When your Canine cards perish, draw a card from your deck.",T,,Search 
 Search Dogs,"When your Canine cards perish, draw 2 cards from your deck.",T,,
 Fish Bearer,"When this card perishes, draw a random Fish card.",T,,
 Infinite Knowledge,"When your other cards are killed in combat, draw a card from your deck.",T,,
-Loaded,"When this card dies, draw 3 cards from your deck and 1 from your side deck.",T,,Stuffed
+Loaded,"When this card dies, draw 3 cards from your deck and 1 card from your side deck.",T,,Stuffed
 Stuffed,"When this card dies, draw 6 cards from your deck and/or side deck.",T,,
 Mental Gemnastics,"When played, draw a card from your deck for each Mox card you control.",,,Mental Acrobatics
 Mental Acrobatics,"When played, for each mox card you control, draw 2 cards from your deck and return 1.",,,
