@@ -435,7 +435,7 @@ Mox Processing Unit,Tech,Common,6 energy,0,3,"Gem Conduit, Blue Gem",,,Mox Condu
 Nanoarmor Conduit,Tech,Common,6 energy,0,3,Armor Conduit,,,Conduit,Even works against explosives.,Desaft,T,"Defense, Conduit",,,,
 Redundotron,Tech,Common,6 energy,1,2,"Sadism, Sentry",,,Machine,Get shot... or get shot. Then get shot.,Murigen,T,"Offense, Defense",,,,
 SEG-Fault,Tech,Common,6 energy,4,2,"Brittle, Defiler",,,Skeleton Android,The bane of any Archivist.,Desaft,T,Offense,,,,
-Core-v1d,Tech,Common,7 energy,2,3,Transformer,Core-v1d_t,,Mechabeast Avian,A metallic blight upon the skies.,NEWS,T,Reliable,,,,
+Core-v1d,Tech,Common,7 energy,2,3,Transformer,Core-v1d_t,,Mechabeast Avian,A metallic blight upon the skies.,Mark,T,Reliable,,,,
 Core-v1d_t,Tech,Common,7 energy,2,3,"Transformer, Airborne",Core-v1d,,Mechabeast Avian,A metallic blight upon the skies.,Pixel Profligate,,Reliable,,,,
 Energy Keeper,Tech,Common,7 energy,0,5,"No Max Reduction, Battery Bearer",,,Android Sage,Can this be any more straightforward?,Murigen,T,Resource,,,,
 Gembound Ripper,Tech,Common,7 energy,3,1,Gem Dependent,,,Mage Android,Relies solely on its power source.,"Pixel Profligate, NEWS",T,Offense,,T,,
