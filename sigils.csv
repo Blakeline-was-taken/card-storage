@@ -353,11 +353,11 @@ Search Dogs,"When your Canine cards perish, draw 2 cards from your deck.",T,,
 Fish Bearer,"When this card perishes, draw a random Fish card.",T,,
 Infinite Knowledge,"When your other cards are killed in combat, draw a card from your deck.",T,,
 Loaded,"When this card dies, draw 3 cards from your deck and 1 card from your side deck.",T,,Stuffed
-Stuffed,"When this card dies, draw 6 cards from your deck and/or side deck.",T,,
+Stuffed,"When this card dies, draw 4 cards from your deck and 2 cards from your side deck.",T,,
 Mental Gemnastics,"When played, draw a card from your deck for each Mox card you control.",,,Mental Acrobatics
 Mental Acrobatics,"When played, for each mox card you control, draw 2 cards from your deck and return 1.",,,
 Unearthed Pack,"When played, shuffle your discard and draw 2 of the top 5 cards.",T,,
-Handy,"When played, discard your hand and draw the same amount of cards, plus 2, from your deck and/or side deck.",T,,
+Handy,"When played, discard your hand and draw the same amount of cards from your deck, and 2 from your side deck.",T,,
 Watchman,"When a card enters the opposing space, draw a card from your deck.",T,,
 Looter,"Draw a card from your deck for each direct damage this card deals.",T,,Pillager
 Pillager,"Draw 2 cards from your deck for each direct damage this card deals.",T,,
@@ -395,7 +395,7 @@ Re-Index,"When played, search a common card from your deck costing up to 6{mark_
 Restore,"When played, search an {resource:energy} energy costing common card from your deck and another from your discard.",,,
 Hoarder,"When played, search a common card from your deck.",T,,Collector
 Collector,"When played, search a card from your deck.",T,,
-Horde,"When this card kills another, draw a ""TOKEN"".",T,,
+Horde,"When this card kills another, place a ""TOKEN"" on your side.",T,,
 Hotfix,"When your side deck cards die, they return to your hand instead.",T,,
 Disentomb,"[Pay {resource:bone}{resource:bone}] Search a {mark:brittle} Brittle card from any of your decks.",T,,
 Cybernetics,"[Pay 4{mark:x}{resource:energy}] Place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
