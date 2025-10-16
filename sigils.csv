@@ -311,8 +311,8 @@ Summon,"When played, up to 2 ""TOKEN"" cards are placed in adjacent spaces.",T,,
 Invoke,"When played, ""TOKEN"" cards are placed in all your empty spaces.",T,,
 Regurgitate,"When played, a card from your side deck is placed in adjacent spaces.",T,,Vomiting
 Vomiting,"When played, a card from your side deck is placed in all your empty spaces.",T,,
-Swarm,"When played, up to 2 copies of this card are placed in adjacent spaces.",T,,Invasion
-Invasion,"When played, copies of this card are placed in all your empty spaces.",T,,
+Swarm,"When played, 2 copies of this card are placed in adjacent spaces. Copies lose this sigil.",T,,Invasion
+Invasion,"When played, copies of this card are placed in all your empty spaces. Copies lose this sigil.",T,,
 Bomb Spewer,"When played, an ""Explode Bot"" is placed into every single empty space.",T,,
 Squirrel Shedder,"During your end step, this card moves to an adjacent space and leaves a ""Squirrel"" behind.",T,,Squirrel Trail
 Squirrel Trail,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Squirrel"" behind.",T,,
@@ -352,7 +352,7 @@ Go Fetch,"When your Canine cards perish, draw a card from your deck.",T,,Search 
 Search Dogs,"When your Canine cards perish, draw 2 cards from your deck.",T,,
 Fish Bearer,"When this card perishes, draw a random Fish card.",T,,
 Infinite Knowledge,"When your other cards are killed in combat, draw a card from your deck.",T,,
-Loaded,"When this card dies, draw 4 cards from your deck and/or side deck.",T,,Stuffed
+Loaded,"When this card dies, draw 3 cards from your deck and 1 from your side deck.",T,,Stuffed
 Stuffed,"When this card dies, draw 6 cards from your deck and/or side deck.",T,,
 Mental Gemnastics,"When played, draw a card from your deck for each Mox card you control.",,,Mental Acrobatics
 Mental Acrobatics,"When played, for each mox card you control, draw 2 cards from your deck and return 1.",,,
@@ -383,8 +383,8 @@ Ash Tray,"When played, draw ""The Smoke"".",T,,
 Puppeteer,"When played, draw an ""Umbral Servant"". It may be placed next to this card for free.",T,,
 Ant Spawner,"When played, draw a common Ant card of your choice.",T,,Ant Swarm
 Ant Swarm,"When played, draw two random Ant cards of your choice.",T,,
-Fecundity,"When played, draw a copy of this card.",T,,Cloning
-Cloning,"When played, draw two copies of this card.",T,,
+Fecundity,"When played, draw a copy of this card. The copy loses this sigil.",T,,Cloning
+Cloning,"When played, draw two copies of this card. Copies lose this sigil.",T,,
 Imitation Art,"When played, draw a copy of another card you control.",T,,Sludge Art
 Sludge Art,"When played, draw a copy of another card you control and of an opposing card.",T,,
 Chew Toy,"When played, draw a random Hound card. The cost of Hound cards is halved.",T,,
@@ -420,7 +420,7 @@ Facsimile,This card's power is the opposing card's power.,T,T,
 traeH Power,This card's power is the opposing card's health.,T,T,
 Health Power,This card's power is this card's health.,T,T,
 Scale Power,This card's power is dependent on how tipped in your favour the scales are.,T,T,
-Item Power,This card's power is twice the number of items you own.,T,T,
+Item Power,This card's power is the number of items you own.,T,T,
 Overcharge,"For every {resource:energy} energy cell you would gain when already at 12, this card gains 1 power, up to 7.",,,
 Raging Flames,"During your end step, this card loses 1 health and gains 1 power.",T,,Whimsical Leader
 Bell Ringer,"This card's power is the number of times the bell was rung since it was played, up to 5.",T,T,
@@ -502,7 +502,7 @@ Possessor,"After this card dies, the next card to enter its space gains its othe
 Gem Persistance,"When a side deck mox card you control dies, the next card to enter its space gains its sigils.",T,,
 Spiritual Persistance,"When played, another card gains {sigil:Haunter} Haunter.",,,Haunting Presence
 Haunting Presence,"When played, all your other cards gain {sigil:Haunter} Haunter.",,,
-Inscrybe,"When playing a card, it gains the sigils of the cards you {mark:sacrifice}sacrifice.",T,,
+Inscrybe,"When playing a card, it gains one sigil from the cards you {mark:sacrifice}sacrifice.",T,,
 Terrain,"A card may enter this card's space. It gains all its other sigils, and this card is discarded.",T,,
 Blank Copy,"When played, this card copies a sigil from a card you control.",T,,Download
 Download,"When played, this card copies a sigil from any card on the board.",T,,
