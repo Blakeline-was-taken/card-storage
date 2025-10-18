@@ -196,7 +196,7 @@ Bomber,"When played, all other cards on the board are dealt 5 damage.",T,,
 Burning,"During your end step, this card takes 1 damage. A card striking or damaged by this card gains {sigil:Burning} Burning.",T,,Pyromania
 Firestarter,"This card gives {sigil:Burning} Burning to the cards it damages. It cannot gain {sigil:Burning} Burning.",T,,Pyromania
 Pyromania,"A card striking or damaged by this card gains {sigil:Burning} Burning but this card cannot gain {sigil:Burning} Burning.",,,
-Heat Wave,"Opposing cards gain {sigil:Burning} Burning when they are placed on the field.",T,,
+Heat Wave,"Opposing cards gain {sigil:Burning} Burning when they are placed on the field. This card cannot gain {sigil:Burning} Burning.",T,,
 Detonator,"When this card dies, it deals 10 damage to the cards around it.",T,,Deathtrap
 Gem Detonator,"When your Mox cards perish, they deal 10 damage to the cards around them.",,,Gem Trap
 Gem Trap,"When your Mox cards perish, their opposing card perishes.",,,
@@ -484,7 +484,7 @@ Heart of Dust,"When your Mox cards die, this card gains 1 health, up to 5.",,,Du
 Assimilator,"During your end step, adjacent cards perish. Add their health to this card.",T,,
 Assembly,"During your end step, adjacent cards perish. Their sigils replace this card's other sigils.",,,
 Enlarge,"[Pay {resource:bone}{resource:bone}] This card gains 1 power and health, up to 5.",T,,
-Invigorate,"[{mark:sacrifice}Sacrifice a card] The card perishes, and increases both stats of any card you control by 1, up to 5.",T,,
+Invigorate,"[Once per turn, {mark:sacrifice}Sacrifice a card] A card you control gains 1 power and health, up to 5.",T,,
 Absorption,"[{mark:sacrifice}Sacrifice a card] This card gain 2 health, up to 5.",T,,
 Swapper,"When struck, swap this card's power and health.",T,,Swap
 Swap,"Swap this card's power and health.",T,,
