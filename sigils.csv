@@ -274,7 +274,6 @@ Flee,"[Once per turn] Move this card to an adjacent space.",T,,
 Bulldoze,"Move this card to an adjacent space, pushing other cards in its way.",T,,
 Teleport,"[Once per turn] Swap this card's place with any other space on your side.",T,,
 Telekinesis,"[Pay 1 chemical] Move one of your cards to an empty space.",,,
-Hotswap,"[Pay {resource:energy}{resource:energy}] Swap this card's place with another space on your side.",T,,
 Constriction,"[Pay {resource:bone}{resource:bone}{resource:bone}] Move an opposing card in front of this card.",T,,
 Rooted,This card cannot be moved or removed from its space until it perishes.,T,,Unphased
 Unphased,This card cannot be moved or removed from its space until it perishes. It is unaffected by opposing sigils.,T,,
@@ -313,7 +312,7 @@ Regurgitate,"When played, a card from your side deck is placed in adjacent space
 Vomiting,"When played, a card from your side deck is placed in all your empty spaces.",T,,
 Swarm,"When played, 2 copies of this card are placed in adjacent spaces. Copies lose this sigil.",T,,Invasion
 Invasion,"When played, copies of this card are placed in all your empty spaces. Copies lose this sigil.",T,,
-Bomb Spewer,"When played, an ""Explode Bot"" is placed into every single empty space.",T,,
+Bomb Spewer,"When played, an ""Explode Bot"" is placed into every single empty space. This card ignores {sigil:Detonator} Detonator.",T,,
 Squirrel Shedder,"During your end step, this card moves to an adjacent space and leaves a ""Squirrel"" behind.",T,,Squirrel Trail
 Squirrel Trail,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Squirrel"" behind.",T,,
 Production Line,"During your end step, this card moves to an adjacent space and leaves a ""Homunculus"" behind.",T,,Factory Line
