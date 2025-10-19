@@ -459,7 +459,7 @@ Repulsor,Tech,Common,2 prisms,0,1,"Repulsive, Purist",,,Android? Machine? Bot?,E
 B0D-Y,Tech,Common,1 emerald,1,1,Convalesce,,,Bot,Held together by grime and duct tape.,Mark,T,Defense,Rejuvenatron,,,
 Hydraulic Mage,Tech,Common,1 emerald,1,2,Hefty,,,Android Mage,"Well-meaning, but notoriously pushy.",Nobody,T,Utility,,,,
 Rejuvenatron,Tech,Common,2 emeralds,1,1,"Gemagnify, Whimsical Healer",,,Machine,Somehow still operating at full capacity.,Mark,T,"Defense, Support",,,,
-Aimbot Mage,Tech,Common,1 ruby,0,2,"Burrower, Armored",,,Mage Machine,Your damage request has been denied.,Nobody,T,Defense,,,,
+Pop-up Mage,Tech,Common,1 ruby,0,2,"Burrower, Armored",,,Mage Machine,Your damage request has been denied.,Nobody,T,Defense,,,,
 W1LL-0,Tech,Common,1 ruby,1,1,Sentry,,,Bot,"Built for computing, wired for war.",Mark,T,Defense,Obliteratron,,,
 Obliteratron,Tech,Common,2 rubies,1,3,"Gem Clock, Hefty",,,Machine,Each gem means one more shell fired.,Mark,T,Offense,,,,
 Battery Mage,Tech,Common,1 sapphire,0,2,"Sprinter, Shock",,,Bot Mage,Even simpler objects can learn magick.,Mark,T,Resource,,,,
