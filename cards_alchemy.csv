@@ -1,12 +1,11 @@
 Card Name,Temple,Tier,Cost,Power,Health,Sigils,Token,Traits,Tribes,Flavor Text,Artist,Draftable,Fightable,Evolved Card,Variants,Gemified,Energized,Essence
 Eel,Beast,Common,1 blood,0,1,"Waterborne, Battery Bearer",,,Fish,An energetic little fish.,"Borbay, Mark",T,,,,,T,
-Leech Cuck,Beast,Common,1 blood,1,1,"Aquanaut, LATCHER_Bleeding",,,Insect,"The vampires of the swamp.",News,T,T,,,,,
+Leech,Beast,Common,1 blood,1,1,"Aquanaut, LATCHER_Bleeding",,,Insect,"The vampires of the swamp.",News,T,T,,,,,
 Octopus,Beast,Common,2 blood,2,1,"Evasion, Snag",Wriggling Tail,,Ceremorph Fish,Lots of limbs for snatching your hopes.,Murigen,T,"Offense, Utility",,,,
 Ringworm,Beast,Common,1 flesh,0,1,Death Veil,,,Insect,"Resoundingly pointless, with little use.",Pixel Profligate,T,T,,,,,
 Jackrabbit,Beast,Talking,1 blood,0,3,"Eldritch Rift, Battery Bearer, Bone Digger",,Warren Trait,Vermin,"""Ah, young one! A pleasure to see you!""",Murigen,,,,,,,Prism
 Iron Maiden,Undead,Common,2 metal,0,1,"Deathtrap, Bloodless",,,Ancient Construct,The price of insubordinance is pain.,Pixel Profligate,T,T,,,,,
 Hemoflayer,Alchemy,Common,2 elexir,2,2,"Corpse Eater, Flesh Hunger",,,Ceremorph Zombie,"Repugnant, abysmal, and ferocious.",Desaft,T,,,,,,
-Electric Pupil,Magick,Uncommon,1 sapphire,1,1,"Dust Charge, Sprinter",,,Bot Mage,Even objects can learn magicks.,Mark,T,,,,,T,
 Meat Cart,Alchemy,Side Deck,free,1,1,"Rotting, Eldritch Death, Bloodless",,,Experiment,Slowly losing the will to gasp...,Mark,,T,,,,,
 Pylon,Alchemy,Side Deck,1 aether,0,2,"Eldritch Power, Bloodless",,,Pylon,An anchor point for arcane energies.,Carpengizmat,,T,Convergence Engine,,,,
 Unstable Ruins,Alchemy,Side Deck,free,0,1,"Arcane Conjuration, Ticking, Bloodless",,,Ancient,"With a jolt, its power will be released.",Carpengizmat,,,,,,,
