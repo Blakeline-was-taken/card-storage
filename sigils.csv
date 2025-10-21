@@ -6,7 +6,7 @@ Worthy Sacrifice,"When {mark:sacrifice}sacrificed, this card provides 3{mark:x}{
 Hearty Offering,"When {mark:sacrifice}sacrificed, this card provides any amount of {resource:blood} up to its health.",,,Generous Donation
 Generous Donation,"When {mark:sacrifice}sacrificed, this card provides any amount of {resource:blood} up to its total stats.",,,
 Blood Fountain,"When {mark:sacrifice}sacrificed, this card provides as much {resource:blood} blood as needed.",,,
-Embezzling,"When {mark:sacrifice}sacrificed, this card provides 1 extra {resource:blood} per mox card you control.",,,
+Embezzling,"When {mark:sacrifice}sacrificed, this card provides 1 extra {resource:blood} per mox card you control.",,,Blood Fountain
 Life Donor,"When {mark:sacrifice}sacrificed, this card loses 1 health per {resource:blood} blood it provides instead of perishing.",,,Many Lives
 Many Lives,This card does not perish when {mark:sacrifice}sacrificed.,T,,Two Many Lives
 Two Many Lives,"This card does not perish when {mark:sacrifice}sacrificed, and can be {mark:sacrifice}sacrificed twice for a single cost.",T,,
@@ -66,7 +66,8 @@ Prism Gem,This card provides a {resource:prism_gem} gem of any color.,,,Gem Cata
 Gem Catalyst,This card provides 2{mark:x}{resource:prism_gem} gems of any color.,,,Moxum Opus
 Magnificent Gem,"This card provides a {resource:green_gem} Green gem, an {resource:orange_gem} Orange gem and a {resource:blue_gem} Blue gem.",,,Moxum Opus
 Moxum Opus,"This card provides 3{mark:x}{resource:prism_gem} gems of any color.",,,
-Palette Swap,"When played, you may change the color of one of your gems.",,,
+Palette Swap,"When played, you may change the color of one of your gems.",,,Gem Swap
+Gem Swap,"When played, you may change the colors of all your gems.",,,
 Gemorphosis,"Your other cards have the Mox tribe.",,,
 Hemomancy,"When playing cards, you may pay 1 {resource:blood} blood instead of 1 {resource:prism_gem} gem.",,,
 Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,Modularity
@@ -78,7 +79,8 @@ Dust Gatherer,"When you {mark:shatter}shatter a card, it does not perish.",,,Gem
 Gem Transmuter,"Your mox cards can be {mark:sacrifice}sacrificed, and don't perish when {mark:shatter}shattered or {mark:sacrifice}sacrificed.",,,
 Lapis Holder,"After this card dies, the next card to enter its space will gain the {sigil:BlueGem} Blue Gem sigil.",,,Azur Lapis
 Azur Lapis,"After this card dies, the next card to enter its space will gain the {sigil:AzuriteGem} Azurite Gem sigil.",,,
-Gem Salvage,"When this card kills another, draw a Side Deck Mox card of your choice.",,,
+Gem Salvage,"When this card kills another, draw a Side Deck Mox card of your choice.",,,Gem Carnage
+Gem Carnage,"When an opposing card perishes, draw a Side Deck Mox card of your choice.",,,
 Eldritch Power,"During your end step, gain 1 chemical.",T,,Eldritch Convergence
 Eldritch Convergence,"During your end step, gain 2 chemicals.",T,,Eldritch Portal
 Eldritch Portal,"During your end step, gain 4 chemicals.",T,,
@@ -101,12 +103,13 @@ Fate Decided,"You may choose the outcome of any dice rolls you make.",T,,
 Bleeding,"During your end step, this card takes 1 damage, giving 1 flesh.",,,
 Elixir Leaker,"During your end step, this card moves to an adjacent space, giving 1 elixir.",,,
 Gem Dependent,"If you control no other Mox cards, this card perishes.",,,Material Dependent
-Gem Binding,"This card redirects any damage that would kill it to a Mox card you control, if possible.",,,
+Gem Binding,"This card redirects any damage that would kill it to a Mox card you control, if possible.",,,Illusion Dust
+Illusion Dust,"This card cannot be killed while you control Mox cards.",,,
 Flesh Hunger,"If you don't own at least 2 Flesh chemicals, this card perishes.",,,
 Metal Deprived,"If you don't own at least 2 Metal chemicals, this card perishes.",,,
 Elixir Thirst,"If you don't own at least 2 Elixir chemicals, this card perishes.",,,
 Arcane Dependence,"If you don't own one of each chemical, this card perishes.",T,,
-Circuit Dependent,"If this card is not between two Conduit cards, it perishes.",T,,
+Circuit Dependent,"If this card is not between two Conduit cards, it perishes.",T,,Material Dependent
 Familiar,"If you control no {mark:sacrifice}sacrificeable cards without this sigil, this card perishes.",T,,Material Dependent
 Material Dependent,"If you control no other cards, this card perishes.",
 Annoying,The opposing card has 1 more power.,T,,Infuriating
@@ -151,11 +154,12 @@ Split Strike,"When attacking, this card strikes a space adjacent to the opposing
 Confused Strike,"When attacking, this card strikes either the opposing space, or a space adjacent to it.",T,,Sniper
 Sniper,"When it strikes, this card may target any space on the opposite side.",T,,Split Shot
 Split Shot,"This card's strikes target any 2 spaces on the opposite side.",T,,
-Sapphire Aim,"If you provide a {resource:blue_gem} blue gem, this card may target any space opposing your mox cards when it strikes.",T,,
+Sapphire Aim,"If you provide a {resource:blue_gem} blue gem, this card may target any space opposing your mox cards when it strikes.",T,,Sniper
 Rattle 'Em!,"Your {mark:Brittle} Brittle cards have {sigil:Sniper} Sniper.",,,
 On Cue,"This card only attacks when adjacent cards strike.",T,,Clockwork
 Clockwork,"This card also attacks when adjacent cards strike.",T,,
-Gem Clock,"This card attacks once per mox card you control.",,,
+Gem Clock,"This card attacks once per mox card you control.",,,Gem Tuning
+Gem Tuning,"This card attacks one more time per mox card you control.",,,
 Sadism,"When this card kills another, it strikes that card's space.",T,,Cruelty
 Cruelty,"When this card kills another, it then strikes its adjacent spaces.",T,,
 Piercing,"When this card strikes another, it also strikes its back lane for half of the damage dealt, rounded down.",T,,Impaling
@@ -166,7 +170,8 @@ Strategic,"When placed, this card immediately strikes any opposing space.",T,,
 Sentry,"When a card enters the opposing space, it is dealt 1 damage.",T,,Armed Sentry
 Armed Sentry,"When a card enters the opposing space, it is dealt 2 damage.",T,,
 Quickdraw,"When a card enters the opposing space, this card strikes it.",T,,
-Gem Tactician,"When a card enters the opposing space of a mox card you control, it is dealt 1 damage.",T,,
+Gem Tactician,"When a card enters the opposing space of a mox card you control, it is dealt 1 damage.",T,,Armed Gem Tactician
+Armed Gem Tactician,"When a card enters the opposing space of a mox card you control, it is dealt 2 damage.",T,,
 Petrifying Gaze,"When a card enters the opposing space, it won't be able to attack, move, or be {mark:sacrifice}sacrificed until your end step.",T,,Turned To Stone
 Turned To Stone,"The opposing card cannot attack, move, or be {mark:sacrifice}sacrificed.",T,,
 Poisonous,"During the opponent's end step, the opposing card takes 1 damage.",T,,Black Hole
@@ -184,7 +189,8 @@ Deathtrap,"When killed in combat, the opposing card perishes.",T,,Caustic
 Croaking Trap,"When your Amphibian cards are killed in combat, their opposing card dies.",T,,
 Vengeance,"When your cards perish, this card deals 1 damage to any other card.",T,,Avenger
 Avenger,"When your cards perish, this card strikes any other card.",T,,
-Last Will,"When {mark:sacrifice}sacrificed, this card deals damage equal to its health to any opposing card.",T,,
+Last Will,"When {mark:sacrifice}sacrificed, this card deals damage equal to its health to any opposing card.",T,,Final Cry
+Final Cry,"When {mark:sacrifice}sacrificed, this card and other cards you control strike their opposing space.",T,,
 Bomber,"When played, all other cards on the board are dealt 5 damage.",T,,
 Burning,"During your end step, this card takes 1 damage. A card striking or damaged by this card gains {sigil:Burning} Burning.",T,,Pyromania
 Firestarter,"This card gives {sigil:Burning} Burning to the cards it damages. It cannot gain {sigil:Burning} Burning.",T,,Pyromania
@@ -197,7 +203,7 @@ Exploding Pylons,"When your Pylon cards perish, they deal 10 damage to the cards
 Trapped Pylons,"When your Pylon cards perish, their opposing card perishes.",T,,
 Snake Eyes,"When this card dies, roll a d6. Cards around it are dealt that amount of damage.",T,,All In
 All In,"When this card dies, roll a d6. The opposing card perishes, and a corresponding amount of direct damage is dealt.",T,,
-Fire Blast,"When this card dies, cards around it gain {sigil:Burning} Burning.",T,,
+Fire Blast,"When this card dies, cards around it gain {sigil:Burning} Burning.",T,,Detonator
 Head Shot,"[Pay {resource:energy}{resource:energy}] Deal 1 damage to the opposing card.",T,,
 Neck Snapper,"[Pay {resource:max_energy}{resource:max_energy}{resource:max_energy}] Kill any card. This card takes 1 damage.",T,,
 Kamikaze,"During your draw step, this card moves to the opposing space where it perishes.",T,,
@@ -275,12 +281,12 @@ Wild Reshape,"During your draw step, this card turns into your deck's top card."
 Darwin Theory,"During your end step, this card turns into your deck's top card.",T,,
 Infection,"During your draw step, this card turns into a random Polyp card.",T,,Infestation
 Infestation,"During your end step, this card turns into a common Polyp card.",T,,
-Transformer,"During your draw step, this card changes form.",T,,
+Transformer,"During your draw step, this card changes form.",T,,Autobot
+Autobot,"During your end step, this card changes form.",T,,
 Ritual,"[{mark:sacrifice}Sacrifice another card] This card changes form.",T,,
 B34st Tamer,"You may trigger the {sigil:Transformer} Transformer sigils of your cards at will.",T,,
-Frozen Away,"When damaged, if this card perishes, a ""TOKEN"" is placed in its space.",T,,Ambush
-Ambush,"When this card dies, a ""TOKEN"" is placed on your side.",T,,
-Exploding Corpse,"When damaged, if this card perishes, ""TOKEN"" are placed in all empty spaces on your side.",T,,
+Frozen Away,"When this card is killed by another, a ""TOKEN"" is placed in its space.",T,,Exploding Corpse
+Exploding Corpse,"When this card is killed by another, ""TOKEN"" are placed in all empty spaces on your side.",T,,
 Ruby Heart,"When this card dies, a ""Ruby Mox"" is placed in its place.",,,Soul Driven
 Soul Driven,"When this card dies, an ""Altar of Citrine"" is placed in its place.",,,
 Gestation Tank,"When this card dies, a ""Vat Creature"" is placed in its place. Its form depends on the number of turns this card was on the field.",T,,
@@ -333,19 +339,19 @@ Gem Greedier,"When your other Mox cards perish, draw 2 cards from your deck.",,,
 Polyp Harvest,"When your Polyp cards perish, draw a card from your deck.",T,,
 Go Fetch,"When your Canine cards perish, draw a card from your deck.",T,,Search Dogs
 Search Dogs,"When your Canine cards perish, draw 2 cards from your deck.",T,,
-Fish Bearer,"When this card perishes, draw a random Fish card.",T,,
 Loaded,"When this card dies, draw 3 cards from your deck and 1 card from your side deck.",T,,Stuffed
 Stuffed,"When this card dies, draw 4 cards from your deck and 2 cards from your side deck.",T,,
 Mental Gemnastics,"When played, draw a card from your deck for each Mox card you control.",,,Mental Acrobatics
 Mental Acrobatics,"When played, for each mox card you control, draw 2 cards from your deck and return 1.",,,
 Unearthed Pack,"When played, shuffle your discard and draw 2 of the top 5 cards.",T,,
 Handy,"When played, discard your hand and draw the same amount of cards from your deck, and 2 from your side deck.",T,,
-Watchman,"When a card enters the opposing space, draw a card from your deck.",T,,
+Watchman,"When a card enters the opposing space, draw a card from your deck.",T,,Lookout
+Lookout,"When a card enters the opposing space, draw 2 cards from your deck.",T,,
 Looter,"Draw a card from your deck for each direct damage this card deals.",T,,Pillager
 Pillager,"Draw 2 cards from your deck for each direct damage this card deals.",T,,
 Side Hustle,"Draw a card from your side deck for each direct damage this card deals.",T,,Predator
 Predator,"Draw 2 cards from your side deck for each direct damage this card deals.",T,,
-Firey Rummage,"Discard a card from your hand to draw a card from your deck.",T,,
+Firey Rummage,"[Discard a card from your hand] Draw a card from your deck.",T,,
 True Scholar,"[Once per turn, {mark:shatter}shatter a card] Draw 2 cards from your deck.",T,,
 Bees Within,"When damaged, draw a ""Bee"".",T,,Full of Bees
 Full of Bees,"When damaged, draw two ""Bees"".",T,,
@@ -373,7 +379,7 @@ Mech Builder,"When played, draw a Mechabeast card of your choice.",T,,
 Psychic Link,"When played, draw a ""Squidling"".",T,,
 Hoarder,"When played, search a common card from your deck.",T,,Collector
 Collector,"When played, search a card from your deck.",T,,
-Horde,"When this card kills another, place a ""TOKEN"" on your side.",T,,
+Horde,"When this card kills another, place a ""TOKEN"" on your side.",T,,Swarm
 Hotfix,"When your side deck cards die, they return to your hand instead.",T,,
 Disentomb,"[Pay {resource:bone}{resource:bone}] Search a {mark:brittle} Brittle card from any of your decks.",T,,
 Cybernetics,"[Pay 4{mark:x}{resource:energy}] Place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
@@ -488,10 +494,13 @@ Spotlight,"All your cards target the opposing space when they attack.",T,,Survei
 Surveillance Network,"[Once per turn] Select an opposing space. All your cards will target that space when they attack this turn.",T,,
 Null Conduit,"This card counts as a Conduit card.",T,,
 Attack Conduit,Cards between this and another Conduit card have 1 more power.,T,,Power Conduit
-Power Conduit,Cards between this and another Conduit card have 2 more power.,T,,
-Aim Conduit,Cards between this and another Conduit card may target any opposing space when they strike.,T,,
-Overclock Conduit,"Cards between this and another Conduit card have 2 more power, but you take 2 damage when they perish.",T,,
-Turret Conduit,"When a card enters the opposing space of your Conduit cards or of cards between them, it is dealt 1 damage.",T,,
+Power Conduit,Your Conduit cards and cards between have 1 more power.,T,,
+Aim Conduit,Cards between this and another Conduit card may target any opposing space when they strike.,T,,Target Conduit
+Target Conduit,Your Conduit cards and cards between them may target any opposing space when they strike.,T,,
+Overclock Conduit,"Cards between this and another Conduit card have 2 more power, but you take 2 damage when they perish.",T,,Hyperdrive Conduit
+Hyperdrive Conduit,"Your Conduit cards and cards between them have 2 more power, but you take 2 damage when they perish.",T,,
+Turret Conduit,"When a card enters the opposing space of your Conduit cards or of cards between them, it is dealt 1 damage.",T,,Gun Conduit
+Gun Conduit,"When a card enters the opposing space of your Conduit cards or of cards between them, it is dealt 2 damage.",T,,
 Heal Conduit,"During your end step, cards between this and another Conduit card gain 1 health, up to 5.",T,,Soul Conduit
 Soul Conduit,"During your end step, your Conduit cards and cards between them gain 1 health, up to 5.",T,,
 Armor Conduit,"During your end step, cards between this and another Conduit card gain an {mark:armor} Armor mark.",T,,Nano Conduit
@@ -499,13 +508,14 @@ Nano Conduit,"During your end step, your Conduit cards and cards between them ga
 Spawn Conduit,"During your end step, a card costing 0-3{mark:x}{resource:energy} energy is searched and placed between this and another Conduit card.",T,,Production Conduit
 Production Conduit,"During your end step, search cards costing up to 3 energy and place them in every empty space between this and another Conduit card.",T,,
 Gem Spawn Conduit,"During your end step, a random Gem Vessel is placed between this and another Conduit card.",T,,
+Gem Production Conduit,"During your end step, random Gem Vessels are placed between this and another Conduit card.",T,,
 Energy Conduit,"While you control another Conduit card, your {resource:energy_empty} energy cells refill.",,,No Power Loss
-Gem Conduit,"Cards between this and another Conduit card are gemified.",,,
+Gem Conduit,"Cards between this and another Conduit card are gemified.",,,Modularity
 Eldritch Conduit,"During your draw step, you may set one chemical's value per card between this and another Conduit card.",T,,
 Activation Conduit,"Cards played between this and another Conduit card trigger their activated ability once for free.",,,Spam Conduit
 Spam Conduit,"Cards played between this and another Conduit card trigger their activated ability twice for free.",,,
 Conduit Relay,"If you control another Conduit card, all your other cards are considered to be between them.",T,,Energizer
-Radiowave,"The card you control with the most spaces between it and this card counts as a Conduit card.",T,,
+Radiowave,"The card you control with the most spaces between it and this card counts as a Conduit card.",T,,Energizer
 Powered,"This card always counts as being between two Conduit cards.",T,,Capacitor
 Capacitor,"Adjacent cards count as being between two Conduit cards.",T,,Energizer
 Gem Cable,"Your Mox cards also count as Conduit cards, and vice versa.",,,
@@ -544,7 +554,8 @@ Reaction Replica,"When you play a card, it gets played a second time.",T,,Reacti
 Reaction Duplicata,"When you play a card, it gets played two more times.",T,,
 Double Death,"When your cards die, they perish 1 more time.",T,,Triple Death
 Triple Death,"When your cards die, they perish 2 more times.",T,,
-Time Loop,"Your end step triggers an additional time.",T,,
+Time Loop,"Your end step triggers an additional time.",T,,Endless Cycle
+Endless Cycle,"Your end step triggers two additional times.",T,,
 Pay Tribute,"[{mark:sacrifice}Sacrifice a card] The card perishes, gain {resource:bone} bones equal to its base health and this card gains 1 power.",T,,
 Imposture,"This card is set aside from your main deck. It will reveal itself in battles.",T,,
 I Doth Decree,"Your cards have no maximum power or health.",T,,
