@@ -224,6 +224,11 @@
     "description": "Various items available in the game.",
     "categories": ["Gameplay"]
   },
+  "boons": {
+    "title": "Boons",
+    "description": "Various boons available in the game.",
+    "categories": ["Gameplay"]
+  },
   "decks": {
     "title": "Starter Decks",
     "description": "All the starter decks available for each Temple.",

@@ -1,0 +1,347 @@
+<article>
+  <div class="alert danger">This page is still under heavy development.</div>
+  <h1>Boons</h1>
+  <p>Boons act as a passive version of <a href="wiki_index.html?page=items">Items</a>, where instead of needing to be triggered manually by the player they have different, more subtle ways of activating. They also aren't lost upon being activated, unlike items.</p>
+
+  <!-- Table of Contents -->
+  <div class="toc">
+    <h2 onclick="toggleTOC()">Contents <span id="toc-arrow">▼</span></h2>
+    <ol>
+      <li><a href="#common">Common Boons</a></li>
+      <li><a href="#major">Major Boons</a></li>
+    </ol>
+  </div>
+
+  <h2 id="common">Common Boons</h2>
+  <p>Common boons can be gained by the Player through the <a href="wiki_index.html?page=events#common">Moon Altar</a> event.</p>
+
+  <table class="layout-table">
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Active.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Casting</strong>
+          <p>When you using an Active ability, deal 1 direct damage.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/AllSight.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Knowledge</strong>
+          <p>When looking inside your deck, draw the top card of your deck once you're done.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Arcane.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Arcane</strong>
+          <p>When you would draw from your side deck, if you have 2 unique mox colors, you may search from it instead.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Blood.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Stones</strong>
+          <p>You may sacrifice Terrain cards.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Conflict.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Conflict</strong>
+          <p>When a card you control survives an otherwise fatal blow, it strikes its opposing card immediately.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Den.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Fertility</strong>
+          <p>When a card that you didn't draw is added to your hand, it gains 1 power.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Energy.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Thunder</strong>
+          <p>At the start of the battle, gain 1 more energy cell.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Evolution.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Transformation</strong>
+          <p>Cards that change form do so during your End step instead of your Draw step.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Eye.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Cheater</strong>
+          <p>You can see the hand of your opponent.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Fire.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Fire</strong>
+          <p>When a card perishes due to Burning, cards around it gain Burning.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Foils.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Glory</strong>
+          <p>When you win a battle, gain 3 extra foils.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Free.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Spells</strong>
+          <p>Active abilities cost nothing, but can only be triggered once per turn.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Frost.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Frost</strong>
+          <p>When a sigil gets added to a card you control, place a Freeze mark on a card of your choice.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/GoldTeeth.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Greed</strong>
+          <p>When a card you control is killed in combat, gain 1 foil.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/HealthCost.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Rituals</strong>
+          <p>When playing a card, you may decrease its health to lower its cost.</p>
+          <p class="gray">(Bones and energy are worth 1 health, blood and gems are worth 2 health.)</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Invocation.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Invocations</strong>
+          <p>When a card is added to your field without being played, draw a card from your deck.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Item.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Hoarder</strong>
+          <p>You may carry 1 more item.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/MindArmor.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Protection</strong>
+          <p>When a card you control loses an Armor mark, it strikes the card that broke it.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Prism.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Light</strong>
+          <p>Replace a side deck card from your starting hand with a Prism Mox.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Rally.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Ralliment</strong>
+          <p>The first opposing card you kill is added to your hand.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Replication.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Replication</strong>
+          <p>When playing a card with a sigil that's already on a card you control, that sigil immediately triggers once.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Scavenger.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Scavenger</strong>
+          <p>When an opposing card dies outside of your battle step, gain 1 bone.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/StartingHand.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Hand</strong>
+          <p>At the start of the battle, you may draw 1 more card from your deck or side deck.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Swapper.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Uncertain</strong>
+          <p>When a card you control moves, swap its health and power.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Swift.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Swift</strong>
+          <p>When a card you control moves, gain 1 bone.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Thorns.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Thorns</strong>
+          <p>When an opposing card damages you directly, it takes 1 damage in return.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Tribal.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Family</strong>
+          <p>If you control 2 cards that share a tribe, they gain 1 power.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Vengeance.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Vengeance</strong>
+          <p>When you play a main deck card, it gains 1 health and power per copy of itself in your discard.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Bone.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Lord</strong>
+          <p>At the start of the battle, gain 2 bones.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Weakened.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Weakened</strong>
+          <p>When you play a card with a Negative sigil, lower the power of an opposing card by 1.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+  </table>
+
+  <h2 id="major">Major Boons</h2>
+  <p>Major boons can be gained by the Player through the <a class="cyan" href="wiki_index.html?page=events#common">Tinkered Moon Altar</a> event.</p>
+
+  <table class="layout-table">
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Ambidextrous.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Ambidextrous</strong>
+          <p>When all 3 mox colors are provided on your field, you may draw twice during your draw step.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/BeastlyCost.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Power</strong>
+          <p>At the start of the battle, the highest costing card of your most prominent resource is added to your hand.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Candle.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Candle</strong>
+          <p>When you lose a battle, instead of blowing out a candle, destroy this boon.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/DeathPower.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Recycling</strong>
+          <p>If a card has a copy of itself in the discard, its cost is halved, rounded down.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/EnergyKeeper.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Impatient</strong>
+          <p>Before your draw step, you may skip your turn to gain 1 energy cell.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Hourglass.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Time</strong>
+          <p>Your opponent skips their first turn.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/ResourceBlend.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Synergy</strong>
+          <p>If your field is full of cards that cost the same resource, they all have 1 more power and health.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Retrigger.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Alignment</strong>
+          <p>When another boon triggers, it triggers again.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+    <tr>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td ><img src="../../campaign_assets/Boons/Retrigger.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of the Scales</strong>
+          <p>When the scales reach your candle, you cannot take any more direct damage until your next turn.</p>
+        </td>
+      </tr></table></div></td>
+      <td style="width: 50%;"><div class="dark-bloc"><table><tr>
+        <td><img src="../../campaign_assets/Boons/Unkillable.png" style="margin-right: 10px;" alt="Challenge Icon" width="70px"></td>
+        <td>
+          <strong>Boon of Cinders</strong>
+          <p>When a card you control is killed in combat, it goes back to your hand with 1 less power and health instead of perishing.</p>
+        </td>
+      </tr></table></div></td>
+    </tr>
+  </table>
+</article>
