@@ -547,6 +547,7 @@ Tackle,"When played, the opposing card is sent back to its owner's hand.",T,,Fli
 Fling,"When played, the opposing card is sent to any space in the back lane.",T,,
 Amorphous,This card is treated as having the opposing card's sigils.,T,,Mimic
 Mimic,"When played, this card copies the sigils of any opposing card.",T,,
+Undefined,"[Activate] Choose an opposing card to mimic the sigils of.",T,,
 Sigil Eater,"When this card kills another, that card's sigils replaces all sigils on this card, except for this one.",T,,Sigil Devourer
 Sigil Devourer,"When this card kills another, it gains that card's sigils.",T,,
 Transformation,"This card gains up to 3 sigils from the cards {mark:sacrifice}sacrificed to play it.",T,,
