@@ -243,7 +243,7 @@ Burrower,"Before an empty space is struck, this card moves to it.",T,,Easy Targe
 Gem Intercept,"Before your Mox cards get struck, this card swaps its place with them.",,,Intercept
 Intercept,"Before your cards get struck, this card swaps its place with them.",T,,
 Easy Target,All opposing cards target this card when they attack.,T,,Redirect
-Redirect,"During your opponent's Attack step, select a space on your side. All opposing cards will target that space when attacking.",T,,
+Redirect,"When an opposing card strikes, you may choose which of your spaces it will target.",T,,
 Iron Wall,"This card can only be damaged by the opposing card.",T,,Ironsides
 Ironsides,"This card can only be damaged by cards in spaces adjacent to the opposing space.",T,,
 Loose Tail,"Before being struck for the first time, this card moves to an adjacent space and leaves ""TOKEN"" behind.",T,,Loose Limb
