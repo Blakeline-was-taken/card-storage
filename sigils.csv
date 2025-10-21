@@ -481,6 +481,7 @@ Terrain,"A card may enter this card's space. It gains all its other sigils, and 
 Blank Copy,"When played, this card copies a sigil from a card you control.",T,,Download
 Download,"When played, this card copies a sigil from any card on the board.",T,,
 Splash of Color,"When played, choose 2 cards. They gain each other's sigils.",T,,
+Magickal Bleach,"When played, this card removes the sigils of any card of your choice.",T,,
 Stinky,The opposing card has 1 less power.,T,,Stench
 Stench,The opposing card has 2 less power.,T,,
 Gooey,"When struck, the card that struck this one loses 1 power.",T,,Slimy
