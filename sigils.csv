@@ -271,7 +271,7 @@ Rooted,This card cannot be moved or removed from its space until it perishes.,T,
 Unphased,This card cannot be moved or removed from its space until it perishes. It is unaffected by opposing sigils.,T,,
 Mother's Heart,"When played, draw a ""Chick"".",T,,Mother's Love
 Mother's Love,"When played, draw 2 ""Chicks"".",T,,
-Deathcard,"When played, create a card with the stats, cost and sigils of any 3 cards from your discard.",T,,
+Grim Epitaph,"When played, create a card with the stats, cost and sigils of any 3 cards from your discard.",T,,
 Fledgling,"During your draw step, this card turns into ""TOKEN"".",T,,Embryon
 Embryon,"During your end step, this card turns into ""TOKEN"".",T,,
 Uncertain,"During your draw step, flip a coin. If heads, this card turns into ""Farm Hen"", if tails, it turns into ""Rooster""".,T,,
