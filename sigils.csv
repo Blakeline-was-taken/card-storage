@@ -558,7 +558,7 @@ Double Death,"When your cards die, they perish 1 more time.",T,,Triple Death
 Triple Death,"When your cards die, they perish 2 more times.",T,,
 Time Loop,"Your end step triggers an additional time.",T,,Endless Cycle
 Endless Cycle,"Your end step triggers two additional times.",T,,
-Pay Tribute,"[{mark:sacrifice}Sacrifice a card] The card perishes, gain {resource:bone} bones equal to its base health and this card gains 1 power.",T,,
+Pay Tribute,"[{mark:sacrifice}Sacrifice a card] Gain {resource:bone} bones equal to its base health and this card gains 1 power.",T,,
 Imposture,"This card is set aside from your main deck. It will reveal itself in battles.",T,,
 I Doth Decree,"Your cards have no maximum power or health.",T,,
 Steal,"When killed in combat, your opponent loses 2 {resource:bone} bones.",T,,
