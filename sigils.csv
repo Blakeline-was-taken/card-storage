@@ -195,7 +195,7 @@ Bomber,"When played, all other cards on the board are dealt 5 damage.",T,,
 Burning,"During your end step, this card takes 1 damage. A card striking or damaged by this card gains {sigil:Burning} Burning.",T,,Pyromania
 Firestarter,"This card gives {sigil:Burning} Burning to the cards it damages. It cannot gain {sigil:Burning} Burning.",T,,Pyromania
 Pyromania,"A card striking or damaged by this card gains {sigil:Burning} Burning but this card cannot gain {sigil:Burning} Burning.",,,
-Heat Wave,"Opposing cards gain {sigil:Burning} Burning when they are placed on the field. This card cannot gain {sigil:Burning} Burning.",T,,
+Scorched Earth,"Opposing cards gain {sigil:Burning} Burning when they are placed on the field. This card cannot gain {sigil:Burning} Burning.",T,,
 Detonator,"When this card dies, it deals 10 damage to the cards around it.",T,,Deathtrap
 Gem Detonator,"When your Mox cards perish, they deal 10 damage to the cards around them.",,,Gem Trap
 Gem Trap,"When your Mox cards perish, their opposing card perishes.",,,
