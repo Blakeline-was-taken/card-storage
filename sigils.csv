@@ -110,7 +110,7 @@ Metal Deprived,"If you don't own at least 2 Metal chemicals, this card perishes.
 Elixir Thirst,"If you don't own at least 2 Elixir chemicals, this card perishes.",,,
 Arcane Dependence,"If you don't own one of each chemical, this card perishes.",T,,
 Circuit Dependent,"If this card is not between two Conduit cards, it perishes.",T,,Material Dependent
-Familiar,"If you control no {mark:sacrifice}sacrificeable cards without this sigil, this card perishes.",T,,Material Dependent
+Familiar,"If you control no {mark:sacrifice}sacrificable cards without this sigil, this card perishes.",T,,Material Dependent
 Material Dependent,"If you control no other cards, this card perishes.",
 Annoying,The opposing card has 1 more power.,T,,Infuriating
 Infuriating,"If this card is opposed, both cards have 1 more power.",T,,Defiant
