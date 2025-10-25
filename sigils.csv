@@ -13,7 +13,6 @@ Two Many Lives,"This card does not perish when {mark:sacrifice}sacrificed, and c
 Hemanation,"When {mark:sacrifice}sacrificed, this card changes form instead of perishing.",T,,
 Lifeblood,All your other cards can be {mark:sacrifice}sacrificed.,,,Convergence
 Convergence,All your other cards can be {mark:sacrifice}sacrificed and {mark:shatter}shattered for a {resource:shattered_gem} of any color.,,,
-Blood Battery,"When playing cards, you may pay 4{mark:x}{resource:energy} instead of paying 1 {resource:blood}.",,,
 Unburial,"When played, gain 1 {resource:bone} bone.",,,Unboxing
 Unboxing,"When played, gain 2{mark:x}{resource:bone} bones.",,,
 Bone Digger,"During your end step, gain 1 {resource:bone} bone.",T,,Tomb Digger
@@ -155,7 +154,6 @@ Confused Strike,"When attacking, this card strikes either the opposing space, or
 Sniper,"When it strikes, this card may target any space on the opposite side.",T,,Split Shot
 Split Shot,"This card's strikes target any 2 spaces on the opposite side.",T,,
 Sapphire Aim,"If you provide a {resource:blue_gem} blue gem, this card may target any space opposing your mox cards when it strikes.",T,,Sniper
-Rattle 'Em!,"Your {mark:Brittle} Brittle cards have {sigil:Sniper} Sniper.",,,
 On Cue,"This card only attacks when adjacent cards strike.",T,,Clockwork
 Clockwork,"This card also attacks when adjacent cards strike.",T,,
 Gem Clock,"This card attacks once per mox card you control.",,,Gem Tuning
@@ -201,8 +199,6 @@ Gem Detonator,"When your Mox cards perish, they deal 10 damage to the cards arou
 Gem Trap,"When your Mox cards perish, their opposing card perishes.",,,
 Exploding Pylons,"When your Pylon cards perish, they deal 10 damage to the cards around them.",T,,Trapped Pylons
 Trapped Pylons,"When your Pylon cards perish, their opposing card perishes.",T,,
-Snake Eyes,"When this card dies, roll a d6. Cards around it are dealt that amount of damage.",T,,All In
-All In,"When this card dies, roll a d6. The opposing card perishes, and a corresponding amount of direct damage is dealt.",T,,
 Fire Blast,"When this card dies, cards around it gain {sigil:Burning} Burning.",T,,Detonator
 Head Shot,"[Pay {resource:energy}{resource:energy}] Deal 1 damage to the opposing card.",T,,
 Neck Snapper,"[Pay {resource:max_energy}{resource:max_energy}{resource:max_energy}] Kill any card. This card takes 1 damage.",T,,
@@ -243,9 +239,9 @@ Redirect,"When an opposing card strikes, you may choose which of your spaces it 
 Loose Tail,"Before being struck for the first time, this card moves to an adjacent space and leaves ""TOKEN"" behind.",T,,Loose Limb
 Evasion,"Before being struck, this card moves to an adjacent space.",T,,Loose Limb
 Loose Limb,"Before being struck, this card moves to an adjacent space and leaves ""TOKEN"" behind.",T,,
-Lingering,"When this card dies, if you still have cards in your main deck, it is shuffled inside it instead of perishing.",T,,Unkillable
-Unkillable,"When this card dies, it returns to your hand instead of perishing.",T,,Immortal
-Rebirth,"When this card dies, it takes its next form and returns to your hand instead of perishing.",T,,
+Lingering,"When this card dies, unless your deck is empty, this card is shuffled inside it instead of being discarded.",T,,Unkillable
+Unkillable,"When this card dies, it returns to your hand instead of being discarded.",T,,Immortal
+Rebirth,"When this card dies, it takes its next form and returns to your hand instead of being discarded.",T,,
 Brood Parasite,"When played, a ""Broken Egg"" is placed in the opposing space.",T,,Brooding
 Brooding,"When played, a ""Broken Egg"" is placed in the opposing space or you draw a ""Raven Egg"".",T,,
 Sprinter,"During your end step, this card moves to an adjacent empty space.",T,,Hefty
@@ -380,11 +376,9 @@ Psychic Link,"When played, draw a ""Squidling"".",T,,
 Hoarder,"When played, search a common card from your deck.",T,,Collector
 Collector,"When played, search a card from your deck.",T,,
 Horde,"When this card kills another, place a ""TOKEN"" on your side.",T,,Swarm
-Hotfix,"When your side deck cards die, they return to your hand instead.",T,,
 Disentomb,"[Pay {resource:bone}{resource:bone}] Search a {mark:brittle} Brittle card from any of your decks.",T,,
 Cybernetics,"[Pay 4{mark:x}{resource:energy}] Place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
 Reanimate,"[Once per turn] Pay for and play a common card from your discard.",T,,
-Equivalent Exchange,"[Once per turn] exchange a card from your hand with one it shares a tribe with from your discard pile.",T,,
 Colony,This card's power is the number of Ant cards you control.,T,T,
 Pylon Powered,This card's power is the number of Pylon cards you control.,T,T,
 Loner,This card's power is the number of empty spaces on your side of the field.,T,T,
@@ -419,10 +413,6 @@ Leader,Adjacent cards have 1 more power.,T,,Commander
 Commander,Adjacent cards have 2 more power.,T,,
 Sea Shanty,"Your {mark:brittle} Brittle cards have 1 more power.",T,,Treasure Hunt
 Treasure Hunt,"Your {mark:brittle} Brittle cards have 2 more power.",T,,
-Haunted Stonework,"During your end step, draw a {sigil:MadeofStone} Made of Stone terrain card. Your {sigil:MadeofStone} Made of Stone cards have 1 more power.",T,,Stone Spirit
-Stone Spirit,"During your end step, draw a {sigil:MadeofStone} Made of Stone terrain card. Your {sigil:MadeofStone} Made of Stone cards have 2 more power.",,,
-Witching Hour,Your other Spectre cards have 1 more power.,T,,Blood Moon
-Blood Moon,Your other Spectre cards have 2 more power.,,,
 Leep Leader,Your other Leep cards have 1 more power.,T,,Leep Commander
 Leep Commander,Your other Leep cards have 2 more power.,T,,
 Gem Animator,Your other Mox cards have 1 more power.,,,Gem Empowerer
@@ -480,7 +470,7 @@ Inscrybe,"When playing a card, it gains one sigil from the cards you {mark:sacri
 Terrain,"A card may enter this card's space. It gains all its other sigils, and this card is discarded.",T,,
 Blank Copy,"When played, this card copies a sigil from a card you control.",T,,Download
 Download,"When played, this card copies a sigil from any card on the board.",T,,
-Splash of Color,"When played, choose 2 cards. They gain each other's sigils.",T,,
+Wood Sculpting,"Cards you control that share a tribe also share their sigils.",T,,
 Magickal Bleach,"When played, this card removes the sigils of any card of your choice.",T,,
 Stinky,The opposing card has 1 less power.,T,,Stench
 Stench,The opposing card has 2 less power.,T,,
@@ -496,8 +486,6 @@ Surveillance Network,"[Once per turn] Select an opposing space. All your cards w
 Null Conduit,"This card counts as a Conduit card.",T,,
 Attack Conduit,Cards between this and another Conduit card have 1 more power.,T,,Power Conduit
 Power Conduit,Your Conduit cards and cards between have 1 more power.,T,,
-Aim Conduit,Cards between this and another Conduit card may target any opposing space when they strike.,T,,Target Conduit
-Target Conduit,Your Conduit cards and cards between them may target any opposing space when they strike.,T,,
 Overclock Conduit,"Cards between this and another Conduit card have 2 more power, but you take 2 damage when they perish.",T,,Hyperdrive Conduit
 Hyperdrive Conduit,"Your Conduit cards and cards between them have 2 more power, but you take 2 damage when they perish.",T,,
 Turret Conduit,"When a card enters the opposing space of your Conduit cards or of cards between them, it is dealt 1 damage.",T,,Gun Conduit
@@ -508,7 +496,7 @@ Armor Conduit,"During your end step, cards between this and another Conduit card
 Nano Conduit,"During your end step, your Conduit cards and cards between them gain an {mark:armor} Armor mark.",T,,
 Spawn Conduit,"During your end step, a card costing 0-3{mark:x}{resource:energy} energy is searched and placed between this and another Conduit card.",T,,Production Conduit
 Production Conduit,"During your end step, search cards costing up to 3 energy and place them in every empty space between this and another Conduit card.",T,,
-Gem Spawn Conduit,"During your end step, a random Gem Vessel is placed between this and another Conduit card.",T,,
+Gem Spawn Conduit,"During your end step, a random Gem Vessel is placed between this and another Conduit card.",T,,Gem Production Conduit
 Gem Production Conduit,"During your end step, random Gem Vessels are placed between this and another Conduit card.",T,,
 Energy Conduit,"While you control another Conduit card, your {resource:energy_empty} energy cells refill.",,,No Power Loss
 Gem Conduit,"Cards between this and another Conduit card are gemified.",,,Modularity
@@ -527,7 +515,6 @@ Enhanced Arcane,"If you provide 2 unique mox colors, this card has 1 more power.
 Empowered Arcane,"If you provide 2 unique mox colors, this card has 2 more power.",,,
 Night of the Living Dead,The cost of your cards is reduced by 2{mark:x}{resource:bone} bones and 2{mark:x}{resource:energy} energy.,T,,Full Moon Night
 Full Moon Night,Your cards cost half their normal amount of {resource:bone} bones and {resource:energy} energy to play.,T,,
-Unseelie Authority,"When a non-Spectre card you control perishes, a 0-power Spectre card is placed in its place.",T,,
 Puppet Master,"Your {mark:brittle} cards ignore its effect, but perish when this card dies.",T,,Illusionist
 Illusionist,"Your cards ignore {mark:brittle} Brittle.",T,,
 Mental Fortitude,"Your cards ignore {sigil:GemDependent} and {sigil:Familiar} if there are at least 2 cards in your hand.",T,,Mental Mastery
@@ -556,11 +543,11 @@ Reaction Replica,"When you play a card, it gets played a second time.",T,,Reacti
 Reaction Duplicata,"When you play a card, it gets played two more times.",T,,
 Double Death,"When your cards die, they perish 1 more time.",T,,Triple Death
 Triple Death,"When your cards die, they perish 2 more times.",T,,
+Ambidextrous,"Your draw step triggers an additional time.",T,,
 Time Loop,"Your end step triggers an additional time.",T,,Endless Cycle
 Endless Cycle,"Your end step triggers two additional times.",T,,
 Pay Tribute,"[{mark:sacrifice}Sacrifice a card] Gain {resource:bone} bones equal to its base health and this card gains 1 power.",T,,
 Imposture,"This card is set aside from your main deck. It will reveal itself in battles.",T,,
-I Doth Decree,"Your cards have no maximum power or health.",T,,
 Steal,"When killed in combat, your opponent loses 2 {resource:bone} bones.",T,,
 Eluhvbem,"Jxyi sqht teui iecujxydw hqdtec mxud qd kdademd uludj esskhi.",T,,
 Sigil_Missing,"This sigil has been erased.",T,,
