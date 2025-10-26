@@ -142,6 +142,7 @@ Aquanaut,"This card ignores any changes to the target of its strikes.",T,,Subnau
 Subnautics,"When the target of this card's strikes is changed, it will also hit its original target.",,,
 Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
 Strong Venom,"When this card damages another, that card is discarded.",T,,
+Midas Touch,"When played, the opposing card is replaced by a ""Gold Nugget"".",T,,
 Snapshot,"When played, the opposing card is removed from the field and added to your hand.",T,,
 Bifurcated Strike,"When attacking, this card strikes both spaces adjacent to the opposing space.",T,,Trifurcated Strike
 Trifurcated Strike,"When attacking, this card strikes the opposing space and the spaces adjacent to it.",T,,Omnistrike
@@ -184,7 +185,7 @@ Counter Strike,"When struck, this card strikes the card that struck it.",T,,Caus
 Caustic,"When struck, the card that struck this card perishes.",T,,
 Incense,"When struck, cards that summoned this card strike the card that struck it.",T,,
 Deathtrap,"When killed in combat, the opposing card perishes.",T,,Caustic
-Croaking Trap,"When your Amphibian cards are killed in combat, their opposing card dies.",T,,
+Croaking Trap,"When this or another card you control is killed in combat, this card's opposing card dies.",T,,
 Vengeance,"When your cards perish, this card deals 1 damage to any other card.",T,,Avenger
 Avenger,"When your cards perish, this card strikes any other card.",T,,
 Last Will,"When {mark:sacrifice}sacrificed, this card deals damage equal to its health to any opposing card.",T,,Final Cry
@@ -349,6 +350,7 @@ Side Hustle,"Draw a card from your side deck for each direct damage this card de
 Predator,"Draw 2 cards from your side deck for each direct damage this card deals.",T,,
 Firey Rummage,"[Discard a card from your hand] Draw a card from your deck.",T,,
 True Scholar,"[Once per turn, {mark:shatter}shatter a card] Draw 2 cards from your deck.",T,,
+Artistic Dance,"[Pay {resource:bone}{resource:bone}{resource:bone}] Draw a card from your deck or side deck.",T,,
 Bees Within,"When damaged, draw a ""Bee"".",T,,Full of Bees
 Full of Bees,"When damaged, draw two ""Bees"".",T,,
 Termites Within,"When damaged, draw a ""Termite"".",T,,Full of Termites
@@ -448,7 +450,7 @@ Health Boost,"During your end step, a card of your choice gains health equal to 
 Bloodsucker,"When this card damages another, it gains 1 health, up to 5.",T,,Bloodguzzler
 Bloodguzzler,"When this card damages another, it gains health equal to the damage taken, up to 5.",T,,
 Heart of Dust,"When your Mox cards die, this card gains 1 health, up to 5.",,,Dust Fueled
-Assimilator,"During your end step, adjacent cards perish. Add their health to this card.",T,,
+Assimilator,"During your end step, this card kills adjacent cards, gaining their health.",T,,
 Assembly,"During your end step, adjacent cards perish. Their sigils replace this card's other sigils.",,,
 Enlarge,"[Pay {resource:bone}{resource:bone}] This card gains 1 power and health, up to 5.",T,,
 Invigorate,"[Once per turn, {mark:sacrifice}Sacrifice a card] A card you control gains 1 power and health, up to 5.",T,,
