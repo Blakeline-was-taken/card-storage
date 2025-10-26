@@ -29,6 +29,7 @@ Harvester,"Gain a {resource:bone} bone for each direct damage this card deals.",
 Reaper,"Gain 2{mark:x}{resource:bone} bones for each direct damage this card deals.",T,,
 Fracture,"When killed in combat, gain {resource:bone} bones equal to the full damage dealt.",T,,Munchmeyer
 Munchmeyer,"When damaged, gain {resource:bone} bones equal to the full damage dealt.",T,,
+Dog Treat,"When this card is struck, gain 2{mark:x}{resource:bone} bones.",T,,
 Bone King,"When this card perishes, gain 4{mark:x}{resource:bone} bones.",,,Pile of Bones
 Pile of Bones,"When this card perishes, gain 8{mark:x}{resource:bone} bones.",,,
 Memoriam,"When your other cards perish, gain \n 1 {resource:bone} bone.",T,,Commute
@@ -372,7 +373,6 @@ Fecundity,"When played, draw a copy of this card. The copy loses this sigil.",T,
 Cloning,"When played, draw two copies of this card. Copies lose this sigil.",T,,
 Imitation Art,"When played, draw a copy of another card you control.",T,,Sludge Art
 Sludge Art,"When played, draw a copy of another card you control and of an opposing card.",T,,
-Chew Toy,"When played, draw a random Hound card. The cost of Hound cards is halved.",T,,
 Mech Builder,"When played, draw a Mechabeast card of your choice.",T,,
 Psychic Link,"When played, draw a ""Squidling"".",T,,
 Hoarder,"When played, search a common card from your deck.",T,,Collector
