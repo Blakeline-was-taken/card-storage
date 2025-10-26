@@ -464,7 +464,7 @@ Springknight,Tech,Common,1 emerald + 1 sapphire,1,4,"Watchman, Hopper",,,Hooved 
 Hostage File,Tech,Uncommon,2 energy,2,2,Delete,,,Bot,Best not let it die.,Pixel Profligate,T,Reliable,,,,
 Overcharger,Tech,Uncommon,2 max,0,2,"Spare Supply, Power Leak",,,Conduit Machine,Not-so-free refill.,[REDACTED],T,Conduit,,,,
 Conveyor Bot,Tech,Uncommon,3 energy,0,2,"Restructure, Haunter",,,Machine Bot,Efficiency demands motion.,Murigen,T,Utility,,,,
-Solar Core,Tech,Uncommon,3 energy,0,3,"Prism Gem, Generator",,,Mox Machine,"Light is abundant, a great power source.","Nobody, Mark",T,"Mox, Resource",,,,
+Solar Core,Tech,Uncommon,3 energy,0,3,"Prism Gem, Generator",,,Mox Machine,"Light is abundant, a great power source.",Mark,T,"Mox, Resource",,,,
 B33n,Tech,Uncommon,4 energy,0,3,"Annoying, Cheerful",,,Android,Some machines do not need power.,Pixel Profligate,T,Support,,,,
 Leth-A-Latcher,Tech,Uncommon,5 energy,1,1,"Double Strike, LATCHER_Touch of Death",,,Latcher,"A ferocious bot, empowering others.",Pixel Profligate,T,"Offense, Support",,,,
 Gamblobot,Tech,Uncommon,6 energy,X,1,Power Dice,,,Machine,Push your luck. What could go wrong?,Pixel Profligate,T,Offense,,,,
