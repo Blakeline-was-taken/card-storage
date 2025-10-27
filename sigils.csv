@@ -68,10 +68,12 @@ Magnificent Gem,"This card provides a {resource:green_gem} Green gem, an {resour
 Moxum Opus,"This card provides 3{mark:x}{resource:prism_gem} gems of any color.",,,
 Palette Swap,"When played, you may change the color of one of your gems.",,,Gem Swap
 Gem Swap,"When played, you may change the colors of all your gems.",,,
+Masochism,"[Reduce this card's health by 2] Change one of your gems to a prism gem.",,,
 Gemorphosis,"Your other cards have the Mox tribe.",,,
 Hemomancy,"When playing cards, you may pay 1 {resource:blood} blood instead of 1 {resource:prism_gem} gem.",,,
 Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,Modularity
 Modularity,"All your cards are gemified, including this one and cards from your hand.",T,,
+Creative Boost,"All your gemified cards get double the effects of gemification, this card and cards from your hand included.",T,,
 Fragment Shard,"This card can be {mark:shatter}shattered to provide a {resource:shattered_gem} shattered gem of any color.",,,Fragment Hoard
 Fragment Hoard,"This card can be {mark:shatter}shattered to provide 2{mark:x}{resource:shattered_gem} shattered gems of any color.",,,Fragment Mass
 Fragment Mass,"This card can be {mark:shatter}shattered to provide 3{mark:x}{resource:shattered_gem} shattered gems of any color.",,,
@@ -196,6 +198,7 @@ Burning,"During your end step, this card takes 1 damage. A card striking or dama
 Firestarter,"This card gives {sigil:Burning} Burning to the cards it damages. It cannot gain {sigil:Burning} Burning.",T,,Pyromania
 Pyromania,"A card striking or damaged by this card gains {sigil:Burning} Burning but this card cannot gain {sigil:Burning} Burning.",,,
 Scorched Earth,"Opposing cards gain {sigil:Burning} Burning when they are placed on the field. This card cannot gain {sigil:Burning} Burning.",T,,
+Overheat,"Opposing cards have {sigil:Burning} Burning, and your cards cannot gain {sigil:Burning} Burning.",T,,
 Detonator,"When this card dies, it deals 10 damage to the cards around it.",T,,Deathtrap
 Gem Detonator,"When your Mox cards perish, they deal 10 damage to the cards around them.",,,Gem Trap
 Gem Trap,"When your Mox cards perish, their opposing card perishes.",,,
@@ -259,6 +262,7 @@ Snag,"When played, a card is moved to an empty space on its own side.",T,,Moving
 Moving Strike,"When this card strikes, it moves any other card to an empty space on its own side before striking.",T,,Superposition
 Restructure,"When played, rearrange the positions of your cards.",T,,Superposition
 Superposition,"When played, rearrange the positions of all cards on the board. They must always stay on their own side.",T,,
+Crane Control,"At any step during any turn, you may move any card to any empty space on its own side.",T,,
 Guardian,"Before an opposing card is placed, this card moves in front of it.",T,,Loyal
 Loyal,"When an opposing card is placed, it swaps positions with the space in front of this card.",T,,
 Flee,"[Once per turn] Move this card to an adjacent space.",T,,
@@ -377,6 +381,7 @@ Mech Builder,"When played, draw a Mechabeast card of your choice.",T,,
 Psychic Link,"When played, draw a ""Squidling"".",T,,
 Hoarder,"When played, search a common card from your deck.",T,,Collector
 Collector,"When played, search a card from your deck.",T,,
+Re-Index,"When played, search a card from your deck, discard or side deck.",T,,
 Horde,"When this card kills another, place a ""TOKEN"" on your side.",T,,Swarm
 Disentomb,"[Pay {resource:bone}{resource:bone}] Search a {mark:brittle} Brittle card from any of your decks.",T,,
 Cybernetics,"[Pay 4{mark:x}{resource:energy}] Place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
@@ -437,6 +442,7 @@ Whimsical Leader,"During your end step, a card of your choice gains 1 power, up 
 Empower,"During your end step, a card of your choice gains 1 power.",T,,
 Soul Strike,"When this card dies, a Mox card you control gains 1 power and strikes its opposing space.",,,Soul Assault
 Soul Assault,"When this card dies, a Mox card you control gains 1 power and strikes an opposing space of your choice.",,,
+Final Strike,"When this card dies, your other cards gain 1 power and strike their opposing card.",T,,
 Sparkling Dust,"[{mark:shatter}Shatter a card] Deal its health worth of damage to any other card.",,,
 Arcane Blessing,"[Once per turn, discard a card from your hand or field] A card of your choice gains 1 power, up to 5.",T,,
 Turbocharge,"[Pay {resource:energy}{resource:energy}{resource:energy}] Add {sigil:Overclocked} Overclock to a card that does not have it.",T,,
@@ -451,7 +457,6 @@ Bloodsucker,"When this card damages another, it gains 1 health, up to 5.",T,,Blo
 Bloodguzzler,"When this card damages another, it gains health equal to the damage taken, up to 5.",T,,
 Heart of Dust,"When your Mox cards die, this card gains 1 health, up to 5.",,,Dust Fueled
 Assimilator,"During your end step, this card kills adjacent cards, gaining their health.",T,,
-Assembly,"During your end step, adjacent cards perish. Their sigils replace this card's other sigils.",,,
 Enlarge,"[Pay {resource:bone}{resource:bone}] This card gains 1 power and health, up to 5.",T,,
 Invigorate,"[Once per turn, {mark:sacrifice}Sacrifice a card] A card you control gains 1 power and health, up to 5.",T,,
 Absorption,"[{mark:sacrifice}Sacrifice a card] This card gain 2 health, up to 5.",T,,
@@ -474,6 +479,7 @@ Blank Copy,"When played, this card copies a sigil from a card you control.",T,,D
 Download,"When played, this card copies a sigil from any card on the board.",T,,
 Wood Sculpting,"Cards you control that share a tribe also share their sigils.",T,,
 Magickal Bleach,"When played, this card removes the sigils of any card of your choice.",T,,
+Upgrade,"Adjacent cards have their sigils upgraded.",T,,
 Stinky,The opposing card has 1 less power.,T,,Stench
 Stench,The opposing card has 2 less power.,T,,
 Gooey,"When struck, the card that struck this one loses 1 power.",T,,Slimy
@@ -537,6 +543,7 @@ Tackle,"When played, the opposing card is sent back to its owner's hand.",T,,Fli
 Fling,"When played, the opposing card is sent to any space in the back lane.",T,,
 Amorphous,This card is treated as having the opposing card's sigils.,T,,Mimic
 Mimic,"When played, this card copies the sigils of any opposing card.",T,,
+Particle Scan,"When played, this card copies a card you control, with 1 more base power and health.",T,,
 Undefined,"[Activate] Choose an opposing card to mimic the sigils of.",T,,
 Sigil Eater,"When this card kills another, that card's sigils replaces all sigils on this card, except for this one.",T,,Sigil Devourer
 Sigil Devourer,"When this card kills another, it gains that card's sigils.",T,,
@@ -551,5 +558,6 @@ Endless Cycle,"Your end step triggers two additional times.",T,,
 Pay Tribute,"[{mark:sacrifice}Sacrifice a card] Gain {resource:bone} bones equal to its base health and this card gains 1 power.",T,,
 Imposture,"This card is set aside from your main deck. It will reveal itself in battles.",T,,
 Steal,"When killed in combat, your opponent loses 2 {resource:bone} bones.",T,,
+Impatient,"This card attacks during your opponent's attack step, before the opposing cards.",T,,
 Eluhvbem,"Jxyi sqht teui iecujxydw hqdtec mxud qd kdademd uludj esskhi.",T,,
 Sigil_Missing,"This sigil has been erased.",T,,
