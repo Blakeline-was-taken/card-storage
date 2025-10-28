@@ -462,6 +462,8 @@ Invigorate,"[Once per turn, {mark:sacrifice}Sacrifice a card] A card you control
 Absorption,"[{mark:sacrifice}Sacrifice a card] This card gain 2 health, up to 5.",T,,
 Swapper,"When struck, swap this card's power and health.",T,,Swap
 Swap,"Swap this card's power and health.",T,,
+Swap Latch,"When this card dies, swap the power and health of any other card.",T,,Swap Chip
+Swap Chip,"When played, swap the power and health of any other card.",T,,
 Morsel,"When {mark:sacrifice}sacrificed, this card's stats are added to the card it was sacrificed to.",T,,Delightful
 Delightful,"When {mark:sacrifice}sacrificed, this card's stats are added to the card it was sacrificed to, which also gains 1 power and health.",T,,
 Biotic Needles,"[Pay 2 elixir] Any other card gains 1 power, up to 5. [Pay 2 flesh] Any other card gains 2 health, up to 5.",T,,
