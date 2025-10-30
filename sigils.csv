@@ -141,8 +141,6 @@ Airborne,This card's strikes only hit the space they target directly.,T,,Aerobat
 Aerobatics,"When this card strikes another, you may target its space directly instead.",T,,
 Falconry,"When they strike, your Avian cards may choose to deal direct or normal damage to the spaces they strike.",T,,
 Carry Up,"[Once per turn, pay {resource:bone}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
-Aquanaut,"This card ignores any changes to the target of its strikes.",T,,Subnautics
-Subnautics,"When the target of this card's strikes is changed, it will also hit its original target.",,,
 Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
 Strong Venom,"When this card damages another, that card is discarded.",T,,
 Midas Touch,"When played, the opposing card is replaced by a ""Gold Nugget"".",T,,
@@ -234,7 +232,7 @@ Shielded,"When damaged, this card only takes half the damage, rounded down.",T,,
 Protected Pylons,"When struck, your Pylon cards take 1 less damage.",T,,
 Repulsive,This card cannot be struck.,T,,Immortal
 Immortal,"This card cannot perish, and cannot go below 1 health.",T,,
-Made of Stone,"This card's power cannot be lowered and it ignores {sigil:Burning} and instakill sigils.",T,,Hard as Stone
+Made of Stone,"This card's power cannot be lowered and it cannot be killed by sigils.",T,,Hard as Stone
 Hard as Stone,"This card's power cannot be lowered and it cannot be damaged or killed by sigils.",T,,
 Burrower,"Before an empty space is struck, this card moves to it.",T,,Easy Target
 Gem Intercept,"Before your Mox cards get struck, this card swaps its place with them.",,,Intercept
@@ -420,6 +418,8 @@ Leader,Adjacent cards have 1 more power.,T,,Commander
 Commander,Adjacent cards have 2 more power.,T,,
 Sea Shanty,"Your {mark:brittle} Brittle cards have 1 more power.",T,,Treasure Hunt
 Treasure Hunt,"Your {mark:brittle} Brittle cards have 2 more power.",T,,
+Witching Hour,Your other Spectre cards have 1 more power.,T,,Blood Moon
+Blood Moon,Your other Spectre cards have 2 more power.,,,
 Leep Leader,Your other Leep cards have 1 more power.,T,,Leep Commander
 Leep Commander,Your other Leep cards have 2 more power.,T,,
 Gem Animator,Your other Mox cards have 1 more power.,,,Gem Empowerer
