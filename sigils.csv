@@ -446,9 +446,9 @@ Final Strike,"When this card dies, your other cards gain 1 power and strike thei
 Sparkling Dust,"[{mark:shatter}Shatter a card] Deal its health worth of damage to any other card.",,,
 Arcane Blessing,"[Once per turn, discard a card from your hand or field] A card of your choice gains 1 power, up to 5.",T,,
 Turbocharge,"[Pay {resource:energy}{resource:energy}{resource:energy}] Add {sigil:Overclocked} Overclock to a card that does not have it.",T,,
-Convalesce,"During your end step, this card gains 1 health, up to 5.",T,,Whimsical Healer
-Gemagnify,"During your end step, this card gains 1 health per mox card you control, up to 5.",,,Gem Healing
-Gem Healing,"During your end step, this card gains 1 health per mox card you control.",,,
+Convalesce,"During your draw step, this card gains 1 health, up to 5.",T,,Whimsical Healer
+Gemagnify,"During your draw step, this card gains 1 health per mox card you control, up to 5.",,,Gem Healing
+Gem Healing,"During your draw step, this card gains 1 health per mox card you control.",,,
 Reinforce,"During your end step, one of your other cards gains 1 health, up to its base health.",T,,Healthcare
 Healthcare,"During your end step, heal one of your other cards up to its base health.",T,,
 Whimsical Healer,"During your end step, a card of your choice gains 1 health, up to 5.",,,Health Boost
