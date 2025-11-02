@@ -676,7 +676,7 @@ Slime Mage,Magick,Talking,1 emerald,0,2,"Imitation Art, Gooey",,,Aberration Mage
 Pike Mage,Magick,Talking,1 ruby,0,1,Final Strike,,,Knight Mage,"""Ideally, you will play me well.""",Pixel Profligate,,Support,,,,
 Lonely Wizard,Magick,Talking,1 sapphire,2,1,"Impatient, Clinger",,,Wizard,"""YES! PLAY ME! STIMULATE ME!""",NEWS,,Offense,,,,
 Blank Sage,Magick,Talking,1 prism + asterisk,0,5,"Masochism, Blood Pact",,Quartz Trait,Sage Cultist,"""...""","Nobody, Max the Odd",,"Resource, Defense",,,,
-Mad Creator,Magick,Talking,2 blood,1,3,Ambidextrous,,,Cultist Wizard,"""I'm never running out of ideas!""","Nobody, Mark",,Insight,,,,
+Mad Creator,Magick,Talking,2 blood,1,3,Ambidextrous,,,Cultist Wizard,"""I'm never running out of ideas!""",Mark,,Insight,,,,
 Alarm Siren,Terrain,Common,free,0,3,"Annoying, Leader",,"Bloodless, Sturdy, Boneless",Pylon Machine,You can only hope it shuts off soon.,NEWS,,Support,,,,
 Barrel,Terrain,Common,free,0,2,,,"Bloodless, Sturdy, Boneless",,It's full of oranges.,NEWS,,Reliable,,,,
 Boulder,Terrain,Common,free,0,5,Made of Stone,,"Bloodless, Sturdy, Boneless",,"For a boulder, it is quite nice.",Pixel Profligate,,Defense,,,,
