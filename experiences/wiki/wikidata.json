@@ -205,7 +205,7 @@
     "categories": ["Areas", "Lore"]
   },
   "game": {
-    "title": "Game",
+    "title": "Game Overview",
     "description": "A detailed look at the actual game progression and mechanics.",
     "categories": ["Gameplay"]
   },
