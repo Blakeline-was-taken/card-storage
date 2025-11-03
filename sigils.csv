@@ -54,7 +54,6 @@ Spare Supply,"When played, your {resource:energy_empty} energy cells are refille
 Soul Stealer,"When you would lose {resource:max_energy} energy cells, this card perishes instead.",,,No Max Reduction
 No Max Reduction,"Your {resource:energy} energy cells cannot be destroyed.",,,No Power Loss
 No Power Loss,"Your {resource:energy_empty} energy cells instantly refill.",,,
-Gem Linked,This card counts as a Mox card.,,,
 Green Gem,This card provides a {resource:green_gem} Green gem.,,,Malachite Gem
 Malachite Gem,This card provides 2{mark:x}{resource:green_gem} Green gems.,,,
 Orange Gem,This card provides an {resource:orange_gem} Orange gem.,,,Citrine Gem
