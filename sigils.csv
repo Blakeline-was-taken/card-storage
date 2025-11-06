@@ -284,10 +284,8 @@ Transformer,"During your draw step, this card changes form.",T,,Autobot
 Autobot,"During your end step, this card changes form.",T,,
 Ritual,"[{mark:sacrifice}Sacrifice another card] This card changes form.",T,,
 B34st Tamer,"You may trigger the {sigil:Transformer} Transformer sigils of your cards at will.",T,,
-Frozen Away,"When this card is killed by another, a ""TOKEN"" is placed in its space.",T,,Exploding Corpse
+Ensouled,"When this card is killed by another, a ""TOKEN"" is placed in its space.",T,,Exploding Corpse
 Exploding Corpse,"When this card is killed by another, ""TOKEN"" are placed in all empty spaces on your side.",T,,
-Ruby Heart,"When this card dies, a ""Ruby Mox"" is placed in its place.",,,Soul Driven
-Soul Driven,"When this card dies, an ""Altar of Citrine"" is placed in its place.",,,
 Gestation Tank,"When this card dies, a ""Vat Creature"" is placed in its place. Its form depends on the number of turns this card was on the field.",T,,
 Imprison,"When played, choose another card you control and discard it. When this card dies, place it in its space.",T,,Resurrect
 Resurrect,"When this card dies, search a card from your discard and place it in this space.",T,,
