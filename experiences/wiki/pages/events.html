@@ -206,6 +206,131 @@
         <td>6 foils</td>
         <td class="green">Card Buff</td>
       </tr>
+      <tr>
+        <td><img src="../../campaign_assets/Events/RoomTreasure.png" alt="Treasure Icon" width="100%"></td>
+        <td class="white">Treasure</td>
+        <td>
+          <p>The Player has to choose between 5 random, face-down chests. Each chest is given a phrase of description to help the player make their choice. The different hints and rewards can be found in the table below.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> The Player may open two chests instead of one.</p>
+        </td>
+        <td>6 foils</td>
+        <td class="white">Varied</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>Below is listed all the chest hints and rewards. The hints in gold only apply to one chest, while the rest apply to multiple chests.</p>
+  <table class="wiki-table collapsible collapsed">
+    <thead onclick="toggleTable(this)">
+      <tr><th style="width: 10%;">Icon</th><th>Name</th><th>Hint</th><th style="width: 20%;">Reward<span class="collapse-arrow">▼</span></th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="../../campaign_assets/event_assets/ChestGilded.png" alt="Gilded Chest" width="100%"></td>
+        <td>Gilded Chest</td>
+        <td>
+          <ul>
+            <li class="yellow">A faint shimmer of gold dust trails behind it as the water recedes.</li>
+            <li>It rattles faintly when the tide pulls back.<br><em class="gray" style="margin-left: 10px;">→ (Gilded, Runic, Wooden)</em></li>
+            <li>It feels heavier than it should.<br><em class="gray" style="margin-left: 10px;">→ (Stone, Gilded, Mimic)</em></li>
+            <li>You catch the scent of brine and old coins.<br><em class="gray" style="margin-left: 10px;">→ (Gilded, Wooden, Empty)</em></li>
+          </ul>
+        </td>
+        <td>Gives 5-8 foils.</td>
+      </tr>
+      <tr>
+        <td><img src="../../campaign_assets/event_assets/ChestRunic.png" alt="Runic Chest" width="100%"></td>
+        <td>Runic Chest</td>
+        <td>
+          <ul>
+            <li class="yellow">Carvings pulse dimly, rearranging themselves when you blink.</li>
+            <li>It rattles faintly when the tide pulls back.<br><em class="gray" style="margin-left: 10px;">→ (Gilded, Runic, Wooden)</em></li>
+            <li>You barely manage to move its lid.<br><em class="gray" style="margin-left: 10px;">→ (Stone, Mimic, Runic)</em></li>
+            <li>Something inside scratches, once, then stops.<br><em class="gray" style="margin-left: 10px;">→ (Mimic, Cursed, Runic)</em></li>
+            <li>A faint glow leaks from the keyhole.<br><em class="gray" style="margin-left: 10px;">→ (Runic, Spectral, Cursed)</em></li>
+          </ul>
+        </td>
+        <td>Gives a random rune effect to a chosen card.</td>
+      </tr>
+      <tr>
+        <td><img src="../../campaign_assets/event_assets/ChestSpectral.png" alt="Spectral Chest" width="100%"></td>
+        <td>Spectral Chest</td>
+        <td>
+          <ul>
+            <li class="yellow">Ghostly hands briefly press against the inside of the lid.</li>
+            <li>Cold mist seeps through its seams.<br><em class="gray" style="margin-left: 10px;">→ (Spectral, Cursed, Mimic)</em></li>
+            <li>A faint glow leaks from the keyhole.<br><em class="gray" style="margin-left: 10px;">→ (Runic, Spectral, Cursed)</em></li>
+            <li>Bubbles rise from beneath it when the water moves.<br><em class="gray" style="margin-left: 10px;">→ (Spectral, Empty, Wooden)</em></li>
+          </ul>
+        </td>
+        <td>Gives 1 power and the <strong>Fading</strong> sigil to a chosen card.</td>
+      </tr>
+      <tr>
+        <td><img src="../../campaign_assets/event_assets/ChestStone.png" alt="Stone Chest" width="100%"></td>
+        <td>Stone Chest</td>
+        <td>
+          <ul>
+            <li class="yellow">It doesn't move with the tide, as if anchored to the seabed itself.</li>
+            <li>You barely manage to move its lid.<br><em class="gray" style="margin-left: 10px;">→ (Stone, Mimic, Runic)</em></li>
+            <li>It feels heavier than it should.<br><em class="gray" style="margin-left: 10px;">→ (Stone, Gilded, Mimic)</em></li>
+            <li>Its edges are crusted with barnacles, like part of the seabed itself.<br><em class="gray" style="margin-left: 10px;">→ (Stone, Empty, Wooden)</em></li>
+          </ul>
+        </td>
+        <td>Renders a chosen card bloodless and gives it the <strong>Made of Stone</strong> sigil.</td>
+      </tr>
+      <tr>
+        <td><img src="../../campaign_assets/event_assets/ChestWooden.png" alt="Wooden Chest" width="100%"></td>
+        <td>Wooden Chest</td>
+        <td>
+          <ul>
+            <li class="yellow">Splinters drift from its seams like old driftwood breaking apart.</li>
+            <li>It rattles faintly when the tide pulls back.<br><em class="gray" style="margin-left: 10px;">→ (Gilded, Runic, Wooden)</em></li>
+            <li>Bubbles rise from beneath it when the water moves.<br><em class="gray" style="margin-left: 10px;">→ (Spectral, Empty, Wooden)</em></li>
+            <li>You catch the scent of brine and old coins.<br><em class="gray" style="margin-left: 10px;">→ (Gilded, Wooden, Empty)</em></li>
+            <li>Its edges are crusted with barnacles, like part of the seabed itself.<br><em class="gray" style="margin-left: 10px;">→ (Stone, Empty, Wooden)</em></li>
+          </ul>
+        </td>
+        <td>Gives an item.</td>
+      </tr>
+      <tr>
+        <td><img src="../../campaign_assets/event_assets/ChestCursed.png" alt="Cursed Chest" width="100%"></td>
+        <td>Cursed Chest</td>
+        <td>
+          <ul>
+            <li class="yellow">Fatigue sets in as you lay your eyes on it.</li>
+            <li>Cold mist seeps through its seams.<br><em class="gray" style="margin-left: 10px;">→ (Spectral, Cursed, Mimic)</em></li>
+            <li>Something inside scratches, once, then stops.<br><em class="gray" style="margin-left: 10px;">→ (Mimic, Cursed, Runic)</em></li>
+            <li>A faint glow leaks from the keyhole.<br><em class="gray" style="margin-left: 10px;">→ (Runic, Spectral, Cursed)</em></li>
+          </ul>
+        </td>
+        <td>Gives a boon after forcing a card destruction.</td>
+      </tr>
+      <tr>
+        <td><img src="../../campaign_assets/event_assets/ChestMimic.png" alt="Mimic Chest" width="100%"></td>
+        <td>Mimic Chest</td>
+        <td>
+          <ul>
+            <li class="yellow">You're almost certain it just breathed.</li>
+            <li>Cold mist seeps through its seams.<br><em class="gray" style="margin-left: 10px;">→ (Spectral, Cursed, Mimic)</em></li>
+            <li>You barely manage to move its lid.<br><em class="gray" style="margin-left: 10px;">→ (Stone, Mimic, Runic)</em></li>
+            <li>It feels heavier than it should.<br><em class="gray" style="margin-left: 10px;">→ (Stone, Gilded, Mimic)</em></li>
+            <li>Something inside scratches, once, then stops.<br><em class="gray" style="margin-left: 10px;">→ (Mimic, Cursed, Runic)</em></li>
+          </ul>
+        </td>
+        <td>Makes the Player start the next battle at the candle slot.</td>
+      </tr>
+      <tr>
+        <td><img src="../../campaign_assets/event_assets/ChestEmpty.png" alt="Empty Chest" width="100%"></td>
+        <td>Empty Chest</td>
+        <td>
+          <ul>
+            <li class="yellow">A faint echo answers when you knock on it.</li>
+            <li>Bubbles rise from beneath it when the water moves.<br><em class="gray" style="margin-left: 10px;">→ (Spectral, Empty, Wooden)</em></li>
+            <li>Its edges are crusted with barnacles, like part of the seabed itself.<br><em class="gray" style="margin-left: 10px;">→ (Stone, Empty, Wooden)</em></li>
+            <li>You catch the scent of brine and old coins.<br><em class="gray" style="margin-left: 10px;">→ (Gilded, Wooden, Empty)</em></li>
+          </ul>
+        </td>
+        <td>Does nothing.</td>
+      </tr>
     </tbody>
   </table>
 
