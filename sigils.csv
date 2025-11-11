@@ -476,6 +476,7 @@ Possessor,"After this card dies, the next card to enter its space gains its othe
 Gem Persistance,"When a side deck mox card you control dies, the next card to enter its space gains its sigils.",T,,
 Inscrybe,"When playing a card, it gains one sigil from the cards you {mark:sacrifice}sacrifice.",T,,
 Terrain,"A card may enter this card's space. It gains all its other sigils, and this card is discarded.",T,,
+Potion,"This card must be played on top of a main deck card you control. It then permanently gains this card's other sigils, and this card is destroyed.",T,,
 Blank Copy,"When played, this card copies a sigil from a card you control.",T,,Download
 Download,"When played, this card copies a sigil from any card on the board.",T,,
 Wood Sculpting,"Cards you control that share a tribe also share their sigils.",T,,
