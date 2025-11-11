@@ -103,16 +103,18 @@ Ad Infinitum,"Chemicals you spend are not lost.",T,,
 Fate Decided,"You may choose the outcome of any dice rolls you make.",T,,
 Bleeding,"During your end step, this card takes 1 damage, giving 1 flesh.",,,
 Elixir Leaker,"During your end step, this card moves to an adjacent space, giving 1 elixir.",,,
-Gem Dependent,"If you control no other Mox cards, this card perishes.",,,Material Dependent
+Gem Dependent,"If you control no other Mox cards, this card perishes.",,,Gem Timer
+Gem Timer,"During your end step, if you control no other Mox cards, this card dies.",,,
 Gem Binding,"This card redirects any damage that would kill it to a Mox card you control, if possible.",,,Illusion Dust
 Illusion Dust,"This card cannot be killed while you control Mox cards.",,,
 Flesh Hunger,"If you don't own at least 2 Flesh chemicals, this card perishes.",,,
 Metal Deprived,"If you don't own at least 2 Metal chemicals, this card perishes.",,,
 Elixir Thirst,"If you don't own at least 2 Elixir chemicals, this card perishes.",,,
 Arcane Dependence,"If you don't own one of each chemical, this card perishes.",T,,
-Circuit Dependent,"If this card is not between two Conduit cards, it perishes.",T,,Material Dependent
-Familiar,"If you control no {mark:sacrifice}sacrificable cards without this sigil, this card perishes.",T,,Material Dependent
-Material Dependent,"If you control no other cards, this card perishes.",
+Circuit Dependent,"If this card is not between two Conduit cards, it perishes.",T,,Circuit Timer
+Circuit Timer,"During your end step, if this card is not between two Conduit cards, it dies.",T,,
+Familiar,"If you control no {mark:sacrifice}sacrificable cards without this sigil, this card perishes.",T,,Lonely
+Lonely,"During your end step, if you control no {mark:sacrifice}sacrificable cards without {sigil:Familiar}, this card perishes.",T,,
 Annoying,The opposing card has 1 more power.,T,,Infuriating
 Infuriating,"If this card is opposed, both cards have 1 more power.",T,,Defiant
 Defiant,"If this card is opposed, its power is doubled.",T,,
