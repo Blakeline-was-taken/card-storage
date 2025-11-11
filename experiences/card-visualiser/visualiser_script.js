@@ -539,7 +539,7 @@ const CardDisplay = {
       const temple = card.Temple || "Unknown";
       const tier = card.Tier || "Unknown";
       const isDraftable = card.Draftable !== "";
-      const folder = (!isDraftable && tier !== "Side Deck" && tier !== "Talking" && temple !== "Terrain") ? "Not Draftable" : tier;
+      const folder = (!isDraftable && tier !== "Side Deck" && tier !== "Talking" && temple !== "Terrain" && temple !== "Potion") ? "Not Draftable" : tier;
 
       img.src = `../../cards/${temple}/${folder}/${name}.png`;
       img.alt = name;
