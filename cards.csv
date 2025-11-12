@@ -443,7 +443,7 @@ Firewall,Tech,Common,1 max + 8 energy,1,5,"Burrower, Sharp Quills",,,,Nothing ge
 Swapbot,Tech,Common,2 max + 7 energy,2,5,Swapper,,,Bot,Reconfigures itself to suit its mood.,Pixel Profligate,T,Reliable,,,,
 Marine Bot,Tech,Common,10 energy,2,2,"Sniper, Waterborne",,,Bot,"Waterproof, but can't fire underwater.",NEWS,T,Offense,,,,
 Steel Jaw,Tech,Common,3 max + 7 energy,1,4,"Bloodsucker, Raging Flames",,,Machine Aberration,You can't hold it back forever.,Murigen,T,Reliable,,,,
-The Cube,Tech,Common,2 max + 8 energy,X,1,"Convalesce, CELL_Sharp Quills, Health Power",,,Pylon Machine,The Cube.,Murigen,T,Reliable,,,,
+The Cube,Tech,Common,2 max + 8 energy,X,1,"Convalesce, CELL_Airborne, Health Power",,,Pylon Machine,The Cube.,Murigen,T,Reliable,,,,
 Mecha Warrior,Tech,Common,3 max + 8 energy,4,3,Warper,,,Android Knight,An ultra high-power model.,Murigen,T,Offense,,,,
 Security System,Tech,Common,2 max + 9 energy,0,5,"Turret Conduit, Offense Upgrade",,,Pylon Conduit Machine,Makes its routine virus scan.,Murigen,T,"Defense, Support, Conduit",,,,
 Supervisor,Tech,Common,12 energy,3,5,"Spotlight, Guardian",,,Worker Android,Prowls factories searching intruders.,Murigen,T,"Reliable, Support",,,,
