@@ -450,7 +450,7 @@ Supervisor,Tech,Common,12 energy,3,5,"Spotlight, Guardian",,,Worker Android,Prow
 Pon,Tech,Common,1 prism,1,1,"Sprinter, Split Strike",,,Bot,"Weak, but brimming with potential.",Mark,T,Reliable,,,,
 Repulsor,Tech,Common,2 prisms,0,1,"Repulsive, Purist",,,Android Mage,Even stronger than physical walls.,Mark,T,"Utility, Defense",,,,
 B0D-Y,Tech,Common,1 emerald,1,1,Convalesce,,,Bot,Held together by grime and duct tape.,Mark,T,Defense,Rejuvenatron,,,
-Hydraulic Mage,Tech,Common,1 emerald,0,2,"Tackle, Hefty",,,Android Mage,"Well-meaning, but notoriously pushy.",Nobody,T,"Removal, Utility",,,,
+Hydraulic Mage,Tech,Common,1 emerald,1,1,"Tackle, Hefty",,,Android Mage,"Well-meaning, but notoriously pushy.",Nobody,T,"Removal, Utility",,,,
 Rejuvenatron,Tech,Common,2 emeralds,1,1,"Gemagnify, Whimsical Healer",,,Machine,Somehow still operating at full capacity.,Mark,T,"Defense, Support",,,,
 Pop-up Mage,Tech,Common,1 ruby,0,2,"Burrower, Armored",,,Mage Machine,Your damage request has been denied.,Nobody,T,Defense,,,,
 W1LL-0,Tech,Common,1 ruby,1,1,Sentry,,,Bot,"Built for computing, wired for war.",Mark,T,Defense,Obliteratron,,,
