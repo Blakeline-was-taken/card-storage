@@ -397,7 +397,7 @@ Factory Conduit,Tech,Common,4 energy,0,3,Spawn Conduit,,,Machine Conduit,"Even i
 Kind Cell,Tech,Common,4 energy,1,2,CELL_Generosity Bearer,,,Cell,It might be feeling generous.,Pixel Profligate,T,Insight,,,,
 L33pbot.V2,Tech,Common,4 energy,1,3,Mighty Leap,,,Leep Bot,Has improved leaps and bounds.,NEWS,T,Defense,Very Big L33pbot,,,
 Power Station,Tech,Common,4 energy,0,3,Capacitor,,,Conduit,Modern power grids always have backup.,Murigen,T,Conduit,,,,
-Radio Conduit,Tech,Common,4 energy,1,2,Radiowave,,,Conduit,"The air is static, but technology improves.","Blakeline, Mark",T,Conduit,,,,
+Radio Conduit,Tech,Common,4 energy,1,2,"Radiowave, Mighty Leap",,,Conduit,"The air is static, but technology improves.","Blakeline, Mark",T,Conduit,,,,
 Relay Conduit,Tech,Common,4 energy,0,3,Conduit Relay,,,Conduit,Breaches the limits of conduit power.,Murigen,T,Conduit,,,,
 Semibot,Tech,Common,4 energy,1,2,Snag,,,Worker Bot,Controlled by a soulless magnate.,Mark,T,Utility,,,,
 Splinter Cell,Tech,Common,4 energy,1,1,CELL_Trifurcated Strike,,,Cell,We couldn't fit a fourth strike.,Pixel Profligate,T,Offense,,,,
