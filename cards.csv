@@ -92,7 +92,7 @@ Moose Buck,Beast,Common,3 blood,3,7,Hefty,,,Hooved,A towering and ever-powerful 
 Swamp Goliath,Beast,Common,3 blood,3,3,"Quickdraw, Mighty Leap",,,Noble Amphibian,An opportunistic glutton.,NEWS,T,Defense,,,,
 Titanoboa,Beast,Common,3 blood,2,4,"Constriction, Petrifying Gaze",,,Reptile,You will succumb to its coiling strength.,Mark,T,"Utility, Removal",,,,
 Cicada,Beast,Common,1 bone,1,1,"Annoying, Airborne",,,Insect,Its incessant buzz brought insanity.,Pixel Profligate,T,Reliable,,,,
-Lemming,Beast,Common,1 bone,0,2,Aggressive,,,Vermin,Not as cowardly as you'd believe.,Murigen,T,Offense,,,,
+Lemming,Beast,Common,1 bone,0,1,Aggressive,,,Vermin,Not as cowardly as you'd believe.,Murigen,T,Offense,,,,
 Chick,Beast,Common,2 bones,0,1,Uncertain,,,Avian,A little pettiness at the start.,Mark,T,Reliable,"Rooster, Farm Hen",,,
 Lil' Frog,Beast,Common,2 bones,0,2,"Burrower, Mighty Leap",,,Amphibian,Just a little guy.,Pixel Profligate,T,Defense,Bullfrog,,,
 Mealworm,Beast,Common,2 bones,0,2,Morsel,,,Insect,Does your mouth not water at the sight?,Pixel Profligate,T,Support,,,,
