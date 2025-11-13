@@ -12,7 +12,7 @@ Many Lives,This card does not perish when {mark:sacrifice}sacrificed.,T,,Two Man
 Two Many Lives,"This card does not perish when {mark:sacrifice}sacrificed, and can be {mark:sacrifice}sacrificed twice for a single cost.",T,,
 Hemanation,"When {mark:sacrifice}sacrificed, this card changes form instead of perishing.",T,,
 Lifeblood,All your other cards can be {mark:sacrifice}sacrificed.,,,Convergence
-Convergence,All your other cards can be {mark:sacrifice}sacrificed and {mark:shatter}shattered for a {resource:shattered_gem} of any color.,,,
+Convergence,All your other cards can be {mark:sacrifice}sacrificed and {mark:shatter}shattered for a {resource:shattered_gem} of every color.,,,
 Unburial,"When played, gain 1 {resource:bone} bone.",,,Unboxing
 Unboxing,"When played, gain 2{mark:x}{resource:bone} bones.",,,
 Bone Digger,"During your end step, gain 1 {resource:bone} bone.",T,,Tomb Digger
@@ -61,10 +61,10 @@ Citrine Gem,This card provides 2{mark:x}{resource:orange_gem} Orange gems.,,,
 Blue Gem,This card provides a {resource:blue_gem} Blue gem.,,,Azurite Gem
 Azurite Gem,This card provides 2{mark:x}{resource:blue_gem} Blue gems.,,,
 Arbitrary Gem,"This card provides a {resource:gem} gem of a random color. During your draw step, re-roll the color.",,,Prism Gem
-Prism Gem,This card provides a {resource:prism_gem} gem of any color.,,,Gem Catalyst
-Gem Catalyst,This card provides 2{mark:x}{resource:prism_gem} gems of any color.,,,Moxum Opus
+Prism Gem,This card provides a {resource:prism_gem} gem of every color.,,,Gem Catalyst
+Gem Catalyst,This card provides 2{mark:x}{resource:prism_gem} gems of every color.,,,Moxum Opus
 Magnificent Gem,"This card provides a {resource:green_gem} Green gem, an {resource:orange_gem} Orange gem and a {resource:blue_gem} Blue gem.",,,Moxum Opus
-Moxum Opus,"This card provides 3{mark:x}{resource:prism_gem} gems of any color.",,,
+Moxum Opus,"This card provides 3{mark:x}{resource:prism_gem} gems of every color.",,,
 Palette Swap,"When played, you may change the color of one of your gems.",,,Gem Swap
 Gem Swap,"When played, you may change the colors of all your gems.",,,
 Masochism,"[Reduce this card's health by 2] Change one of your gems to a prism gem.",,,
@@ -73,9 +73,9 @@ Hemomancy,"When playing cards, you may pay 1 {resource:blood} blood instead of 1
 Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,Modularity
 Modularity,"All your cards are gemified, including this one and cards from your hand.",T,,
 Creative Boost,"All your gemified cards get double the effects of gemification, this card and cards from your hand included.",T,,
-Fragment Shard,"This card can be {mark:shatter}shattered to provide a {resource:shattered_gem} shattered gem of any color.",,,Fragment Hoard
-Fragment Hoard,"This card can be {mark:shatter}shattered to provide 2{mark:x}{resource:shattered_gem} shattered gems of any color.",,,Fragment Mass
-Fragment Mass,"This card can be {mark:shatter}shattered to provide 3{mark:x}{resource:shattered_gem} shattered gems of any color.",,,
+Fragment Shard,"This card can be {mark:shatter}shattered to provide a {resource:shattered_gem} shattered gem of every color.",,,Fragment Hoard
+Fragment Hoard,"This card can be {mark:shatter}shattered to provide 2{mark:x}{resource:shattered_gem} shattered gems of every color.",,,Fragment Mass
+Fragment Mass,"This card can be {mark:shatter}shattered to provide 3{mark:x}{resource:shattered_gem} shattered gems of every color.",,,
 Dust Gatherer,"When you {mark:shatter}shatter a card, it does not perish.",,,Gem Transmuter
 Gem Transmuter,"Your mox cards can be {mark:sacrifice}sacrificed, and don't perish when {mark:shatter}shattered or {mark:sacrifice}sacrificed.",,,
 Lapis Holder,"After this card dies, the next card to enter its space will gain the {sigil:BlueGem} Blue Gem sigil.",,,Azur Lapis
@@ -329,8 +329,8 @@ Wire Weaver,"During your end step, this card moves to an adjacent space and leav
 Wire Carver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Null Conduit"" behind.",T,,
 Spine Walker,"During your end step, this card moves to an adjacent space and leaves a ""Vertebrae"" behind.",T,,
 Transmogutate,"[Once per turn, {mark:sacrifice}sacrifice a card] Place a Side Deck Mox card of your choice in its place.",,,
-Gift Bearer,"When this card dies, draw a card from your deck.",T,,Generosity Bearer
-Generosity Bearer,"When this card dies, draw two cards from your deck.",T,,Loaded
+Gift Bearer,"When this card dies, draw a card from your deck.",T,,Generous Gift
+Generous Gift,"When this card dies, draw two cards from your deck.",T,,Loaded
 Gem Bearer,"When this card dies, draw a random Side deck Mox card.",,,Gem Generosity
 Gem Generosity,"When this card dies, draw two random Side deck Mox cards.",,,
 Gem Greed,"When your other Mox cards perish, draw a card from your deck.",,,Gem Greedier
