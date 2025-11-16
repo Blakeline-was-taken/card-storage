@@ -118,9 +118,8 @@ Lonely,"During your end step, if you control no {mark:sacrifice}sacrificable car
 Annoying,The opposing card has 1 more power.,T,,Infuriating
 Infuriating,"If this card is opposed, both cards have 1 more power.",T,,Defiant
 Defiant,"If this card is opposed, its power is doubled.",T,,
+Brittle,"After this card attacks, it will perish during your end step.",T,,Unfinished Business
 Unfinished Business,"When this card kills another, it perishes.",T,,
-Brittle,"After this card attacks, it will perish during your end step.",T,,Frail
-Frail,"After this card attacks, it will perish during your draw step.",T,,
 Clock Out,"During your draw step, this card returns to your hand.",,,On the Clock
 On the Clock,"During your draw step, you may return this card to your hand.",,,
 Ticking,"During your end step, this card loses 1 health.",T,,Raging Flames
