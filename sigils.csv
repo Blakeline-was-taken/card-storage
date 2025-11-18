@@ -141,6 +141,7 @@ Airborne,This card's strikes only hit the space they target directly.,T,,Aerobat
 Aerobatics,"When this card strikes another, you may target its space directly instead.",T,,
 Falconry,"When they strike, your Avian cards may choose to deal direct or normal damage to the spaces they strike.",T,,
 Carry Up,"[Once per turn, pay {resource:bone}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
+Holo-Wings,"[Once per turn, pay {resource:energy}{resource:energy}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
 Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
 Strong Venom,"When this card damages another, that card is discarded.",T,,
 Midas Touch,"When played, the opposing card is replaced by a ""Gold Nugget"".",T,,
