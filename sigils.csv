@@ -173,7 +173,7 @@ Armed Sentry,"When a card enters the opposing space, it is dealt 2 damage.",T,,
 Quickdraw,"When a card enters the opposing space, this card strikes it.",T,,
 Gem Tactician,"When a card enters the opposing space of a mox card you control, it is dealt 1 damage.",T,,Armed Gem Tactician
 Armed Gem Tactician,"When a card enters the opposing space of a mox card you control, it is dealt 2 damage.",T,,
-Petrifying Gaze,"When a card enters the opposing space, it won't be able to attack, move, or be {mark:sacrifice}sacrificed until your end step.",T,,Turned To Stone
+Petrifying Gaze,"When a card enters the opposing space, it won't be able to attack, move, or be{mark:sacrifice}sacrificed until your draw step.",T,,Turned To Stone
 Turned To Stone,"The opposing card cannot attack, move, or be {mark:sacrifice}sacrificed.",T,,
 Poisonous,"During the opponent's end step, the opposing card takes 1 damage.",T,,Black Hole
 Black Hole,"During the opponent's end step, the opposing card perishes.",T,,Singularity
