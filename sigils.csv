@@ -11,8 +11,8 @@ Life Donor,"When {mark:sacrifice}sacrificed, this card loses 1 health per {resou
 Many Lives,This card does not perish when {mark:sacrifice}sacrificed.,T,,Two Many Lives
 Two Many Lives,"This card does not perish when {mark:sacrifice}sacrificed, and can be {mark:sacrifice}sacrificed twice for a single cost.",T,,
 Hemanation,"When {mark:sacrifice}sacrificed, this card changes form instead of perishing.",T,,
-Lifeblood,All your other cards can be {mark:sacrifice}sacrificed.,,,Convergence
-Convergence,All your other cards can be {mark:sacrifice}sacrificed and {mark:shatter}shattered for a {resource:shattered_gem} of every color.,,,
+Lifeblood,Your other cards can be {mark:sacrifice}sacrificed.,,,Convergence
+Convergence,Your other cards can be {mark:sacrifice}sacrificed and {mark:shatter}shattered for a {resource:shattered_gem} of every color.,,,
 Unburial,"When played, gain 1 {resource:bone} bone.",,,Unboxing
 Unboxing,"When played, gain 2{mark:x}{resource:bone} bones.",,,
 Bone Digger,"During your end step, gain 1 {resource:bone} bone.",T,,Tomb Digger
