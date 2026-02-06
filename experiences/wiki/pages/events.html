@@ -152,12 +152,296 @@
         <td class="white">Hunting Grounds</td>
         <td>
           <p>The Player sends one of their cards to go hunting. They can make the hunt last from <strong>1-3 battles</strong> <span class="gray">(may not exceed the number of battles in the area)</span>, after which the card comes back from the hunt.</p>
-          <p>Whn the card comes back, the player gets to roll 1 success die per battle the hunt took to complete. Outcomes are : <strong>+1 power, +1 health or +2 health</strong>.</p>
+          <p>When the card comes back, the player gets to roll 1 success die per battle the hunt took to complete. Outcomes are : <strong>+1 power, +1 health or +2 health</strong>.</p>
           <p>Apart from a 1-battle hunt, before rolling success dice, risk coins are flipped, one per battle the hunt took to complete, minus one. <strong>1 failed risk coin flip removes 1 dice roll, 2 destroys the card.</strong></p>
           <p class="cyan"><strong>Tinker effect -</strong> The Player may choose the outcome of success dies.</p>
         </td>
         <td>3 foils</td>
         <td class="green">Card Buff</td>
+      </tr>
+      <tr>
+        <td><img src="../../campaign_assets/Events/RoomFishing.png" alt="Fishing Icon" width="100%"></td>
+        <td class="white">Fishing</td>
+        <td>
+          <p>The Player is able to fish out a powerful card from a pond by using one of their cards as <strong>bait</strong>, sacrificing it. The pond is given a description with <strong>clues</strong> about what characteristics the card must have to be a good bait.</p>
+          <p>The clues gives a total of <strong>3 characteristics</strong> that are able to attract and capture the creature by getting eaten. The more matching characteristics the bait has, the <strong>stronger</strong> the resulting random Beast card will be.</p>
+          <ul>
+            <li><strong>0 matches</strong>: <span class="red">Failed capture</span>. Bait retrieved.</li>
+            <li><strong>1 match</strong>: <span class="green">Successful capture</span>. +1 sigil.</li>
+            <li><strong>2 matches</strong>: <span class="green">Successful capture</span>. +1 sigil and +1 power.</li>
+            <li><strong>3 matches</strong>: <span class="green">Successful capture</span>. +2 sigils.</li>
+          </ul>
+          <p>The list of characteristics and associated clues are listed in the table below. There may never be 2 characteristics of the same category.</p>
+          <table class="wiki-table collapsible collapsed">
+            <thead onclick="toggleTable(this)">
+              <tr><th style="width: 15%;">Category</th><th style="width: 20%;">Characteristic</th><th>Possible Clues<span class="collapse-arrow">▼</span></th></tr>
+            </thead>
+            <tbody>
+              <!-- COSTS -->
+              <tr style="border-top: 5px solid #3d2f2f;">
+                <td rowspan="5" style="background: #1d1515"><strong>Cost</strong></td>
+                <td>3+ Blood</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>The lake water is a swirly crimson red.</li>
+                    <li>Red stains mark the shoreline.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>7+ Bones</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Remnants of a hunt litter the shoreline.</li>
+                    <li>You walk atop scattered bones.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>8+ Energy</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Static fills the air.</li>
+                    <li>A thunderstorm looms overhead.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>2+ Gems</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Light reflects strangely off the lake.</li>
+                    <li>Mist settles thickly around the water.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Free</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>The area feels calming.</li>
+                    <li>It looks like nothing is here.</li>
+                  </ul>
+                </td>
+              </tr>
+              <!-- STATS -->
+              <tr style="border-top: 5px solid #3d2f2f;">
+                <td rowspan="4" style="background: #1d1515"><strong>Stats</strong></td>
+                <td>0 Power</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>The water is perfectly still.</li>
+                    <li>The lake appears dormant.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>3+ Power</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Aggressive waves crash against the shore.</li>
+                    <li>The lake churns unnaturally.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>1-2 Health</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>The waters are shallow.</li>
+                    <li>The water has receded far from the shore.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>5+ Health</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>The lake overflows its banks.</li>
+                    <li>The water is dark, deep, and foreboding.</li>
+                  </ul>
+                </td>
+              </tr>
+              <!-- TRIBES -->
+              <tr style="border-top: 5px solid #3d2f2f;">
+                <td rowspan="8" style="background: #1d1515"><strong>Tribe</strong></td>
+                <td>Reptile</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Shed scales cling to nearby rocks.</li>
+                    <li>Slit pupils watch from the reeds.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Hooved</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Hoofprints lead into the water.</li>
+                    <li>Broken antlers float on the surface.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Insect</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Small critters swarm across the surface.</li>
+                    <li>Clusters of larvae cling to the edges.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Vermin</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Acorns bob gently in the water.</li>
+                    <li>Rough dams interrupt the lake's flow.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Avian</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Feathers drift lazily across the water.</li>
+                    <li>You sense movement in the tree canopy.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Canine</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Pawprints press deep into the mud.</li>
+                    <li>Shed fur floats atop the water.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Fish</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Fishbones drift near the shore.</li>
+                    <li>Large clawprints scar the banks.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Amphibian</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Croaks and clicks echo from the reeds.</li>
+                    <li>Slimy trails mark nearby stones.</li>
+                  </ul>
+                </td>
+              </tr>
+              <!-- SIGILS -->
+              <tr style="border-top: 5px solid #3d2f2f;">
+                <td rowspan="8" style="background: #1d1515"><strong>Sigils</strong></td>
+                <td>0 Sigils</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>The area feels mundane.</li>
+                    <li>Nothing unusual stands out.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>2+ Sigils</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Carvings and symbols are etched into the rocks.</li>
+                    <li>You feel observed by higher forces.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Sprinter</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Something darts across the water… and is eaten.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Airborne</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Something flies overhead… and is eaten.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Waterborne</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Bubbles rise in several places.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Fledgling</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Small shadows swirl beneath the water, then an egg shell surfaces.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Stinky</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>The lake emits a powerful stench.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Mighty Leap</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>Something erupts from the water, several times, then stops abruptly.</li>
+                  </ul>
+                </td>
+              </tr>
+              <!-- OTHER -->
+              <tr style="border-top: 5px solid #3d2f2f;">
+                <td rowspan="2" style="background: #1d1515"><strong>Other</strong></td>
+                <td>Uncommon+</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>The lake feels otherworldly.</li>
+                    <li>You don't recognize any of the animal remains.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Modifications</td>
+                <td style="padding: 0;">
+                  <ul>
+                    <li>The lake emits a faint, unnatural glow.</li>
+                    <li>A waterfall crashes down into the lake.</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="cyan"><strong>Tinker effect -</strong> The bait is no longer destroyed on a successful capture.</p>
+        </td>
+        <td>4 foils</td>
+        <td class="yellow">Card Gain</td>
+      </tr>
+      <tr>
+        <td><img src="../../campaign_assets/Events/RoomWoodAltar.png" alt="Wood Altar Icon" width="100%"></td>
+        <td class="white">Wood Altar</td>
+        <td>
+          <p>The Player may choose a card to <strong>reduce the cost of</strong>. To do that, they may <strong>reduce its stats</strong> or <strong>remove sigils</strong> from the card.</p>
+          <p>Because some costs are considered more expensive than others, the amount of stats that have to be reduced or sigils that have to be removed <strong>depends on the cost</strong> of the card. Similarly, some sigils are stronger than others and removing them has varying effects on the card's cost. <strong>Removing negative sigils is impossible</strong>.</p>
+          <p>There is no real way to calculate this precisely unless we gave each cost a value in terms of stats or sigils to remove, and each sigil a value in terms of cost reduction. Because of this, it will be <strong>up to the DM</strong> to determine what the card has to lose in order to get cheaper.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> The Player may repeat the Wood Altar on a second card.</p>
+        </td>
+        <td>4 foils</td>
+        <td class="purple">Cost Change</td>
       </tr>
       <tr>
         <td><img src="../../campaign_assets/Events/RoomTaxidermy.png" alt="Taxidermy Icon" width="100%"></td>
@@ -369,6 +653,17 @@
       <tr><th style="width: 10%;">Icon</th><th>Name</th><th>Description</th><th style="width: 8%;">Price</th><th style="width: 11%;">Type<span class="collapse-arrow">▼</span></th></tr>
     </thead>
     <tbody>
+      <tr>
+        <td><img src="../../campaign_assets/Events/RoomAssembler.png" alt="Assembler Icon" width="100%"></td>
+        <td class="white">Assembler</td>
+        <td>
+          <p>The Player is given a choice of 3 sigils to add to one of their cards. These sigils are <strong>Cell sigils</strong> by default and can only be triggered in battle if the card is powered by a Conduit.</p>
+          <p>However, there is also the option to add the sigil without the Cell conditional, but then the card will have its <strong>cost increased</strong> by a certain amount. That amount depends on which cost is needed to play the card, as some costs are worth more than others.</p>
+          <p class="cyan"><strong>Tinker effect -</strong> The cost of the card is no longer increased.</p>
+        </td>
+        <td>6 foils</td>
+        <td class="green">Card Buff</td>
+      </tr>
       <tr>
         <td><img src="../../campaign_assets/Events/RoomGemification.png" alt="Gemification Icon" width="100%"></td>
         <td class="white">Gemification</td>
