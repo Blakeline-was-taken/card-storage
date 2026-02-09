@@ -135,6 +135,11 @@ Defiler,"When this card dies, discard the top card of your deck.",T,,Desecration
 Death Sentence,"When this card dies, its owner takes 5 direct damage.",T,,Overclocked
 Overclocked,"This card has 1 more power, but you take 2 damage when it perishes.",T,,Xtreme Overclock
 Xtreme Overclock,"This card has 2 more power, but you take 2 damage when it perishes.",T,,
+Overloaded,"This card has 2 more power, but it also strikes its adjacent cards when it attacks.",T,,
+Watercooled,"This card costs 2 less energy/bones or 1 less blood/gem, but has 1 less power.",T,,
+Firewall,"This card has 1 less health, but it gains an {mark:armor} Armor mark.",T,,
+Recycled,"When played, draw a card. During your end step, this card perishes.",T,,
+Failsafe,"When this card dies, it returns to your hand and loses this sigil instead of being discarded.",T,,
 Target Required,"This card cannot strike empty spaces.",T,,Target Spotted
 Target Spotted,"This card can only strike empty spaces if their back lane has a card.",T,,
 Airborne,This card's strikes only hit the space they target directly.,T,,Aerobatics
