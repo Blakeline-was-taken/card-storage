@@ -194,6 +194,11 @@
         const table = el.closest('.wiki-table');
         table.classList.toggle('collapsed');
       }
+      
+      function toggleDropdown(el) {
+        const dropdown = el.closest('.dropdown');
+        dropdown.classList.toggle('collapsed');
+      }
 
       document.addEventListener('click', function (e) {
         if (e.target.classList.contains('spoiler')) {

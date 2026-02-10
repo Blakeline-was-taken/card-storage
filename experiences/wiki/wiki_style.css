@@ -149,3 +149,12 @@ code { font-family: monospace; }
 .spoiler::after { content: ""; position: absolute; inset: 0; background-color: #342a2a; border-radius: 3px; transition: opacity 0.4s ease; z-index: 1; }
 .spoiler.revealed::after { opacity: 0; pointer-events: none; }
 .spoiler:hover { filter: brightness(1.15); }
+
+/* LISTES DÉROULANTES */
+.dropdown { border: 1px solid #342a2a; border-radius: 5px; margin: 10px 0; background: #1d1515; }
+.dropdown-header { padding: 6px 10px; cursor: pointer; user-select: none; display: flex; justify-content: space-between; align-items: center; }
+.dropdown-header:hover { background: #3d2f2f; }
+.dropdown-content { padding: 10px; padding-bottom: 0; border-top: 1px solid #342a2a; }
+.dropdown.collapsed .dropdown-content { display: none; }
+.dropdown-arrow { transition: transform 0.2s ease; }
+.dropdown.collapsed .dropdown-arrow { transform: rotate(-90deg); }

@@ -1,5 +1,5 @@
 <article>
-  <div class="alert danger">This page is still under heavy development.</div>
+  <div class="alert warning">This page's content may change as development continues.</div>
   <h1>Events</h1>
   <p class="gray">Note: If you want to check out the battle events, see <a href="wiki_index.html?page=battles">Battles</a>.</p>
   <p>Here are listed all the different nodes that exist to help you build your deck. They can be found on the map by exploring the different areas.</p>
@@ -448,14 +448,20 @@
         <td class="white">Taxidermy</td>
         <td>
           <p>3 pelts are presented to the player out of a pool of 6. Each Pelt has a Tribe and a pool of sigils from which 1 is chosen. The Player must select one pelt to graft to a card of their choice.</p>
-          <ul>
-            <li>Crocodile Hide <strong>(Reptile)</strong>: Touch of Death, Bastion, Piercing</li>
-            <li>Deer Pelt <strong>(Hooved)</strong>: Hefty, Life Donor, Tackle</li>
-            <li>Moth Molt <strong>(Insect)</strong>: Bloodsucker, Stinky, Split Strike</li>
-            <li>Rabbit Pelt <strong>(Vermin)</strong>: Fecundity, Scavenger, Sharp Quills</li>
-            <li>Raven Plumage <strong>(Avian)</strong>: Airborne, All-Sight, Spotlight</li>
-            <li>Wolf Pelt <strong>(Canine)</strong>: Leader, Opportunist, Bloodlust</li>
-          </ul>
+          <div class="dropdown collapsed">
+            <div class="dropdown-header" onclick="toggleDropdown(this)">
+              <strong>Pelts are listed here.</strong>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <div class="dropdown-content">
+              <p>Crocodile Hide <strong>(Reptile)</strong>: Touch of Death, Bastion, Piercing</p>
+              <p>Deer Pelt <strong>(Hooved)</strong>: Hefty, Life Donor, Tackle</p>
+              <p>Moth Molt <strong>(Insect)</strong>: Bloodsucker, Stinky, Split Strike</p>
+              <p>Rabbit Pelt <strong>(Vermin)</strong>: Fecundity, Scavenger, Sharp Quills</p>
+              <p>Raven Plumage <strong>(Avian)</strong>: Airborne, All-Sight, Spotlight</p>
+              <p>Wolf Pelt <strong>(Canine)</strong>: Leader, Opportunist, Bloodlust</p>
+            </div>
+          </div>
           <p>If the chosen card shares a tribe with the pelt, then the sigil on the pelt is added to the card normally. If not, the sigil is added with a <strong>Tribal Conditional</strong> and the card gains the Tribe of the Pelt.</p>
           <p class="cyan"><strong>Tinker effect -</strong> The Player gets a choice between all 6 pelts.</p>
         </td>
@@ -476,21 +482,29 @@
         <td><img src="../../campaign_assets/Events/RoomRunestone.png" alt="Runestone Icon" width="100%"></td>
         <td class="white">Runestone</td>
         <td>
-          <p>When the Player arrives at this event, a random <strong>Rune</strong> is drawn from 8 possible runes. The Player must choose a card to recieve one of the following effects depending on the rune :</p>
-          <ul>
-            <li><strong class="green">Uruz (ᚢ)</strong> : The card gains 2 health.</li>
-            <li><strong class="green">Thurisaz (ᚦ)</strong> : The card gains 1 power.</li>
-            <li><strong class="green">Fehu (ᚠ)</strong> : The card gains a "reward" sigil.</li>
-            <li><strong class="green">Othala (ᛟ)</strong> : The card gains the <strong>Haunter</strong> sigil.</li>
-            <li><strong class="yellow">Gebo (ᚷ)</strong> : The card gets a random sigil replaced with another.</li>
-            <li>
-              <strong class="yellow">Perthro (ᛈ)</strong> : A coin is flipped, and depending on the outcome:
-              <br><strong style="margin-left: 20px;">Heads</strong>: The card gains 2 power.
-              <br><strong style="margin-left: 20px;">Tails</strong>: The card is destroyed.
-            </li>
-            <li><strong class="red">Nauthiz (ᚾ)</strong> : The card loses 1 power.</li>
-            <li><strong class="red">Hagalaz (ᚺ)</strong> : The card loses a random sigil.</li>
-          </ul>
+          <p>When the Player arrives at this event, a random <strong>Rune</strong> is drawn from 8 possible runes. Some runes are positive, some are risky and some are simply negative. The Player must choose a card to recieve the rune's effect.</p>
+          <div class="dropdown collapsed">
+            <div class="dropdown-header" onclick="toggleDropdown(this)">
+              <strong>Runes are listed here.</strong>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <div class="dropdown-content">
+              <p><strong class="green">Uruz (ᚢ)</strong> : The card gains 2 health.</p>
+              <p><strong class="green">Thurisaz (ᚦ)</strong> : The card gains 1 power.</p>
+              <p><strong class="green">Fehu (ᚠ)</strong> : The card gains a "reward" sigil.</p>
+              <p><strong class="green">Othala (ᛟ)</strong> : The card gains the <strong>Haunter</strong> sigil.</p>
+              <p><strong class="yellow">Gebo (ᚷ)</strong> : The card gets a random sigil replaced with another.</p>
+              <p>
+                <strong class="yellow">Perthro (ᛈ)</strong> : A coin is flipped, and depending on the outcome:
+                <ul>
+                  <li><strong>Heads</strong>: The card gains 2 power.</li>
+                  <li><strong>Tails</strong>: The card is destroyed.</li>
+                </ul>
+              </p>
+              <p><strong class="red">Nauthiz (ᚾ)</strong> : The card loses 1 power.</p>
+              <p><strong class="red">Hagalaz (ᚺ)</strong> : The card loses a random sigil.</p>
+            </div>
+          </div>
           <p class="cyan"><strong>Tinker effect -</strong> The Player may choose the Rune they want instead.</p>
         </td>
         <td>3 foils</td>
@@ -659,15 +673,20 @@
         <td>
           <p>A choice of <strong>3 protocols</strong> is offered to the player, out of a total pool of 6. These protocols all add the <strong>Conduit tribe</strong> to a card of the Player's choice, as well as a unique sigil that only they can give.</p>
           <p>These <strong>protocol sigils</strong> are not stackable, placing a card that already has a protocol sigil will replace it. Although, if the card has a <strong>Cell sigil</strong>, then no matter which protocol is used, the card will gain the <strong>Powered sigil</strong> instead of the one the protocol was supposed to give and it doesn't recieve the Conduit tribe.</p>
-          <p>The 6 possible protocols are :</p>
-          <ul>
-            <li><strong>Overclock</strong> Protocol : The card gains 1 power, but deals 2 direct damage on death.</li>
-            <li><strong>Firewall</strong> Protocol : The card loses 1 health but gains an Armor Mark.</li>
-            <li><strong>Watercool</strong> Protocol : The card loses 1 power, but costs 2 less energy/bones and 1 less blood/gem to play.</li>
-            <li><strong>Recycle</strong> Protocol : The card makes the Player draw a card when played, but dies during the end step.</li>
-            <li><strong>Failsafe</strong> Protocol : The card returns to the player's hand on death, but it then loses the Failsafe sigil.</li>
-            <li><strong>Overload</strong> Protocol : The card gains 2 power, but also strikes its adjacent cards when attacking.</li>
-          </ul>
+          <div class="dropdown collapsed">
+            <div class="dropdown-header" onclick="toggleDropdown(this)">
+              <strong>The 6 possible protocols are listed here.</strong>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <div class="dropdown-content">
+              <p><strong>Overclock</strong> Protocol : The card gains 1 power, but deals 2 direct damage on death.</p>
+              <p><strong>Firewall</strong> Protocol : The card loses 1 health but gains an Armor Mark.</p>
+              <p><strong>Watercool</strong> Protocol : The card loses 1 power, but costs 2 less energy/bones and 1 less blood/gem to play.</p>
+              <p><strong>Recycle</strong> Protocol : The card makes the Player draw a card when played, but dies during the end step.</p>
+              <p><strong>Failsafe</strong> Protocol : The card returns to the player's hand on death, but it then loses the Failsafe sigil.</p>
+              <p><strong>Overload</strong> Protocol : The card gains 2 power, but also strikes its adjacent cards when attacking.</p>
+            </div>
+          </div>
           <p class="cyan"><strong>Tinker effect -</strong> The sigil that the protocols give is upgraded.</p>
         </td>
         <td>7 foils</td>
@@ -689,12 +708,17 @@
         <td class="white">Gemification</td>
         <td>
           <p>The Player is given 3 colors of <strong>Gemification</strong>, an <span class="orange">Orange</span>, <span class="green">Green</span> and <span class="blue">Blue</span> one. They may distribute these however they wish: all to one card, or spread across multiple cards.</p>
-          <p>When the gemification color is provided in battle:</p>
-          <ul>
-            <li><span class="orange">Orange</span> : The card gains <strong>+1 Power</strong>.</li>
-            <li><span class="green">Green</span> : The card gains <strong>+2 Health</strong>.</li>
-            <li><span class="blue">Blue</span> : The card's <strong>cost is reduced</strong>. <span class="gray">(-1 Blood/Gem | -2 Energy/Bones)</span></li>
-          </ul>
+          <div class="dropdown collapsed">
+            <div class="dropdown-header" onclick="toggleDropdown(this)">
+              <strong>Gemification effects are listed here.</strong>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <div class="dropdown-content">
+              <p><span class="orange">Orange</span> : The card gains <strong>+1 Power</strong>.</p>
+              <p><span class="green">Green</span> : The card gains <strong>+2 Health</strong>.</p>
+              <p><span class="blue">Blue</span> : The card's <strong>cost is reduced</strong>. <span class="gray">(-1 Blood/Gem | -2 Energy/Bones)</span></p>
+            </div>
+          </div>
           <p>If a <strong class="white">Prism Gem</strong> is provided in battle, the Player may choose which buff is active during their turn for any Gemified card.</p>
           <p class="cyan"><strong>Tinker effect -</strong> An additional <strong class="white">Prism Gemification</strong> is given to the player, that is able to provide a buff of the Player's choice (among the three regular buffs) but with any color.</p>
         </td>
@@ -725,17 +749,23 @@
         <td><img src="../../campaign_assets/Events/RoomPotionShop.png" alt="Potion Shop Icon" width="100%"></td>
         <td class="white">Potion Shop</td>
         <td>
-          <p>The Player is given 3 potions to purchase, out of a total pool of 8. Potions are special cards that permanently give sigils to other cards in battle:</p>
-          <ul>
-            <li><strong>Bloated Potion</strong> <span class="yellow">(6 foils)</span> : Blood Pact</li>
-            <li><strong>Clarity Potion</strong> <span class="yellow">(7 foils)</span> : Prism Gem</li>
-            <li><strong>Confusion Potion</strong> <span class="yellow">(4 foils)</span> : Rampager</li>
-            <li><strong>Fire Potion</strong> <span class="yellow">(2 foils)</span> : Burning</li>
-            <li><strong>Health Potion</strong> <span class="yellow">(4 foils)</span> : Convalesce</li>
-            <li><strong>Levitation Potion</strong> <span class="yellow">(6 foils)</span> : Airborne</li>
-            <li><strong>Stench Potion</strong> <span class="yellow">(5 foils)</span> : Stinky</li>
-            <li><strong>Unstable Potion</strong> <span class="yellow">(3 foils)</span> : Detonator</li>
-          </ul>
+          <p>The Player is given 3 potions to purchase, out of a total pool of 8. Potions are special cards that temporarily give sigils to other cards in battle, they are added to the deck but let the Player draw again after drawing them.</p>
+          <div class="dropdown collapsed">
+            <div class="dropdown-header" onclick="toggleDropdown(this)">
+              <strong>Potions are listed here.</strong>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <div class="dropdown-content">
+              <p><strong>Bloated Potion</strong> <span class="yellow">(6 foils)</span> : Blood Pact</p>
+              <p><strong>Clarity Potion</strong> <span class="yellow">(7 foils)</span> : Prism Gem</p>
+              <p><strong>Confusion Potion</strong> <span class="yellow">(4 foils)</span> : Rampager</p>
+              <p><strong>Fire Potion</strong> <span class="yellow">(2 foils)</span> : Burning</p>
+              <p><strong>Health Potion</strong> <span class="yellow">(4 foils)</span> : Convalesce</p>
+              <p><strong>Levitation Potion</strong> <span class="yellow">(6 foils)</span> : Airborne</p>
+              <p><strong>Stench Potion</strong> <span class="yellow">(5 foils)</span> : Stinky</p>
+              <p><strong>Unstable Potion</strong> <span class="yellow">(3 foils)</span> : Detonator</p>
+            </div>
+          </div>
           <p class="cyan"><strong>Tinker effect -</strong> The Player is offered one potion for free.</p>
         </td>
         <td>2 foils</td>
@@ -756,24 +786,35 @@
         <td><img src="../../campaign_assets/Events/RoomMirror.png" alt="Mirror Icon" width="100%"></td>
         <td class="white">Mirror</td>
         <td>
-          <p>The Player may select a card to warp in 3 different mirrors. Each mirror rolls a random buff and debuff that will be applied to the card. The player then picks one version to replace his current one. <strong>Buffs are :</strong></p>
-          <ul>
-            <li>+1 Power</li>
-            <li>+1 Health</li>
-            <li>+2 Health</li>
-            <li>Gain a random Sigil</li>
-            <li>Cost -1 Blood/Gem | -2 Energy/Bones</li>
-            <li>Change the cost type</li>
-          </ul>
-          <p><strong>Debuffs are :</strong></p>
-          <ul>
-            <li>-1 Power</li>
-            <li>-1 Health</li>
-            <li>Lose a random Sigil</li>
-            <li>Random Sigil becomes Arcane</li>
-            <li>Cost +1 Blood/Gem | +2 Energy/Bones</li>
-            <li>Nothing</li>
-          </ul>
+          <p>The Player may select a card to warp in 3 different mirrors. Each mirror rolls a random buff and debuff that will be applied to the card. The player then picks one version to replace his current one.</p>
+          <div class="dropdown collapsed">
+            <div class="dropdown-header" onclick="toggleDropdown(this)">
+              <strong>Buffs are listed here.</strong>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <div class="dropdown-content">
+              <p>+1 Power</p>
+              <p>+1 Health</p>
+              <p>+2 Health</p>
+              <p>Gain a random Sigil</p>
+              <p>Cost -1 Blood/Gem | -2 Energy/Bones</p>
+              <p>Change the cost type</p>
+            </div>
+          </div>
+          <div class="dropdown collapsed">
+            <div class="dropdown-header" onclick="toggleDropdown(this)">
+              <strong>Debuffs are listed here.</strong>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <div class="dropdown-content">
+              <p>-1 Power</p>
+              <p>-1 Health</p>
+              <p>Lose a random Sigil</p>
+              <p>Random Sigil becomes Arcane</p>
+              <p>Cost +1 Blood/Gem | +2 Energy/Bones</p>
+              <p>Nothing</p>
+            </div>
+          </div>
           <p class="cyan"><strong>Tinker effect -</strong> Instead of choosing between three mirrors, the Player chooses what buff they get. The debuff is still random.</p>
         </td>
         <td>4 foils</td>
