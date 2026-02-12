@@ -454,7 +454,7 @@ Turbocharge,"[Pay {resource:energy}{resource:energy}{resource:energy}] Add {sigi
 Convalesce,"During your draw step, this card gains 1 health, up to 5.",T,,Whimsical Healer
 Gemagnify,"During your draw step, this card gains 1 health per mox card you control, up to 5.",,,Gem Healing
 Gem Healing,"During your draw step, this card gains 1 health per mox card you control.",,,
-Reinforce,"During your end step, one of your other cards gains 1 health, up to its base health.",T,,Healthcare
+Healer,"During your end step, one of your other cards gains 1 health, up to its base health.",T,,Healthcare
 Healthcare,"During your end step, heal one of your other cards up to its base health.",T,,
 Whimsical Healer,"During your end step, a card of your choice gains 1 health, up to 5.",,,Health Boost
 Health Boost,"During your end step, a card of your choice gains health equal to this card's health, up to 5.",,,
