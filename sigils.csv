@@ -370,8 +370,8 @@ Geode,"When damaged, draw a random side deck mox card.",T,,Mineral
 Mineral,"When damaged, draw 2 random side deck mox cards.",T,,
 Vessel Printer,"When damaged, draw a card from your side deck.",T,,Vessel Factory
 Vessel Factory,"When damaged, draw 2 cards from your side deck.",T,,
-Rabbit Hole,"When played, draw a ""TOKEN"".",T,,Rabbit Chasm
-Rabbit Chasm,"When played, draw two ""TOKEN"".",T,,
+Rabbit Hole,"When played, draw a rabbit.",T,,Rabbit Chasm
+Rabbit Chasm,"When played, draw two rabbits.",T,,
 Ash Tray,"When played, draw ""The Smoke"".",T,,
 Ant Spawner,"When played, draw a common Ant card of your choice.",T,,Ant Swarm
 Ant Swarm,"When played, draw two random Ant cards of your choice.",T,,
