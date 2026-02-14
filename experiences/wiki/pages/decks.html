@@ -1,5 +1,4 @@
 <article>
-  <div class="alert warning">This page is still under development.</div>
   <h1>Starter Decks</h1>
   <p>Upon beginning a new run, after the Player chooses a temple to start in, they will be given a choice between six different starter decks. Each deck has its own playstyle and strategy.</p>
 
@@ -15,266 +14,290 @@
   </div>
 
   <h2 id="beast-temple">Beast Temple</h2>
-  <div class="dark-bloc">
-    <table class="layout-table">
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;">Vanilla</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Stoat.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Bullfrog.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Wolf Cub.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Adder.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Wolf.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Bones</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Raccoon.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Rat King.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Dire Wolf Pup.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Coyote.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Alpha.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Bloody</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Warren.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Mosquito.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Longhorn.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Moose Buck.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Grizzly.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Ants</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Anthill.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Worker Ant.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Flying Ant.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Bullet Ant.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Fire Ant.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Avians</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Beehive.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Raven Egg.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Sparrow.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Hawk.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Woodpecker.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Reptiles</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Tadpole.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Skink.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Mud Turtle.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/River Snapper.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Rattler.png"></td>
-      </tr>
-    </table>
+  <div class="dropdown">
+    <div class="dropdown-header" onclick="toggleDropdown(this)">
+      <strong>Beast Decks</strong>
+      <span class="dropdown-arrow">▼</span>
+    </div>
+    <div class="dropdown-content">
+      <table class="layout-table">
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;">Vanilla</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Stoat.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Bullfrog.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Wolf Cub.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Adder.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Wolf.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Bones</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Raccoon.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Rat King.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Dire Wolf Pup.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Coyote.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Alpha.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Bloody</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Warren.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Mosquito.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Longhorn.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Moose Buck.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Grizzly.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Ants</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Anthill.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Worker Ant.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Flying Ant.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Bullet Ant.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Fire Ant.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Avians</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Beehive.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Raven Egg.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Sparrow.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Hawk.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Woodpecker.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Reptiles</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Tadpole.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Skink.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Mud Turtle.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/River Snapper.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Beast/Common/Rattler.png"></td>
+        </tr>
+      </table>
+    </div>
   </div>
 
   <h2 id="undead-temple">Undead Temple</h2>
-  <div class="dark-bloc">
-    <table class="layout-table">
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;">Vanilla</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Draugr.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Gravedigger.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Banshee.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Revenant.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Frank&Stein.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Spectres</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Spook.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Lost Hewer.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Umbra Avis.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Joltergeist.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Possessed Armor.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Blood</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Cadaver Rat.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Clot.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Ghoul.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Ichor.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Ghast.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>High Cost</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Skelemancer.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/The Walkers.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Big Dig.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Big Bones.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Bone Devil.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Pirates</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Crewmate.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Fiddlebones.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Ghost Ship.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Animator.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Underworld Centurion.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Ancients</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Mummy.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Floating Urn.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Mummy Mashimoi.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Sarcophagus.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Curse Bearer.png"></td>
-      </tr>
-    </table>
+  <div class="dropdown">
+    <div class="dropdown-header" onclick="toggleDropdown(this)">
+      <strong>Undead Decks</strong>
+      <span class="dropdown-arrow">▼</span>
+    </div>
+    <div class="dropdown-content">
+      <table class="layout-table">
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;">Vanilla</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Draugr.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Gravedigger.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Banshee.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Revenant.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Frank&Stein.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Spectres</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Spook.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Lost Hewer.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Umbra Avis.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Joltergeist.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Possessed Armor.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Blood</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Cadaver Rat.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Clot.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Ghoul.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Ichor.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Ghast.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>High Cost</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Skelemancer.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/The Walkers.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Big Dig.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Big Bones.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Bone Devil.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Pirates</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Crewmate.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Fiddlebones.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Ghost Ship.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Animator.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Underworld Centurion.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Ancients</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Mummy.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Floating Urn.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Mummy Mashimoi.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Sarcophagus.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Undead/Common/Curse Bearer.png"></td>
+        </tr>
+      </table>
+    </div>
   </div>
 
   <h2 id="tech-temple">Technology Temple</h2>
-  <div class="dark-bloc">
-    <table class="layout-table">
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;">Vanilla</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Energy Bot.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Shield Bot.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Sniper Bot.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Thick Droid.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Double Gunner.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Gems</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/D-Canvas.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/B0D-Y.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/M1-ND.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Gembound Ripper.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Obliteratron.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>High Voltage</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Timer Bot.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Botty Boltlegs.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Gunbot.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Energy Keeper.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Steambot.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Conduits</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Null Conduit.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Buff Conduit.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Guardian Cell.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Tough Cell.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Factory Conduit.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Mechabeasts</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/49er.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/C0pp3r-h34d.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/K-9.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Steel Mice.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Core-v1d.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Latchers</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Boom-o-latcher.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Shield Latcher.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Scrapton.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Switch Latcher.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Swapbot.png"></td>
-      </tr>
-    </table>
+  <div class="dropdown">
+    <div class="dropdown-header" onclick="toggleDropdown(this)">
+      <strong>Technology Decks</strong>
+      <span class="dropdown-arrow">▼</span>
+    </div>
+    <div class="dropdown-content">
+      <table class="layout-table">
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;">Vanilla</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Energy Bot.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Shield Bot.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Sniper Bot.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Thick Droid.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Double Gunner.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Gems</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/D-Canvas.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/B0D-Y.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/M1-ND.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Gembound Ripper.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Obliteratron.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>High Voltage</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Timer Bot.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Botty Boltlegs.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Gunbot.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Energy Keeper.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Steambot.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Conduits</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Null Conduit.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Buff Conduit.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Guardian Cell.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Tough Cell.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Factory Conduit.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Mechabeasts</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/49er.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/C0pp3r-h34d.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/K-9.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Steel Mice.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Core-v1d.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Latchers</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Boom-o-latcher.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Shield Latcher.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Scrapton.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Switch Latcher.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Tech/Common/Swapbot.png"></td>
+        </tr>
+      </table>
+    </div>
   </div>
 
   <h2 id="magick-temple">Magick Temple</h2>
-  <div class="dark-bloc">
-    <table class="layout-table">
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;">Vanilla</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Mage Pupil.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Prism Mox.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Junior Sage.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Practice Wizard.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Gem Fiend.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Goranj</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Green Mage.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Garish Geode.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Spike Mage.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Mox Mage.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Dragon.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Orlu</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Orange Mage.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Exalted Warden.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Bauble Burglar.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Fortune Teller.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Skyborne Soldier.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Bleene</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Blue Mage.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Mindripper.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Evergreen Mox.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Shade Soul.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Splitmind Maniac.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Prism</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/White Mage.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Glass Mage.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Spell Slinger.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Antimagician.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Scord Wizard.png"></td>
-      </tr>
-      <tr>
-        <th colspan="5" style="font-size: 20px; color: white;"><hr>Blood</th>
-      </tr>
-      <tr>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Apostate.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Mad Conspirator.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Mad Cultist.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Force Mage.png"></td>
-        <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Druid.png"></td>
-      </tr>
-    </table>
+  <div class="dropdown">
+    <div class="dropdown-header" onclick="toggleDropdown(this)">
+      <strong>Magick Decks</strong>
+      <span class="dropdown-arrow">▼</span>
+    </div>
+    <div class="dropdown-content">
+      <table class="layout-table">
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;">Vanilla</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Mage Pupil.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Prism Mox.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Junior Sage.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Practice Wizard.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Gem Fiend.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Goranj</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Green Mage.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Garish Geode.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Spike Mage.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Mox Mage.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Dragon.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Orlu</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Orange Mage.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Exalted Warden.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Bauble Burglar.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Fortune Teller.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Skyborne Soldier.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Bleene</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Blue Mage.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Mindripper.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Evergreen Mox.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Shade Soul.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Splitmind Maniac.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Prism</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/White Mage.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Glass Mage.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Spell Slinger.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Antimagician.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Scord Wizard.png"></td>
+        </tr>
+        <tr>
+          <th colspan="5" style="font-size: 20px; color: white;"><hr>Blood</th>
+        </tr>
+        <tr>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Apostate.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Mad Conspirator.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Mad Cultist.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Force Mage.png"></td>
+          <td><img style="border-radius: 7px;" height="250px" src="../../cards/Magick/Common/Druid.png"></td>
+        </tr>
+      </table>
+    </div>
   </div>
 </article>
