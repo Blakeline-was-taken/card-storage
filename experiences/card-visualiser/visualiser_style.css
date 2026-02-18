@@ -130,7 +130,6 @@ button#reset-filters:hover {
 
 .suggestions {
   background: white;
-  border: 1px solid #ccc;
   max-height: 180px;
   overflow-y: auto;
   margin-top: 0.25rem;
