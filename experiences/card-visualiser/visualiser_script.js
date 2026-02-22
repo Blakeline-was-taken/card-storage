@@ -18,18 +18,33 @@ let deckVisible = true;
 
 // ========== INIT ==========
 
+const excludedNames = new Set([
+  "Crocodile Hide",
+  "Deer Pelt",
+  "Moth Molt",
+  "Rabbit Pelt",
+  "Raven Plumage",
+  "Wolf Pelt",
+  "Glacier",
+  "Goo Bottle_t",
+  "Goo Amalgamation"
+]);
 fetch("../../cards.csv")
   .then(response => response.text())
   .then(parseCSV)
   .then(cards => {
-    allCards = cards;
-    allSigils = extractUniqueSigils(cards);
-    allTraits = extractUniqueTraits(cards);
-    allTribes = extractUniqueTribes(cards);
-    allRoles = extractUniqueRoles(cards);
-    allArtists = extractUniqueArtists(cards);
+    const filteredCards = cards.filter(
+      card => !excludedNames.has(card["Card Name"])
+    );
+
+    allCards = filteredCards;
+    allSigils = extractUniqueSigils(filteredCards);
+    allTraits = extractUniqueTraits(filteredCards);
+    allTribes = extractUniqueTribes(filteredCards);
+    allRoles = extractUniqueRoles(filteredCards);
+    allArtists = extractUniqueArtists(filteredCards);
     
-    FilterUI.setup(cards);
+    FilterUI.setup(filteredCards);
     FilterLogic.apply();
   })
   .catch(console.error);
