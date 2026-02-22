@@ -519,7 +519,7 @@ Ruby Mox,Magick,Side Deck,free,0,1,Orange Gem,,Bloodless,Mox,A conduit for magic
 Sapphire Mox,Magick,Side Deck,free,0,1,Blue Gem,,Bloodless,Mox,A conduit for magicks of the mind.,Mark,,Mox,Altar of Azurite,,,
 Emerald Tail,Magick,Common,free,0,2,"Green Gem, Sharp Quills",,,Reptile Mox,Body crystallised to magick perfection.,Mark,,Mox,,,,
 Mage Pupil,Magick,Common,free,1,1,Gem Dependent,,,Mage,A new learner of magicks.,Pixel Profligate,T,Reliable,Spell Slinger,,,
-Prism Mox,Magick,Common,free,0,1,Prism Gem,,Bloodless,Mox,A powerful conduit for all magicks.,Pixel Profligate,T,Mox,,,,
+Prism Mox,Magick,Common,free,0,1,Prism Gem,,Bloodless,Mox,A powerful conduit for all magicks.,"Pixel Profligate, Mark",T,Mox,,,,
 Trick Rabbit,Magick,Common,free,0,1,,,,Vermin,There might be something else in the hat.,NEWS,,Resource,,,,
 Erratic Scholar,Magick,Common,1 prism,0,2,Mox Dropper,,,Mage,Constantly losing their own research.,Pixel Profligate,T,Resource,,,,
 Glass Mage,Magick,Common,1 prism,0,1,"Fragment Shard, Sharp Quills",,,Construct Mage,They wished to shine.,Mark,T,"Defense, Resource",,,,
