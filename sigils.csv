@@ -65,11 +65,11 @@ Prism Gem,This card provides a {resource:prism_gem} gem of every color.,,,Gem Ca
 Gem Catalyst,This card provides 2{mark:x}{resource:prism_gem} gems of every color.,,,
 Magnificent Gem,"This card provides a {resource:green_gem} Green gem, an {resource:orange_gem} Orange gem and a {resource:blue_gem} Blue gem.",,,Moxum Opus
 Moxum Opus,"This card provides 3{mark:x}{resource:prism_gem} gems of every color.",,,
-Palette Swap,"When played, you may change the color of one of your gems.",,,Gem Swap
-Gem Swap,"When played, you may change the colors of all your gems.",,,
-Masochism,"[Reduce this card's health by 2] Change one of your gems to a prism gem.",,,
+Palette Swap,"When played, you may change the color of one of your {resource:gem} gems.",,,Gem Swap
+Gem Swap,"When played, you may change the colors of all your {resource:gem} gems.",,,
+Masochism,"[Reduce health by 2] Change one of your {resource:gem} gems to a {resource:prism_gem} prism gem.",,,
 Gemorphosis,"Your other cards have the Mox tribe.",,,
-Dragon's Hoard,"Sigils that provide gems are active even if the card is still in your hand.",,,
+Dragon's Hoard,"Sigils that provide {resource:gem} gems are active even if the card is still in your hand.",,,
 Hemomancy,"When playing cards, you may pay 1 {resource:blood} blood instead of 1 {resource:prism_gem} gem.",,,
 Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,Modularity
 Modularity,"All your cards are gemified, including this one and cards from your hand.",T,,
