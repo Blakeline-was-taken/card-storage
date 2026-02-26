@@ -234,6 +234,11 @@
     "description": "All the starter decks available for each Temple.",
     "categories": ["Gameplay"]
   },
+  "sigils": {
+    "title": "Sigils",
+    "description": "All the sigils in the game, their effects and their upgrades.",
+    "categories": ["Gameplay"]
+  },
   "todo": {
     "title": "Todo List",
     "description": "List of all the remaining tasks to do for the campaign.",
