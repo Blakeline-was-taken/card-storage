@@ -125,6 +125,9 @@ Clock Out,"During your draw step, this card returns to your hand.",,,On the Cloc
 On the Clock,"During your draw step, you may return this card to your hand.",,,
 Rotting,"During your end step, this card loses 1 health and power.",T,,Ticking
 Ticking,"During your end step, this card loses 1 health.",T,,Raging Flames
+Raging Flames,"During your end step, this card loses 1 health and gains 1 power.",T,,Whimsical Leader
+Whimsical Leader,"During your end step, a card of your choice gains 1 power, up to 5.",T,,Empower
+Empower,"During your end step, a card of your choice gains 1 power.",T,,
 Ravenous,"During your end step, this card loses 1 health unless you {mark:sacrifice}sacrifice a card.",,,
 Addict,"During your end step, this card loses 1 health unless you spend 3{mark:x}{resource:energy} energy.",,,
 Dust Eater,"During your end step, this card loses 1 health unless you {mark:shatter}shatter a card.",,,
@@ -401,7 +404,6 @@ Health Power,This card's power is this card's health.,T,T,
 Scale Power,This card's power is dependent on how tipped in your favour the scales are.,T,T,
 Item Power,This card's power is the number of items you own.,T,T,
 Overcharge,"For every {resource:energy} energy cell you would gain when already at 12, this card gains 1 power, up to 7.",,,
-Raging Flames,"During your end step, this card loses 1 health and gains 1 power.",T,,Whimsical Leader
 Bell Ringer,"This card's power is the number of times the bell was rung since it was played, up to 5.",T,T,
 Bloodlust,"When this card kills another, it gains 1 power, up to 5.",T,,Bloodshed
 Bloodshed,"When this card damages another, it gains 1 power, up to 5.",T,,
@@ -436,8 +438,6 @@ Cheerful,Your Side deck cards have 1 more power.,T,,Ecstatic
 Ecstatic,Your Side deck cards have 2 more power.,T,,
 Chant,"Every other card, allied and opposing, has 1 more power.",T,,
 August Aura,Your other cards have 2 more power.,T,,
-Whimsical Leader,"During your end step, a card of your choice gains 1 power, up to 5.",T,,Empower
-Empower,"During your end step, a card of your choice gains 1 power.",T,,
 Soul Strike,"When this card dies, a Mox card you control gains 1 power and strikes its opposing space.",,,Soul Assault
 Soul Assault,"When this card dies, a Mox card you control gains 1 power and strikes an opposing space of your choice.",,,
 Final Strike,"When this card dies, your other cards gain 1 power and strike their opposing card.",T,,
