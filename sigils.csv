@@ -148,7 +148,6 @@ Target Required,"This card cannot strike empty spaces.",T,,Target Spotted
 Target Spotted,"This card can only strike empty spaces if their back lane has a card.",T,,
 Airborne,This card's strikes only hit the space they target directly.,T,,Aerobatics
 Aerobatics,"When this card strikes another, you may target its space directly instead.",T,,
-Falconry,"When they strike, your Avian cards may choose to deal direct or normal damage to the spaces they strike.",T,,
 Carry Up,"[Once per turn, pay {resource:bone}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
 Holo-Wings,"[Once per turn, pay {resource:energy}{resource:energy}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
 Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
@@ -224,7 +223,6 @@ Waterborne,Strikes targeting this card hit its space directly instead.,T,,Deep D
 Deep Dive,"[Once per turn] Make strikes targeting this card only target its space directly this turn.",T,,
 Incorporeal,"Strikes targeting this card hit its space directly instead, and the damage they deal is halved, rounded down.",
 Lurking,"Cards striking this card hit its space directly instead, and are then struck by this card.",T,,
-Go Fish,"You may make strikes targeting your Fish cards only hit their space directly.",T,,
 Armored,"This card gains an {mark:armor} Armor mark.",T,,Protector
 Protector,"When played, one of your cards gains an {mark:armor} Armor mark.",T,,
 Dust Barrier,"When your Mox cards die, this card gains an {mark:armor} Armor mark.",,,Shield of Dust
@@ -342,7 +340,6 @@ Gem Bearer,"When this card dies, draw a random Side deck Mox card.",,,Gem Genero
 Gem Generosity,"When this card dies, draw two random Side deck Mox cards.",,,
 Gem Greed,"When your other Mox cards perish, draw a card from your deck.",,,
 Polyp Harvest,"When your Polyp cards perish, draw a card from your deck.",T,,
-Go Fetch,"When your Canine cards perish, draw a card from your deck.",T,,
 Loaded,"When this card dies, draw 3 cards from your deck and 1 card from your side deck.",T,,Stuffed
 Stuffed,"When this card dies, draw 4 cards from your deck and 2 cards from your side deck.",T,,
 Mental Gemnastics,"When played, draw a card from your deck for each Mox card you control.",,,Mental Acrobatics
@@ -364,8 +361,8 @@ Termites Within,"When damaged, draw a ""Termite"".",T,,Full of Termites
 Full of Termites,"When damaged, draw two ""Termites"".",T,,
 Skull Summoner,"When damaged, draw a ""Skeleton"".",T,,Skull Maker
 Skull Maker,"When damaged, draw 2 ""Skeletons"".",T,,
-Ants Within,"When damaged, draw a random Ant card.",T,,Full of Ants
-Full of Ants,"When damaged, draw 2 random Ant cards.",T,,
+Ants Within,"When damaged, draw a random {tribe:Ant}Ant card.",T,,Full of Ants
+Full of Ants,"When damaged, draw 2 random {tribe:Ant}Ant cards.",T,,
 Geode,"When damaged, draw a random side deck mox card.",T,,Mineral
 Mineral,"When damaged, draw 2 random side deck mox cards.",T,,
 Vessel Printer,"When damaged, draw a card from your side deck.",T,,Vessel Factory
@@ -373,8 +370,8 @@ Vessel Factory,"When damaged, draw 2 cards from your side deck.",T,,
 Rabbit Hole,"When played, draw a rabbit.",T,,Rabbit Chasm
 Rabbit Chasm,"When played, draw two rabbits.",T,,
 Ash Tray,"When played, draw ""The Smoke"".",T,,
-Ant Spawner,"When played, draw a common Ant card of your choice.",T,,Ant Swarm
-Ant Swarm,"When played, draw two random Ant cards of your choice.",T,,
+Ant Spawner,"When played, draw a common {tribe:Ant}Ant card of your choice.",T,,Ant Swarm
+Ant Swarm,"When played, draw two random {tribe:Ant}Ant cards of your choice.",T,,
 Fecundity,"When played, draw a copy of this card. The copy loses this sigil.",T,,Cloning
 Cloning,"When played, draw two copies of this card. Copies lose this sigil.",T,,
 Imitation Art,"When played, draw a copy of another card you control.",T,,
@@ -387,7 +384,7 @@ Horde,"When this card kills another, place a ""TOKEN"" on your side.",T,,Swarm
 Disentomb,"[Pay {resource:bone}{resource:bone}] Search a {mark:brittle} Brittle card from any of your decks.",T,,
 Cybernetics,"[Pay 4{mark:x}{resource:energy}] Place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
 Reanimate,"[Once per turn] Pay for and play a common card from your discard.",T,,
-Colony,This card's power is the number of Ant cards you control.,T,T,
+Colony,This card's power is the number of {tribe:Ant}Ant cards you control.,T,T,
 Pylon Powered,This card's power is the number of Pylon cards you control.,T,T,
 Loner,This card's power is the number of empty spaces on your side of the field.,T,T,
 Strong Hand,"This card's power is the size of your hand, up to 5.",T,T,
