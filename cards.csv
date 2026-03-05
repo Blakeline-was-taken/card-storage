@@ -43,7 +43,7 @@ Skunk,Beast,Common,1 blood,0,3,"Stinky, LATCHER_Stinky",,,Vermin,A horrid stench
 Sparrow,Beast,Common,1 blood,1,3,Airborne,,,Avian,"Meek and feeble, yes, but ever so useful.",Pixel Profligate,T,Reliable,,,,
 Squirrel Ball,Beast,Common,1 blood,0,2,Squirrel Shedder,,,Vermin,"An odd, almost unnatural behavior.",Pixel Profligate,T,Utility,Toad Orb,,,
 Stoat,Beast,Common,1 blood,1,3,,,,Vermin,"A lowly, but ever noble creature.",Pixel Profligate,T,Reliable,Wolverine,,,
-Stray,Beast,Common,1 blood,1,1,Loner,,,Canine,Howls louder when no one answers.,Mark,T,Offense,,,,
+Stray,Beast,Common,1 blood,1,1,Loner,,,Canine Outlaw,Howls louder when no one answers.,Mark,T,Offense,,,,
 Termite,Beast,Common,1 blood + asterisk,1,1,Healer,,Material Diet,Insect Worker,Takes great pride in its constructions.,Murigen,T,Support,,,,
 Tick,Beast,Common,1 blood,1,1,"Bloodsucker, Hearty Offering",,,Insect,A minor problem... if not ignored.,Pixel Profligate,T,Resource,,,,
 Warren,Beast,Common,1 blood,0,1,Rabbit Hole,,Warren Trait,Vermin Construct,A bountiful pit of hares.,Pixel Profligate,T,Utility,,,,
