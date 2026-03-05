@@ -6,7 +6,7 @@ Worthy Sacrifice,"When {mark:sacrifice}sacrificed, this card provides 3{mark:x}{
 Hearty Offering,"When {mark:sacrifice}sacrificed, this card provides any amount of {resource:blood} up to its health.",,,Generous Donation
 Generous Donation,"When {mark:sacrifice}sacrificed, this card provides any amount of {resource:blood} up to its total stats.",,,
 Blood Fountain,"When {mark:sacrifice}sacrificed, this card provides as much {resource:blood} blood as needed.",,,
-Embezzling,"When {mark:sacrifice}sacrificed, this card provides 1 extra {resource:blood} per mox card you control.",,,Blood Fountain
+Embezzling,"When {mark:sacrifice}sacrificed, this card provides 1 extra {resource:blood} per {tribe:Mox}Mox card you control.",,,Blood Fountain
 Life Donor,"When {mark:sacrifice}sacrificed, this card loses 1 health per {resource:blood} blood it provides instead of perishing.",,,Many Lives
 Many Lives,This card does not perish when {mark:sacrifice}sacrificed.,T,,Two Many Lives
 Two Many Lives,"This card does not perish when {mark:sacrifice}sacrificed, and can be {mark:sacrifice}sacrificed twice for a single cost.",T,,
@@ -47,7 +47,7 @@ Discharge,"When this card kills another, gain an {resource:energy} energy cell."
 Surging Purge,"When an opposing card dies in combat, gain an {resource:energy} energy cell.",T,,
 Shock,"When struck, gain an {resource:energy} energy cell. \n",,,Static
 Static,"When struck, gain 2{mark:x}{resource:energy} energy cells. \n",,,
-Dust Charge,"When your Mox cards die, gain an {resource:energy} energy cell.",,,Skull Charge
+Dust Charge,"When your {tribe:Mox}Mox cards die, gain an {resource:energy} energy cell.",,,Skull Charge
 Skull Charge,"When your other cards cards die, gain an energy cell.",,,
 Fossil Fuel,"[Pay {resource:bone}] Refill an {resource:energy_empty} energy cell.",T,,
 Spare Supply,"When played, your {resource:energy_empty} energy cells are refilled.",T,,No Power Loss
@@ -68,7 +68,7 @@ Moxum Opus,"This card provides 3{mark:x}{resource:prism_gem} gems of every color
 Palette Swap,"When played, you may change the color of one of your {resource:gem} gems.",,,Gem Swap
 Gem Swap,"When played, you may change the colors of all your {resource:gem} gems.",,,
 Masochism,"[Reduce health by 2] Change one of your {resource:gem} gems to a {resource:prism_gem} prism gem.",,,
-Gemorphosis,"Your other cards have the Mox tribe.",,,
+Gemorphosis,"Your other cards have the {tribe:Mox}Mox tribe.",,,
 Dragon's Hoard,"Sigils that provide {resource:gem} gems are active even if the card is still in your hand.",,,
 Hemomancy,"When playing cards, you may pay 1 {resource:blood} blood instead of 1 {resource:prism_gem} gem.",,,
 Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,Modularity
@@ -78,11 +78,11 @@ Fragment Shard,"This card can be {mark:shatter}shattered to provide a {resource:
 Fragment Hoard,"This card can be {mark:shatter}shattered to provide 2{mark:x}{resource:shattered_gem} shattered gems of every color.",,,Fragment Mass
 Fragment Mass,"This card can be {mark:shatter}shattered to provide 3{mark:x}{resource:shattered_gem} shattered gems of every color.",,,
 Dust Gatherer,"When you {mark:shatter}shatter a card, it does not perish.",,,Gem Transmuter
-Gem Transmuter,"Your mox cards can be {mark:sacrifice}sacrificed, and don't perish when {mark:shatter}shattered or {mark:sacrifice}sacrificed.",,,
+Gem Transmuter,"Your {tribe:Mox}Mox cards can be {mark:sacrifice}sacrificed, and don't perish when {mark:shatter}shattered or {mark:sacrifice}sacrificed.",,,
 Lapis Holder,"After this card dies, the next card to enter its space will gain the {sigil:BlueGem} Blue Gem sigil.",,,Azur Lapis
 Azur Lapis,"After this card dies, the next card to enter its space will gain the {sigil:AzuriteGem} Azurite Gem sigil.",,,
-Gem Salvage,"When this card kills another, draw a Side Deck Mox card of your choice.",,,Gem Carnage
-Gem Carnage,"When an opposing card perishes, draw a Side Deck Mox card of your choice.",,,
+Gem Salvage,"When this card kills another, draw a Side Deck {tribe:Mox}Mox card of your choice.",,,Gem Carnage
+Gem Carnage,"When an opposing card perishes, draw a Side Deck {tribe:Mox}Mox card of your choice.",,,
 Eldritch Power,"During your end step, gain 1 chemical.",T,,Eldritch Convergence
 Eldritch Convergence,"During your end step, gain 2 chemicals.",T,,Eldritch Portal
 Eldritch Portal,"During your end step, gain 4 chemicals.",T,,
@@ -104,16 +104,16 @@ Ad Infinitum,"Chemicals you spend are not lost.",T,,
 Fate Decided,"You may choose the outcome of any dice rolls you make.",T,,
 Bleeding,"During your end step, this card takes 1 damage, giving 1 flesh.",,,
 Elixir Leaker,"During your end step, this card moves to an adjacent space, giving 1 elixir.",,,
-Gem Dependent,"If you control no other Mox cards, this card perishes.",,,Gem Timer
-Gem Timer,"During your end step, if you control no other Mox cards, this card dies.",,,
-Gem Binding,"This card redirects any damage that would kill it to a Mox card you control, if possible.",,,Illusion Dust
-Illusion Dust,"This card cannot be killed while you control Mox cards.",,,
+Gem Dependent,"If you control no other {tribe:Mox}Mox cards, this card perishes.",,,Gem Timer
+Gem Timer,"During your end step, if you control no other {tribe:Mox}Mox cards, this card dies.",,,
+Gem Binding,"This card redirects any damage that would kill it to a {tribe:Mox}Mox card you control, if possible.",,,Illusion Dust
+Illusion Dust,"This card cannot be killed while you control {tribe:Mox}Mox cards.",,,
 Flesh Hunger,"If you don't own at least 2 Flesh chemicals, this card perishes.",,,
 Metal Deprived,"If you don't own at least 2 Metal chemicals, this card perishes.",,,
 Elixir Thirst,"If you don't own at least 2 Elixir chemicals, this card perishes.",,,
 Arcane Dependence,"If you don't own one of each chemical, this card perishes.",T,,
-Circuit Dependent,"If this card is not between two Conduit cards, it perishes.",T,,Circuit Timer
-Circuit Timer,"During your end step, if this card is not between two Conduit cards, it dies.",T,,
+Circuit Dependent,"If this card is not between two {tribe:Conduit}Conduit cards, it perishes.",T,,Circuit Timer
+Circuit Timer,"During your end step, if this card is not between two {tribe:Conduit}Conduit cards, it dies.",T,,
 Familiar,"If you control no {mark:sacrifice}sacrificable cards without this sigil, this card perishes.",T,,Lonely
 Lonely,"During your end step, if you control no {mark:sacrifice}sacrificable cards without {sigil:Familiar}, this card perishes.",T,,
 Annoying,The opposing card has 1 more power.,T,,Infuriating
@@ -164,11 +164,11 @@ Split Strike,"When attacking, this card strikes a space adjacent to the opposing
 Confused Strike,"When attacking, this card strikes either the opposing space, or a space adjacent to it.",T,,Sniper
 Sniper,"When it strikes, this card may target any space on the opposite side.",T,,Split Shot
 Split Shot,"This card's strikes target any 2 spaces on the opposite side.",T,,
-Sapphire Aim,"If you provide a {resource:blue_gem} blue gem, this card may target any space opposing your mox cards when it strikes.",T,,Sniper
+Sapphire Aim,"If you provide a {resource:blue_gem} blue gem, this card may target any space opposing your {tribe:Mox}Mox cards when it strikes.",T,,Sniper
 On Cue,"This card only attacks when adjacent cards strike.",T,,Clockwork
 Clockwork,"This card also attacks when adjacent cards strike.",T,,
-Gem Clock,"This card attacks once per mox card you control.",,,Gem Tuning
-Gem Tuning,"This card attacks one more time per mox card you control.",,,
+Gem Clock,"This card attacks once per {tribe:Mox}Mox card you control.",,,Gem Tuning
+Gem Tuning,"This card attacks one more time per {tribe:Mox}Mox card you control.",,,
 Sadism,"When this card kills another, it strikes that card's space.",T,,Cruelty
 Cruelty,"When this card kills another, it then strikes its adjacent spaces.",T,,
 Piercing,"When this card strikes another, it also strikes its back lane for half of the damage dealt, rounded down.",T,,Impaling
@@ -179,8 +179,8 @@ Strategic,"When placed, this card immediately strikes any opposing space.",T,,
 Sentry,"When a card enters the opposing space, it is dealt 1 damage.",T,,Armed Sentry
 Armed Sentry,"When a card enters the opposing space, it is dealt 2 damage.",T,,
 Quickdraw,"When a card enters the opposing space, this card strikes it.",T,,
-Gem Tactician,"When a card enters the opposing space of a mox card you control, it is dealt 1 damage.",T,,Armed Gem Tactician
-Armed Gem Tactician,"When a card enters the opposing space of a mox card you control, it is dealt 2 damage.",T,,
+Gem Tactician,"When a card enters the opposing space of a {tribe:Mox}Mox card you control, it is dealt 1 damage.",T,,Armed Gem Tactician
+Armed Gem Tactician,"When a card enters the opposing space of a {tribe:Mox}Mox card you control, it is dealt 2 damage.",T,,
 Petrifying Gaze,"When a card enters the opposing space, it won't be able to attack, move, or be{mark:sacrifice}sacrificed until your draw step.",T,,Turned To Stone
 Turned To Stone,"The opposing card cannot attack, move, or be {mark:sacrifice}sacrificed.",T,,
 Poisonous,"During the opponent's end step, the opposing card takes 1 damage.",T,,Black Hole
@@ -189,8 +189,8 @@ Singularity,"During the opponent's end step, the opposing card perishes and this
 Death Veil,"When damaged, if this card stays alive, the card that damaged it perishes.",T,,Caustic
 Sharp Quills,"When a card damages this card, it is dealt 1 damage in return.",T,,Sharper Quills
 Sharper Quills,"When a card damages this card, it is dealt 2 damage in return.",T,,
-Gem Instability,"When a card damages your Mox cards, it is dealt 1 damage in return.",,,Gem Turbulence
-Gem Turbulence,"When a card damages your Mox cards, it is dealt 2 damage in return.",,,
+Gem Instability,"When a card damages your {tribe:Mox}Mox cards, it is dealt 1 damage in return.",,,Gem Turbulence
+Gem Turbulence,"When a card damages your {tribe:Mox}Mox cards, it is dealt 2 damage in return.",,,
 Counter Strike,"When struck, this card strikes the card that struck it.",T,,Caustic
 Caustic,"When struck, the card that struck this card perishes.",T,,
 Incense,"When struck, cards that summoned this card strike the card that struck it.",T,,
@@ -206,8 +206,8 @@ Firestarter,"This card gives {sigil:Burning} Burning to the cards it damages. It
 Pyromania,"A card striking or damaged by this card gains {sigil:Burning} Burning but this card cannot gain {sigil:Burning} Burning.",,,
 Overheat,"Opposing cards have {sigil:Burning} Burning, and your cards cannot gain {sigil:Burning} Burning.",T,,
 Detonator,"When this card dies, it deals 10 damage to the cards around it.",T,,Deathtrap
-Gem Detonator,"When your Mox cards perish, they deal 10 damage to the cards around them.",,,Gem Trap
-Gem Trap,"When your Mox cards perish, their opposing card perishes.",,,
+Gem Detonator,"When your {tribe:Mox}Mox cards die, they deal 10 damage to the cards around them.",,,Gem Trap
+Gem Trap,"When your {tribe:Mox}Mox cards die, their opposing card perishes.",,,
 Exploding Pylons,"When your Pylon cards perish, they deal 10 damage to the cards around them.",T,,Trapped Pylons
 Trapped Pylons,"When your Pylon cards perish, their opposing card perishes.",T,,
 Fire Blast,"When this card dies, cards around it gain {sigil:Burning} Burning.",T,,Detonator
@@ -225,11 +225,11 @@ Incorporeal,"Strikes targeting this card hit its space directly instead, and the
 Lurking,"Cards striking this card hit its space directly instead, and are then struck by this card.",T,,
 Armored,"This card gains an {mark:armor} Armor mark.",T,,Protector
 Protector,"When played, one of your cards gains an {mark:armor} Armor mark.",T,,
-Dust Barrier,"When your Mox cards die, this card gains an {mark:armor} Armor mark.",,,Shield of Dust
-Shield of Dust,"When your Mox cards die, a card of your choice gains an {mark:armor} Armor mark.",,,
+Dust Barrier,"When your {tribe:Mox}Mox cards die, this card gains an {mark:armor} Armor mark.",,,Shield of Dust
+Shield of Dust,"When your {tribe:Mox}Mox cards die, a card of your choice gains an {mark:armor} Armor mark.",,,
 Regenerative Shell,"This card has an {mark:armor} Armor mark. [Pay 3 chemicals] Regenerate it if lost.",T,,
-Gem Guardian,"When played, your Mox cards gain an {mark:armor} Armor mark.",,,Gem Protector
-Gem Protector,"Your Mox cards cannot be struck.",,,
+Gem Guardian,"When played, your {tribe:Mox}Mox cards gain an {mark:armor} Armor mark.",,,Gem Protector
+Gem Protector,"Your {tribe:Mox}Mox cards cannot be struck.",,,
 Hoarfrost,"When played, a {mark:freeze} Freeze mark is placed on any other card.",T,,Sheer Cold
 Sheer Cold,"When played, place {mark:freeze} Freeze marks on any other cards.",T,,
 Frigid Winds,"[{mark:shatter}Shatter a card] Place a {mark:freeze} Freeze mark on any other card.",T,,
@@ -242,7 +242,7 @@ Immortal,"This card cannot perish, and cannot go below 1 health.",T,,
 Made of Stone,"This card's power cannot be lowered and it cannot be killed by sigils.",T,,Hard as Stone
 Hard as Stone,"This card's power cannot be lowered and it cannot be damaged or killed by sigils.",T,,
 Burrower,"Before an empty space is struck, this card moves to it.",T,,Easy Target
-Gem Intercept,"Before your Mox cards get struck, this card swaps its place with them.",,,Intercept
+Gem Intercept,"Before your {tribe:Mox}Mox cards get struck, this card swaps its place with them.",,,Intercept
 Intercept,"Before your cards get struck, this card swaps its place with them.",T,,
 Easy Target,All opposing cards target this card when they attack.,T,,Redirect
 Redirect,"When an opposing card strikes, you may choose which of your spaces it will target.",T,,
@@ -326,24 +326,24 @@ Pylon Carver,"During your end step, this card moves to an adjacent space and lea
 Pylon Weaver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Pylon"" behind.",T,,
 Leep Legion,"During your end step, this card moves to an adjacent space and leaves a random Leep card behind.",T,,Leep Friend
 Leep Friend,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a random Leep card behind.",T,,
-Mox Dropper,"During your end step, this card moves to an adjacent space and leaves a random Side deck Mox card behind.",,,Mox Shedder
-Mox Shedder,"During your end step, this card moves to an adjacent space, pushing other cards in its way and leaves a random Side deck Mox card behind.",,,
+Mox Dropper,"During your end step, this card moves to an adjacent space and leaves a random Side deck {tribe:Mox}Mox card behind.",,,Mox Shedder
+Mox Shedder,"During your end step, this card moves to an adjacent space, pushing other cards in its way and leaves a random Side deck {tribe:Mox}Mox card behind.",,,
 Frog Friend,"During your end step, this card moves to an adjacent space and leaves a random Frog card behind.",T,,Frog Crew
 Frog Crew,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a random Frog card behind.",T,,
 Wire Weaver,"During your end step, this card moves to an adjacent space and leaves a ""Null Conduit"" behind.",T,,Wire Carver
 Wire Carver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Null Conduit"" behind.",T,,
 Spine Walker,"During your end step, this card moves to an adjacent space and leaves a ""Vertebrae"" behind.",T,,
-Transmogutate,"[Once per turn, {mark:sacrifice}sacrifice a card] Place a Side Deck Mox card of your choice in its place.",,,
+Transmogutate,"[Once per turn, {mark:sacrifice}sacrifice a card] Place a Side Deck {tribe:Mox}Mox card of your choice in its place.",,,
 Gift Bearer,"When this card dies, draw a card from your deck.",T,,Generous Gift
 Generous Gift,"When this card dies, draw two cards from your deck.",T,,Loaded
-Gem Bearer,"When this card dies, draw a random Side deck Mox card.",,,Gem Generosity
-Gem Generosity,"When this card dies, draw two random Side deck Mox cards.",,,
-Gem Greed,"When your other Mox cards perish, draw a card from your deck.",,,
+Gem Bearer,"When this card dies, draw a random Side deck {tribe:Mox}Mox card.",,,Gem Generosity
+Gem Generosity,"When this card dies, draw two random Side deck {tribe:Mox}Mox cards.",,,
+Gem Greed,"When your other {tribe:Mox}Mox cards perish, draw a card from your deck.",,,
 Polyp Harvest,"When your Polyp cards perish, draw a card from your deck.",T,,
 Loaded,"When this card dies, draw 3 cards from your deck and 1 card from your side deck.",T,,Stuffed
 Stuffed,"When this card dies, draw 4 cards from your deck and 2 cards from your side deck.",T,,
-Mental Gemnastics,"When played, draw a card from your deck for each Mox card you control.",,,Mental Acrobatics
-Mental Acrobatics,"When played, for each mox card you control, draw 2 cards from your deck and return 1.",,,
+Mental Gemnastics,"When played, draw a card from your deck for each {tribe:Mox}Mox card you control.",,,Mental Acrobatics
+Mental Acrobatics,"When played, for each {tribe:Mox}Mox card you control, draw 2 cards from your deck and return 1.",,,
 Unearthed Pack,"When played, shuffle your discard and draw 2 of the top 5 cards.",T,,
 Handy,"When played, discard your hand and draw the same amount of cards from your deck, and 2 from your side deck.",T,,
 Watchman,"When a card enters the opposing space, draw a card from your deck.",T,,Lookout
@@ -363,8 +363,8 @@ Skull Summoner,"When damaged, draw a ""Skeleton"".",T,,Skull Maker
 Skull Maker,"When damaged, draw 2 ""Skeletons"".",T,,
 Ants Within,"When damaged, draw a random {tribe:Ant}Ant card.",T,,Full of Ants
 Full of Ants,"When damaged, draw 2 random {tribe:Ant}Ant cards.",T,,
-Geode,"When damaged, draw a random side deck mox card.",T,,Mineral
-Mineral,"When damaged, draw 2 random side deck mox cards.",T,,
+Geode,"When damaged, draw a random side deck {tribe:Mox}Mox card.",T,,Mineral
+Mineral,"When damaged, draw 2 random side deck {tribe:Mox}Mox cards.",T,,
 Vessel Printer,"When damaged, draw a card from your side deck.",T,,Vessel Factory
 Vessel Factory,"When damaged, draw 2 cards from your side deck.",T,,
 Rabbit Hole,"When played, draw a rabbit.",T,,Rabbit Chasm
@@ -392,7 +392,7 @@ Spilt Blood,"This card's power is the amount of {resource:blood} blood you made 
 Scattered Bones,"This card's power is half the number of {resource:bone} bones you own, rounded down and up to 5.",T,T,
 Grim Power,"When another card perishes, this card gains 1 power, up to 5.",T,,
 Overclock,"This card's power is half your amount of unspent {resource:energy} energy, rounded down.",T,T,
-Gem Power,This card's power is the number of Mox cards you control.,T,T,
+Gem Power,This card's power is the number of {tribe:Mox}Mox cards you control.,T,T,
 Flesh Power,"This card's power is the number of Flesh chemicals you own, up to 5.",T,T,
 Dice Power,"When played, roll a d6. This card's power is the result.",T,T,
 Facsimile,This card's power is the opposing card's power.,T,T,
@@ -406,7 +406,7 @@ Bloodlust,"When this card kills another, it gains 1 power, up to 5.",T,,Bloodshe
 Bloodshed,"When this card damages another, it gains 1 power, up to 5.",T,,
 Resentful,"When damaged, this card gains 1 power, up to 5.",T,,Sensitive
 Sensitive,"When damaged or when its space is struck directly, this card gains 1 power, up to 5.",T,,
-Dust Power,"When your Mox cards die, this card gains 1 power, up to 5.",,,Dust Fueled
+Dust Power,"When your {tribe:Mox}Mox cards die, this card gains 1 power, up to 5.",,,Dust Fueled
 Dooming Dust,"[Once per turn, {mark:shatter}shatter a card] Another card has 2 more power until your end step.",,,
 Stimulate,"[Once per turn, pay {resource:energy}{resource:energy}{resource:energy}] This card gains 1 power, up to 5.",T,,
 Power Dice,"[Pay {resource:energy}{resource:energy}{resource:energy}] Roll a D6, the result becomes this card's base power until your end step.",T,,
@@ -419,8 +419,8 @@ Witching Hour,Your other Spectre cards have 1 more power.,T,,Blood Moon
 Blood Moon,Your other Spectre cards have 2 more power.,,,
 Leep Leader,Your other Leep cards have 1 more power.,T,,Leep Commander
 Leep Commander,Your other Leep cards have 2 more power.,T,,
-Gem Animator,Your other Mox cards have 1 more power.,,,Gem Empowerer
-Gem Empowerer,Your other Mox cards have 2 more power.,,,
+Gem Animator,Your other {tribe:Mox}Mox cards have 1 more power.,,,Gem Empowerer
+Gem Empowerer,Your other {tribe:Mox}Mox cards have 2 more power.,,,
 Enhanced Pylons,Your pylon cards have 1 more power.,T,,Empowered Pylons
 Empowered Pylons,Your pylon cards have 2 more power.,T,,
 Psychic Spores,Your other Polyp cards have 1 more power.,T,,Mental Spores
@@ -435,22 +435,22 @@ Cheerful,Your Side deck cards have 1 more power.,T,,Ecstatic
 Ecstatic,Your Side deck cards have 2 more power.,T,,
 Chant,"Every other card, allied and opposing, has 1 more power.",T,,
 August Aura,Your other cards have 2 more power.,T,,
-Soul Strike,"When this card dies, a Mox card you control gains 1 power and strikes its opposing space.",,,Soul Assault
-Soul Assault,"When this card dies, a Mox card you control gains 1 power and strikes an opposing space of your choice.",,,
+Soul Strike,"When this card dies, a {tribe:Mox}Mox card you control gains 1 power and strikes its opposing space.",,,Soul Assault
+Soul Assault,"When this card dies, a {tribe:Mox}Mox card you control gains 1 power and strikes an opposing space of your choice.",,,
 Final Strike,"When this card dies, your other cards gain 1 power and strike their opposing card.",T,,
 Sparkling Dust,"[{mark:shatter}Shatter a card] Deal its health worth of damage to any other card.",,,
 Arcane Blessing,"[Once per turn, discard a card from your hand or field] A card of your choice gains 1 power, up to 5.",T,,
 Turbocharge,"[Pay {resource:energy}{resource:energy}{resource:energy}] Add {sigil:Overclocked} Overclock to a card that does not have it.",T,,
 Convalesce,"During your draw step, this card gains 1 health, up to 5.",T,,Whimsical Healer
-Gemagnify,"During your draw step, this card gains 1 health per mox card you control, up to 5.",,,Gem Healing
-Gem Healing,"During your draw step, this card gains 1 health per mox card you control.",,,
+Gemagnify,"During your draw step, this card gains 1 health per {tribe:Mox}Mox card you control, up to 5.",,,Gem Healing
+Gem Healing,"During your draw step, this card gains 1 health per {tribe:Mox}Mox card you control.",,,
 Healer,"During your end step, one of your other cards gains 1 health, up to its base health.",T,,Healthcare
 Healthcare,"During your end step, heal one of your other cards up to its base health.",T,,
 Whimsical Healer,"During your end step, a card of your choice gains 1 health, up to 5.",,,Health Boost
 Health Boost,"During your end step, a card of your choice gains health equal to this card's health, up to 5.",,,
 Bloodsucker,"When this card damages another, it gains 1 health, up to 5.",T,,Bloodguzzler
 Bloodguzzler,"When this card damages another, it gains health equal to the damage taken, up to 5.",T,,
-Heart of Dust,"When your Mox cards die, this card gains 1 health, up to 5.",,,Dust Fueled
+Heart of Dust,"When your {tribe:Mox}Mox cards die, this card gains 1 health, up to 5.",,,Dust Fueled
 Assimilator,"During your end step, this card kills adjacent cards, gaining their health.",T,,
 Enlarge,"[Pay {resource:bone}{resource:bone}] This card gains 1 power and health, up to 5.",T,,
 Invigorate,"[Once per turn, {mark:sacrifice}Sacrifice a card] A card you control gains 1 power and health, up to 5.",T,,
@@ -463,13 +463,13 @@ Morsel,"When {mark:sacrifice}sacrificed, this card's stats are added to the card
 Delightful,"When {mark:sacrifice}sacrificed, this card's stats are added to the card it was sacrificed to, which also gains 1 power and health.",T,,
 Biotic Needles,"[Pay 2 elixir] Any other card gains 1 power, up to 5. [Pay 2 flesh] Any other card gains 2 health, up to 5.",T,,
 Medicine,"[Pay 2 elixir] Adjacent cards have 1 more power. [Pay 2 flesh] Adjacent cards have 2 more health.",T,,
-Dust Fueled,"When your Mox cards die, this card gains 1 power and health, up to 5.",,,
+Dust Fueled,"When your {tribe:Mox}Mox cards die, this card gains 1 power and health, up to 5.",,,
 Envious,"When your cards gain power or health, this card gains it instead, with no maximum power or health.",T,,
 Recall the Broken,"When your cards perish due to {mark:brittle} Brittle, they return to your hand.",T,,
 Recycled Pylons,"When your Pylon cards perish, they are returned to your hand.",T,,
 Haunter,"After this card dies, the next card to enter its space gains its other sigils.",T,,Possessor
 Possessor,"After this card dies, the next card to enter its space gains its other sigils, as well as {sigil:Haunter} Haunter.",T,,
-Gem Persistance,"When a side deck mox card you control dies, the next card to enter its space gains its sigils.",T,,
+Gem Persistance,"When a side deck {tribe:Mox}Mox card you control dies, the next card to enter its space gains its sigils.",T,,
 Inscrybe,"When playing a card, it gains one sigil from the cards you {mark:sacrifice}sacrifice.",T,,
 Terrain,"A card may enter this card's space. It gains all its other sigils, and this card is discarded.",T,,
 Potion,"This card must be played on top of a main deck card you control. It then permanently gains this card's other sigils, and this card is destroyed.",T,,
@@ -489,36 +489,36 @@ Paralyzing,"The opposing card is treated as having no sigils or marks, and has 0
 Ancient Presence,"All non-side deck opposing cards are treated as having no sigils or marks.",T,,
 Spotlight,"All your cards target the opposing space when they attack.",T,,Surveillance Network
 Surveillance Network,"[Once per turn] Select an opposing space. All your cards will target that space when they attack this turn.",T,,
-Attack Conduit,Cards between this and another Conduit card have 1 more power.,T,,Power Conduit
-Power Conduit,Your Conduit cards and cards between have 1 more power.,T,,
-Overclock Conduit,"Cards between this and another Conduit card have 2 more power, but you take 2 damage when they perish.",T,,Hyperdrive Conduit
-Hyperdrive Conduit,"Your Conduit cards and cards between them have 2 more power, but you take 2 damage when they perish.",T,,
-Turret Conduit,"When a card enters the opposing space of your Conduit cards or of cards between them, it is dealt 1 damage.",T,,Gun Conduit
-Gun Conduit,"When a card enters the opposing space of your Conduit cards or of cards between them, it is dealt 2 damage.",T,,
-Heal Conduit,"During your end step, cards between this and another Conduit card gain 1 health, up to 5.",T,,Soul Conduit
-Soul Conduit,"During your end step, your Conduit cards and cards between them gain 1 health, up to 5.",T,,
-Armor Conduit,"During your end step, cards between this and another Conduit card gain an {mark:armor} Armor mark.",T,,Nano Conduit
-Nano Conduit,"During your end step, your Conduit cards and cards between them gain an {mark:armor} Armor mark.",T,,
-Spawn Conduit,"During your end step, a card costing 0-3{mark:x}{resource:energy} energy is searched and placed between this and another Conduit card.",T,,Production Conduit
-Production Conduit,"During your end step, search cards costing up to 3 energy and place them in every empty space between this and another Conduit card.",T,,
-Gem Spawn Conduit,"During your end step, a random Gem Vessel is placed between this and another Conduit card.",T,,Gem Production Conduit
-Gem Production Conduit,"During your end step, random Gem Vessels are placed between this and another Conduit card.",T,,
-Energy Conduit,"While you control another Conduit card, your {resource:energy_empty} energy cells refill.",,,No Power Loss
-Gem Conduit,"Cards between this and another Conduit card are gemified.",,,Modularity
-Eldritch Conduit,"During your draw step, you may set one chemical's value per card between this and another Conduit card.",T,,
-Activation Conduit,"Cards played between this and another Conduit card trigger their activated ability once for free.",,,Spam Conduit
-Spam Conduit,"Cards played between this and another Conduit card trigger their activated ability twice for free.",,,
-Null Conduit,"This card counts as a Conduit card.",T,,Energizer
-Conduit Relay,"If you control another Conduit card, all your other cards are considered to be between them.",T,,Energizer
-Radiowave,"The card you control with the most spaces between it and this card counts as a Conduit card.",T,,Energizer
-Powered,"This card always counts as being between two Conduit cards.",T,,Energizer
-Capacitor,"Adjacent cards count as being between two Conduit cards.",T,,Energizer
-Gem Cable,"Your Mox cards also count as Conduit cards, and vice versa.",,,
-Energizer,"All your cards count as being between two Conduit cards.",T,,
-Circuit Buff,"If this card is between two Conduit cards, it has 2 more power.",T,,Circuit Rage
-Circuit Rage,"If this card is between two Conduit cards, it has 4 more power.",T,,
-Enhanced Arcane,"If you provide 2 unique mox colors, this card has 1 more power.",,,Empowered Arcane
-Empowered Arcane,"If you provide 2 unique mox colors, this card has 2 more power.",,,
+Attack Conduit,Cards between this and another {tribe:Conduit}Conduit card have 1 more power.,T,,Power Conduit
+Power Conduit,Your {tribe:Conduit}Conduit cards and cards between have 1 more power.,T,,
+Overclock Conduit,"Cards between this and another {tribe:Conduit}Conduit card have 2 more power, but you take 2 damage when they perish.",T,,Hyperdrive Conduit
+Hyperdrive Conduit,"Your {tribe:Conduit}Conduit cards and cards between them have 2 more power, but you take 2 damage when they perish.",T,,
+Turret Conduit,"When a card enters the opposing space of your {tribe:Conduit}Conduit cards or of cards between them, it is dealt 1 damage.",T,,Gun Conduit
+Gun Conduit,"When a card enters the opposing space of your {tribe:Conduit}Conduit cards or of cards between them, it is dealt 2 damage.",T,,
+Heal Conduit,"During your end step, cards between this and another {tribe:Conduit}Conduit card gain 1 health, up to 5.",T,,Soul Conduit
+Soul Conduit,"During your end step, your {tribe:Conduit}Conduit cards and cards between them gain 1 health, up to 5.",T,,
+Armor Conduit,"During your end step, cards between this and another {tribe:Conduit}Conduit card gain an {mark:armor} Armor mark.",T,,Nano Conduit
+Nano Conduit,"During your end step, your {tribe:Conduit}Conduit cards and cards between them gain an {mark:armor} Armor mark.",T,,
+Spawn Conduit,"During your end step, search a card costing 0-3{mark:x}{resource:energy} energy to place between this and another {tribe:Conduit}Conduit card.",T,,Production Conduit
+Production Conduit,"During your end step, search cards costing 0-3{mark:x}{resource:energy} energy to place in every empty space between this and another {tribe:Conduit}Conduit card.",T,,
+Gem Spawn Conduit,"During your end step, a random Gem Vessel is placed between this and another {tribe:Conduit}Conduit card.",T,,Gem Production Conduit
+Gem Production Conduit,"During your end step, random Gem Vessels are placed between this and another {tribe:Conduit}Conduit card.",T,,
+Energy Conduit,"While you control another {tribe:Conduit}Conduit card, your {resource:energy_empty} energy cells refill.",,,No Power Loss
+Gem Conduit,"Cards between this and another {tribe:Conduit}Conduit card are gemified.",,,Modularity
+Eldritch Conduit,"During your draw step, you may set one chemical's value per card between this and another {tribe:Conduit}Conduit card.",T,,
+Activation Conduit,"Cards played between this and another {tribe:Conduit}Conduit card trigger their activated ability once for free.",,,Spam Conduit
+Spam Conduit,"Cards played between this and another {tribe:Conduit}Conduit card trigger their activated ability twice for free.",,,
+Null Conduit,"This card counts as a {tribe:Conduit}Conduit card.",T,,Energizer
+Conduit Relay,"If you control another {tribe:Conduit}Conduit card, all your other cards are considered to be between it and this card.",T,,Energizer
+Radiowave,"The card you control with the most spaces between it and this card counts as a {tribe:Conduit}Conduit card.",T,,Energizer
+Powered,"This card always counts as being between two {tribe:Conduit}Conduit cards.",T,,Energizer
+Capacitor,"Adjacent cards count as being between two {tribe:Conduit}Conduit cards.",T,,Energizer
+Gem Cable,"Your {tribe:Mox}Mox cards also count as {tribe:Conduit}Conduit cards, and vice versa.",,,
+Energizer,"All your cards count as being between two {tribe:Conduit}Conduit cards.",T,,
+Circuit Buff,"If this card is between two {tribe:Conduit}Conduit cards, it has 2 more power.",T,,Circuit Rage
+Circuit Rage,"If this card is between two {tribe:Conduit}Conduit cards, it has 4 more power.",T,,
+Enhanced Arcane,"If you provide 2 unique {resource:gem} gem colors, this card has 1 more power.",,,Empowered Arcane
+Empowered Arcane,"If you provide 2 unique {resource:gem} gem colors, this card has 2 more power.",,,
 Night of the Living Dead,The cost of your cards is reduced by 2{mark:x}{resource:bone} bones and 2{mark:x}{resource:energy} energy.,T,,Full Moon Night
 Full Moon Night,Your cards cost half their normal amount of {resource:bone} bones and {resource:energy} energy.,T,,
 Puppet Master,"Your {mark:brittle} cards ignore its effect, but perish when this card dies.",T,,Necromancy
