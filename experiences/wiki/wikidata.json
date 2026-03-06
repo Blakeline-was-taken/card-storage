@@ -82,11 +82,13 @@
   "kaycee": {
     "title": "Kaycee Hobbes",
     "description": "A detailed look at Kaycee Hobbes, a character of the Undead temple.",
+    "image": "../../site_images/Kaycee.png",
     "categories": ["Characters", "Undead", "Bosses"]
   },
   "sawyer": {
     "title": "Sawyer Patel",
     "description": "A detailed look at Sawyer Patel, a character of the Undead temple.",
+    "image": "../../site_images/Sawyer.png",
     "categories": ["Characters", "Undead", "Bosses"]
   },
   "cornelius": {
