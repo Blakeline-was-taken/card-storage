@@ -323,8 +323,8 @@ Spirit Spread,"During your end step, this card moves to an adjacent space and le
 Spirit Weaver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, then leaves a random Spectre behind.",,,
 Pylon Carver,"During your end step, this card moves to an adjacent space and leaves a ""Pylon"" behind.",T,,Pylon Weaver
 Pylon Weaver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Pylon"" behind.",T,,
-Leep Legion,"During your end step, this card moves to an adjacent space and leaves a random Leep card behind.",T,,Leep Friend
-Leep Friend,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a random Leep card behind.",T,,
+Leep Legion,"During your end step, this card moves to an adjacent space and leaves a random {tribe:Leep}Leep card behind.",T,,Leep Friend
+Leep Friend,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a random {tribe:Leep}Leep card behind.",T,,
 Mox Dropper,"During your end step, this card moves to an adjacent space and leaves a random Side deck {tribe:Mox}Mox card behind.",,,Mox Shedder
 Mox Shedder,"During your end step, this card moves to an adjacent space, pushing other cards in its way and leaves a random Side deck {tribe:Mox}Mox card behind.",,,
 Frog Friend,"During your end step, this card moves to an adjacent space and leaves a random Frog card behind.",T,,Frog Crew
@@ -374,7 +374,6 @@ Ant Swarm,"When played, draw two random {tribe:Ant}Ant cards of your choice.",T,
 Fecundity,"When played, draw a copy of this card. The copy loses this sigil.",T,,Cloning
 Cloning,"When played, draw two copies of this card. Copies lose this sigil.",T,,
 Imitation Art,"When played, draw a copy of another card you control.",T,,
-Mech Builder,"When played, draw a Mechabeast card of your choice.",T,,
 Psychic Link,"When played, draw a ""Squidling"".",T,,
 Hoarder,"When played, search a common card from your deck.",T,,Collector
 Collector,"When played, search a card from your deck.",T,,
@@ -416,8 +415,8 @@ Sea Shanty,"Your {mark:brittle} Brittle cards have 1 more power.",T,,Treasure Hu
 Treasure Hunt,"Your {mark:brittle} Brittle cards have 2 more power.",T,,
 Witching Hour,Your other Spectre cards have 1 more power.,T,,Blood Moon
 Blood Moon,Your other Spectre cards have 2 more power.,,,
-Leep Leader,Your other Leep cards have 1 more power.,T,,Leep Commander
-Leep Commander,Your other Leep cards have 2 more power.,T,,
+Leep Leader,Your other {tribe:Leep}Leep cards have 1 more power.,T,,Leep Commander
+Leep Commander,Your other {tribe:Leep}Leep cards have 2 more power.,T,,
 Gem Animator,Your other {tribe:Mox}Mox cards have 1 more power.,,,Gem Empowerer
 Gem Empowerer,Your other {tribe:Mox}Mox cards have 2 more power.,,,
 Enhanced Pylons,Your pylon cards have 1 more power.,T,,Empowered Pylons
