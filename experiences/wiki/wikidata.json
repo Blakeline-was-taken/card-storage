@@ -97,8 +97,9 @@
     "categories": ["Characters", "Undead", "Bosses", "Modded"]
   },
   "royal": {
-    "title": "Royal Domingues",
-    "description": "A detailed look at Royal Domingues, a character of the Undead temple.",
+    "title": "Royal Dominguez",
+    "description": "A detailed look at Royal Dominguez, a character of the Undead temple.",
+    "image": "../../site_images/Royal.png",
     "categories": ["Characters", "Undead", "Bosses"]
   },
   "bone-lord": {

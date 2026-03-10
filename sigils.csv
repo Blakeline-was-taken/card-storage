@@ -134,7 +134,7 @@ Dust Eater,"During your end step, this card loses 1 health unless you {mark:shat
 Desecration,"When played, search a card from your deck and discard it.",T,,
 Power Leak,"When this card perishes, lose an {resource:max_energy} energy cell.",,,Blackout
 Blackout,"When this card perishes, deplete 2 {resource:energy} energy cells.",,,
-Delete,"When this card dies, shuffle the cards in your hand back to their decks.",T,,Defiler
+Delete,"When this card dies, discard all the cards in your hand.",T,,Defiler
 Defiler,"When this card dies, discard the top card of your deck.",T,,Desecration
 Death Sentence,"When this card dies, its owner takes 5 direct damage.",T,,Overclocked
 Overclocked,"This card has 1 more power, but you take 2 damage when it perishes.",T,,Xtreme Overclock
@@ -210,7 +210,6 @@ Gem Detonator,"When your {tribe:Mox}Mox cards die, they deal 10 damage to the ca
 Gem Trap,"When your {tribe:Mox}Mox cards die, their opposing card perishes.",,,
 Exploding Pylons,"When your Pylon cards perish, they deal 10 damage to the cards around them.",T,,Trapped Pylons
 Trapped Pylons,"When your Pylon cards perish, their opposing card perishes.",T,,
-Fire Blast,"When this card dies, cards around it gain {sigil:Burning} Burning.",T,,Detonator
 Head Shot,"[Pay {resource:energy}{resource:energy}] Deal 1 damage to the opposing card.",T,,
 Neck Snapper,"[Pay {resource:max_energy}{resource:max_energy}{resource:max_energy}] Kill any card. This card takes 1 damage.",T,,
 Kamikaze,"During your draw step, this card moves to the opposing space where it perishes.",T,,
@@ -427,8 +426,8 @@ Psychic Spores,Your other Polyp cards have 1 more power.,T,,Mental Spores
 Mental Spores,Your other Polyp cards have 2 more power.,T,,
 Psionic Guidance,Your other Ceremorph cards have 1 more power.,T,,Psionic Control
 Psionic Control,Your other Ceremorph cards have 2 more power.,,,
-Curse,Your other Ancient cards have 1 more power.,T,,Malediction
-Malediction,Your other Ancient cards have 2 more power.,T,,
+Curse,Your other {tribe:Ancient}Ancient cards have 1 more power.,T,,Malediction
+Malediction,Your other {tribe:Ancient}Ancient cards have 2 more power.,T,,
 Offense Upgrade,Your cards with 1 base power have 1 more power.,T,,Extreme Offense
 Extreme Offense,Your cards with 0 to 1 base power have 1 more power.,T,,
 Cheerful,Your Side deck cards have 1 more power.,T,,Ecstatic
@@ -513,7 +512,7 @@ Conduit Relay,"If you control another {tribe:Conduit}Conduit card, all your othe
 Radiowave,"The card you control with the most spaces between it and this card counts as a {tribe:Conduit}Conduit card.",T,,Energizer
 Powered,"This card always counts as being between two {tribe:Conduit}Conduit cards.",T,,Energizer
 Capacitor,"Adjacent cards count as being between two {tribe:Conduit}Conduit cards.",T,,Energizer
-Gem Cable,"Your {tribe:Mox}Mox cards also count as {tribe:Conduit}Conduit cards, and vice versa.",,,
+Gem Cable,"Your {tribe:Mox}Mox cards also count as {tribe:Conduit}Conduit cards, and vice versa.",,,Energizer
 Energizer,"All your cards count as being between two {tribe:Conduit}Conduit cards.",T,,
 Circuit Buff,"If this card is between two {tribe:Conduit}Conduit cards, it has 2 more power.",T,,Circuit Rage
 Circuit Rage,"If this card is between two {tribe:Conduit}Conduit cards, it has 4 more power.",T,,
