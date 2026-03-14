@@ -71,11 +71,11 @@ export default async function(container, bannerHtml) {
       function createImageCell(sig) {
         const folder = getFolder(sig);
         const img = document.createElement("img");
-        img.src = `../../sigils/${folder}${sig.Name}.png`;
+        img.src = `../../sigils_no_bg/${folder}${sig.Name}.png`;
         img.alt = sig.Name;
         img.onerror = () => {
           img.onerror = null;
-          img.src = "../../sigils/Sigil_Missing2.png";
+          img.src = "../../sigils_no_bg/Sigil_Missing2.png";
         };
         img.style.width = "375px";
         return img;
