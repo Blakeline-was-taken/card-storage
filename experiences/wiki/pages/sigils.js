@@ -89,13 +89,11 @@ export default async function(container, bannerHtml) {
 
         const imgTd = document.createElement("td");
         imgTd.appendChild(createImageCell(row));
-        imgTd.style.paddingBottom = "0";
 
         const upgradeTd = document.createElement("td");
         const upgradeRow = filteredRows.find(r => r.Name === row.Upgraded_sigil);
         if (upgradeRow) {
           upgradeTd.appendChild(createImageCell(upgradeRow));
-          upgradeTd.style.paddingBottom = "0";
         }
 
         tr.appendChild(nameTd);

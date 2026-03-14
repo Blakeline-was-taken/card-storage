@@ -160,5 +160,6 @@ code { font-family: monospace; }
 .dropdown.collapsed .dropdown-arrow { transform: rotate(-90deg); }
 
 /* SIGILS TABLE CENTERING */
-.sigils-table th, .sigils-table td { text-align: center; vertical-align: middle; }
+.sigils-table th, .sigils-table td { text-align: center; vertical-align: middle; transition: background-color 0.1s ease; padding-bottom: 5px; }
+.sigils-table td:hover { background: #3d2f2f; }
 .sigils-table img { display: block; margin: 0 auto; }
