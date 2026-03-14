@@ -191,7 +191,7 @@ Pyroclasm,Undead,Common,1 bone,0,1,"Head Shot, Raging Flames",,,Spectre,It is on
 Tombit,Undead,Common,1 bone,0,2,"Made of Stone, Memoriam",,Bloodless,Grave,"A small, but honorable commemoration.",Murigen,T,Resource,,,,
 Banshee,Undead,Common,2 bones,1,1,Airborne,,,Spectre,"Rather happy, despite the crying.",Pixel Profligate,T,Reliable,Wrathful Ghost,,,
 Cindergeist,Undead,Common,2 bones,1,1,"Brittle, Burning",,,Skeleton,An echo of the one who played with fire.,NEWS,T,Removal,,,,
-Crewmate,Undead,Common,2 bones,2,1,Brittle,,,Skeleton Pirate,"A pirate in life, a pirate in death.","Murigen, Bluemem",T,Offense,,,,
+Crewmate,Undead,Common,2 bones,2,1,Brittle,,,Skeleton Pirate,"A pirate in life, a pirate in death.",NEWS,T,Offense,,,,
 Floating Urn,Undead,Common,2 bones,0,1,"Ensouled, Loose Bones",Goo Monster,Bloodless,Possessed Ancient,"Flings itself around the room, hazardly.",Murigen,T,Resource,,,,
 Ichor,Undead,Common,2 bones,0,1,"Haunter, Blood Pact",,Bloodless,Skeleton,Would you dare drink from it?,Mark,T,Resource,,,,
 Lit Fuse,Undead,Common,2 bones,0,1,"Detonator, Ticking",,Bloodless,Zombie,The thrill of dying simply wasn't enough.,Nobody,T,Removal,,,,
