@@ -452,7 +452,6 @@ Heart of Dust,"When your {tribe:Mox}Mox cards die, this card gains 1 health, up 
 Assimilator,"During your end step, this card kills adjacent cards, gaining their health.",T,,
 Enlarge,"[Pay {resource:bone}{resource:bone}] This card gains 1 power and health, up to 5.",T,,
 Invigorate,"[Once per turn, {mark:sacrifice}Sacrifice a card] A card you control gains 1 power and health, up to 5.",T,,
-Absorption,"[{mark:sacrifice}Sacrifice a card] This card gain 2 health, up to 5.",T,,
 Swapper,"When struck, swap this card's power and health.",T,,Swap
 Swap,"[Activate] Swap this card's power and health.",T,,
 Swap Latch,"When this card dies, swap the power and health of any other card.",T,,Swap Chip
