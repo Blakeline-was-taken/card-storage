@@ -409,6 +409,7 @@ Dooming Dust,"[Once per turn, {mark:shatter}shatter a card] Another card has 2 m
 Stimulate,"[Once per turn, pay {resource:energy}{resource:energy}{resource:energy}] This card gains 1 power, up to 5.",T,,
 Power Dice,"[Pay {resource:energy}{resource:energy}{resource:energy}] Roll a D6, the result becomes this card's base power until your end step.",T,,
 Infinifold,"[Once per turn, {mark:shatter}shatter a card] This card's power is doubled.",T,,
+Spell Tally,"When an active ability is triggered on your side, this card gains 1 power, up to 5.",T,,
 Leader,Adjacent cards have 1 more power.,T,,Commander
 Commander,Adjacent cards have 2 more power.,T,,
 Sea Shanty,"Your {mark:brittle} Brittle cards have 1 more power.",T,,Treasure Hunt
