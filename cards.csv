@@ -205,7 +205,7 @@ Ancient Obol,Undead,Common,3 bones,0,4,"Sharp Quills, Bone King",,,Ancient,A wor
 Broken Obol,Undead,Common,3 bones,0,2,Sharp Quills,Ancient Obol,Obol Trait,Ancient,"Careful, the edge is sharp.",NEWS,T,Defense,,,,
 Broken Obol_t,Undead,Common,3 bones,0,2,Bone King,Ancient Obol,Obol Trait,Ancient,Still not all worthless.,NEWS,T,Resource,,,,
 Deadmagogue,Undead,Common,3 bones,1,1,Grim Call,,,Zombie,"No rest, for the dead and the living.",NEWS,T,Insight,,,,
-Demon Orb,Undead,Common,3 bones,1,2,Purist,,Boneless,Ancient Demon,Even great spirits can be called.,NEWS,T,Utility,,,,
+Demon Orb,Undead,Common,3 bones,1,1,"Purist, Split Strike",,,Ancient Demon,Even great spirits can be called.,NEWS,T,Utility,,,,
 Fiddlebones,Undead,Common,3 bones,0,3,"Sea Shanty, Sprinter",,,Skeleton Pirate,Raves in taverns about lost sailors.,Murigen,T,Support,,,,
 Ghast,Undead,Common,3 bones,1,1,Stinky,,,Zombie,A corpse left rotten and deformed.,Pixel Profligate,T,Defense,Draug Raider,,,
 Ghost Ship,Undead,Common,3 bones,0,1,"Waterborne, Skeleton Crew",,,Pirate Spectre,Fully staffed and ready to plunder.,Pixel Profligate,T,Utility,,,,
