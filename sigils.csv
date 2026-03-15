@@ -160,6 +160,7 @@ Omnistrike,"When attacking, if there are opposing cards, this card strikes all o
 Wiping Strike,"When attacking, this card strikes all opposing spaces.",,,
 Double Strike,"When attacking, this card strikes the opposing space an additional time.",T,,Triple Strike
 Triple Strike,"When attacking, this card strikes the opposing space two additional times.",T,,
+Backstab,"When attacking, this card also strikes its own space directly.",T,,
 Split Strike,"When attacking, this card strikes a space adjacent to the opposing space.",T,,Confused Strike
 Confused Strike,"When attacking, this card strikes either the opposing space, or a space adjacent to it.",T,,Sniper
 Sniper,"When it strikes, this card may target any space on the opposite side.",T,,Split Shot
