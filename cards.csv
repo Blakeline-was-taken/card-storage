@@ -179,7 +179,7 @@ Grave Diglin,Undead,Side Deck,free,0,2,"Familiar, Bone Digger",,Bloodless,Spectr
 Shambling Cairn,Undead,Side Deck,free,0,1,"Soul Stealer, Unburial",,"Bloodless, Boneless",Grave,"A critter, wandering burial grounds.",Murigen,,Resource,Tombit,,,
 Skeleton,Undead,Side Deck,free,1,1,"Scrounger, Brittle",,Bloodless,Skeleton,A frail and spooky mass of bones.,Pixel Profligate,,Offense,Revenant,,,
 Boot,Undead,Common,free,0,2,,,Bloodless,,Lost equipment is scarce but useful.,Pixel Profligate,,Defense,,,,
-Disturbed Grave,Undead,Common,free,0,1,"Fledgling, Unburial",Zombie,Bloodless,Zombie Grave,They never stay dead for long.,Pixel Profligate,T,Resource,Zombie,,,
+Disturbed Grave,Undead,Common,free,0,1,"Fledgling, Unburial",Zombie,Bloodless,Zombie Grave,They never stay dead for long.,Pixel Profligate,T,"Reliable, Resource",Zombie,,,
 Draugr,Undead,Common,free,0,1,Ensouled,Skeleton,Bloodless,Possessed,"Frozen in time, waiting for freedom.",Pixel Profligate,T,Reliable,,,,
 Guts,Undead,Common,free,0,2,"Stinky, Rotting",,,,Repugnant...,Pixel Profligate,,Defense,,,,
 Locust Curse,Undead,Common,free,0,1,"Rampager, Stinky",,,Ancient Insect,They leave nothing behind their wake.,NEWS,,Defense,,,,
