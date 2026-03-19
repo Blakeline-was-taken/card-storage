@@ -97,7 +97,7 @@ Chick,Beast,Common,2 bones,0,1,Uncertain,"Farm Hen, Rooster",,Avian,A little pet
 Lil' Frog,Beast,Common,2 bones,0,2,"Burrower, Mighty Leap",,,Amphibian,Just a little guy.,Pixel Profligate,T,Defense,Bullfrog,,,
 Mealworm,Beast,Common,2 bones,0,2,Morsel,,,Insect,Does your mouth not water at the sight?,Pixel Profligate,T,Support,,,,
 Meerkat,Beast,Common,3 bones,1,1,Watchman,,,Vermin,Always on the lookout.,Mark,T,Insight,,,,
-Opossum,Beast,Common,3 bones,1,1,Scavenger,,,Vermin,"Resourceful, weak, but endearing.",Pixel Profligate,T,Resource,,,,
+Opossum,Beast,Common,3 bones,1,1,Bone Digger,,,Vermin,"Resourceful, weak, but endearing.",Pixel Profligate,T,Resource,,,,
 Slug,Beast,Common,3 bones,0,2,"Gooey, Clinger",,,,"It may look innocent, but don't touch it.",NEWS,T,Defense,,,,
 Spider,Beast,Common,3 bones,1,1,Web Shooter,,,Insect,A certified web designer.,Murigen,T,Defense,Cellar Spider,,,
 Bat,Beast,Common,4 bones,2,1,Airborne,,,Vermin,"A minor, meddlesome terror.",Pixel Profligate,T,Offense,,,,
