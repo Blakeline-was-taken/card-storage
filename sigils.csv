@@ -339,8 +339,8 @@ Gift Bearer,"When this card dies, draw a card from your deck.",T,,Generous Gift
 Generous Gift,"When this card dies, draw two cards from your deck.",T,,Loaded
 Gem Bearer,"When this card dies, draw a random Side deck {tribe:Mox}Mox card.",,,Gem Generosity
 Gem Generosity,"When this card dies, draw two random Side deck {tribe:Mox}Mox cards.",,,
-Gem Greed,"When your other {tribe:Mox}Mox cards perish, draw a card from your deck.",,,Gem Greedier
-Gem Greedier,"When your other {tribe:Mox}Mox cards perish, draw 2 cards from your deck.",,,
+Gem Greed,"When your {tribe:Mox}Mox cards perish, draw a card from your deck.",,,Gem Greedier
+Gem Greedier,"When your {tribe:Mox}Mox cards perish, draw 2 cards from your deck.",,,
 Polyp Harvest,"When your Polyp cards perish, draw a card from your deck.",T,,
 Loaded,"When this card dies, draw 3 cards from your deck and 1 card from your side deck.",T,,Stuffed
 Stuffed,"When this card dies, draw 4 cards from your deck and 2 cards from your side deck.",T,,
