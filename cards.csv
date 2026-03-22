@@ -371,7 +371,7 @@ Router Bot,Tech,Common,2 energy,0,2,Web Shooter,,,Bot Machine,Keeps world wide w
 Rustgill,Tech,Common,2 energy,0,1,"Waterborne, Poisonous",,,Fish Machine,"The deeper it dives, the fouler the stream.",Nobody,T,Removal,,,,
 Shield Latcher,Tech,Common,2 energy,0,1,LATCHER_Armored,,,Latcher,Protecting others better than itself.,Pixel Profligate,T,Defense,,,,
 Shreddinator,Tech,Common,2 max,0,1,"Desecration, Deathtrap",,,Bot Machine,For complete and proper disposal.,Murigen,T,Removal,,,,
-Medic Cell,Tech,Common,1 max + 1 energy,1,1,CELL_Healer,,,Cell,Fixes erratic hearts but not frozen ones.,Nobody,T,Support,,,,
+Medic Cell,Tech,Common,1 max + 1 energy,1,1,CELL_Healer,,,Worker Cell,Fixes erratic hearts but not frozen ones.,Nobody,T,Support,,,,
 Timer Bot,Tech,Common,2 max,1,3,Clock Out,,,Bot,Tick tock tick tock...,Blakeline,T,Defense,,,,
 50-nar,Tech,Common,3 energy,1,1,Transformer,50-nar_t,,Mechabeast Vermin,Its irritating screeches are unbearable.,Pixel Profligate,T,Offense,,,,
 50-nar_t,Tech,Common,3 energy,2,1,"Transformer, Airborne",50-nar,,Mechabeast Vermin,Its irritating screeches are unbearable.,Pixel Profligate,,Offense,,,,
