@@ -121,7 +121,7 @@ Cuckoo,Beast,Uncommon,1 blood,1,1,"Airborne, Brood Parasite",,,Avian,"Unfortunat
 Red Herring,Beast,Uncommon,1 blood,2,1,"Easy Target, Waterborne",,,Fish,They always go for it.,Pixel Profligate,T,Defense,,,,
 Rooster,Beast,Uncommon,1 blood,2,2,"Counter Strike, Annoying",,,Avian,Picking fights with everything.,Ixams,T,Offense,Cockatrice,,,
 Turkey,Beast,Uncommon,1 blood,1,1,Morsel,,,Avian,Quite the free birds these are.,Murigen,T,Support,,,,
-Anomalocaris,Beast,Uncommon,2 blood + 1 asterisk,2,1,"Looter, Waterborne",,Material Diet,Ancient Fish,"A cute, yet aggressive elder beast.",Mark,T,Insight,,,,
+Anomalocaris,Beast,Uncommon,2 blood + 1 asterisk,2,1,"Looter, TRIBAL, Waterborne",,Material Diet,Fish,"A cute, yet aggressive elder beast.",Mark,T,Insight,,,,
 Ant Queen,Beast,Uncommon,2 blood,1,4,"Ant Spawner, Colony",,,Noble Ant Insect,"Regal, royal, and a mother of pests.",Pixel Profligate,T,Utility,,,,
 Cane Toad,Beast,Uncommon,2 blood,1,4,"Mighty Leap, Death Veil",,,Amphibian,"An ancient, voracious specimen.",Pixel Profligate,T,Removal,,,,
 Jackalope,Beast,Uncommon,2 blood,2,2,"Hopper, TRIBAL, Repulsive",,,Cryptid,The prey becomes the hunter.,Ixams,T,Reliable,,,,
@@ -555,7 +555,7 @@ Shade Soul,Magick,Common,1 prism + 1 emerald,1,2,"Dust Gatherer, RAINBOW, Haunte
 Corpsebloom,Magick,Common,2 emeralds,1,2,"Stinky, RAINBOW, Fledgling",Terror of Verdure,,Aberration Construct,This is not even its final form.,Murigen,T,Defense,Terror of Verdure,,,
 Dizzy Mage,Magick,Common,2 emeralds,0,2,"Warper, Dust Power",,,Mage Aberration,This one's exam was quite twisted.,Pixel Profligate,T,Offense,,,,
 Senior Sage,Magick,Common,2 emeralds,2,3,,,,Noble Sage,Here to welcome the new generation.,Murigen,T,Reliable,,,,
-Mind Library,Magick,Common,1 shattered emerald + 1 prism,0,3,"Blue Gem, RAINBOW, Generous Gift",,Bloodless,Mox Altar,What is wisdom without discovery?,Murigen,T,"Insight, Mox",,,,Green
+Mind Library,Magick,Common,1 shattered emerald + 1 prism,0,3,"Blue Gem, RAINBOW, Generous Gift",,Bloodless,Ancient Mox Altar,What is wisdom without discovery?,Murigen,T,"Insight, Mox",,,,Green
 Crystal Carrier,Magick,Common,1 prism + 2 emeralds,X,3,"Fragment Hoard, Gem Power",,,Mox Corrupted,Magick brought them to life.,Murigen,T,"Reliable, Resource",,,,
 Ambush Mage,Magick,Common,1 ruby,1,1,Opportunist,,,Outlaw,This attack could have been predicted.,Murigen,T,Offense,,,,
 Gem Creep,Magick,Common,1 ruby,1,2,"Gem Salvage, Gem Dependent",,,Corrupted Wizard,Desperation brings resoursefullness.,NEWS,T,Resource,,,,
@@ -578,7 +578,7 @@ Mox Mage,Magick,Common,1 shattered ruby,1,2,Orange Gem,,,Mox Mage,A mox gained f
 Blaze Burner,Magick,Common,1 ruby + 1 prism,2,3,"Burning, RAINBOW, Sniper",,,Sage,Fire Magic is easy but hard to control.,NEWS,T,"Offense, Removal",,,,
 Exalted Warden,Magick,Common,1 ruby + 1 prism,1,3,"Snag, RAINBOW, Gem Tactician",,,Wizard Knight,Stopping awry magicks is quite a feat.,Murigen,T,"Defense, Utility",Enigmatic Paladin,,,
 Spellsword,Magick,Common,1 prism + 1 ruby,1,2,"Soul Strike, Enhanced Arcane",,,Possessed Knight,A proud knight's honor never dies.,Murigen,T,Support,,,,
-Form Spire,Magick,Common,1 shattered ruby + 1 prism,0,3,"Green Gem, RAINBOW, Gemagnify",,Bloodless,Mox Altar,What is perfection without refinement?,Murigen,T,"Defense, Mox",,,,Orange
+Form Spire,Magick,Common,1 shattered ruby + 1 prism,0,3,"Green Gem, RAINBOW, Gemagnify",,Bloodless,Ancient Mox Altar,What is perfection without refinement?,Murigen,T,"Defense, Mox",,,,Orange
 Blue Mage,Magick,Common,1 sapphire,0,1,Mental Gemnastics,,,Mage,Creation is a powerful tool.,Pixel Profligate,T,Insight,,,,
 Bullfrog_t,Magick,Common,1 sapphire,0,3,"Blue Gem, Mighty Leap",,,Mox Amphibian,Now holding a small amount of magic.,"Nobody, Pixel Profligate",,"Mox, Defense",,,,
 Force Mage,Magick,Common,1 sapphire,0,1,Repulsive,,,Demon Mage,Repelling the greatest of assaults.,Pixel Profligate,T,Defense,,,,
@@ -599,7 +599,7 @@ Fleeting Conjuror,Magick,Common,1 sapphire + 1 prism,X,1,"Double Strike, Brittle
 Fortune Teller,Magick,Common,1 sapphire + 1 prism,0,3,"Blue Gem, All-Sight",,,Mox Magician,Do you wish to know your fate?,Desaft,T,"Insight, Mox",,,,
 Old Hag,Magick,Common,2 sapphires,3,1,"Corpse Eater, Gem Dependent",,,Corrupted Wizard,Rambles on incorrect spell recitations.,Murigen,T,Offense,,,,
 Twilight Magus,Magick,Common,2 sapphires,0,3,Sparkling Dust,,,Sage,Wells of power sleep in fragments.,syntaxevasion,T,Removal,,,,
-Soul Garden,Magick,Common,1 shattered sapphire + 1 prism,0,3,"Orange Gem, RAINBOW, Leader",,Bloodless,Mox Altar,What is drive without rest?,Murigen,T,"Support, Mox",,,,Blue
+Soul Garden,Magick,Common,1 shattered sapphire + 1 prism,0,3,"Orange Gem, RAINBOW, Leader",,Bloodless,Ancient Mox Altar,What is drive without rest?,Murigen,T,"Support, Mox",,,,Blue
 Mindripper,Magick,Common,1 shattered sapphire + 1 shattered prism,4,4,Gem Dependent,,,Aberration,A lust for gems and for blood.,Pixel Profligate,T,Offense,,,,
 Basilisk,Magick,Common,1 emerald + 1 ruby,2,4,"Familiar, Petrifying Gaze",,,Cryptid Reptile,Don't look it in the eyes. It'll go away.,Murigen,T,Defense,,,,
 Clay Titan,Magick,Common,1 ruby + 1 emerald,4,1,"Armored, Swapper",,Bloodless,Aberration Construct,"Hard, soft, it struggles to pick one.",Nobody,T,Reliable,,,,
