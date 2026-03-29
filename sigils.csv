@@ -259,6 +259,7 @@ Clinger,"When you place a card, this card goes to the closest space between them
 Switch In,"When you place a card, this card swaps positions with it.",T,,
 Hefty,"During your end step, this card moves to an adjacent space, pushing other cards in its way.",T,,Rampager
 Rampager,"During your end step, this card swaps places with an adjacent space.",T,,Hopper
+Gem Telekinesis,"During your end step, your {tribe:Mox}Mox cards swap places with one of their adjacent spaces.",T,,
 Trample,"During your end step, this card moves to an adjacent space. If a card is in that space, it perishes and this card gains 1 power."
 Grave Hopper,"When another card you control perishes, this card moves to its space.",T,,Hopper
 Hopper,"During your end step, this card moves to an empty space.",T,,Warper

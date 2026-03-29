@@ -645,7 +645,7 @@ Maniacal Monk,Magick,Uncommon,1 ruby + 1 sapphire,1,2,"Evasion, Dust Power",Ruby
 Thaumaturgist,Magick,Uncommon,1 ruby + 1 sapphire,2,2,"Double Death, Vengeance",,,Possessed Wizard,"Such power, but what is it good for?",NEWS,T,Removal,,,,
 Book Burner,Magick,Uncommon,1 emerald + 1 sapphire,1,4,"Firey Rummage, Burning",,,Wizard Cultist,Revealed secrets are theirs to keep.,Pixel Profligate,T,Insight,,,,
 Cryptic Merchant,Magick,Uncommon,1 emerald + 1 sapphire,0,2,"Trinket Bearer, Hoarder",,,,Browse his wares for oddities.,Murigen,T,"Utility, Insight",,,,
-Mad Conspirator,Magick,Uncommon,2 blood,1,4,Gem Persistance,,,Cultist,"Twelve sets in the morning, two at eve.",Desaft,T,Resource,,,,
+Mad Conspirator,Magick,Uncommon,2 blood,2,2,"Gem Telekinesis, Gem Instability",,,Cultist,"Twelve sets in the morning, two at eve.",Desaft,T,"Utility, Defense",,,,
 Bleene's Mox,Magick,Rare,free,0,2,"Blue Gem, Green Gem",,Bloodless,Mox,Created by Bleene to harness his insight.,Pixel Profligate,T,Mox,Magnus Mox,,,
 Goranj's Mox,Magick,Rare,free,0,2,"Green Gem, Orange Gem",,Bloodless,Mox,Created by Goranj to strengthen them.,Pixel Profligate,T,Mox,Magnus Mox,,,
 Orlu's Mox,Magick,Rare,free,0,2,"Orange Gem, Blue Gem",,Bloodless,Mox,Created by Orlu to focus her will.,Pixel Profligate,T,Mox,Magnus Mox,,,
