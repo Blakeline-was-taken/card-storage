@@ -177,6 +177,31 @@
       </div>
     </div>
   </form>
+
+  <div id="sort-controls">
+    <label>
+      Sort by:<br />
+      <select id="sort-field">
+        <option value="name">Card Name</option>
+        <option value="temple">Temple</option>
+        <option value="tier">Tier</option>
+        <option value="power">Power</option>
+        <option value="health">Health</option>
+        <option value="role">Role</option>
+        <option value="random">Random</option>
+      </select>
+    </label>
+
+    <label>
+      Direction:<br />
+      <select id="sort-direction">
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+      </select>
+    </label>
+
+    <button id="sort-cards-btn" type="button">Sort Cards</button>
+  </div>
   
   <div id="deck-builder">
     <div class="deck-header">

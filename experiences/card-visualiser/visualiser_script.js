@@ -13,6 +13,8 @@ let selectedTribes = [];
 let selectedRoles = [];
 let selectedArtists = [];
 
+let currentSort = null;
+
 let deck = [];
 let deckVisible = true;
 
@@ -161,6 +163,70 @@ function extractUniqueArtists(cards) {
   return [...set].sort();
 }
 
+// ========== SORTING LOGIC ==========
+function shuffleArray(array) {
+  const copy = [...array];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+function getSortValue(card, field) {
+  switch (field) {
+    case "name":
+      return (card["Card Name"] || "").toLowerCase();
+    case "temple":
+      return ["Beast", "Undead", "Tech", "Magick", "Terrain", "Potion", "Pelt"].indexOf(card.Temple || "");
+    case "tier":
+      return ["Side Deck", "Common", "Uncommon", "Rare", "Talking"].indexOf(card.Tier || "");
+    case "power":
+      return Number.parseInt(card.Power, 10);
+    case "health":
+      return Number.parseInt(card.Health, 10);
+    case "role":
+      return (card.Role || "").toLowerCase();
+    default:
+      return "";
+  }
+}
+
+function sortCards(cards) {
+  if (!currentSort) return cards;
+
+  if (currentSort.field === "random") {
+    const order = new Map(
+      currentSort.randomOrder.map((name, index) => [name, index])
+    );
+
+    return [...cards].sort((a, b) => {
+      const ai = order.has(a["Card Name"]) ? order.get(a["Card Name"]) : Number.MAX_SAFE_INTEGER;
+      const bi = order.has(b["Card Name"]) ? order.get(b["Card Name"]) : Number.MAX_SAFE_INTEGER;
+      return ai - bi;
+    });
+  }
+
+  const dir = currentSort.direction === "desc" ? -1 : 1;
+  const field = currentSort.field;
+
+  return [...cards].sort((a, b) => {
+    const av = getSortValue(a, field);
+    const bv = getSortValue(b, field);
+
+    if (["power", "health", "temple", "tier"].includes(field)) {
+      const aNum = Number.isFinite(av) ? av : Number.NEGATIVE_INFINITY;
+      const bNum = Number.isFinite(bv) ? bv : Number.NEGATIVE_INFINITY;
+      return (aNum - bNum) * dir;
+    }
+
+    return String(av).localeCompare(String(bv), undefined, {
+      numeric: true,
+      sensitivity: "base"
+    }) * dir;
+  });
+}
+
 // ========== LOGIC ==========
 
 const FilterLogic = {
@@ -287,7 +353,7 @@ const FilterLogic = {
       return nameOk && templeOk && tierOk && statsOk && sigilsOk && latcherOk && cellOk && rainbowOk && tribalOk && activeOk && traitsOk && tribesOk && costsOk && rolesOk && artistsOk && draftableOk && evolvedOk && gemifiedOk; // && movementOk
     });
 
-    CardDisplay.render(result);
+    CardDisplay.render(sortCards(result));
   }
 };
 
@@ -317,6 +383,7 @@ const FilterUI = {
     this.initRoleSearch(allRoles);
     this.initArtistSearch(allArtists);
     this.initReset();
+    this.initSortControls();
   },
 
   initNameFilter() {
@@ -522,6 +589,34 @@ const FilterUI = {
         });
         suggestions.appendChild(div);
       });
+    });
+  },
+
+  initSortControls() {
+    const sortField = document.getElementById("sort-field");
+    const sortDirection = document.getElementById("sort-direction");
+    const sortButton = document.getElementById("sort-cards-btn");
+
+    const updateDirectionState = () => {
+      sortDirection.disabled = sortField.value === "random";
+    };
+
+    sortField.addEventListener("change", updateDirectionState);
+    updateDirectionState();
+
+    sortButton.addEventListener("click", () => {
+      const field = sortField.value;
+
+      currentSort = {
+        field,
+        direction: sortDirection.value
+      };
+
+      if (field === "random") {
+        currentSort.randomOrder = shuffleArray(allCards.map(card => card["Card Name"]));
+      }
+
+      FilterLogic.apply();
     });
   }
 };
