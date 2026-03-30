@@ -472,7 +472,7 @@ Recall the Broken,"When your cards perish due to {mark:brittle} Brittle, they re
 Recycled Pylons,"When your Pylon cards perish, they are returned to your hand.",T,,
 Haunter,"After this card dies, the next card to enter its space gains its other sigils.",T,,Possessor
 Possessor,"After this card dies, the next card to enter its space gains its other sigils, as well as {sigil:Haunter} Haunter.",T,,
-Gem Persistance,"When a side deck {tribe:Mox}Mox card you control dies, the next card to enter its space gains its sigils.",T,,
+Gem Clutch,"When your side deck {tribe:Mox}Mox cards die, their gem sigils are transferred to another card of your choice.",T,,
 Inscrybe,"When playing a card, it gains one sigil from the cards you {mark:sacrifice}sacrifice.",T,,
 Terrain,"A card may enter this card's space. It gains all its other sigils, and this card is discarded.",T,,
 Potion,"This card must be played on top of a main deck card you control. It then permanently gains this card's other sigils, and this card is destroyed.",T,,
