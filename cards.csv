@@ -620,7 +620,7 @@ Hovering Cultist,Magick,Common,1 blood,1,1,"Ritual, Heart of Dust",Hovering Cult
 Hovering Cultist_t,Magick,Common,1 blood,2,1,"Ritual, Airborne",Hovering Cultist,,Cultist,"Old arts of magicks, in form of blood.",Mark,,Reliable,,,,
 Traitor,Magick,Common,1 blood,2,1,"Backstab, Double Strike",,,Cultist,"For such friends, better keep an eye open.",Mark,T,Offense,,,,
 Altar of Diamond,Magick,Common,2 blood,0,5,"Prism Gem, Made of Stone",,,Mox Altar,"Unbreakable, much like the spirit.","Nobody, Desaft",T,Mox,,,,
-Mad Conspirator,Magick,Common,2 blood,2,2,"Gem Telekinesis, Gem Instability",,,Cultist,"Twelve sets in the morning, two at eve.",Desaft,T,"Utility, Defense",,,,
+Mad Conspirator,Magick,Common,2 blood,2,2,"Gem Telekinesis, Gem Instability",,,Cultist,"Twelve sets in the morning, two at eve.",Desaft,T,"Support, Utility",,,,
 Mad Cultist,Magick,Common,2 blood,X,3,"Gem Power, Defiant",,,Cultist,Led astray by falsities and sacrifices.,Pixel Profligate,T,Offense,,,,
 Mad Martyr,Magick,Common,2 blood,0,3,"Life Donor, Hemomancy",,,Cultist,Always jubilating at the sacrifice.,Pixel Profligate,T,Resource,,,,
 Consequence,Magick,Common,3 blood,3,4,Gem Clock,,,Corrupted Cultist,Such is the price of forbidden magicks.,Nobody,T,Offense,,,,
