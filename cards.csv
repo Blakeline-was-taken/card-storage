@@ -217,7 +217,7 @@ Skelemancer,Undead,Common,3 bones,0,2,Double Death,,,Skeleton Mage,Still trainin
 Tsutsugamushi,Undead,Common,3 bones,1,1,"Bloodsucker, Sprinter",,,Insect Demon,"A bringer of illness, a siphon of life.",Murigen,T,Defense,,,,
 White Lady,Undead,Common,3 bones,1,2,Warper,,"Bloodless, Boneless",Spectre,In death they did part.,NEWS,T,Utility,,,,
 Big Dig,Undead,Common,4 bones,0,4,"Unburial, Tomb Digger",,,Worker,"Sometimes, one little shovel isn't enough.",Murigen,T,Resource,Night Shifters,,,
-Crack Claw,Undead,Common,4 bones,1,2,"LATCHER_Brittle, Brittle",,,Demon Skeleton,A deadly strong grip.,NEWS,T,Removal,Bonehound,,,
+Crack Claw,Undead,Common,4 bones,2,1,"LATCHER_Brittle, Brittle",,,Demon Skeleton,A deadly strong grip.,NEWS,T,Removal,Bonehound,,,
 Deadeye,Undead,Common,4 bones,1,2,Sniper,,,Skeleton Pirate,The deadliest shooter on the seas.,Murigen,T,Reliable,,,,
 Gloom Dash,Undead,Common,4 bones,2,1,"Rampager, Haunter",,,Demon Spectre,Your two legs can't compare to this.,NEWS,T,Offense,,,,
 Grave Hopper,Undead,Common,4 bones,1,2,"Grave Hopper, Fracture",,,Skeleton,They just want to find their own grave.,Pixel Profligate,T,Resource,Tomb Robber,,,
