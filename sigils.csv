@@ -62,7 +62,7 @@ Blue Gem,This card provides a {resource:blue_gem} Blue gem.,,,Azurite Gem
 Azurite Gem,This card provides 2{mark:x}{resource:blue_gem} Blue gems.,,,
 Arbitrary Gem,"This card provides a {resource:gem} gem of a random color. During your draw step, re-roll the color.",,,Prism Gem
 Prism Gem,This card provides a {resource:prism_gem} gem of every color.,,,Gem Catalyst
-Gem Catalyst,This card provides 2{mark:x}{resource:prism_gem} gems of every color.,,,
+Gem Catalyst,This card provides 2{mark:x}{resource:prism_gem} gems of every color.,,,Moxum Opus
 Magnificent Gem,"This card provides a {resource:green_gem} Green gem, an {resource:orange_gem} Orange gem and a {resource:blue_gem} Blue gem.",,,Moxum Opus
 Moxum Opus,"This card provides 3{mark:x}{resource:prism_gem} gems of every color.",,,
 Palette Swap,"When played, you may change the color of one of your {resource:gem} gems.",,,Gem Swap
