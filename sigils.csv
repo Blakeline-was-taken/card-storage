@@ -462,8 +462,8 @@ Swapper,"When struck, swap this card's power and health.",T,,Swap
 Swap,"[Activate] Swap this card's power and health.",T,,
 Swap Latch,"When this card dies, swap the power and health of any other card.",T,,Swap Chip
 Swap Chip,"When played, swap the power and health of any other card.",T,,
-Morsel,"When {mark:sacrifice}sacrificed, this card's stats are added to the card it was sacrificed to.",T,,Delightful
-Delightful,"When {mark:sacrifice}sacrificed, this card's stats are added to the card it was sacrificed to, which also gains 1 power and health.",T,,
+Morsel,"When this card dies, its stats are added to the card it was {mark:sacrifice}sacrificed or {mark:shatter}shattered to.",T,,Delightful
+Delightful,"When this card dies, its stats are added to the card it was {mark:sacrifice}sacrificed or {mark:shatter}shattered to, which also gains 1 power and health.",T,,
 Biotic Needles,"[Pay 2 elixir] Any other card gains 1 power, up to 5. [Pay 2 flesh] Any other card gains 2 health, up to 5.",T,,
 Medicine,"[Pay 2 elixir] Adjacent cards have 1 more power. [Pay 2 flesh] Adjacent cards have 2 more health.",T,,
 Dust Fueled,"When your {tribe:Mox}Mox cards die, this card gains 1 power and health, up to 5.",,,
