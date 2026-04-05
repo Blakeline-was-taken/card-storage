@@ -383,7 +383,6 @@ Psychic Link,"When played, draw a ""Squidling"".",T,,
 Hoarder,"When played, search a common card from your deck.",T,,Collector
 Collector,"When played, search a card from your deck.",T,,
 Re-Index,"When played, search a card from your deck, discard or side deck.",T,,
-Horde,"When this card kills another, add that card to your hand for this battle.",T,,Swarm
 Disentomb,"[Pay {resource:bone}{resource:bone}] Search a {mark:brittle} Brittle card from any of your decks.",T,,
 Cybernetics,"[Pay 4{mark:x}{resource:energy}] Place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
 Reanimate,"[Once per turn] Pay for and play a common card from your discard.",T,,
@@ -419,8 +418,6 @@ Leader,Adjacent cards have 1 more power.,T,,Commander
 Commander,Adjacent cards have 2 more power.,T,,
 Sea Shanty,"Your {mark:brittle} Brittle cards have 1 more power.",T,,Treasure Hunt
 Treasure Hunt,"Your {mark:brittle} Brittle cards have 2 more power.",T,,
-Witching Hour,Your other Spectre cards have 1 more power.,T,,Blood Moon
-Blood Moon,Your other Spectre cards have 2 more power.,,,
 Leep Leader,Your other {tribe:Leep}Leep cards have 1 more power.,T,,Leep Commander
 Leep Commander,Your other {tribe:Leep}Leep cards have 2 more power.,T,,
 Gem Animator,Your other {tribe:Mox}Mox cards have 1 more power.,,,Gem Empowerer
