@@ -383,7 +383,7 @@ Psychic Link,"When played, draw a ""Squidling"".",T,,
 Hoarder,"When played, search a common card from your deck.",T,,Collector
 Collector,"When played, search a card from your deck.",T,,
 Re-Index,"When played, search a card from your deck, discard or side deck.",T,,
-Horde,"When this card kills another, place a ""TOKEN"" on your side.",T,,Swarm
+Horde,"When this card kills another, add that card to your hand for this battle.",T,,Swarm
 Disentomb,"[Pay {resource:bone}{resource:bone}] Search a {mark:brittle} Brittle card from any of your decks.",T,,
 Cybernetics,"[Pay 4{mark:x}{resource:energy}] Place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
 Reanimate,"[Once per turn] Pay for and play a common card from your discard.",T,,
@@ -524,7 +524,7 @@ Enhanced Arcane,"If you provide 2 unique {resource:gem} gem colors, this card ha
 Empowered Arcane,"If you provide 2 unique {resource:gem} gem colors, this card has 2 more power.",,,
 Night of the Living Dead,The cost of your cards is reduced by 2{mark:x}{resource:bone} bones and 2{mark:x}{resource:energy} energy.,T,,Full Moon Night
 Full Moon Night,Your cards cost half their normal amount of {resource:bone} bones and {resource:energy} energy.,T,,
-Puppet Master,"Your {mark:brittle} cards ignore its effect, but perish when this card dies.",T,,Necromancy
+Puppet Master,"Your cards pretend the {mark:brittle} Brittle sigil works like the {sigil:Linked} Linked sigil instead.",T,,Necromancy
 Necromancy,"Your cards ignore {mark:brittle} Brittle.",T,,
 Mental Fortitude,"Your cards ignore {sigil:GemDependent} and {sigil:Familiar} if there are at least 2 cards in your hand.",T,,Mental Mastery
 Mental Mastery,"Your cards ignore {sigil:GemDependent} and {sigil:Familiar} if your hand is not empty.",T,,
@@ -559,6 +559,8 @@ Endless Cycle,"Your end step triggers two additional times.",T,,
 Pay Tribute,"[{mark:sacrifice}Sacrifice a card] Gain {resource:bone} bones equal to its base health and this card gains 1 power.",T,,
 Imposture,"This card is set aside from your main deck. It will reveal itself in battles.",T,,
 Impatient,"This card attacks during your opponent's attack step, before the opposing cards.",T,,
+Linked,"When this card perishes, all cards with this sigil die as well.",T,,
+Soulbinder,"When this card strikes another, that card gains the {sigil:Linked} Linked sigil.",T,,
 Frozen Away,"This card loses 1 health during your end step. When it perishes, a powerful card is placed in its space.",T,,
 Steal,"When killed in combat, your opponent loses 2 {resource:bone} bones.",T,,
 Eluhvbem,"Jxyi sqht teui iecujxydw hqdtec mxud qd kdademd uludj esskhi.",T,,
