@@ -346,8 +346,8 @@ Dusty Trip,"When your {tribe:Mox}Mox cards perish, look at and rearrange the top
 Gem Greed,"When your other {tribe:Mox}Mox cards perish, draw a card from your deck.",,,Gem Greedier
 Gem Greedier,"When your other {tribe:Mox}Mox cards perish, draw 2 cards from your deck.",,,
 Polyp Harvest,"When your Polyp cards perish, draw a card from your deck.",T,,
-Loaded,"When this card dies, draw 3 cards from your deck and 1 card from your side deck.",T,,Stuffed
-Stuffed,"When this card dies, draw 4 cards from your deck and 2 cards from your side deck.",T,,
+Loaded,"When this card is killed in combat, draw 3 cards from your deck and 1 card from your side deck.",T,,Stuffed
+Stuffed,"When this card is killed in combat, draw 4 cards from your deck and 2 cards from your side deck.",T,,
 Mental Gemnastics,"When played, draw a card from your deck for each {tribe:Mox}Mox card you control.",,,Mental Acrobatics
 Mental Acrobatics,"When played, for each {tribe:Mox}Mox card you control, draw 2 cards from your deck and return 1.",,,
 Unearthed Pack,"When played, shuffle your discard and draw 2 of the top 5 cards.",T,,
