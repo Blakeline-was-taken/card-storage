@@ -190,7 +190,7 @@ Sharp Quills,"When a card damages this card, it is dealt 1 damage in return.",T,
 Sharper Quills,"When a card damages this card, it is dealt 2 damage in return.",T,,
 Gem Instability,"When a card damages your {tribe:Mox}Mox cards, it is dealt 1 damage in return.",,,Gem Turbulence
 Gem Turbulence,"When a card damages your {tribe:Mox}Mox cards, it is dealt 2 damage in return.",,,
-Counter Strike,"When struck, this card strikes the card that struck it.",T,,Caustic
+Counter Strike,"When struck, this card strikes the card that struck it.",T,,Impatient
 Caustic,"When struck, the card that struck this card perishes.",T,,
 Incense,"When struck, cards that summoned this card strike the card that struck it.",T,,
 Deathtrap,"When killed in combat, the opposing card perishes.",T,,Caustic
@@ -204,9 +204,10 @@ Burning,"During your end step, this card takes 1 damage. A card striking or dama
 Firestarter,"This card gives {sigil:Burning} Burning to the cards it damages. It cannot gain {sigil:Burning} Burning.",T,,Pyromania
 Pyromania,"A card striking or damaged by this card gains {sigil:Burning} Burning but this card cannot gain {sigil:Burning} Burning.",,,
 Overheat,"Opposing cards have {sigil:Burning} Burning, and your cards cannot gain {sigil:Burning} Burning.",T,,
-Linked,"When this card perishes, all cards with this sigil die as well.",T,,
+Linked,"When this card perishes, all cards with this sigil die as well.",T,,Soul Binder
 Soul Binder,"When this card strikes another, that card gains the {sigil:Linked} Linked sigil.",T,,Bonding
 Bonding,"When this card strikes another, that card gains the {sigil:Familiar} Familiar sigil.",T,,
+Chaining,"Adjacent cards have the {sigil:Linked} Linked sigil.",T,,
 Detonator,"When this card dies, it deals 10 damage to the cards around it.",T,,Deathtrap
 Gem Detonator,"When your {tribe:Mox}Mox cards die, they deal 10 damage to the cards around them.",,,Gem Trap
 Gem Trap,"When your {tribe:Mox}Mox cards die, their opposing card perishes.",,,
@@ -354,24 +355,24 @@ Handy,"When played, discard your hand and draw the same amount of cards from you
 Watchman,"When a card enters the opposing space, draw a card from your deck.",T,,Lookout
 Lookout,"When a card enters the opposing space, draw 2 cards from your deck.",T,,
 Looter,"Draw a card from your deck for each direct damage this card deals.",T,,Pillager
-Pillager,"Draw 2 cards from your deck for each direct damage this card deals.",T,,
+Pillager,"Draw a card from your deck for each damage this card deals.",T,,
 Side Hustle,"Draw a card from your side deck for each direct damage this card deals.",T,,Predator
-Predator,"Draw 2 cards from your side deck for each direct damage this card deals.",T,,
+Predator,"Draw a card from your side deck for each damage this card deals.",T,,
 Firey Rummage,"[Discard a card from your hand] Draw a card from your deck.",T,,
 True Scholar,"[Once per turn, {mark:shatter}shatter a card] Draw 2 cards from your deck.",T,,
 Artistic Dance,"[Pay {resource:bone}{resource:bone}{resource:bone}] Draw a card from your deck or side deck.",T,,
 Bees Within,"When damaged, draw a ""Bee"".",T,,Full of Bees
-Full of Bees,"When damaged, draw two ""Bees"".",T,,
+Full of Bees,"Draw a ""Bee"" for each damage this card takes.",T,,
 Termites Within,"When damaged, draw a ""Termite"".",T,,Full of Termites
-Full of Termites,"When damaged, draw two ""Termites"".",T,,
+Full of Termites,"Draw a ""Termite"" for each damage this card takes.",T,,
 Skull Summoner,"When damaged, draw a ""Skeleton"".",T,,Skull Maker
-Skull Maker,"When damaged, draw 2 ""Skeletons"".",T,,
+Skull Maker,"Draw a ""Skeleton"" for each damage this card takes.",T,,
 Ants Within,"When damaged, draw a random {tribe:Ant}Ant card.",T,,Full of Ants
-Full of Ants,"When damaged, draw 2 random {tribe:Ant}Ant cards.",T,,
+Full of Ants,"Draw a random {tribe:Ant}Ant card for each damage this card takes.",T,,
 Geode,"When damaged, draw a random side deck {tribe:Mox}Mox card.",T,,Mineral
-Mineral,"When damaged, draw 2 random side deck {tribe:Mox}Mox cards.",T,,
+Mineral,"Draw a random side deck {tribe:Mox}Mox card for each damage this card takes.",T,,
 Vessel Printer,"When damaged, draw a card from your side deck.",T,,Vessel Factory
-Vessel Factory,"When damaged, draw 2 cards from your side deck.",T,,
+Vessel Factory,"Draw a card from your side deck for each damage this card takes.",T,,
 Rabbit Hole,"When played, draw a rabbit.",T,,Rabbit Chasm
 Rabbit Chasm,"When played, draw two rabbits.",T,,
 Ash Tray,"When played, draw ""The Smoke"".",T,,
