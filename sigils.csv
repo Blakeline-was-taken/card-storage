@@ -135,13 +135,18 @@ Blackout,"When this card perishes, deplete 2 {resource:energy} energy cells.",,,
 Delete,"When this card dies, discard all the cards in your hand.",T,,Defiler
 Defiler,"When this card dies, discard the top card of your deck.",T,,Desecration
 Death Sentence,"When this card dies, its owner takes 5 direct damage.",T,,Overclocked
-Overclocked,"This card has 1 more power, but you take 2 damage when it perishes.",T,,Xtreme Overclock
-Xtreme Overclock,"This card has 2 more power, but you take 2 damage when it perishes.",T,,
-Overloaded,"This card has 2 more power, but it also strikes its adjacent cards when it attacks.",T,,
-Watercooled,"This card costs 2 less energy/bones or 1 less blood/gem, but has 1 less power.",T,,
-Firewall,"This card has 1 less health, but it gains an {mark:armor} Armor mark.",T,,
-Recycled,"When played, draw a card. During your end step, this card perishes.",T,,
-Failsafe,"When this card dies, it returns to your hand and loses this sigil instead of being discarded.",T,,
+Overclocked,"This card has 1 more power, but you take 2 damage when it perishes.",T,,Overdrive
+Overdrive,"This card only attacks when adjacent cards strike, and you take 2 damage when it perishes.",T,,
+Overloaded,"This card has 2 more power, but it also strikes its adjacent cards when it attacks.",T,,Limit Break
+Limit Break,"This card has 1 more power and also strikes its adjacent cards and cards opposing them when it attacks.",T,,
+Watercooled,"This card costs 2 less energy/bones or 1 less blood/gem, but has 1 less power.",T,,Glycol-cooled
+Glycol-cooled,"You may pay 2 less energy/bones or 1 less blood/gem for this card, but it gains 1 power if you don't.",T,,
+Firewall,"This card has 1 less health, but it gains an {mark:armor} Armor mark.",T,,Flame Barrier
+Flame Barrier,"This card has 1 less health, but it takes 1 less damage from strikes.",T,,
+Recycled,"During your end step, this card perishes and plays a card from your hand that costs the same or less in its space for free.",T,,Compose
+Compose,"When played, you may play a card from your hand that costs the same or less than this card for free.",T,,
+Failsafe,"When this card dies, it returns to your hand and loses this sigil instead of being discarded.",T,,Backup Files
+Backup Files,"When this card dies, it creates two copies of itself in your hand without this sigil.",T,,
 Target Required,"This card cannot strike empty spaces.",T,,Target Spotted
 Target Spotted,"This card can only strike empty spaces if their back lane has a card.",T,,
 Airborne,This card's strikes only hit the space they target directly.,T,,Aerobatics
@@ -205,9 +210,10 @@ Firestarter,"This card gives {sigil:Burning} Burning to the cards it damages. It
 Pyromania,"A card striking or damaged by this card gains {sigil:Burning} Burning but this card cannot gain {sigil:Burning} Burning.",,,
 Overheat,"Opposing cards have {sigil:Burning} Burning, and your cards cannot gain {sigil:Burning} Burning.",T,,
 Linked,"When this card perishes, all cards with this sigil die as well.",T,,Soul Binder
-Soul Binder,"When this card strikes another, that card gains the {sigil:Linked} Linked sigil.",T,,Bonding
-Bonding,"When this card strikes another, that card gains the {sigil:Familiar} Familiar sigil.",T,,
-Chaining,"Adjacent cards have the {sigil:Linked} Linked sigil.",T,,
+Soul Binder,"When this card strikes another, that card gains the {sigil:Linked} Linked sigil.",T,,Binding
+Binding,"When this card strikes another, that card gains the {sigil:Familiar} Familiar sigil.",T,,
+Chaining,"Adjacent cards have the {sigil:Linked} Linked sigil.",T,,Strings of Fate
+Strings of Fate,"Adjacent cards and cards opposing them have the {sigil:Linked} Linked sigil.",T,,
 Detonator,"When this card dies, it deals 10 damage to the cards around it.",T,,Deathtrap
 Gem Detonator,"When your {tribe:Mox}Mox cards die, they deal 10 damage to the cards around them.",,,Gem Trap
 Gem Trap,"When your {tribe:Mox}Mox cards die, their opposing card perishes.",,,
@@ -462,7 +468,7 @@ Swap,"[Activate] Swap this card's power and health.",T,,
 Swap Latch,"When this card dies, swap the power and health of any other card.",T,,Swap Chip
 Swap Chip,"When played, swap the power and health of any other card.",T,,
 Morsel,"When this card dies, its stats are added to the card it was {mark:sacrifice}sacrificed or {mark:shatter}shattered to.",T,,Delightful
-Delightful,"When this card dies, its stats are added to the card it was {mark:sacrifice}sacrificed or {mark:shatter}shattered to, which also gains 1 power and health.",T,,
+Delightful,"When this card dies, its stats and the {sigil:Morsel} Morsel sigil are added to the card it was {mark:sacrifice}sacrificed or {mark:shatter}shattered to.",T,,
 Biotic Needles,"[Pay 2 elixir] Any other card gains 1 power, up to 5. [Pay 2 flesh] Any other card gains 2 health, up to 5.",T,,
 Medicine,"[Pay 2 elixir] Adjacent cards have 1 more power. [Pay 2 flesh] Adjacent cards have 2 more health.",T,,
 Dust Fueled,"When your {tribe:Mox}Mox cards die, this card gains 1 power and health, up to 5.",,,
