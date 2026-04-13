@@ -531,7 +531,7 @@ Tribal Call,"This card has 1 more power if it shares a tribe with another card y
 Tribal Rage,"This card has 2 more power if it shares a tribe with another card you control.",T,,
 Night of the Living Dead,The cost of your cards is reduced by 2{mark:x}{resource:bone} bones and 2{mark:x}{resource:energy} energy.,T,,Full Moon Night
 Full Moon Night,Your cards cost half their normal amount of {resource:bone} bones and {resource:energy} energy.,T,,
-Puppet Master,"Your cards pretend the {mark:brittle} Brittle sigil works like the {sigil:Linked} Linked sigil instead.",T,,Necromancy
+Puppet Master,"Your {mark:brittle} Brittle cards ignore that sigil but die when this card dies.",T,,Necromancy
 Necromancy,"Your cards ignore {mark:brittle} Brittle.",T,,
 Mental Fortitude,"Your cards ignore {sigil:GemDependent} and {sigil:Familiar} if there are at least 2 cards in your hand.",T,,Mental Mastery
 Mental Mastery,"Your cards ignore {sigil:GemDependent} and {sigil:Familiar} if your hand is not empty.",T,,
