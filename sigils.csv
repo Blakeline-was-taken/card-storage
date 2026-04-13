@@ -527,6 +527,7 @@ Circuit Buff,"If this card is between two {tribe:Conduit}Conduit cards, it has 2
 Circuit Rage,"If this card is between two {tribe:Conduit}Conduit cards, it has 4 more power.",T,,
 Enhanced Arcane,"If you provide 2 unique {resource:gem} gem colors, this card has 1 more power.",,,Empowered Arcane
 Empowered Arcane,"If you provide 2 unique {resource:gem} gem colors, this card has 2 more power.",,,
+Tribal Call,"This card has one more power if it shares a tribe with another card you control.",T,,
 Night of the Living Dead,The cost of your cards is reduced by 2{mark:x}{resource:bone} bones and 2{mark:x}{resource:energy} energy.,T,,Full Moon Night
 Full Moon Night,Your cards cost half their normal amount of {resource:bone} bones and {resource:energy} energy.,T,,
 Puppet Master,"Your cards pretend the {mark:brittle} Brittle sigil works like the {sigil:Linked} Linked sigil instead.",T,,Necromancy

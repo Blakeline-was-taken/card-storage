@@ -37,7 +37,7 @@ Raven Egg,Beast,Common,1 blood,0,2,Fledgling,Raven,,Avian,No less conniving in i
 Ray,Beast,Common,1 blood,1,1,"Waterborne, TRIBAL, Sentry",,,Fish Conduit,It makes its own electrical surges.,syntaxevasion,T,"Defense, Conduit",,,,
 Rhino Beetle,Beast,Common,1 blood,1,2,"Rampager, TRIBAL, Ironclad",,,Insect,"A little, but strong insect.",Mark,T,Defense,,,,
 Ringworm,Beast,Common,1 blood,0,1,Caustic,,,Insect,It only seems harmless at first glance.,Pixel Profligate,T,Removal,,,,
-River Otter,Beast,Common,1 blood,1,2,Waterborne,,,,"Elusive, but not very menacing.",Pixel Profligate,T,Reliable,,,,
+River Otter,Beast,Common,1 blood,1,1,"Waterborne, Tribal Call",,,Vermin,"Elusive, but not very menacing.",Pixel Profligate,T,Reliable,,,,
 Salamander,Beast,Common,1 blood,1,2,Death Veil,,,Amphibian,Just a touch could be deadly.,Pixel Profligate,T,Removal,,,,
 Skink,Beast,Common,1 blood,1,2,Loose Tail,Wriggling Tail,,Reptile,It is trying to evade death at any cost.,Pixel Profligate,T,Defense,,,,
 Skunk,Beast,Common,1 blood,0,3,"Stinky, LATCHER_Stinky",,,Vermin,A horrid stench to keep predators away.,Pixel Profligate,T,Defense,,,,
