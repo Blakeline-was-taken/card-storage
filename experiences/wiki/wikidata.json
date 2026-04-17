@@ -182,20 +182,100 @@
     "description": "The epicenter of the world, bathed in mysterious glow.",
     "categories": ["Areas", "Lore"]
   },
+  "woodlands": {
+    "title": "The Woodlands",
+    "description": "The first area of the Beast temple, home to the Prospector.",
+    "categories": ["Areas", "Beast"]
+  },
+  "marsh": {
+    "title": "The Marsh",
+    "description": "The second area of the Beast temple, home to the Angler.",
+    "categories": ["Areas", "Beast"]
+  },
+  "barrens": {
+    "title": "The Barrens",
+    "description": "The third area of the Beast temple, home to the Lumberjack.",
+    "categories": ["Areas", "Beast"]
+  },
+  "snowline": {
+    "title": "The Snowline",
+    "description": "The fourth area of the Beast temple, home to the Trapper.",
+    "categories": ["Areas", "Beast"]
+  },
   "cabin": {
     "title": "The Cabin",
     "description": "The final area of the Beast temple, home to Leshy.",
     "categories": ["Areas", "Beast"]
+  },
+  "graveyard": {
+    "title": "The Graveyard",
+    "description": "The first area of the Undead temple, home to Kaycee.",
+    "categories": ["Areas", "Undead"]
+  },
+  "catacombs": {
+    "title": "The Catacombs",
+    "description": "The second area of the Undead temple, home to Sawyer.",
+    "categories": ["Areas", "Undead"]
+  },
+  "necropolis": {
+    "title": "The Necropolis",
+    "description": "The third area of the Undead temple, home to Cornelius.",
+    "categories": ["Areas", "Undead"]
+  },
+  "docks": {
+    "title": "The Docks",
+    "description": "The fourth area of the Undead temple, home to Royal.",
+    "categories": ["Areas", "Undead"]
   },
   "crypt": {
     "title": "The Crypt",
     "description": "The final area of the Undead temple, home to Grimora.",
     "categories": ["Areas", "Undead"]
   },
-  "resplandant-bastion": {
+  "checkpoint": {
+    "title": "The Checkpoint",
+    "description": "The first area of the Tech temple, home to the Inspector.",
+    "categories": ["Areas", "Tech"]
+  },
+  "workshop": {
+    "title": "The Workshop",
+    "description": "The second area of the Tech temple, home to the Engineer.",
+    "categories": ["Areas", "Tech"]
+  },
+  "refinery": {
+    "title": "The Refinery",
+    "description": "The third area of the Tech temple, home to the Melter.",
+    "categories": ["Areas", "Tech"]
+  },
+  "trawlworks": {
+    "title": "The Trawlwroks",
+    "description": "The fourth area of the Tech temple, home to the Dredger.",
+    "categories": ["Areas", "Tech"]
+  },
+  "bastion": {
     "title": "Resplendant Bastion",
     "description": "The final area of the Tech temple, home to P03.",
     "categories": ["Areas", "Tech"]
+  },
+  "gallery": {
+    "title": "The Gallery",
+    "description": "The first area of the Magick temple, home to Goobert.",
+    "categories": ["Areas", "Magick"]
+  },
+  "armory": {
+    "title": "The Armory",
+    "description": "The second area of the Magick temple, home to Amber.",
+    "categories": ["Areas", "Magick"]
+  },
+  "library": {
+    "title": "The Library",
+    "description": "The third area of the Magick temple, home to Lonely Wizard.",
+    "categories": ["Areas", "Magick"]
+  },
+  "belfry": {
+    "title": "The Belfry",
+    "description": "The fourth area of the Magick temple, home to Blank Sage.",
+    "categories": ["Areas", "Magick"]
   },
   "study": {
     "title": "The Study",
