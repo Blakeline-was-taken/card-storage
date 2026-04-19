@@ -34,7 +34,7 @@ Bone King,"When this card perishes, gain 4{mark:x}{resource:bone} bones.",,,Pile
 Pile of Bones,"When this card perishes, gain 8{mark:x}{resource:bone} bones.",,,
 Memoriam,"When your other cards perish, gain \n 1 {resource:bone} bone.",T,,Commute
 Commute,"When your other cards perish, gain 2{mark:x}{resource:bone} bones.",T,,
-Loose Bones,"During your end step, this card moves to an adjacent space, giving 1 {resource:bone} bone.",,,
+Loose Bones,"During your end step, this card moves to an adjacent space, giving 1 {resource:bone} bone.",,,Spine Walker
 Bonehorn,"[Pay {resource:energy}] Gain 1 {resource:bone} bone.",T,,
 Bury,"[Once per turn, discard a card from your hand or field] Gain 3{mark:x}{resource:bone} bones.",T,,
 Battery Bearer,"When played, gain an {resource:energy} energy cell.",,,Bank Bearer
@@ -78,7 +78,7 @@ Fragment Shard,"This card can be {mark:shatter}shattered to provide a {resource:
 Fragment Hoard,"This card can be {mark:shatter}shattered to provide 2{mark:x}{resource:shattered_gem} shattered gems of every color.",,,Fragment Mass
 Fragment Mass,"This card can be {mark:shatter}shattered to provide 3{mark:x}{resource:shattered_gem} shattered gems of every color.",,,
 Dust Gatherer,"When you {mark:shatter}shatter a card, it does not perish.",,,Gem Transmuter
-Gem Transmuter,"Your {tribe:Mox}Mox cards can be {mark:sacrifice}sacrificed, and don't perish when {mark:shatter}shattered or {mark:sacrifice}sacrificed.",,,
+Gem Transmuter,"When your {tribe:Mox}Mox cards die, they go back to your hand instead of perishing.",,,
 Lapis Holder,"After this card dies, the next card to enter its space will gain the {sigil:BlueGem} Blue Gem sigil.",,,Azur Lapis
 Azur Lapis,"After this card dies, the next card to enter its space will gain the {sigil:AzuriteGem} Azurite Gem sigil.",,,
 Gem Salvage,"When this card kills another, draw a Side Deck {tribe:Mox}Mox card of your choice.",,,Gem Carnage
@@ -301,7 +301,6 @@ Infestation,"During your end step, this card turns into a common Polyp card.",T,
 Transformer,"During your draw step, this card changes form.",T,,Autobot
 Autobot,"During your end step, this card changes form.",T,,
 Ritual,"[{mark:sacrifice}Sacrifice another card] This card changes form.",T,,
-B34st Tamer,"You may trigger the {sigil:Transformer} Transformer sigils of your cards at will.",T,,
 Ensouled,"When this card is killed by another, a ""TOKEN"" is placed in its space.",T,,Exploding Corpse
 Exploding Corpse,"When this card is killed by another, ""TOKEN"" are placed in all empty spaces on your side.",T,,
 Gestation Tank,"When this card dies, a ""Vat Creature"" is placed in its place. Its form depends on the number of turns this card was on the field.",T,,
