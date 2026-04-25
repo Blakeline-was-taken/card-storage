@@ -292,6 +292,7 @@ Grim Epitaph,"When played, create a card with the stats, cost and sigils of any 
 Fledgling,"During your draw step, this card turns into ""TOKEN"".",T,,Embryon
 Embryon,"During your end step, this card turns into ""TOKEN"".",T,,
 Uncertain,"During your draw step, flip a coin. If heads, this card turns into ""Farm Hen"", if tails, it turns into ""Rooster""".,T,,
+,"During your draw step, this card turns into ""Farm Hen"" or ""Rooster""".,T,,
 Tentacleful,"During your draw step, this card turns into a random Tentacle card.",T,,
 Labile Evolution,"During your draw step, this card turns into its Flesh, Metal or Elixir form depending on the most abundant chemical type you own.",T,,
 Wild Reshape,"During your draw step, this card turns into your deck's top card.",T,,Darwin Theory
