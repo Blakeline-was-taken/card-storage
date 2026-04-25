@@ -228,7 +228,7 @@ One Armed Bandit,Undead,Common,4 bones,X,1,Dice Power,,,Outlaw,They are feeling 
 Prisoner of Time,Undead,Common,4 bones,0,6,"Time Loop, Ticking",,,Skeleton Spectre,Nothing you do shall go unpunished.,Murigen,T,Support,,,,
 Restless Spirit,Undead,Common,4 bones,1,2,"Soul Binder, TRIBAL, Split Strike",,,Grave Spectre,Back to settle a score. Again...,NEWS,T,Reliable,,,,
 Sarcophagus,Undead,Common,4 bones,0,2,Fledgling,Mummy Lord,Bloodless,Ancient Grave,Traps an evil on the verge of escape.,Pixel Profligate,T,Reliable,Mummy Lord,,,
-Shambler,Undead,Common,4 bones,1,2,"Swarm, Linked",,,Zombie,Their numbers grow with their infection.,Pixel Profligate,T,Utility,Zombie Swarm,,,
+Shambler,Undead,Common,4 bones,1,2,"Swarm, Linked",,,Skeleton Zombie,Their numbers grow with their infection.,Pixel Profligate,T,Utility,Zombie Swarm,,,
 The Walkers,Undead,Common,4 bones,1,2,Bone King,,,Zombie,"They lived together, they died together.",Pixel Profligate,T,Resource,,,,
 Vengeful Soul,Undead,Common,4 bones,3,2,"Soul Binder, Linked",,,Spectre,Fleeting and soon to be laid to rest.,NEWS,T,Offense,,,,
 Animator,Undead,Common,5 bones,1,2,Puppet Master,,,Skeleton,The puppet becomes the puppeteer.,Murigen,T,"Support, Removal",Puppeteer,,,
