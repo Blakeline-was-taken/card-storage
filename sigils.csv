@@ -51,7 +51,6 @@ Dust Charge,"When your {tribe:Mox}Mox cards die, gain an {resource:energy} energ
 Skull Charge,"When your other cards cards die, gain an energy cell.",,,
 Fossil Fuel,"[Pay {resource:bone}] Refill an {resource:energy_empty} energy cell.",T,,
 Spare Supply,"When played, your {resource:energy_empty} energy cells are refilled.",T,,No Power Loss
-Soul Stealer,"When you would lose {resource:max_energy} energy cells, this card perishes instead.",,,No Max Reduction
 No Max Reduction,"Your {resource:energy} energy cells cannot be destroyed.",,,No Power Loss
 No Power Loss,"Your {resource:energy_empty} energy cells instantly refill.",,,
 Green Gem,This card provides a {resource:green_gem} Green gem.,,,Malachite Gem
@@ -455,7 +454,7 @@ Turbocharge,"[Pay {resource:energy}{resource:energy}{resource:energy}] Add {sigi
 Convalesce,"During your draw step, this card gains 1 health, up to 5.",T,,Whimsical Healer
 Gemagnify,"During your draw step, this card gains 1 health per {tribe:Mox}Mox card you control, up to 5.",,,Gem Healing
 Gem Healing,"During your draw step, this card gains 1 health per {tribe:Mox}Mox card you control.",,,
-Healer,"During your end step, one of your other cards gains 1 health, up to its base health.",T,,Healthcare
+Healer,"During your end step, one of your other cards gains 1 health, up to one over its base health.",T,,Healthcare
 Healthcare,"During your end step, heal one of your other cards up to its base health.",T,,
 Whimsical Healer,"During your end step, a card of your choice gains 1 health, up to 5.",,,Health Boost
 Health Boost,"During your end step, a card of your choice gains health equal to this card's health, up to 5.",,,
