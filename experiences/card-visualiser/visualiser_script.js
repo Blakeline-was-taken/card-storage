@@ -35,7 +35,8 @@ const excludedNames = new Set([
   "Summon Spear",
   "Summon Bow",
   "Summon Axe",
-  "Summon Armor"
+  "Summon Armor",
+  "Fool's Gold"
 ]);
 fetch("../../cards.csv")
   .then(response => response.text())

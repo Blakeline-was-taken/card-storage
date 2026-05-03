@@ -248,8 +248,8 @@ Shielded,"When damaged, this card only takes half the damage, rounded down.",T,,
 Protected Pylons,"When struck, your Pylon cards take 1 less damage.",T,,
 Repulsive,This card cannot be struck.,T,,Immortal
 Immortal,"This card cannot perish, and cannot go below 1 health.",T,,
-Made of Stone,"This card's power cannot be lowered and it cannot be killed by sigils.",T,,Hard as Stone
-Hard as Stone,"This card's power cannot be lowered and it cannot be damaged or killed by sigils.",T,,
+Made of Stone,"This card cannot be killed by sigils, and its power cannot go lower than its base power.",T,,Hard as Stone
+Hard as Stone,"This card cannot be damaged or killed by sigils, and its power cannot go lower than its base power.",T,,
 Burrower,"Before an empty space is struck, this card moves to it.",T,,Easy Target
 Gem Intercept,"Before your {tribe:Mox}Mox cards get struck, this card swaps its place with them.",,,Intercept
 Intercept,"Before your cards get struck, this card swaps its place with them.",T,,
@@ -564,6 +564,7 @@ Triple Death,"When your cards die, they perish 2 more times.",T,,
 Ambidextrous,"Your draw step triggers an additional time.",T,,
 Time Loop,"Your end step triggers an additional time.",T,,Endless Cycle
 Endless Cycle,"Your end step triggers two additional times.",T,,
+Heart of Gold,"When this card dies, gain foils equal to its remaining health.",T,,
 Pay Tribute,"[{mark:sacrifice}Sacrifice a card] Gain {resource:bone} bones equal to its base health and this card gains 1 power.",T,,
 Imposture,"This card is set aside from your main deck. It will reveal itself in battles.",T,,
 Impatient,"This card attacks during your opponent's attack step, before the opposing cards.",T,,
