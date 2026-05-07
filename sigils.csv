@@ -120,13 +120,13 @@ Infuriating,"If this card is opposed, both cards have 1 more power.",T,,
 Defiant,"If this card is opposed, its power is doubled.",T,,
 Brittle,"After this card attacks, it will perish during your end step.",T,,Unfinished Business
 Unfinished Business,"When this card kills another, it perishes.",T,,
-Clock Out,"During your draw step, this card returns to your hand.",,,On the Clock
-On the Clock,"During your draw step, you may return this card to your hand.",,,
+Clock Out,"During your draw step, this card returns to your hand.",,,Retreat
+Retreat,"[Activate] Return this card to your hand.",,,
 Rotting,"During your end step, this card loses 1 health and power.",T,,Ticking
 Ticking,"During your end step, this card loses 1 health.",T,,Raging Flames
 Raging Flames,"During your end step, this card loses 1 health and gains 1 power.",T,,Whimsical Leader
 Whimsical Leader,"During your end step, a card of your choice gains 1 power, up to 5.",T,,Empower
-Empower,"During your end step, a card of your choice gains 1 power.",T,,
+Empower,"[Once per turn] A card of your choice gains 1 power, up to 5.",T,,
 Ravenous,"During your end step, this card loses 1 health unless you {mark:sacrifice}sacrifice a card.",,,
 Addict,"During your end step, this card loses 1 health unless you spend 3{mark:x}{resource:energy} energy.",,,
 Dust Eater,"During your end step, this card loses 1 health unless you {mark:shatter}shatter a card.",,,
@@ -247,7 +247,7 @@ Ironclad,"When struck, this card takes 1 less damage.",T,,Shielded
 Shielded,"When damaged, this card only takes half the damage, rounded down.",T,,
 Protected Pylons,"When struck, your Pylon cards take 1 less damage.",T,,
 Repulsive,This card cannot be struck.,T,,Immortal
-Immortal,"This card cannot perish, and cannot go below 1 health.",T,,
+Immortal,"This card cannot be killed by other cards or sigils.",T,,
 Made of Stone,"This card cannot be killed by sigils, and its power cannot go lower than its base power.",T,,Hard as Stone
 Hard as Stone,"This card cannot be damaged or killed by sigils, and its power cannot go lower than its base power.",T,,
 Burrower,"Before an empty space is struck, this card moves to it.",T,,Easy Target
@@ -290,8 +290,8 @@ Mother's Love,"When played, draw 2 ""Chicks"".",T,,
 Grim Epitaph,"When played, create a card with the stats, cost and sigils of any 3 cards from your discard.",T,,
 Fledgling,"During your draw step, this card turns into ""TOKEN"".",T,,Embryon
 Embryon,"During your end step, this card turns into ""TOKEN"".",T,,
-Uncertain,"During your draw step, flip a coin. If heads, this card turns into ""Farm Hen"", if tails, it turns into ""Rooster""".,T,,
-,"During your draw step, this card turns into ""Farm Hen"" or ""Rooster""".,T,,
+Uncertain,"During your draw step, flip a coin. If heads, this card turns into ""Farm Hen"", if tails, it turns into ""Rooster""".,T,,Evolution
+Evolution,"During your draw step, this card turns into ""Farm Hen"" or ""Rooster""".,T,,
 Tentacleful,"During your draw step, this card turns into a random Tentacle card.",T,,
 Labile Evolution,"During your draw step, this card turns into its Flesh, Metal or Elixir form depending on the most abundant chemical type you own.",T,,
 Wild Reshape,"During your draw step, this card turns into your deck's top card.",T,,Darwin Theory
@@ -455,9 +455,9 @@ Convalesce,"During your draw step, this card gains 1 health, up to 5.",T,,Whimsi
 Gemagnify,"During your draw step, this card gains 1 health per {tribe:Mox}Mox card you control, up to 5.",,,Gem Healing
 Gem Healing,"During your draw step, this card gains 1 health per {tribe:Mox}Mox card you control.",,,
 Healer,"During your end step, one of your other cards gains 1 health, up to one over its base health.",T,,Healthcare
-Healthcare,"During your end step, heal one of your other cards up to its base health.",T,,
+Healthcare,"During your end step, set the health of one of your other cards to its base health, plus one.",T,,
 Whimsical Healer,"During your end step, a card of your choice gains 1 health, up to 5.",,,Health Boost
-Health Boost,"During your end step, a card of your choice gains health equal to this card's health, up to 5.",,,
+Health Boost,"[Once per turn] A card of your choice gains 1 health, up to 5.",,,
 Bloodsucker,"When this card damages another, it gains 1 health, up to 5.",T,,Bloodguzzler
 Bloodguzzler,"When this card damages another, it gains health equal to the damage taken, up to 5.",T,,
 Heart of Dust,"When your {tribe:Mox}Mox cards die, this card gains 1 health, up to 5.",,,Dust Fueled
