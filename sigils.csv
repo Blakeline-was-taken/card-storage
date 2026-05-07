@@ -156,7 +156,7 @@ Carry Up,"[Once per turn, pay {resource:bone}] A card of your choice gains {sigi
 Holo-Wings,"[Once per turn, pay {resource:energy}{resource:energy}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
 Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
 Strong Venom,"When this card damages another, that card is discarded.",T,,
-Midas Touch,"When played, the opposing card is replaced by a ""Gold Nugget"".",T,,
+Midas Touch,"When played, the opposing card is replaced by a Gold Nugget.",T,,
 Snapshot,"When played, the opposing card is removed from the field and added to your hand.",T,,
 Bifurcated Strike,"When attacking, this card strikes both spaces adjacent to the opposing space.",T,,Trifurcated Strike
 Trifurcated Strike,"When attacking, this card strikes the opposing space and the spaces adjacent to it.",T,,Wiping Strike
@@ -255,14 +255,14 @@ Gem Intercept,"Before your {tribe:Mox}Mox cards get struck, this card swaps its 
 Intercept,"Before your cards get struck, this card swaps its place with them.",T,,
 Easy Target,All opposing cards target this card when they attack.,T,,Redirect
 Redirect,"When an opposing card strikes, you may choose which of your spaces it will target.",T,,
-Loose Tail,"Before being struck for the first time, this card moves to an adjacent space and leaves ""TOKEN"" behind.",T,,Loose Limb
+Loose Tail,"Before being struck for the first time, this card moves to an adjacent space and leaves a limb behind.",T,,Loose Limb
 Evasion,"Before being struck, this card moves to an adjacent space.",T,,Loose Limb
-Loose Limb,"Before being struck, this card moves to an adjacent space and leaves ""TOKEN"" behind.",T,,
+Loose Limb,"Before being struck, this card moves to an adjacent space and leaves a limb behind.",T,,
 Lingering,"When this card dies, unless your deck is empty, this card is shuffled inside it instead of being discarded.",T,,Unkillable
 Unkillable,"When this card dies, it returns to your hand instead of being discarded.",T,,Immortal
 Rebirth,"When this card dies, it takes its next form and returns to your hand instead of being discarded.",T,,
-Brood Parasite,"When played, a ""Broken Egg"" is placed in the opposing space.",T,,Brooding
-Brooding,"When played, a ""Broken Egg"" is placed in the opposing space or you draw a ""Raven Egg"".",T,,
+Brood Parasite,"When played, a Broken Egg is placed in the opposing space.",T,,Brooding
+Brooding,"When played, a Broken Egg is placed in the opposing space or you draw a Raven Egg.",T,,
 Sprinter,"During your end step, this card moves to an adjacent empty space.",T,,Hefty
 Clinger,"When you place a card, this card goes to the closest space between them.",T,,Switch In
 Switch In,"When you place a card, this card swaps positions with it.",T,,
@@ -285,13 +285,13 @@ Telekinesis,"[Pay 1 chemical] Move one of your cards to an empty space.",,,
 Constriction,"[Pay {resource:bone}{resource:bone}{resource:bone}] Move an opposing card in front of this card.",T,,
 Rooted,This card cannot be moved or removed from its space until it perishes.,T,,Unphased
 Unphased,This card cannot be moved or removed from its space until it perishes. It is unaffected by opposing sigils.,T,,
-Mother's Heart,"When played, draw a ""Chick"".",T,,Mother's Love
-Mother's Love,"When played, draw 2 ""Chicks"".",T,,
+Mother's Heart,"When played, draw a Chick.",T,,Mother's Love
+Mother's Love,"When played, draw 2 Chicks.",T,,
 Grim Epitaph,"When played, create a card with the stats, cost and sigils of any 3 cards from your discard.",T,,
 Fledgling,"During your draw step, this card turns into a more powerful form.",T,,Embryon
 Embryon,"During your end step, this card turns into a more powerful form.",T,,
-Uncertain,"During your draw step, flip a coin. If heads, this card turns into ""Farm Hen"", if tails, it turns into ""Rooster""".,T,,Evolution
-Evolution,"During your draw step, this card turns into ""Farm Hen"" or ""Rooster""".,T,,
+Uncertain,"During your draw step, flip a coin. Depending on the result, this card turns into a different form.",T,,Evolution
+Evolution,"During your draw step, this card turns into one of its two evolved forms.",T,,
 Tentacleful,"During your draw step, this card turns into a random Tentacle card.",T,,
 Labile Evolution,"During your draw step, this card turns into its Flesh, Metal or Elixir form depending on the most abundant chemical type you own.",T,,
 Wild Reshape,"During your draw step, this card turns into your deck's top card.",T,,Darwin Theory
@@ -326,23 +326,23 @@ Regurgitate,"When played, a card from your side deck is placed in adjacent space
 Vomiting,"When played, a card from your side deck is placed in all your empty spaces.",T,,
 Swarm,"When played, 2 copies of this card are placed in adjacent spaces. Copies lose this sigil.",T,,Invasion
 Invasion,"When played, copies of this card are placed in all your empty spaces. Copies lose this sigil.",T,,
-Bomb Spewer,"When played, an ""Explode Bot"" is placed into every single empty space. This card ignores {sigil:Detonator} Detonator.",T,,
-Squirrel Shedder,"During your end step, this card moves to an adjacent space and leaves a ""Squirrel"" behind.",T,,Squirrel Trail
-Squirrel Trail,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Squirrel"" behind.",T,,
-Production Line,"During your end step, this card moves to an adjacent space and leaves a ""Homunculus"" behind.",T,,Factory Line
-Factory Line,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Homunculus"" behind.",T,,
-Noxious Trail,"During your end step, this card moves to an adjacent space and leaves ""Toxic Fumes"" behind if you pay its cost.",T,,Noxious Dropper
-Noxious Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves ""Toxic Fumes"" behind if you pay its cost.",,,
-Paper Trail,"During your end step, this card moves to an adjacent space and leaves a ""Paper Pile"" behind.",T,,Paper Dropper
-Paper Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Paper Pile"" behind.",,,
-Caustic Trail,"During your end step, this card moves to an adjacent space and leaves ""Toxic Sludge"" behind if you pay its cost.",T,,Caustic Dropper
-Caustic Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves ""Toxic Sludge"" behind if you pay its cost.",,,
-Skeleton Crew,"During your end step, this card moves to an adjacent space and leaves a ""Skeleton"" behind.",T,,Skeleton Legion
-Skeleton Legion,"During your end step, this card moves to an adjacent space, pushing other cards in its way, then leaves a ""Skeleton"" behind.",T,,
+Bomb Spewer,"When played, an Explode Bot is placed into every single empty space. This card ignores {sigil:Detonator} Detonator.",T,,
+Squirrel Shedder,"During your end step, this card moves to an adjacent space and leaves a Squirrel behind.",T,,Squirrel Trail
+Squirrel Trail,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a Squirrel behind.",T,,
+Production Line,"During your end step, this card moves to an adjacent space and leaves a Homunculus behind.",T,,Factory Line
+Factory Line,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a Homunculus behind.",T,,
+Noxious Trail,"During your end step, this card moves to an adjacent space and leaves Toxic Fumes behind if you pay its cost.",T,,Noxious Dropper
+Noxious Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves Toxic Fumes behind if you pay its cost.",,,
+Paper Trail,"During your end step, this card moves to an adjacent space and leaves a Paper Pile behind.",T,,Paper Dropper
+Paper Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a Paper Pile behind.",,,
+Caustic Trail,"During your end step, this card moves to an adjacent space and leaves Toxic Sludge behind if you pay its cost.",T,,Caustic Dropper
+Caustic Dropper,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves Toxic Sludge behind if you pay its cost.",,,
+Skeleton Crew,"During your end step, this card moves to an adjacent space and leaves a Skeleton behind.",T,,Skeleton Legion
+Skeleton Legion,"During your end step, this card moves to an adjacent space, pushing other cards in its way, then leaves a Skeleton behind.",T,,
 Spirit Spread,"During your end step, this card moves to an adjacent space and leaves a random Spectre behind.",,,Spirit Weaver
 Spirit Weaver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, then leaves a random Spectre behind.",,,
-Pylon Carver,"During your end step, this card moves to an adjacent space and leaves a ""Pylon"" behind.",T,,Pylon Weaver
-Pylon Weaver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Pylon"" behind.",T,,
+Pylon Carver,"During your end step, this card moves to an adjacent space and leaves a Pylon behind.",T,,Pylon Weaver
+Pylon Weaver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a Pylon behind.",T,,
 Leep Legion,"During your end step, this card moves to an adjacent space and leaves a random {tribe:Leep}Leep card behind.",T,,Leep Friend
 Leep Friend,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a random {tribe:Leep}Leep card behind.",T,,
 Mox Dropper,"During your end step, this card moves to an adjacent space and leaves a random Side deck {tribe:Mox}Mox card behind.",,,Mox Shedder
@@ -350,9 +350,9 @@ Mox Shedder,"During your end step, this card moves to an adjacent space, pushing
 Frog Friend,"During your end step, this card moves to an adjacent space and leaves a random Frog card behind.",T,,Frog Crew
 Frog Crew,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a random Frog card behind.",T,,
 Unholy Conception,"During your end step, this card moves to an adjacent space and leaves a random Nest card behind.",T,,
-Wire Weaver,"During your end step, this card moves to an adjacent space and leaves a ""Null Conduit"" behind.",T,,Wire Carver
-Wire Carver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a ""Null Conduit"" behind.",T,,
-Spine Walker,"During your end step, this card moves to an adjacent space and leaves a ""Vertebrae"" behind.",T,,
+Wire Weaver,"During your end step, this card moves to an adjacent space and leaves a Null Conduit behind.",T,,Wire Carver
+Wire Carver,"During your end step, this card moves to an adjacent space, pushing other cards in its way, and leaves a Null Conduit behind.",T,,
+Spine Walker,"During your end step, this card moves to an adjacent space and leaves a Vertebrae behind.",T,,
 Transmogutate,"[Once per turn, {mark:sacrifice}sacrifice a card] Place a Side Deck {tribe:Mox}Mox card of your choice in its place.",,,
 Gift Bearer,"When this card dies, draw a card from your deck.",T,,Generous Gift
 Generous Gift,"When this card dies, draw two cards from your deck.",T,,Loaded
@@ -377,12 +377,12 @@ Predator,"Draw a card from your side deck for each damage this card deals.",T,,
 Firey Rummage,"[Discard a card from your hand] Draw a card from your deck.",T,,
 True Scholar,"[Once per turn, {mark:shatter}shatter a card] Draw 2 cards from your deck.",T,,
 Artistic Dance,"[Pay {resource:bone}{resource:bone}{resource:bone}] Draw a card from your deck or side deck.",T,,
-Bees Within,"When damaged, draw a ""Bee"".",T,,Full of Bees
-Full of Bees,"Draw a ""Bee"" for each damage this card takes.",T,,
-Termites Within,"When damaged, draw a ""Termite"".",T,,Full of Termites
-Full of Termites,"Draw a ""Termite"" for each damage this card takes.",T,,
-Skull Summoner,"When damaged, draw a ""Skeleton"".",T,,Skull Maker
-Skull Maker,"Draw a ""Skeleton"" for each damage this card takes.",T,,
+Bees Within,"When damaged, draw a Bee.",T,,Full of Bees
+Full of Bees,"Draw a Bee for each damage this card takes.",T,,
+Termites Within,"When damaged, draw a Termite.",T,,Full of Termites
+Full of Termites,"Draw a Termite for each damage this card takes.",T,,
+Skull Summoner,"When damaged, draw a Skeleton.",T,,Skull Maker
+Skull Maker,"Draw a Skeleton for each damage this card takes.",T,,
 Ants Within,"When damaged, draw a random {tribe:Ant}Ant card.",T,,Full of Ants
 Full of Ants,"Draw a random {tribe:Ant}Ant card for each damage this card takes.",T,,
 Geode,"When damaged, draw a random side deck {tribe:Mox}Mox card.",T,,Mineral
@@ -391,18 +391,18 @@ Vessel Printer,"When damaged, draw a card from your side deck.",T,,Vessel Factor
 Vessel Factory,"Draw a card from your side deck for each damage this card takes.",T,,
 Rabbit Hole,"When played, draw a rabbit.",T,,Rabbit Chasm
 Rabbit Chasm,"When played, draw two rabbits.",T,,
-Ash Tray,"When played, draw ""The Smoke"".",T,,
+Ash Tray,"When played, draw The Smoke.",T,,
 Ant Spawner,"When played, draw a common {tribe:Ant}Ant card of your choice.",T,,Ant Swarm
 Ant Swarm,"When played, draw two random {tribe:Ant}Ant cards of your choice.",T,,
 Fecundity,"When played, draw a copy of this card. The copy loses this sigil.",T,,Cloning
 Cloning,"When played, draw two copies of this card. Copies lose this sigil.",T,,
 Imitation Art,"When played, draw a copy of another card you control.",T,,
-Psychic Link,"When played, draw a ""Squidling"".",T,,
+Psychic Link,"When played, draw a Squidling.",T,,
 Hoarder,"When played, search a common card from your deck.",T,,Collector
 Collector,"When played, search a card from your deck.",T,,
 Re-Index,"When played, search a card from your deck, discard or side deck.",T,,
 Disentomb,"[Pay {resource:bone}{resource:bone}] Search a {mark:brittle} Brittle card from any of your decks.",T,,
-Cybernetics,"[Pay 4{mark:x}{resource:energy}] Place a ""Cyborg"" or a ""Flyborg"" on your field.",T,,
+Cybernetics,"[Pay 4{mark:x}{resource:energy}] Place a Cyborg or a Flyborg on your field.",T,,
 Reanimate,"[Once per turn] Pay for and play a common card from your discard.",T,,
 Colony,This card's power is the number of {tribe:Ant}Ant cards you control.,T,T,
 Pylon Powered,This card's power is the number of Pylon cards you control.,T,T,

@@ -342,7 +342,7 @@ Unlucky Corpse,Undead,Talking,4 bones,2,1,Unearthed Pack,,,Zombie,"""Wow, great 
 Gnawed Remains,Undead,Talking,6 bones,0,6,"Easy Target, Dog Treat",,,Skeleton,"""P-Please don't play me...""",Murigen,,"Resource, Defense",,,,
 Scurvy Cap'n,Undead,Talking,7 bones,4,2,"Crew Captain, Sea Shanty",Crewmate,,Skeleton Pirate,"""I git t'live out me dream as a card!""",Murigen,,"Support, Offense",,,,
 Burnt Body,Undead,Talking,1 blood,2,5,"Raging Flames, Burning",,,Zombie Worker,"""Oh cool, it's me. Great.""",Pixel Profligate,,Reliable,,,,
-Smoky Gentleman,Undead,Talking,4 max,1,4,"Poisonous, Ash Tray",,,Noble Skeleton,"""This - cough - is quite the predicament.""",NEWS,,"Defense, Utility",,,,
+Smoky Gentleman,Undead,Talking,4 max,1,4,"Poisonous, Ash Tray",,,Noble Skeleton,"""This -cough- is quite the predicament.""",NEWS,,"Defense, Utility",,,,
 Hologem,Tech,Side Deck,free,0,1,Transformer,"Hologem_t, Hologem_t_t",Bloodless,Mox Worker,A loyal servant of light.,Mark,,Mox,,,,Green
 Hologem_t,Tech,Side Deck,free,0,1,Transformer,"Hologem, Hologem_t_t",Bloodless,Mox Worker,A loyal servant of light.,Mark,,Mox,,,,Orange
 Hologem_t_t,Tech,Side Deck,free,0,1,Transformer,"Hologem, Hologem_t",Bloodless,Mox Worker,A loyal servant of light.,Mark,,Mox,,,,Blue
