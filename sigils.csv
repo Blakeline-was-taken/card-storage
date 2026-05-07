@@ -150,8 +150,8 @@ Failsafe,"When this card dies, it returns to your hand and loses this sigil inst
 Backup Files,"When this card dies, it creates two copies of itself in your hand without this sigil.",T,,
 Target Required,"This card cannot strike empty spaces.",T,,Target Spotted
 Target Spotted,"This card can only strike empty spaces if their back lane has a card.",T,,
-Airborne,This card's strikes only hit the space they target directly.,T,,Aerobatics
-Aerobatics,"When this card strikes another, you may target its space directly instead.",T,,
+Airborne,This card's strikes only hit the space they target directly.,T,,Levitate
+Levitate,"[Once per turn] This card's strikes hit the space they target directly.",T,,
 Carry Up,"[Once per turn, pay {resource:bone}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
 Holo-Wings,"[Once per turn, pay {resource:energy}{resource:energy}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
 Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
@@ -229,7 +229,7 @@ Scalebound,"When you are struck directly, you only take 1 damage to the scales w
 Merciful Light,"During every turn of your opponent, you may negate a single instance of damage, not targeting this card.",T,,
 High Up,"Damage dealt directly to this card's space is dealt to this card instead, and vice versa.",T,,
 Waterborne,Strikes targeting this card hit its space directly instead.,T,,Deep Dive
-Deep Dive,"[Once per turn] Make strikes targeting this card only target its space directly this turn.",T,,
+Deep Dive,"[Once per turn] Strikes targeting this card hit its space directly instead.",T,,
 Incorporeal,"Strikes targeting this card hit its space directly instead, and the damage they deal is halved, rounded down.",
 Lurking,"Cards striking this card hit its space directly instead, and are then struck by this card.",T,,
 Armored,"This card gains an {mark:armor} Armor mark.",T,,Protector
