@@ -288,8 +288,8 @@ Unphased,This card cannot be moved or removed from its space until it perishes. 
 Mother's Heart,"When played, draw a ""Chick"".",T,,Mother's Love
 Mother's Love,"When played, draw 2 ""Chicks"".",T,,
 Grim Epitaph,"When played, create a card with the stats, cost and sigils of any 3 cards from your discard.",T,,
-Fledgling,"During your draw step, this card turns into ""TOKEN"".",T,,Embryon
-Embryon,"During your end step, this card turns into ""TOKEN"".",T,,
+Fledgling,"During your draw step, this card turns into a more powerful form.",T,,Embryon
+Embryon,"During your end step, this card turns into a more powerful form.",T,,
 Uncertain,"During your draw step, flip a coin. If heads, this card turns into ""Farm Hen"", if tails, it turns into ""Rooster""".,T,,Evolution
 Evolution,"During your draw step, this card turns into ""Farm Hen"" or ""Rooster""".,T,,
 Tentacleful,"During your draw step, this card turns into a random Tentacle card.",T,,
@@ -301,9 +301,9 @@ Infestation,"During your end step, this card turns into a common Polyp card.",T,
 Transformer,"During your draw step, this card changes form.",T,,Autobot
 Autobot,"During your end step, this card changes form.",T,,
 Ritual,"[{mark:sacrifice}Sacrifice another card] This card changes form.",T,,
-Ensouled,"When this card is killed by another, a ""TOKEN"" is placed in its space.",T,,Exploding Corpse
-Exploding Corpse,"When this card is killed by another, ""TOKEN"" are placed in all empty spaces on your side.",T,,
-Gestation Tank,"When this card dies, a ""Vat Creature"" is placed in its place. Its form depends on the number of turns this card was on the field.",T,,
+Ensouled,"When this card is killed by another, its host is freed in its space.",T,,Exploding Corpse
+Exploding Corpse,"When this card is killed by another, its guts are placed in all empty spaces on your side.",T,,
+Gestation Tank,"When this card dies, its host is freed in its place. Its form depends on the number of turns this card was on the field.",T,,
 Imprison,"When played, choose another card you control and discard it. When this card dies, place it in its space.",T,,Resurrect
 Resurrect,"When this card dies, search a card from your discard and place it in this space.",T,,
 Corpse Eater,"When a card you control perishes, if this card is in your hand, it is placed it in its space.",T,,Parasite
@@ -311,8 +311,17 @@ Parasite,"When a card you control perishes, if this card is in your hand, you ma
 Apparition,"You may play this card for free from your deck or hand by saying its name 3 consecutive times. You then take up to 8 non-lethal direct damage.",T,,
 Legion,"When played, search a common card from your discard and place it on your side for free.",T,,Army
 Army,"When played, search a card from your discard and place it on your side.",T,,
-Summon,"When played, up to 2 ""TOKEN"" cards are placed in adjacent spaces.",T,,Invoke
-Invoke,"When played, ""TOKEN"" cards are placed in all your empty spaces.",T,,
+Dam Builder,"When played, this card creates up to 2 dams in adjacent spaces.",T,,Dam Invoker
+Dam Invoker,"When played, this card creates dams in all your empty spaces.",T,,
+Silk Maker,"When played, this card creates up to 2 webs in adjacent spaces.",T,,Silk Invoker
+Silk Invoker,"When played, this card creates webs in all your empty spaces.",T,,
+Bellist,"When played, it creates up to 2 chimes in adjacent spaces.",T,,Bell Invoker
+Bell Invoker,"When played, this card creates chimes in all your empty spaces.",T,,
+Dead Riser,"When played, this card creates up to 2 zombies in adjacent spaces.",T,,Dead Invoker
+Dead Invoker,"When played, this card creates zombies in all your empty spaces.",T,,
+Spike Setter,"When played, this card creates up to 2 wooden spikes in adjacent spaces.",T,,Spike Invoker
+Spike Invoker,"When played, this card creates wooden spikes in all your empty spaces.",T,,
+Crew Captain,"When played, this card creates up to 2 crewmates in adjacent spaces.",T,,
 Regurgitate,"When played, a card from your side deck is placed in adjacent spaces.",T,,Vomiting
 Vomiting,"When played, a card from your side deck is placed in all your empty spaces.",T,,
 Swarm,"When played, 2 copies of this card are placed in adjacent spaces. Copies lose this sigil.",T,,Invasion
