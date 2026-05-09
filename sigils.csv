@@ -67,7 +67,6 @@ Moxum Opus,"This card provides 3{mark:x}{resource:prism_gem} gems of every color
 Palette Swap,"When played, you may change the color of one of your {resource:gem} gems.",,,Gem Swap
 Gem Swap,"When played, you may change the colors of all your {resource:gem} gems.",,,
 Masochism,"[Reduce health by 2] Change one of your {resource:gem} gems to a {resource:prism_gem} prism gem.",,,
-Gemorphosis,"Your other cards have the {tribe:Mox}Mox tribe.",,,
 Dragon's Hoard,"Sigils that provide {resource:gem} gems are active even if the card is still in your hand.",,,
 Hemomancy,"When playing cards, you may pay 1 {resource:blood} blood instead of 1 {resource:prism_gem} gem.",,,
 Gemification,"When played, this card gemifies a card of your choice from your hand.",T,,Modularity
@@ -156,6 +155,7 @@ Carry Up,"[Once per turn, pay {resource:bone}] A card of your choice gains {sigi
 Holo-Wings,"[Once per turn, pay {resource:energy}{resource:energy}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
 Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
 Strong Venom,"When this card damages another, that card is discarded.",T,,
+Gems of Death,"When your {tribe:Mox}Mox cards damage another, that card perishes.",T,,
 Midas Touch,"When played, the opposing card is replaced by a Gold Nugget.",T,,
 Snapshot,"When played, the opposing card is removed from the field and added to your hand.",T,,
 Bifurcated Strike,"When attacking, this card strikes both spaces adjacent to the opposing space.",T,,Trifurcated Strike
