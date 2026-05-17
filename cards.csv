@@ -202,7 +202,7 @@ Lit Fuse,Undead,Common,2 bones,0,1,"Detonator, Ticking",,Bloodless,Zombie,The th
 Memorial,Undead,Common,2 bones,0,3,"Skull Summoner, Made of Stone",Skeleton,Bloodless,Grave,Mourning the recently departed.,"Blakeline, Drago",T,Utility,,,,
 Mummy Mashimoi,Undead,Common,2 bones,1,1,"Armored, Guardian",,Boneless,Ancient Knight Zombie,Loyally protecting their pharaoh's tomb.,NEWS,T,Defense,Curse Bearer,,,
 Phantas-EM,Undead,Common,2 bones,0,1,"Battery Bearer, Haunter",,,Spectre Worker,"Such lively energy, despite not living.",Nobody,T,Resource,,,,
-Undead Warrior,Undead,Common,2 bones,X,1,"Spilt Blood, Brittle",,,Skeleton,Yearning to quench their bloodthirst.,"Nobody, Bonedoobler",T,Offense,Underworld Centurion,,,
+Crooked Miser,Undead,Common,2 bones,1,1,"Looter, Brittle",,,Pirate Skeleton,Gold won't fill the void inside.,NEWS,T,Insight,,,,
 Zombie,Undead,Common,2 bones,1,1,,,,Zombie,"Naught but a corpse, left to rot.",Pixel Profligate,T,Reliable,Shambler,,,
 Deadmagogue,Undead,Common,3 bones,1,1,Grim Call,,,Zombie,"No rest, for the dead and the living.",NEWS,T,Insight,,,,
 Demon Orb,Undead,Common,3 bones,1,1,"Purist, Split Strike",,,Ancient Demon,Even great spirits can be called.,NEWS,T,Utility,,,,
