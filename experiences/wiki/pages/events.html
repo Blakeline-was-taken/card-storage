@@ -172,269 +172,261 @@
             <li><strong>2 matches</strong>: <span class="green">Successful capture</span>. +1 sigil and +1 power.</li>
             <li><strong>3 matches</strong>: <span class="green">Successful capture</span>. +2 sigils.</li>
           </ul>
-          <div class="dropdown collapsed">
-            <div class="dropdown-header" onclick="toggleDropdown(this)">
-              <strong>Characteristics are listed here.</strong>
-              <span class="dropdown-arrow">▼</span>
-            </div>
-            <div class="dropdown-content">
-              <p>There may never be 2 characteristics of the same type.</p>
-              <table class="wiki-table collapsible">
-                <thead onclick="toggleTable(this)">
-                  <tr><th>Type</th><th>Charact.</th><th>Possible Clues<span class="collapse-arrow">▼</span></th></tr>
-                </thead>
-                <tbody>
-                  <!-- COSTS -->
-                  <tr>
-                    <td rowspan="5" style="background: #1d1515"><strong>Cost</strong></td>
-                    <td>3+ Blood</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">The lake water is a swirly crimson red.</li>
-                        <li class="spoiler" style="margin-right: 5px;">Red stains mark the shoreline.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>7+ Bones</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Remnants of a hunt litter the shoreline.</li>
-                        <li class="spoiler" style="margin-right: 5px;">You walk atop scattered bones.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>8+ Energy</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Static fills the air.</li>
-                        <li class="spoiler" style="margin-right: 5px;">A thunderstorm looms overhead.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>2+ Gems</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Light reflects strangely off the lake.</li>
-                        <li class="spoiler" style="margin-right: 5px;">Mist settles thickly around the water.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Free</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">The area feels calming.</li>
-                        <li class="spoiler" style="margin-right: 5px;">It looks like nothing is here.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <!-- STATS -->
-                  <tr style="border-top: 5px solid #3d2f2f;">
-                    <td rowspan="4" style="background: #1d1515"><strong>Stats</strong></td>
-                    <td>0 Power</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">The water is perfectly still.</li>
-                        <li class="spoiler" style="margin-right: 5px;">The lake appears dormant.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>3+ Power</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Aggressive waves crash against the shore.</li>
-                        <li class="spoiler" style="margin-right: 5px;">The lake churns unnaturally.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>1-2 Health</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">The waters are shallow.</li>
-                        <li class="spoiler" style="margin-right: 5px;">The water has receded far from the shore.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>5+ Health</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">The lake overflows its banks.</li>
-                        <li class="spoiler" style="margin-right: 5px;">The water is dark, deep, and foreboding.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <!-- TRIBES -->
-                  <tr style="border-top: 5px solid #3d2f2f;">
-                    <td rowspan="8" style="background: #1d1515"><strong>Tribe</strong></td>
-                    <td>Reptile</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Shed scales cling to nearby rocks.</li>
-                        <li class="spoiler" style="margin-right: 5px;">Slit pupils watch from the reeds.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Hooved</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Hoofprints lead into the water.</li>
-                        <li class="spoiler" style="margin-right: 5px;">Broken antlers float on the surface.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Insect</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Small critters swarm across the surface.</li>
-                        <li class="spoiler" style="margin-right: 5px;">Clusters of larvae cling to the edges.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Vermin</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Acorns bob gently in the water.</li>
-                        <li class="spoiler" style="margin-right: 5px;">Rough dams interrupt the lake's flow.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Avian</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Feathers drift lazily across the water.</li>
-                        <li class="spoiler" style="margin-right: 5px;">You sense movement in the tree canopy.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Canine</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Pawprints press deep into the mud.</li>
-                        <li class="spoiler" style="margin-right: 5px;">Shed fur floats atop the water.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Fish</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Fishbones drift near the shore.</li>
-                        <li class="spoiler" style="margin-right: 5px;">Large clawprints scar the banks.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Amphibian</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Croaks and clicks echo from the reeds.</li>
-                        <li class="spoiler" style="margin-right: 5px;">Slimy trails mark nearby stones.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <!-- SIGILS -->
-                  <tr style="border-top: 5px solid #3d2f2f;">
-                    <td rowspan="8" style="background: #1d1515"><strong>Sigils</strong></td>
-                    <td>0 Sigils</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">The area feels mundane.</li>
-                        <li class="spoiler" style="margin-right: 5px;">Nothing unusual stands out.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>2+ Sigils</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Carvings and symbols are etched into the rocks.</li>
-                        <li class="spoiler" style="margin-right: 5px;">You feel observed by higher forces.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Sprinter</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Something darts across the water… and is eaten.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Airborne</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Something flies overhead… and is eaten.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Waterborne</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Bubbles rise in several places.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Fledgling</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Small shadows swirl beneath the water, then an egg shell surfaces.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Stinky</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">The lake emits a powerful stench.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Mighty Leap</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">Something erupts from the water, several times, then stops abruptly.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <!-- OTHER -->
-                  <tr style="border-top: 5px solid #3d2f2f;">
-                    <td rowspan="2" style="background: #1d1515"><strong>Other</strong></td>
-                    <td>Uncommon+</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">The lake feels otherworldly.</li>
-                        <li class="spoiler" style="margin-right: 5px;">You don't recognize any of the animal remains.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Modifications</td>
-                    <td style="padding: 0;">
-                      <ul style="margin-left: -5px;">
-                        <li class="spoiler" style="margin-right: 5px;">The lake emits a faint, unnatural glow.</li>
-                        <li class="spoiler" style="margin-right: 5px;">A waterfall crashes down into the lake.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+          <p>Characteristics are listed below. There may never be 2 characteristics of the same type.</p>
+          <table class="wiki-table collapsible collapsed">
+            <thead onclick="toggleTable(this)">
+              <tr><th>Type</th><th>Charact.</th><th>Possible Clues<span class="collapse-arrow">▼</span></th></tr>
+            </thead>
+            <tbody>
+              <!-- COSTS -->
+              <tr>
+                <td rowspan="5" style="background: #1d1515"><strong>Cost</strong></td>
+                <td>3+ Blood</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">The lake water is a swirly crimson red.</li>
+                    <li class="spoiler" style="margin-right: 5px;">Red stains mark the shoreline.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>7+ Bones</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Remnants of a hunt litter the shoreline.</li>
+                    <li class="spoiler" style="margin-right: 5px;">You walk atop scattered bones.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>8+ Energy</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Static fills the air.</li>
+                    <li class="spoiler" style="margin-right: 5px;">A thunderstorm looms overhead.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>2+ Gems</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Light reflects strangely off the lake.</li>
+                    <li class="spoiler" style="margin-right: 5px;">Mist settles thickly around the water.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Free</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">The area feels calming.</li>
+                    <li class="spoiler" style="margin-right: 5px;">It looks like nothing is here.</li>
+                  </ul>
+                </td>
+              </tr>
+              <!-- STATS -->
+              <tr style="border-top: 5px solid #3d2f2f;">
+                <td rowspan="4" style="background: #1d1515"><strong>Stats</strong></td>
+                <td>0 Power</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">The water is perfectly still.</li>
+                    <li class="spoiler" style="margin-right: 5px;">The lake appears dormant.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>3+ Power</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Aggressive waves crash against the shore.</li>
+                    <li class="spoiler" style="margin-right: 5px;">The lake churns unnaturally.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>1-2 Health</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">The waters are shallow.</li>
+                    <li class="spoiler" style="margin-right: 5px;">The water has receded far from the shore.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>5+ Health</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">The lake overflows its banks.</li>
+                    <li class="spoiler" style="margin-right: 5px;">The water is dark, deep, and foreboding.</li>
+                  </ul>
+                </td>
+              </tr>
+              <!-- TRIBES -->
+              <tr style="border-top: 5px solid #3d2f2f;">
+                <td rowspan="8" style="background: #1d1515"><strong>Tribe</strong></td>
+                <td>Reptile</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Shed scales cling to nearby rocks.</li>
+                    <li class="spoiler" style="margin-right: 5px;">Slit pupils watch from the reeds.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Hooved</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Hoofprints lead into the water.</li>
+                    <li class="spoiler" style="margin-right: 5px;">Broken antlers float on the surface.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Insect</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Small critters swarm across the surface.</li>
+                    <li class="spoiler" style="margin-right: 5px;">Clusters of larvae cling to the edges.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Vermin</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Acorns bob gently in the water.</li>
+                    <li class="spoiler" style="margin-right: 5px;">Rough dams interrupt the lake's flow.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Avian</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Feathers drift lazily across the water.</li>
+                    <li class="spoiler" style="margin-right: 5px;">You sense movement in the tree canopy.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Canine</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Pawprints press deep into the mud.</li>
+                    <li class="spoiler" style="margin-right: 5px;">Shed fur floats atop the water.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Fish</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Fishbones drift near the shore.</li>
+                    <li class="spoiler" style="margin-right: 5px;">Large clawprints scar the banks.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Amphibian</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Croaks and clicks echo from the reeds.</li>
+                    <li class="spoiler" style="margin-right: 5px;">Slimy trails mark nearby stones.</li>
+                  </ul>
+                </td>
+              </tr>
+              <!-- SIGILS -->
+              <tr style="border-top: 5px solid #3d2f2f;">
+                <td rowspan="8" style="background: #1d1515"><strong>Sigils</strong></td>
+                <td>0 Sigils</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">The area feels mundane.</li>
+                    <li class="spoiler" style="margin-right: 5px;">Nothing unusual stands out.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>2+ Sigils</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Carvings and symbols are etched into the rocks.</li>
+                    <li class="spoiler" style="margin-right: 5px;">You feel observed by higher forces.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Sprinter</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Something darts across the water… and is eaten.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Airborne</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Something flies overhead… and is eaten.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Waterborne</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Bubbles rise in several places.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Fledgling</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Small shadows swirl beneath the water, then an egg shell surfaces.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Stinky</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">The lake emits a powerful stench.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Mighty Leap</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">Something erupts from the water, several times, then stops abruptly.</li>
+                  </ul>
+                </td>
+              </tr>
+              <!-- OTHER -->
+              <tr style="border-top: 5px solid #3d2f2f;">
+                <td rowspan="2" style="background: #1d1515"><strong>Other</strong></td>
+                <td>Uncommon+</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">The lake feels otherworldly.</li>
+                    <li class="spoiler" style="margin-right: 5px;">You don't recognize any of the animal remains.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Modifications</td>
+                <td style="padding: 0;">
+                  <ul style="margin-left: -5px;">
+                    <li class="spoiler" style="margin-right: 5px;">The lake emits a faint, unnatural glow.</li>
+                    <li class="spoiler" style="margin-right: 5px;">A waterfall crashes down into the lake.</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
           <p class="cyan"><strong>Tinker effect -</strong> The bait is no longer destroyed on a successful capture.</p>
         </td>
         <td>4 foils</td>
@@ -682,20 +674,20 @@
         <td>
           <p>A choice of <strong>3 protocols</strong> is offered to the player, out of a total pool of 6. These protocols all add the <strong>Conduit tribe</strong> to a card of the Player's choice, as well as a unique sigil that only they can give.</p>
           <p>These <strong>protocol sigils</strong> are not stackable, placing a card that already has a protocol sigil will replace it. Although, if the card has a <strong>Cell sigil</strong>, then no matter which protocol is used, the card will gain the <strong>Powered sigil</strong> instead of the one the protocol was supposed to give and it doesn't recieve the Conduit tribe.</p>
-          <div class="dropdown collapsed">
-            <div class="dropdown-header" onclick="toggleDropdown(this)">
-              <strong>The 6 possible protocols are listed here.</strong>
-              <span class="dropdown-arrow">▼</span>
-            </div>
-            <div class="dropdown-content">
-              <p><strong>Overclock</strong> Protocol : The card gains 1 power, but deals 2 direct damage on death.</p>
-              <p><strong>Firewall</strong> Protocol : The card loses 1 health but gains an Armor Mark.</p>
-              <p><strong>Watercool</strong> Protocol : The card loses 1 power, but costs 2 less energy/bones and 1 less blood/gem to play.</p>
-              <p><strong>Recycle</strong> Protocol : The card makes the Player draw a card when played, but dies during the end step.</p>
-              <p><strong>Failsafe</strong> Protocol : The card returns to the player's hand on death, but it then loses the Failsafe sigil.</p>
-              <p><strong>Overload</strong> Protocol : The card gains 2 power, but also strikes its adjacent cards when attacking.</p>
-            </div>
-          </div>
+          <p>The different protocols and their associated sigils are listed here :</p>
+          <table class="wiki-table collapsible collapsed">
+            <thead onclick="toggleTable(this)">
+              <tr><th>Protocol</th><th>Sigil<span class="collapse-arrow">▼</span></th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>Overclock</strong> Protocol</td><td style="padding: 0;"><img width="100%" src="../../../sigils/Overclocked.png"></td></tr>
+              <tr><td><strong>Firewall</strong> Protocol</td><td style="padding: 0;"><img width="100%" src="../../../sigils/Firewall.png"></td></tr>
+              <tr><td><strong>Watercool</strong> Protocol</td><td style="padding: 0;"><img width="100%" src="../../../sigils/Watercooled.png"></td></tr>
+              <tr><td><strong>Recycle</strong> Protocol</td><td style="padding: 0;"><img width="100%" src="../../../sigils/Recycled.png"></td></tr>
+              <tr><td><strong>Failsafe</strong> Protocol</td><td style="padding: 0;"><img width="100%" src="../../../sigils/Failsafe.png"></td></tr>
+              <tr><td><strong>Overload</strong> Protocol</td><td style="padding: 0;"><img width="100%" src="../../../sigils/Overloaded.png"></td></tr>
+            </tbody>
+          </table>
           <p class="cyan"><strong>Tinker effect -</strong> The sigil that the protocols give is upgraded.</p>
         </td>
         <td>7 foils</td>
