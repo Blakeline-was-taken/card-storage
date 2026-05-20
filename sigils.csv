@@ -53,6 +53,7 @@ Fossil Fuel,"[Pay {resource:bone}] Refill an {resource:energy_empty} energy cell
 Spare Supply,"When played, your {resource:energy_empty} energy cells are refilled.",T,,No Power Loss
 No Max Reduction,"Your {resource:energy} energy cells cannot be destroyed.",,,No Power Loss
 No Power Loss,"Your {resource:energy_empty} energy cells instantly refill.",,,
+Surge,"When you gain {resource:energy}, gain 1 more.",,,
 Green Gem,This card provides a {resource:green_gem} Green gem.,,,Malachite Gem
 Malachite Gem,This card provides 2{mark:x}{resource:green_gem} Green gems.,,,
 Orange Gem,This card provides an {resource:orange_gem} Orange gem.,,,Citrine Gem
@@ -132,7 +133,6 @@ Dust Eater,"During your end step, this card loses 1 health unless you {mark:shat
 Desecration,"When played, search a card from your deck and discard it.",T,,
 Power Leak,"When this card perishes, lose an {resource:max_energy} energy cell.",,,Blackout
 Blackout,"When this card perishes, deplete 2 {resource:energy} energy cells.",,,
-Delete,"When this card dies, discard all the cards in your hand.",T,,Defiler
 Defiler,"When this card dies, discard the top card of your deck.",T,,Desecration
 Death Sentence,"When this card dies, its owner takes 5 direct damage.",T,,Overclocked
 Overclocked,"This card has 1 more power, but you take 2 damage when it perishes.",T,,Overdrive
@@ -149,6 +149,7 @@ Failsafe,"When this card dies, it returns to your hand and loses this sigil inst
 Backup Files,"When this card dies, it creates two copies of itself in your hand without this sigil.",T,,
 Target Required,"This card cannot strike empty spaces.",T,,Target Spotted
 Target Spotted,"This card can only strike empty spaces if their back lane has a card.",T,,
+Milcarder,"During your draw step, discard the top card of your deck.",Y,,Desecration
 Airborne,This card's strikes only hit the space they target directly.,T,,Levitate
 Levitate,"[Once per turn] This card's strikes hit the space they target directly.",T,,
 Carry Up,"[Once per turn, pay {resource:bone}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
@@ -280,6 +281,7 @@ Crane Control,"At any step during any turn, you may move any card to any empty s
 Guardian,"Before an opposing card is placed, this card moves in front of it.",T,,Loyal
 Loyal,"When an opposing card is placed, it swaps positions with the space in front of this card.",T,,
 Flee,"[Once per turn] Move this card to an adjacent space.",T,,
+Bulldoze,"[Pay {resource:energy}] Move this card to an adjacent space, pushing other cards in its way.",T,,
 Teleport,"[Once per turn] Swap this card's place with any other space on your side.",T,,
 Telekinesis,"[Pay 1 chemical] Move one of your cards to an empty space.",,,
 Constriction,"[Pay {resource:bone}{resource:bone}{resource:bone}] Move an opposing card in front of this card.",T,,
