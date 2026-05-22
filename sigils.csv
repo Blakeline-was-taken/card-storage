@@ -389,8 +389,8 @@ Ants Within,"When damaged, draw a random {tribe:Ant}Ant card.",T,,Full of Ants
 Full of Ants,"Draw a random {tribe:Ant}Ant card for each damage this card takes.",T,,
 Geode,"When damaged, draw a random side deck {tribe:Mox}Mox card.",T,,Mineral
 Mineral,"Draw a random side deck {tribe:Mox}Mox card for each damage this card takes.",T,,
-Vessel Printer,"When damaged, draw a card from your side deck.",T,,Vessel Factory
-Vessel Factory,"Draw a card from your side deck for each damage this card takes.",T,,
+Vessel Printer,"When damaged, draw a random gem vessel.",T,,Vessel Factory
+Vessel Factory,"Draw a random gem vessel for each damage this card takes.",T,,
 Rabbit Hole,"When played, draw a rabbit.",T,,Rabbit Chasm
 Rabbit Chasm,"When played, draw two rabbits.",T,,
 Ash Tray,"When played, draw The Smoke.",T,,
@@ -487,6 +487,7 @@ Dust Fueled,"When your {tribe:Mox}Mox cards die, this card gains 1 power and hea
 Envious,"When your cards gain power or health, this card gains it instead, with no maximum power or health.",T,,
 Recall the Broken,"When your cards perish due to {mark:brittle} Brittle, they return to your hand.",T,,
 Recycled Pylons,"When your Pylon cards perish, they are returned to your hand.",T,,
+Recompiler,"When your other cards perish, they return to your hand and this card loses 1 health.",T,,
 Haunter,"After this card dies, the next card to enter its space gains its other sigils.",T,,Possessor
 Possessor,"After this card dies, the next card to enter its space gains its other sigils, as well as {sigil:Haunter} Haunter.",T,,
 Gem Clutch,"When your {tribe:Mox}Mox cards die, their {resource:gem} gem-providing sigils are transferred to another card of your choice.",T,,
