@@ -581,6 +581,7 @@ Pay Tribute,"[{mark:sacrifice}Sacrifice a card] Gain {resource:bone} bones equal
 Imposture,"This card is set aside from your main deck. It will reveal itself in battles.",T,,
 Impatient,"This card attacks during your opponent's attack step, before the opposing cards.",T,,
 Frozen Away,"This card loses 1 health during your end step. When it perishes, a powerful card is placed in its space.",T,,
+Topdeck,"You may choose this card to be in your starting hand.",T,,
 Steal,"When killed in combat, your opponent loses 2 {resource:bone} bones.",T,,
 Eluhvbem,"Jxyi sqht teui iecujxydw hqdtec mxud qd kdademd uludj esskhi.",T,,
 Sigil_Missing,"This sigil has been erased.",T,,
