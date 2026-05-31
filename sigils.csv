@@ -578,6 +578,7 @@ Heart of Gold,"When this card dies, gain foils equal to its remaining health.",T
 Pay Tribute,"[{mark:sacrifice}Sacrifice a card] Gain {resource:bone} bones equal to its base health and this card gains 1 power.",T,,
 Imposture,"This card is set aside from your main deck. It will reveal itself in battles.",T,,
 Impatient,"This card attacks during your opponent's attack step, before the opposing cards.",T,,
+From the Grave,"This card costs 1 less {resource:bone} bone per card that shares a sigil with it in your discard.",T,,
 Frozen Away,"This card loses 1 health during your end step. When it perishes, a powerful card is placed in its space.",T,,
 Topdeck,"You may choose this card to be in your starting hand.",T,,
 Steal,"When killed in combat, your opponent loses 2 {resource:bone} bones.",T,,
