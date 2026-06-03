@@ -400,9 +400,8 @@ Fecundity,"When played, draw a copy of this card. The copy loses this sigil.",T,
 Cloning,"When played, draw two copies of this card. Copies lose this sigil.",T,,
 Imitation Art,"When played, draw a copy of another card you control.",T,,
 Psychic Link,"When played, draw a Squidling.",T,,
-Hoarder,"When played, search a common card from your deck.",T,,Collector
-Collector,"When played, search a card from your deck.",T,,
-Re-Index,"When played, search a card from your deck, discard or side deck.",T,,
+Hoarder,"When played, search a card from your deck.",T,,Collector
+Collector,"When played, search a card from any of your decks.",T,,
 Disentomb,"[Pay {resource:bone}{resource:bone}] Search a {mark:brittle} Brittle card from any of your decks.",T,,
 Cybernetics,"[Pay 4{mark:x}{resource:energy}] Place a Cyborg or a Flyborg on your field.",T,,
 Reanimate,"[Once per turn] Pay for and play a common card from your discard.",T,,
