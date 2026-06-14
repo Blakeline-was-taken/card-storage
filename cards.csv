@@ -198,7 +198,7 @@ Cindergeist,Undead,Common,2 bones,1,1,"Brittle, Burning",,,Skeleton,An echo of t
 Crewmate,Undead,Common,2 bones,2,1,Brittle,,,Skeleton Pirate,"A pirate in life, a pirate in death.",NEWS,T,Offense,Fiddlebones,,,
 Floating Urn,Undead,Common,2 bones,0,1,"Ensouled, Loose Bones",Goo Monster,Bloodless,Possessed Ancient,"Flings itself around the room, hazardly.",Murigen,T,Resource,,,,
 Ichor,Undead,Common,2 bones,0,1,"Haunter, Blood Pact",,Bloodless,Skeleton,Would you dare drink from it?,Mark,T,Resource,,,,
-Lit Fuse,Undead,Common,2 bones,0,1,"Detonator, Ticking",,Bloodless,Zombie,The thrill of dying simply wasn't enough.,Nobody,T,Removal,,,,
+Lit Fuse,Undead,Common,2 bones,0,1,"Detonator, Ticking",,Bloodless,Zombie,The thrill of dying simply wasn't enough.,NEWS,T,Removal,,,,
 Memorial,Undead,Common,2 bones,0,3,"Skull Summoner, Made of Stone",Skeleton,Bloodless,Grave,Mourning the recently departed.,"Blakeline, Drago",T,Utility,,,,
 Mummy Mashimoi,Undead,Common,2 bones,1,1,"Armored, Guardian",,Boneless,Ancient Knight Zombie,Loyally protecting their pharaoh's tomb.,NEWS,T,Defense,Curse Bearer,,,
 Phantas-EM,Undead,Common,2 bones,0,1,"Battery Bearer, Haunter",,,Spectre Worker,"Such lively energy, despite not living.",Nobody,T,Resource,,,,
