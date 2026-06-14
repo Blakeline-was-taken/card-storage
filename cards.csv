@@ -723,7 +723,7 @@ Stump,Terrain,Common,free,0,3,Rooted,,"Bloodless, Sturdy, Boneless",,The remains
 Thorn Bush,Terrain,Common,free,0,2,Sharp Quills,,"Bloodless, Sturdy, Boneless",,Not all thorns come with a rose.,NEWS,,Defense,,,,
 Tombstone,Terrain,Common,free,0,1,"Made of Stone, Repulsive",,"Bloodless, Sturdy, Boneless",Grave,A marker of those once passed.,Pixel Profligate,,Defense,,,,
 Torchsight Mox,Terrain,Common,free,0,5,"Orange Gem, Burning",,"Bloodless, Sturdy, Boneless",Pylon Mox,Mead for a vision of what's ahead.,NEWS,,"Mox, Removal",,,,
-Web,Terrain,Common,free,0,2,Web Shooter,,"Bloodless, Boneless",Construct,A sticky situation is just ahead.,Mark,,Defense,,,,
+Web,Terrain,Common,free,0,2,Web Shooter,,"Bloodless, Boneless",Insect Construct,A sticky situation is just ahead.,Mark,,Defense,,,,
 Wooden Spikes,Terrain,Common,free,0,2,Sharp Quills,,"Bloodless, Sturdy, Boneless",Construct,"A simple, but effective defense.",NEWS,,Defense,,,,
 Summon Armor,Terrain,Common,1 ruby,0,1,"Ironclad, Terrain",,"Bloodless, Sturdy, Boneless",,Flavor text pending.,NEWS,,,,,,
 Summon Axe,Terrain,Common,1 ruby,0,1,"Counter Strike, Terrain",,"Bloodless, Sturdy, Boneless",,Flavor text pending.,Nobody,,,,,,
