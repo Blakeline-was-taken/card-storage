@@ -294,7 +294,7 @@ Fledgling,"During your draw step, this card turns into a more powerful form.",T,
 Embryon,"During your end step, this card turns into a more powerful form.",T,,
 Uncertain,"During your draw step, flip a coin. Depending on the result, this card turns into a different form.",T,,Evolution
 Evolution,"During your draw step, this card turns into one of its two evolved forms.",T,,
-Tentacleful,"During your draw step, this card turns into a random Tentacle card.",T,,
+Tentacleful,"During your draw step, this card turns into a random {tribe:Tentacle}Tentacle card.",T,,
 Labile Evolution,"During your draw step, this card turns into its Flesh, Metal or Elixir form depending on the most abundant chemical type you own.",T,,
 Wild Reshape,"During your draw step, this card turns into your deck's top card.",T,,Darwin Theory
 Darwin Theory,"During your end step, this card turns into your deck's top card.",T,,
