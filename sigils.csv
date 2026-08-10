@@ -500,8 +500,8 @@ Stinky,The opposing card has 1 less power.,T,,Stench
 Stench,The opposing card has 2 less power.,T,,
 Gooey,"When struck, the card that struck this one loses 1 power.",T,,Slimy
 Slimy,"When struck, the card that struck this one loses 2 power.",T,,
-Web Shooter,"When killed, the card that killed this card cannot attack next turn.",T,,Cobwebs
-Cobwebs,"Any card that kills your cards won't be able to attack next turn.",T,,
+Web Shooter,"A card striking this card or struck by this card cannot attack next turn.",T,,Cobwebs
+Cobwebs,"A card opposing this one cannot attack.",T,,
 Purist,The opposing card is treated as having no sigils or marks.,T,,Paralyzing
 Paralyzing,"The opposing card is treated as having no sigils or marks, and has 0 power.",T,,
 Ancient Presence,"All non-side deck opposing cards are treated as having no sigils or marks.",T,,
