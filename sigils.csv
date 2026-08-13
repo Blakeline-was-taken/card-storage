@@ -539,7 +539,7 @@ Enhanced Arcane,"If you provide 2 unique {resource:gem} gem colors, this card ha
 Empowered Arcane,"If you provide 2 unique {resource:gem} gem colors, this card has 2 more power.",,,
 Tribal Call,"This card has 1 more power if it shares a tribe with another card you control.",T,,Tribal Rage
 Tribal Rage,"This card has 2 more power if it shares a tribe with another card you control.",T,,
-Night of the Living Dead,The cost of your cards is reduced by 2{mark:x}{resource:bone} bones and 2{mark:x}{resource:energy} energy.,T,,Full Moon Night
+Witching Hour,The cost of your cards is reduced by 2{mark:x}{resource:bone} bones and 2{mark:x}{resource:energy} energy.,T,,Full Moon Night
 Full Moon Night,Your cards cost half their normal amount of {resource:bone} bones and {resource:energy} energy.,T,,
 Puppet Master,"Your {mark:brittle} Brittle cards ignore that sigil but die when this card dies.",T,,Necromancy
 Necromancy,"Your cards ignore {mark:brittle} Brittle.",T,,
