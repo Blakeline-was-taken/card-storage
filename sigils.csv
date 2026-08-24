@@ -150,8 +150,8 @@ Backup Files,"When this card dies, it creates two copies of itself in your hand 
 Target Required,"This card cannot strike empty spaces.",T,,Target Spotted
 Target Spotted,"This card can only strike empty spaces if their back lane has a card.",T,,
 Milcarder,"During your draw step, discard the top card of your deck.",Y,,Desecration
-Airborne,This card's strikes only hit the space they target directly.,T,,Levitate
-Levitate,"[Once per turn] This card's strikes hit the space they target directly.",T,,
+Airborne,This card directly targets the space of cards without this sigil.,T,,Levitate
+Levitate,"[Once per turn] This card gains the {sigil:Airborne} Airborne sigil for this turn.",T,,
 Carry Up,"[Once per turn, pay {resource:bone}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
 Holo-Wings,"[Once per turn, pay {resource:energy}{resource:energy}] A card of your choice gains {sigil:Airborne} Airborne until your draw step.",
 Touch of Death,"When this card damages another, that card perishes.",T,,Strong Venom
@@ -229,10 +229,10 @@ Air Barrage,"This card's space cannot be dealt direct damage.",T,,
 Scalebound,"When you are struck directly, you only take 1 damage to the scales while beyond your candle.",T,,
 Merciful Light,"During every turn of your opponent, you may negate a single instance of damage, not targeting this card.",T,,
 High Up,"Damage dealt directly to this card's space is dealt to this card instead, and vice versa.",T,,
-Waterborne,Strikes targeting this card hit its space directly instead.,T,,Deep Dive
-Deep Dive,"[Once per turn] Strikes targeting this card hit its space directly instead.",T,,
+Waterborne,Cards without this sigil that target this card only hit its space directly.,T,,Deep Dive
+Deep Dive,"[Once per turn] This card gains the {sigil:Waterborne} Waterborne sigil for this turn.",T,,
 Incorporeal,"Strikes targeting this card hit its space directly instead, and the damage they deal is halved, rounded down.",
-Lurking,"Cards striking this card hit its space directly instead, and are then struck by this card.",T,,
+Lurking,"Cards without {sigil:Waterborne} Waterborne that target this card only hit its space directly and are then struck back.",T,,
 Armored,"This card gains an {mark:armor} Armor mark.",T,,Protector
 Protector,"When played, one of your cards gains an {mark:armor} Armor mark.",T,,
 Dust Barrier,"When your {tribe:Mox}Mox cards die, this card gains an {mark:armor} Armor mark.",,,Shield of Dust
