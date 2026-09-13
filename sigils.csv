@@ -278,7 +278,7 @@ Snag,"When played, a card is moved to an empty space on its own side.",T,,Superp
 Restructure,"When played, rearrange the positions of your cards.",T,,Superposition
 Superposition,"When played, rearrange the positions of all cards on the board. They must always stay on their own side.",T,,
 Crane Control,"At any step during any turn, you may move any card to any empty space on its own side.",T,,
-Guardian,"Before an opposing card is placed, this card moves in front of it.",T,,Loyal
+Guardian,"When an opposing card is placed, this card moves in front of it.",T,,Loyal
 Loyal,"When an opposing card is placed, it swaps positions with the space in front of this card.",T,,
 Flee,"[Once per turn] Move this card to an adjacent space.",T,,
 Bulldoze,"[Pay {resource:energy}] Move this card to an adjacent space, pushing other cards in its way.",T,,
