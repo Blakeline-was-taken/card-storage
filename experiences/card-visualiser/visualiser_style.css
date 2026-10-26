@@ -500,3 +500,24 @@ button#reset-filters:hover {
   cursor: pointer;
   font-weight: bold;
 }
+
+#version-toggle-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 900; /* above the collection, below popups (1000+) */
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #0074D9;
+  color: white;
+  border: 3px solid #000;
+  border-radius: 999px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+#version-toggle-btn:hover {
+  background-color: #005fa3;
+}

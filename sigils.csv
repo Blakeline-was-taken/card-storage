@@ -578,6 +578,7 @@ Impatient,"This card attacks during your opponent's attack step, before the oppo
 From the Grave,"This card costs 1 less {resource:bone} bone per card that shares a sigil with it in your discard.",T,,
 Frozen Away,"This card loses 1 health during your end step. When it perishes, a powerful card is placed in its space.",T,,
 Topdeck,"You may choose this card to be in your starting hand.",T,,
+Selfish,"This card's sigils cannot be transferred to another card.",T,,
 Steal,"When killed in combat, your opponent loses 2 {resource:bone} bones.",T,,
 Eluhvbem,"Jxyi sqht teui iecujxydw hqdtec mxud qd kdademd uludj esskhi.",T,,
 Sigil_Missing,"This sigil has been erased.",T,,

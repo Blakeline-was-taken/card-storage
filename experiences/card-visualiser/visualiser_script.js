@@ -640,6 +640,73 @@ function renderTags(list, container, onRemove) {
   });
 }
 
+// ========== CARD IMAGE VERSION (old / new) ==========
+
+let useNewCards = false;
+
+function getCardImagePath(card, newVersion = useNewCards) {
+  const name = card["Card Name"];
+  const temple = card.Temple || "Unknown";
+  const tier = card.Tier || "Unknown";
+  const isDraftable = card.Draftable !== "";
+  const folder = (!isDraftable && tier !== "Side Deck" && tier !== "Talking" && temple !== "Terrain" && temple !== "Potion" && temple !== "Pelt") ? "Not Draftable" : tier;
+  if (newVersion) {
+    // In cards_new, "Side Deck" is now "Side" and "Not Draftable" is now "Token"
+    const renameNew = { "Side Deck": "Side", "Not Draftable": "Token" };
+    const newTemple = renameNew[temple] || temple;
+    const newFolder = renameNew[folder] || folder;
+    return `../../cards_new/${newTemple}/${newFolder}/${toCamelCase(name)}.png`;
+  }
+  return `../../cards/${temple}/${folder}/${name}.png`;
+}
+
+// "Bone Lord" -> "BoneLord", "Rat King's Pelt" -> "RatKingsPelt"
+function toCamelCase(name) {
+  return name
+    .replace(/['’]/g, "")
+    .split(/[^\p{L}\p{N}]+/u)
+    .filter(Boolean)
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join("");
+}
+
+// Sets the image source for a card and remembers the card so it can be swapped later
+function setCardImage(img, card) {
+  img._card = card;
+  img.classList.add("card-img");
+  img.onerror = () => {
+    // No image for this card in cards_new: show the cardback placeholder instead
+    if (useNewCards && !img._fellBack) {
+      img._fellBack = true;
+      img.src = "../../cards/Cardback.png";
+    }
+  };
+  img._fellBack = false;
+  img.src = getCardImagePath(card);
+}
+
+function refreshCardImages() {
+  document.querySelectorAll("img.card-img").forEach(img => {
+    if (img._card) setCardImage(img, img._card);
+  });
+}
+
+function updateVersionButton() {
+  const btn = document.getElementById("version-toggle-btn");
+  if (btn) btn.textContent = useNewCards ? "Showing: New cards (click for old)" : "Showing: Old cards (click for new)";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("version-toggle-btn");
+  if (!btn) return;
+  updateVersionButton();
+  btn.addEventListener("click", () => {
+    useNewCards = !useNewCards;
+    updateVersionButton();
+    refreshCardImages();
+  });
+});
+
 // ========== DISPLAY ==========
 
 const popup = document.getElementById("card-popup-overlay");
@@ -661,7 +728,7 @@ const CardDisplay = {
       const isDraftable = card.Draftable !== "";
       const folder = (!isDraftable && tier !== "Side Deck" && tier !== "Talking" && temple !== "Terrain" && temple !== "Potion" && temple !== "Pelt") ? "Not Draftable" : tier;
 
-      img.src = `../../cards/${temple}/${folder}/${name}.png`;
+      setCardImage(img, card);
       img.alt = name;
 
       const info = document.createElement("div");
@@ -681,7 +748,7 @@ const CardDisplay = {
         popupImagesLeft.className = "popup-images";
       
         const mainImg = document.createElement("img");
-        mainImg.src = img.src;
+        setCardImage(mainImg, card);
         mainImg.alt = name;
         popupImagesLeft.appendChild(mainImg);
       
@@ -814,7 +881,7 @@ const CardDisplay = {
           const folder = (!draftable && tier !== "Side Deck" && tier !== "Talking" && temple !== "Terrain")
             ? "Not Draftable" : tier;
 
-          extraImg.src = `../../cards/${temple}/${folder}/${cardName}.png`;
+          setCardImage(extraImg, extraCard);
           extraImg.alt = cardName;
 
           const extraArtist = document.createElement("p");
@@ -914,7 +981,7 @@ function renderDeck() {
     const isDraftable = card.Draftable !== "";
     const folder = (!isDraftable && tier !== "Side Deck" && tier !== "Talking" && temple !== "Terrain") ? "Not Draftable" : tier;
 
-    img.src = `../../cards/${temple}/${folder}/${name}.png`;
+    setCardImage(img, card);
     img.alt = name;
     div.appendChild(img);
 
