@@ -678,7 +678,7 @@ function setCardImage(img, card) {
     // No image for this card in cards_new: show the cardback placeholder instead
     if (useNewCards && !img._fellBack) {
       img._fellBack = true;
-      img.src = "../../cards/Cardback.png";
+      img.src = "../../cards/CardBack.png";
     }
   };
   img._fellBack = false;
