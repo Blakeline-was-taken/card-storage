@@ -651,10 +651,15 @@ function getCardImagePath(card, newVersion = useNewCards) {
   const isDraftable = card.Draftable !== "";
   const folder = (!isDraftable && tier !== "Side Deck" && tier !== "Talking" && temple !== "Terrain" && temple !== "Potion" && temple !== "Pelt") ? "Not Draftable" : tier;
   if (newVersion) {
-    // In cards_new, "Side Deck" is now "Side" and "Not Draftable" is now "Token"
-    const renameNew = { "Side Deck": "Side", "Not Draftable": "Token" };
+    // cards_new naming: "Side Deck" -> "Side", "Uncommon" -> "Common"
+    const renameNew = { "Side Deck": "Side", "Uncommon": "Common" };
     const newTemple = renameNew[temple] || temple;
-    const newFolder = renameNew[folder] || folder;
+    const newTier = renameNew[tier] || tier;
+    // Token folder: only not-draftable cards whose (new) tier is Common,
+    // excluding cards with "_t" in their name and the usual excluded temples
+    const isToken = !isDraftable && newTier === "Common" && !name.includes("_t")
+      && temple !== "Terrain" && temple !== "Potion" && temple !== "Pelt";
+    const newFolder = isToken ? "Token" : newTier;
     return `../../cards_new/${newTemple}/${newFolder}/${toCamelCase(name)}.png`;
   }
   return `../../cards/${temple}/${folder}/${name}.png`;
@@ -678,7 +683,7 @@ function setCardImage(img, card) {
     // No image for this card in cards_new: show the cardback placeholder instead
     if (useNewCards && !img._fellBack) {
       img._fellBack = true;
-      img.src = "../../cards/CardBack.png";
+      img.src = "../../cards/Cardback.png";
     }
   };
   img._fellBack = false;
