@@ -4,6 +4,11 @@
   "image": "site_images/card_visualiser.jpg",
   "link": "experiences/card-visualiser/visualiser_index.html"
 },{
+  "title": "New Card Visualiser",
+  "description": "A visualisation of the new card pool, with filters to easily find what you want.",
+  "image": "site_images/card_new_visualiser.jpg",
+  "link": "experiences/new-card-visualiser/visualiser_new_index.html"
+},{
   "title": "Campaign Wiki",
   "description": "A wiki for the campaign, with articles about characters, locations, and more.",
   "image": "site_images/wiki.jpg",
