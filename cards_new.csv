@@ -219,7 +219,7 @@ Clot,Clot.png,Undead,Common,2 blood,0,2,"Fledgling, Aggressive",Meatman,,Demon,A
 Meatman,Meatman.png,Undead,Common,3 blood,4,2,Worthy Sacrifice,,,Demon,An ever-imposing wall of meat.,Pixel Profligate,,T,"Offense, Resource",,,
 Grave Knight,GraveKnight.png,Undead,Rare,8 bones,4,4,"Repulsive, Rotting",,,Grave Knight,"Sworn to protect, even from beyond.",Murigen,Selfish_left_symbol,T,Reliable,,,
 Skeletaur,Skeletaur.png,Undead,Rare,8 bones,3,2,Rampager,,Skeletaur Trait,Hooved Skeleton,Its labyrinth became its tomb.,Pixel Profligate,,T,Offense,,,
-Gashadokuro,Gashadokuro.png,Undead,Rare,15 bones + asterisk,6,6,Brittle,,,Skeleton Demon,"The spite of a thousand bones, at once.",Murigen,,T,Offense,,,
+Gashadokuro,Gashadokuro.png,Undead,Rare,15 bones + asterisk,6,6,Brittle,,From the Grave,Skeleton Demon,"The spite of a thousand bones, at once.",Murigen,,T,Offense,,,
 Pumpkin King,PumpkinKing.png,Undead,Rare,3 blood,X,3,Omnistrike,,Spilt Blood,Possessed,Always in need of bloody sacrifice.,Pixel Profligate,,T,"Resource, Reliable",,,
 Junk-0,Junk0.png,Tech,Common,1 energy,0,1,Stinky,,,Android,It's odd for rust to smell this bad.,Pixel Profligate,,T,Defense,Scrapton,,
 Healing Conduit,HealingConduit.png,Tech,Common,3 energy,0,2,Heal Conduit,,,Conduit,"An old model, but nonetheless effective.",Pixel Profligate,conduit_indicator,T,"Conduit, Support",,,
